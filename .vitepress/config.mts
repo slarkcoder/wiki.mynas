@@ -3,10 +3,11 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'zh-cn',
-  title: "一起玩 NAS! 🎉",
+  title: "一起玩 NAS! ",
   description: "分享 NAS 的使用经验。",
   lastUpdated: true,
   themeConfig: {
+    logo: `/play.svg`,
     lastUpdated: {
       text: '更新于',
       formatOptions: {
