@@ -2,7 +2,7 @@
 
 测试文件：[阿里云盘：4K+IMAX DTS：X-碟中谍4.mkv](https://www.alipan.com/s/WbghdnCdCxo)
 
-测试环境：Synology 7.2，SA6400，nyanmisaka/jellyfin 10.8.13
+测试环境：`Synology v7.2`，`SA6400`，nyanmisaka/jellyfin `v10.8.13`
 
 ## [i3-12100](https://ark.intel.com/content/www/cn/zh/ark/products/134584/intel-core-i3-12100-processor-12m-cache-up-to-4-30-ghz.html)
 
