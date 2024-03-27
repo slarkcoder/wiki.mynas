@@ -59,3 +59,10 @@ SAS 盘一般都是服务器上用的，市面上能买到的 SAS 盘也基本�
 还有一种情况就是你经常需要读写大量的小文件，比如数百 GB 的照片文件。机械盘的缺点就是小文件读写比较慢，而这也正是 SSD 的优点，不需要反复寻道，读写小文件非常快，这个时候可以用 SSD 来作为缓存，提升读写速度。
 
 如果你只有 2.5G 网口，主要用来下载看电影，照片也没有多少，并不需要大量的读写。那其实用 SSD 缓存的意义也不大。这种情况下，你只要用一块 SSD，把常用的软件，甚至照片，都存到 SSD 上就行了，不需要使用缓存。
+
+## SSD 只能作为缓存使用吗？
+
+SSD 是否需要用来做缓存，你都可以自己决定。在群晖里，m.2 SSD 默认是作为缓存使用的，但你也可以根据下面的教程来把 m.2 改为存储空间使用。在 Unraid 里，想做缓存或者直接存数据都可以自己设置。
+
+[Synology 如何使用 Nvme 固态做存储空间](https://didiboy0702.gitbook.io/wukongdaily/new-shou-ye/nas-qun-hui-wei-lian-tong-etc-shi-yong-ji-qiao/synology-ru-he-shi-yong-nvme-gu-tai-zuo-cun-chu-kong-jian)
+
