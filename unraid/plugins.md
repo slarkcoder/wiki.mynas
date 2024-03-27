@@ -16,7 +16,7 @@ Unraid 官方的文件管理器，基础功能够用，如果不想装第三方�
 
 ## Unassigned Devices Plus
 
-这个插件主要是对支持更多的文件磁盘格式，比如 HFS+、exFAT、APFS。
+这个插件可以支持更多的文件磁盘格式，比如 HFS+、exFAT、APFS。
 
 ## User Scripts
 
