@@ -22,6 +22,12 @@
 
 类似的方案还有 [tailscale](https://tailscale.com/)，原理和 Zerotier 类似，可以自行了解。
 
+## 星空组网 - [Starvpn](https://starvpn.cn/)
+
+星空组网是一个国产的异地虚拟组网软件，原理也和 Zerotier 类似，但因为服务器在国内，所以连接速度非常快。如果能够实现点对点直连，效果也就和使用公网 IP 一样，如果直连不成功，就走星空组网提供的中转服务器，限速 10Mbps。支持各种客户端，包括 Openwrt，群晖，iOS 和 Android，官网也提供了详细的设置教程，使用起来没难度。
+
+但也有缺点，就是目前不支持自定义路由映射，只能使用网站分配的固定 IP 来访问，这点不如 zerotier 方便。
+
 ## 免费方案 - 星空 frp
 
 https://frp.starryfrp.com
