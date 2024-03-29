@@ -24,3 +24,10 @@
 - 转码帧率：47 fps
 
 ![jellyfin_n5105_decode_lho0rY](https://img.slarker.me/blog/jellyfin_n5105_decode_lho0rY.png)
+
+## [N5095](https://www.intel.cn/content/www/cn/zh/products/sku/212322/intel-celeron-processor-n5095-4m-cache-up-to-2-90-ghz/specifications.html)
+
+- 核显：Intel® UHD Graphics，16 个执行单元
+- 转码帧率：45 fps
+
+![N5095_jellyfin_k24Duo](https://img.slarker.me/blog/N5095_jellyfin_k24Duo.png)
