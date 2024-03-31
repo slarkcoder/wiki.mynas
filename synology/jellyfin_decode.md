@@ -1,10 +1,14 @@
 # 使用 Docker 安装 Jellyfin 并设置硬解
 
-> 本教程适用于 Intel 11~14 代 CPU，群晖型号为 SA6400 的物理群晖，或者是直通了核显的虚拟群晖。
+> 本教程适用于使用 Intel 11~14 代 CPU，群晖型号为 SA6400 的物理群晖，或者是直通了核显的虚拟群晖。
 
 开始之前，可以先下载测试视频文件备用。
 
 [阿里云盘：4K+IMAX DTS：X-碟中谍4.mkv](https://www.alipan.com/s/WbghdnCdCxo)
+
+::: warning 注意
+Jellyfin 和 Emby 默认都使用 8096 端口，不能共存，只能二选一。
+:::
 
 ## 新建共享文件夹
 
@@ -38,7 +42,7 @@
 
 ![jellyfin_06_iZUNUX](https://img.slarker.me/blog/jellyfin_06_iZUNUX.png)
 
-选择 `使用高权限执行容器`。
+拉到下面，选择 `使用高权限执行容器`。
 
 ![jellyfin_07_l6wMHR](https://img.slarker.me/blog/jellyfin_07_l6wMHR.png)
 
