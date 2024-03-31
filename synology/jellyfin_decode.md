@@ -16,7 +16,7 @@ Jellyfin 和 Emby 默认都使用 8096 端口，不能共存，只能二选一�
 
 ![jellyfin_01_TwQTjT](https://img.slarker.me/blog/jellyfin_01_TwQTjT.png)
 
-在 File Station 中添加 Everyone 读写权限。
+在 File Station 中，选择你想要设置的文件夹，右击选择属性，添加 Everyone 读写权限。
 
 ![jellyfin_02_RSEnbh](https://img.slarker.me/blog/jellyfin_02_RSEnbh.png)
 
