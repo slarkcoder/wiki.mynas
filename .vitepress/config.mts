@@ -76,6 +76,7 @@ export default defineConfig({
         // collapsed: false,
         items:[
           { text: '乔思伯机箱安装硬盘', link: '/case/jonsbo.md' },
+          { text: '极限体积 - 最能装的 ITX NAS 机箱！', link: '/case/minicase.md' },
         ]
       },
       {
