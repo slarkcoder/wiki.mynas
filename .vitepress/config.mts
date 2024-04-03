@@ -19,7 +19,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '我的博客', link: 'https://slarker.me' },
-      { text: '联系我', link: '/contact.md' },
+      { text: '定制 NAS & 联系我', link: '/contact.md' },
       { text: '☕️ 喝咖啡！', link: '/coffee.md' }
     ],
 
