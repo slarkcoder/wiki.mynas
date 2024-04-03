@@ -49,6 +49,7 @@ export default defineConfig({
           { text: '配置 Docker 加速镜像', link: '/unraid/docker_mirrors.md' },
           { text: '我的 Unraid 数据存储方案', link: '/unraid/storage.md' },
           { text: '挂载、共享外接磁盘', link: '/unraid/additional_disk.md' },
+          { text: '使用命令行格式化硬盘', link: '/unraid/format.md' },
           { text: '一文搞定软路由', link: '/unraid/router.md' },
           { text: '安装 TinyMediaManager 并解决中文乱码问题', link: '/unraid/tmm.md' },
           { text: '通过模板更新 Docker 应用', link: '/unraid/unraid_docker_template.md' },
