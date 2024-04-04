@@ -51,6 +51,7 @@ export default defineConfig({
           { text: '挂载、共享外接磁盘', link: '/unraid/additional_disk.md' },
           { text: '使用命令行格式化硬盘', link: '/unraid/format.md' },
           { text: '一文搞定软路由', link: '/unraid/router.md' },
+          { text: '安装 Immich 并开启硬件加速', link: '/unraid/deploy_immich.md' },
           { text: '安装 TinyMediaManager 并解决中文乱码问题', link: '/unraid/tmm.md' },
           { text: '通过模板更新 Docker 应用', link: '/unraid/unraid_docker_template.md' },
           { text: '使用 Jellyfin 直接播放网盘！', link: '/unraid/jellyfin_play_clouddrive.md' },
