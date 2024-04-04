@@ -54,6 +54,7 @@ export default defineConfig({
           { text: '安装 Immich 并开启硬件加速', link: '/unraid/deploy_immich.md' },
           { text: '安装 TinyMediaManager 并解决中文乱码问题', link: '/unraid/tmm.md' },
           { text: '通过模板更新 Docker 应用', link: '/unraid/unraid_docker_template.md' },
+          { text: '自定义 Docker 图标', link: '/unraid/custom_docker_icon.md' },
           { text: '使用 Jellyfin 直接播放网盘！', link: '/unraid/jellyfin_play_clouddrive.md' },
           { text: '开源免费的备份方案 - Duplicati', link: '/unraid/duplicati.md' },
           { text: '我的 Unraid 使用体验', link: '/unraid/user_experience.md' },
