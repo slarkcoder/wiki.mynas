@@ -76,10 +76,11 @@ export default defineConfig({
         ]
       },
       {
-        text: '其它',
+        text: '机箱',
         // collapsed: false,
         items:[
           { text: '乔思伯机箱安装硬盘', link: '/case/jonsbo.md' },
+          { text: '为什么不推荐 3D 打印机箱？', link: '/case/3d_print_case.md' },
           { text: '极限体积 - 最能装的 ITX NAS 机箱！', link: '/case/minicase.md' },
         ]
       },
