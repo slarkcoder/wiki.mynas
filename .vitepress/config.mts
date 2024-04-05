@@ -62,6 +62,7 @@ export default defineConfig({
           { text: '为 qBittorrent 更换好看且易用的 WebUI', link: '/unraid/qbittorrent_webui.md' },
           { text: '安装 Jellyfin 实现硬解 4K', link: '/unraid/harddecode.md' },
           { text: '开源的密码管理器 - Bitwarden', link: '/unraid/bitwarden.md' },
+          { text: '支持 selfhosted 的跨平台剪贴板同步方案 - SyncClipboard', link: '/unraid/clipboard_sync.md' },
         ]
       },
       {
