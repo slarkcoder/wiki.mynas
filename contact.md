@@ -6,7 +6,7 @@
 
 ![ovjoniih.eoa_SuGetg](https://img.slarker.me/blog/ovjoniih.eoa_SuGetg.png)
 
-## 联系我
+## WeChat
 
 如果你遇到 NAS 相关问题需要咨询，可以扫码添加我的微信，获得支持。
 
@@ -14,3 +14,8 @@
 
 ![](https://blog-1255332810.cos.ap-shanghai.myqcloud.com/uPic/wxqrcode.jpg)
 
+## VoceChat
+
+如果不想加微信，你也可以通过我的聊天室直接发消息给我。
+
+[Slark 的聊天室](https://chat.slarker.me/)
