@@ -75,6 +75,7 @@ export default defineConfig({
           { text: '使用 Docker 安装 Emby 并设置硬解', link: '/synology/emby_decode.md' },
           { text: '使用 Compose 安装照片管理工具 - Immich', link: '/synology/immich_deploy.md' },
           { text: '设置交换机模式', link: '/synology/bridge_network.md' },
+          { text: '网络唤醒', link: '/synology/wake_on_lan.md' },
         ]
       },
       {
