@@ -14,8 +14,6 @@
 
 ![](https://blog-1255332810.cos.ap-shanghai.myqcloud.com/uPic/wxqrcode.jpg)
 
-## VoceChat
+## 交流群组
 
-如果不想加微信，你也可以通过我的聊天室直接发消息给我。
-
-[Slark 的聊天室](https://chat.slarker.me/)
+[Telegram](https://t.me/+__eB9jok9YhkMDc5)
