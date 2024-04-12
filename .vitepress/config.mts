@@ -36,7 +36,8 @@ export default defineConfig({
           { text: '关于硬解的一些科普', link: '/basic/decode.md' },
           // { text: 'NAS 系统该怎么选？', link: '/basic/os.md' },
           { text: '保护数据安全', link: '/basic/data.md' },
-          { text: '值得推荐的 NAS 应用', link: '/basic/app.md' }
+          { text: '值得推荐的 NAS 应用', link: '/basic/app.md' },
+          { text: '快速解决问题 - 搜索技巧', link: '/basic/search.md' }
         ]
       },
       {
