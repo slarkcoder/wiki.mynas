@@ -61,7 +61,8 @@ export default defineConfig({
           { text: '我的 Unraid 使用体验', link: '/unraid/user_experience.md' },
           { text: 'Unraid 必装的一些插件', link: '/unraid/plugins.md' },
           { text: '为 qBittorrent 更换好看且易用的 WebUI', link: '/unraid/qbittorrent_webui.md' },
-          { text: '安装 Jellyfin 实现硬解 4K', link: '/unraid/harddecode.md' },
+          { text: 'Intel 第 11 代低功耗 CPU 开启核显硬解', link: '/unraid/intel_gpu_setting.md' },
+          { text: '安装 Jellyfin 实现硬解 4K', link: '/unraid/jellyfin_harddecode.md' },
           { text: '开源的密码管理器 - Bitwarden', link: '/unraid/bitwarden.md' },
           { text: '支持 selfhosted 的跨平台剪贴板同步方案 - SyncClipboard', link: '/unraid/clipboard_sync.md' },
         ]
