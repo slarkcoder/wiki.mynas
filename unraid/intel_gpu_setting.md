@@ -4,7 +4,7 @@
 
 ## 开启硬解
 
-在 Unraid 的终端中输⼊下⾯命令：
+在 Unraid 的终端中输⼊下⾯的命令：
 
 ```sh
 nano /boot/config/modprobe.d/i915.conf
