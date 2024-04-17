@@ -100,6 +100,10 @@ ovs-vsctl show
 
 现在你就可以把电脑直接接到 NAS 的万兆网卡上，电脑使用 `DHCP` 的模式就可以自动从路由器获取到 IP 上网。在电脑的网络属性中，也可以看到网络的链接速度是 `10G`。
 
+最后，用一张图来总结下涉及到的操作。
+
+![ovs_switch2.drawio_KwKBr1](https://img.slarker.me/blog/ovs_switch2.drawio_KwKBr1.svg)
+
 ## 开机脚本
 
 由于群晖重启后，会将上面的设置都恢复成默认的 `Open vSwitch` 绑定关系。如果上面的操作都确定没问题，我们这里需要添加一个开机脚本来自动完成上面的设置。
@@ -125,3 +129,4 @@ ovs-vsctl add-port ovs_eth0 eth2
 ![x95OJE_KboTMf](https://img.slarker.me/blog/x95OJE_KboTMf.png)
 
 可以重启系统测试下是否 OK。
+
