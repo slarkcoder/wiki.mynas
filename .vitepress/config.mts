@@ -66,6 +66,7 @@ export default defineConfig({
           { text: '开源的密码管理器 - Bitwarden', link: '/unraid/bitwarden.md' },
           { text: '支持 selfhosted 的跨平台剪贴板同步方案 - SyncClipboard', link: '/unraid/clipboard_sync.md' },
           { text: '解决虚拟组网远程无法访问 80 端口问题', link: '/unraid/remote.md' },
+          { text: '小姐姐元数据刮削解决方案', link: '/unraid/javspider.md' },
         ]
       },
       {
