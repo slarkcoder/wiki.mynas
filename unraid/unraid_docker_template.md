@@ -24,7 +24,7 @@ Unraid 为了用户可以更方便的使用 Docker，加入了模板这个概念
 
 这里有一些我自己创建的模板，可以方便的安装常用的 Docker 应用。
 
-[Unraid\_Docker\_Template.zip - 分享 - File Browser](https://files.mynas.chat/share/0gxOryD7)
+[Unraid_Docker_Template](https://files.mynas.chat/share/BXbuuhLC)
 
 目前包含下面这些应用：
 
@@ -34,11 +34,13 @@ Unraid 为了用户可以更方便的使用 Docker，加入了模板这个概念
 - Duplicati
 - Filebrowser
 - Jellyfin，默认媒体目录为共享文件夹  media
+- MetaTube
 - Metube，默认下载目录为共享文件夹 downloads
 - Navidrome，默认音乐目录为共享文件夹  musics
 - qBittorrent，默认下载目录为共享文件夹 downloads
 - SpeedTest
 - SyncClipboard
+- TinyMediaManager
 - xunlei，默认下载目录为共享文件夹 downloads
 
 下载解压，将里面的 xml 文件都复制到引导 U 盘的 `/config/plugins/dockerMan/templates-user` 目录中。可以把引导 U 盘的 SMB 共享打开，通过网络共享就可以直接把文件复制进去，之后在 Docker 页面添加容器的时候，就可以通过模板来添加了。
