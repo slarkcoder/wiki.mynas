@@ -38,6 +38,7 @@ Unraid 为了用户可以更方便的使用 Docker，加入了模板这个概念
 - Metube，默认下载目录为共享文件夹 downloads
 - Navidrome，默认音乐目录为共享文件夹  musics
 - qBittorrent，默认下载目录为共享文件夹 downloads
+- Homepage
 - SpeedTest
 - SyncClipboard
 - TinyMediaManager
