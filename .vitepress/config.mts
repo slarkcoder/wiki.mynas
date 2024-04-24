@@ -36,6 +36,8 @@ export default defineConfig({
           { text: '关于硬解的一些科普', link: '/basic/decode.md' },
           // { text: 'NAS 系统该怎么选？', link: '/basic/os.md' },
           { text: '保护数据安全', link: '/basic/data.md' },
+          { text: '网络唤醒', link: '/basic/wake_on_lan.md' },
+          { text: '设置交换机模式', link: '/basic/bridge_network.md' },
           { text: '值得推荐的 NAS 应用', link: '/basic/app.md' },
           { text: '快速解决问题 - 搜索技巧', link: '/basic/search.md' }
         ]
@@ -80,8 +82,6 @@ export default defineConfig({
           { text: '使用 Docker 安装 Jellyfin 并设置硬解', link: '/synology/jellyfin_decode.md' },
           { text: '使用 Docker 安装 Emby 并设置硬解', link: '/synology/emby_decode.md' },
           { text: '使用 Compose 安装照片管理工具 - Immich', link: '/synology/immich_deploy.md' },
-          { text: '设置交换机模式', link: '/synology/bridge_network.md' },
-          { text: '网络唤醒', link: '/synology/wake_on_lan.md' },
         ]
       },
       {

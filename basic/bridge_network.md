@@ -20,7 +20,7 @@
 
 上图中的 NAS 具有一个千兆口，一个 2.5G/10G 网口，设置好交换机模式之后，把千兆口接到路由器上，2.5G/10G 网口和 `电脑 2` 的 2.5/10G 网口相连，这样电脑 2 就可以通过 NAS 上网，同时和 NAS 之间的传输速度也能达到 2.5G/10G 速度。
 
-## 如何设置？
+## 群晖如何设置？
 
 以下面这台带千兆 + 双万兆网口的群晖为例，先把千兆网口接到路由器上。
 
@@ -104,7 +104,7 @@ ovs-vsctl show
 
 ![ovs_switch2.drawio_KwKBr1](https://img.slarker.me/blog/ovs_switch2.drawio_KwKBr1.svg)
 
-## 开机脚本
+### 开机脚本
 
 由于群晖重启后，会将上面的设置都恢复成默认的 `Open vSwitch` 绑定关系。如果上面的操作都确定没问题，我们这里需要添加一个开机脚本来自动完成上面的设置。
 
@@ -130,3 +130,14 @@ ovs-vsctl add-port ovs_eth0 eth2
 
 可以重启系统测试下是否 OK。
 
+## Unraid 如何设置？
+
+Unraid 的设置方法比较简单，默认情况下，Unraid 会将所有网口都绑定到 eth0 接口：
+
+![utvpGD_5Ow2NU](https://img.slarker.me/blog/utvpGD_5Ow2NU.png)
+
+这里把 `启用绑定` 改为 `否`，`启用桥接` 改为 `是`，在 `桥接其成员 br0` 勾选所有网口：
+
+![CqmR8F_Bm2cnU](https://img.slarker.me/blog/CqmR8F_Bm2cnU.png)
+
+然后点击应用即可，设置生效后，如果 eth0 接口默认是 DHCP 自动获取 IP，此时 IP 地址可能会有变化，可以到路由器后台查找新的 IP。
