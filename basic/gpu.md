@@ -18,6 +18,16 @@
 
 ![jellyfin_10_h2KYo1](https://img.slarker.me/blog/jellyfin_10_h2KYo1.png)
 
+### 多路转码能力
+
+以下截图为测试 N100 核显的多路转码能力，也就是最多可以同时满足多少个人远程流畅观看 NAS 视频（不考虑宽带上行带宽的情况下），测试使用 Emby 作为服务端。
+
+#### 4K40Mbps 码率
+
+转码质量选择 `4K 40Mbps`，最多可满足 4 个终端同时流畅观看。
+
+![Emby_4K_40Mbps_wAmPKF](https://img.slarker.me/blog/Emby_4K_40Mbps_wAmPKF.png)
+
 ## [N5105](https://www.intel.cn/content/www/cn/zh/products/sku/212328/intel-celeron-processor-n5105-4m-cache-up-to-2-90-ghz/specifications.html)
 
 - 核显：Intel® UHD Graphics，24 个执行单元
@@ -31,15 +41,3 @@
 - 转码帧率：45 fps
 
 ![N5095_jellyfin_k24Duo](https://img.slarker.me/blog/N5095_jellyfin_k24Duo.png)
-
-## N100 核显多路转码能力
-
-以下截图为测试 N100 核显的多路转码能力，也就是最多可以同时满足多少个人远程流畅观看 NAS 视频（不考虑宽带上行带宽的情况下），测试使用 Emby 作为服务端。
-
-- 核显：Intel® UHD Graphics，24 个执行单元
-
-### 4K40Mbps 码率
-
-转码质量选择 `4K 40Mbps`，最多可满足 4 个终端同时流畅观看。
-
-![Emby_4K_40Mbps_wAmPKF](https://img.slarker.me/blog/Emby_4K_40Mbps_wAmPKF.png)
