@@ -33,6 +33,7 @@ export default defineConfig({
           { text: '硬盘的那些事儿', link: '/basic/harddrive.md' },
           { text: '常见的 CPU 核显转码效果对比', link: '/basic/gpu.md' },
           { text: '常见的远程访问方案', link: '/basic/remote.md' },
+          { text: '远程访问的上行带宽', link: '/basic/bandwidth.md' },
           { text: '关于硬解的一些科普', link: '/basic/decode.md' },
           // { text: 'NAS 系统该怎么选？', link: '/basic/os.md' },
           { text: '保护数据安全', link: '/basic/data.md' },
