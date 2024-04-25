@@ -1,4 +1,4 @@
-# 远程访问的上行带宽
+# 远程访问需要的上行带宽
 
 ![pexels-garrettmorrow-610945_4iqSij](https://img.slarker.me/blog/pexels-garrettmorrow-610945_4iqSij.jpg)
 
@@ -9,7 +9,7 @@
 如果你是在家里，可以使用 [测速网](https://www.speedtest.cn) 来测试带宽速度。如果你想测的准一些，需要注意以下几点：
 
 - 建议优先使用有线连接测试网速，避免复杂的无线网络环境或者其它因素造成干扰
-- (推荐)电脑通过网线连接到路由器，使用浏览器打开 [测速网](https://www.speedtest.cn) 网页测速
+- （推荐）电脑通过网线连接到路由器，使用浏览器打开 [测速网](https://www.speedtest.cn) 网页测速
 - （不推荐）手机浏览器打开 [测速网](https://www.speedtest.cn)，请确保你的手机连的 5GHz 频段的 WiFi，并且和路由器之间没有实体墙遮挡
 - （不推荐）手机也可以使用信通院的 `全球网测` App 来测试，请确保你的手机连的 5GHz 频段的 WiFi，并且和路由器之间没有实体墙遮挡
 

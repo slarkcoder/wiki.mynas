@@ -18,28 +18,50 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
+      { text: '定制 NAS & 联系我', 
+        items: [
+          { text: '定制流程', link: '/process.md' },
+          { text: '技术支持', link: '/support.md' },
+          { text: '售后服务', link: '/after_sales_service.md' },
+          { text: '闲鱼-鱼小铺', link: '/store.md' },
+          { text: '联系我', link: '/contact.md' },
+        ]
+      },
       { text: '我的博客', link: 'https://slarker.me' },
-      { text: '定制 NAS & 联系我', link: '/contact.md' },
-      { text: '☕️ 喝咖啡！', link: '/coffee.md' }
+      { text: '☕️ 喝咖啡！', link: '/coffee.md' },
+      {
+        text: '关于',
+        items: [
+          { text: '意见反馈', link: '/feedback.md' },
+          { text: '原创版权声明', link: '/copyright.md' },
+          { text: '关于网站', link: '/about.md' },
+        ]
+      },
     ],
 
     sidebar: [
       {
-        text: 'NAS 常见问题汇总',
+        text: '选择硬件',
         collapsed: false,
         items: [
-          { text: '如何选择 CPU', link: '/basic/cpu.md' },
-          { text: '如何选择内存', link: '/basic/memory.md' },
-          { text: '硬盘的那些事儿', link: '/basic/harddrive.md' },
-          { text: '常见的 CPU 核显转码效果对比', link: '/basic/gpu.md' },
+          { text: '如何选择 CPU', link: '/hardware/cpu.md' },
+          { text: '关于硬解的一些科普', link: '/hardware/decode.md' },
+          { text: '常见的 CPU 核显转码效果对比', link: '/hardware/gpu.md' },
+          { text: '硬盘的那些事儿', link: '/hardware/harddrive.md' },
+          { text: '如何选择内存', link: '/hardware/memory.md' },
+        ]
+      },
+      {
+        text: '经验分享',
+        collapsed: false,
+        items: [
           { text: '常见的远程访问方案', link: '/basic/remote.md' },
-          { text: '远程访问的上行带宽', link: '/basic/bandwidth.md' },
-          { text: '关于硬解的一些科普', link: '/basic/decode.md' },
+          { text: '远程访问需要的上行带宽', link: '/basic/bandwidth.md' },
           // { text: 'NAS 系统该怎么选？', link: '/basic/os.md' },
-          { text: '保护数据安全', link: '/basic/data.md' },
+          { text: '如何确保数据安全？', link: '/basic/data_safe.md' },
           { text: '网络唤醒', link: '/basic/wake_on_lan.md' },
           { text: '设置交换机模式', link: '/basic/bridge_network.md' },
-          { text: '值得推荐的 NAS 应用', link: '/basic/app.md' },
+          { text: '值得推荐的 NAS 应用', link: '/basic/docker.md' },
           { text: '科学解决问题的思路 - 木桶理论', link: '/basic/barreltheory.md' },
           { text: '解决问题的技巧 - 善用搜索', link: '/basic/search.md' },
         ]
@@ -77,7 +99,7 @@ export default defineConfig({
       },
       {
         text: 'Synology',
-        // collapsed: false,
+        collapsed: false,
         items:[
           { text: '安装系统', link: '/synology/install_system.md' },
           { text: '使用 SSH 登录', link: '/synology/ssh.md' },
@@ -90,7 +112,7 @@ export default defineConfig({
         text: '机箱',
         // collapsed: false,
         items:[
-          { text: '乔思伯机箱安装硬盘', link: '/case/jonsbo.md' },
+          { text: '乔思伯机箱', link: '/case/jonsbo.md' },
           { text: '为什么不推荐 3D 打印机箱？', link: '/case/3d_print_case.md' },
           { text: '极限体积 - 最能装的 ITX NAS 机箱！', link: '/case/minicase.md' },
         ]
