@@ -2,7 +2,7 @@
 
 我的 NAS 上目前装了下面这些服务，囊括了文件管理，照片书影音，下载备份，以及一些常用的服务，供你参考。
 
-![vg0unksq.mwx_2MGF2F](https://img.slarker.me/blog/vg0unksq.mwx_2MGF2F.png)
+![3Ihvmm_vqfQe0](https://img.slarker.me/blog/3Ihvmm_vqfQe0.png)
 
 ## 虚拟机
 

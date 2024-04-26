@@ -24,7 +24,7 @@ export default defineConfig({
           { text: '技术支持', link: '/support.md' },
           { text: '售后服务', link: '/after_sales_service.md' },
           { text: '闲鱼-鱼小铺', link: '/store.md' },
-          { text: '联系我', link: '/contact.md' },
+          { text: '交流群组', link: '/contact.md' },
         ]
       },
       { text: '我的博客', link: 'https://slarker.me' },
