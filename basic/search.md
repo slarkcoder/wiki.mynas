@@ -20,6 +20,19 @@
 
 ![PwD7Jr_MhRF87](https://img.slarker.me/blog/PwD7Jr_MhRF87.png)
 
+### Unraid 论坛
+
+Unraid 官方的中文论坛也有不少有价值的讨论，遇到问题也可以搜索看看有没有答案。有能力的也可以到英文区搜索看看。
+
+- [Unraid 论坛 - 中文板块](https://forums.unraid.net/forum/88-chinese-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87/)
+- [Unraid 论坛 - 英文板块](https://forums.unraid.net/)
+
+## 群晖官方文档
+
+群晖的官方文档非常详细，对于常见的问题，都有非常详尽的解决办法。
+
+[群晖知识中心与文档库](https://kb.synology.cn/zh-cn)
+
 ## AI 助手
 
 有时候懒得搜的话，也可以直接问问 AI。
