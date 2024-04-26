@@ -34,6 +34,7 @@ export default defineConfig({
         items: [
           { text: '意见反馈', link: '/feedback.md' },
           { text: '原创版权声明', link: '/copyright.md' },
+          { text: '镜像站点', link: 'https://wiki.mynas.chat' },
           { text: '关于网站', link: '/about.md' },
         ]
       },
