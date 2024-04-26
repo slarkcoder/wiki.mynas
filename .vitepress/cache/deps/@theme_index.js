@@ -1,12 +1,12 @@
 import {
   useMediaQuery
-} from "./chunk-WZSWIX5T.js";
+} from "./chunk-YNLO5MEJ.js";
 import {
   computed,
   ref,
   shallowRef,
   watch
-} from "./chunk-Z6B2QTD3.js";
+} from "./chunk-5QLTCEDZ.js";
 
 // node_modules/vitepress/dist/client/theme-default/index.js
 import "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
@@ -35,9 +35,6 @@ import { default as default10 } from "/Users/slark/wiki.nas/node_modules/vitepre
 import { default as default11 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
 import { default as default12 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
 import { default as default13 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
-
-// node_modules/vitepress/dist/client/shared.js
-var inBrowser = typeof document !== "undefined";
 
 // node_modules/vitepress/dist/client/theme-default/support/utils.js
 import { withBase } from "vitepress";
@@ -91,14 +88,6 @@ function addBase(items, _base) {
     if (item.items)
       item.items = addBase(item.items, base);
     return item;
-  });
-}
-
-// node_modules/vitepress/dist/client/theme-default/composables/hash.js
-var hashRef = ref(inBrowser ? location.hash : "");
-if (inBrowser) {
-  window.addEventListener("hashchange", () => {
-    hashRef.value = location.hash;
   });
 }
 

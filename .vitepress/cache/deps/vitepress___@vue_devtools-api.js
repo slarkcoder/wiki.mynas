@@ -2,7 +2,7 @@ import {
   isReactive,
   isRef,
   toRaw
-} from "./chunk-Z6B2QTD3.js";
+} from "./chunk-5QLTCEDZ.js";
 
 // node_modules/@vue/devtools-shared/dist/index.js
 var __create = Object.create;
@@ -34,7 +34,7 @@ var __toESM = (mod, isNodeMode, target2) => (target2 = mod != null ? __create(__
   mod
 ));
 var init_esm_shims = __esm({
-  "../../node_modules/.pnpm/tsup@8.0.2_postcss@8.4.35_typescript@5.4.2/node_modules/tsup/assets/esm_shims.js"() {
+  "../../node_modules/.pnpm/tsup@8.0.2_@microsoft+api-extractor@7.43.0_@types+node@20.12.7__postcss@8.4.38_typescript@5.4.5/node_modules/tsup/assets/esm_shims.js"() {
     "use strict";
   }
 });
@@ -252,6 +252,7 @@ var target = typeof globalThis !== "undefined" ? globalThis : typeof window !== 
 var isInChromePanel = typeof target.chrome !== "undefined" && !!target.chrome.devtools;
 var isInIframe = isBrowser && target.self !== target.top;
 var isInElectron = typeof navigator !== "undefined" && navigator.userAgent.toLowerCase().includes("electron");
+var isNuxtApp = typeof window !== "undefined" && !!window.__NUXT__;
 init_esm_shims();
 var import_rfdc = __toESM(require_rfdc(), 1);
 var deepClone = (0, import_rfdc.default)({ circles: true });
@@ -540,16 +541,16 @@ var __copyProps2 = (to, from, except, desc) => {
   }
   return to;
 };
-var __toESM2 = (mod, isNodeMode, target9) => (target9 = mod != null ? __create2(__getProtoOf2(mod)) : {}, __copyProps2(
+var __toESM2 = (mod, isNodeMode, target10) => (target10 = mod != null ? __create2(__getProtoOf2(mod)) : {}, __copyProps2(
   // If the importer is in node compatibility mode or this is not an ESM
   // file that has been converted to a CommonJS file using a Babel-
   // compatible transform (i.e. "__esModule" has not been set), then set
   // "default" to the CommonJS "module.exports" for node compatibility.
-  isNodeMode || !mod || !mod.__esModule ? __defProp2(target9, "default", { value: mod, enumerable: true }) : target9,
+  isNodeMode || !mod || !mod.__esModule ? __defProp2(target10, "default", { value: mod, enumerable: true }) : target10,
   mod
 ));
 var init_esm_shims2 = __esm2({
-  "../../node_modules/.pnpm/tsup@8.0.2_postcss@8.4.35_typescript@5.4.2/node_modules/tsup/assets/esm_shims.js"() {
+  "../../node_modules/.pnpm/tsup@8.0.2_@microsoft+api-extractor@7.43.0_@types+node@20.12.7__postcss@8.4.38_typescript@5.4.5/node_modules/tsup/assets/esm_shims.js"() {
     "use strict";
   }
 });
@@ -2104,6 +2105,9 @@ var on = {
   vueAppInit(fn) {
     devtoolsHooks.hook("app:init", fn);
   },
+  vueAppUnmount(fn) {
+    devtoolsHooks.hook("app:unmount", fn);
+  },
   vueAppConnected(fn) {
     devtoolsHooks.hook("app:connected", fn);
   },
@@ -2172,7 +2176,7 @@ function filterCurrentRoute(route) {
   }
   return route;
 }
-function normalizeRouterInfo(appRecord) {
+function normalizeRouterInfo(appRecord, state) {
   function init() {
     var _a10;
     const router = (_a10 = appRecord.app) == null ? void 0 : _a10.config.globalProperties.$router;
@@ -2190,6 +2194,9 @@ function normalizeRouterInfo(appRecord) {
   }
   init();
   hook.on.componentUpdated(debounce(() => {
+    var _a10;
+    if (((_a10 = state.activeAppRecord) == null ? void 0 : _a10.app) !== appRecord.app)
+      return;
     init();
     apiHooks.callHook("router-info:updated", target[ROUTER_INFO_KEY]);
   }, 200));
@@ -2276,9 +2283,9 @@ var StateEditor = class {
           Reflect.deleteProperty(object, field);
       }
       if (!state.remove) {
-        const target9 = object[state.newKey || field];
-        if (this.refEditor.isRef(target9))
-          this.refEditor.set(target9, value);
+        const target10 = object[state.newKey || field];
+        if (this.refEditor.isRef(target10))
+          this.refEditor.set(target10, value);
         else if (toRaw(object) instanceof Map)
           object.set(state.newKey || field, value);
         else if (toRaw(object) instanceof Set)
@@ -2406,16 +2413,16 @@ var callConnectedUpdatedHook = debounce((state, oldState) => {
   apiHooks.callHook("devtools:connected-updated", state, oldState);
 }, 80);
 var devtoolsState = new Proxy(target[STATE_KEY], {
-  get(target9, property) {
+  get(target10, property) {
     return target[STATE_KEY][property];
   },
-  deleteProperty(target9, property) {
-    delete target9[property];
+  deleteProperty(target10, property) {
+    delete target10[property];
     return true;
   },
-  set(target9, property, value) {
+  set(target10, property, value) {
     const oldState = { ...target[STATE_KEY] };
-    target9[property] = value;
+    target10[property] = value;
     target[STATE_KEY][property] = value;
     callStateUpdatedHook(target[STATE_KEY], oldState);
     if (["connected", "clientConnected"].includes(property.toString()) && oldState[property] !== value)
@@ -2457,7 +2464,7 @@ var _a6;
 var _b6;
 (_b6 = (_a6 = target)[ROUTER_KEY]) != null ? _b6 : _a6[ROUTER_KEY] = null;
 var devtoolsRouterInfo = new Proxy(target[ROUTER_INFO_KEY], {
-  get(target9, property) {
+  get(target10, property) {
     return target[ROUTER_INFO_KEY][property];
   }
 });
@@ -2482,14 +2489,14 @@ function resetDevToolsContext() {
   target[CONTEXT_KEY] = initContextFactory();
 }
 var devtoolsContext = new Proxy(target[CONTEXT_KEY], {
-  get(target9, property) {
+  get(target10, property) {
     if (property === "router")
       return target[ROUTER_KEY];
     else if (property === "clear")
       return resetDevToolsContext;
     return target[CONTEXT_KEY][property];
   },
-  set(target9, property, value) {
+  set(target10, property, value) {
     target[CONTEXT_KEY][property] = value;
     return true;
   }
@@ -2503,7 +2510,7 @@ var devtoolsAppRecords = new Proxy(devtoolsState.appRecords, {
     else if (property === "activeId")
       return devtoolsState.activeAppRecordId;
   },
-  set(target9, property, value) {
+  set(target10, property, value) {
     var _a10;
     const oldState = { ...devtoolsState };
     if (property === "value") {
@@ -2514,7 +2521,7 @@ var devtoolsAppRecords = new Proxy(devtoolsState.appRecords, {
       devtoolsContext.appRecord = _value;
       devtoolsContext.api = _value.api;
       devtoolsContext.inspector = (_a10 = _value.inspector) != null ? _a10 : [];
-      normalizeRouterInfo(value);
+      normalizeRouterInfo(value, devtoolsState);
       devtoolsContext.routerInfo = devtoolsRouterInfo;
     } else if (property === "activeId") {
       devtoolsState.activeAppRecordId = value;
@@ -2527,7 +2534,7 @@ var devtoolsAppRecords = new Proxy(devtoolsState.appRecords, {
 });
 var _a8;
 var _b8;
-var appRecordInfo = (_b8 = (_a8 = target).__VUE_DEVTOOLS_APP_RECROD_INFO__) != null ? _b8 : _a8.__VUE_DEVTOOLS_APP_RECROD_INFO__ = {
+var appRecordInfo = (_b8 = (_a8 = target).__VUE_DEVTOOLS_NEXT_APP_RECROD_INFO__) != null ? _b8 : _a8.__VUE_DEVTOOLS_NEXT_APP_RECROD_INFO__ = {
   id: 0,
   appIds: /* @__PURE__ */ new Set()
 };
@@ -2537,6 +2544,7 @@ var _b9;
 (_b9 = (_a9 = target).__VUE_DEVTOOLS_ENV__) != null ? _b9 : _a9.__VUE_DEVTOOLS_ENV__ = {
   vitePluginDetected: false
 };
+init_esm_shims2();
 function onDevToolsConnected(fn) {
   return new Promise((resolve) => {
     if (devtoolsState.connected) {
