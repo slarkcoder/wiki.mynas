@@ -4,17 +4,14 @@
 
 ## 通过网页群晖查找工具
 
-使用下面这个群晖查找工具：
+使用群晖官方的 Web 查找工具：
 
-```
-https://find.synology.com
-```
+[https://find.synology.com](https://find.synology.com)
+
+![xgg5ydms.kz3_9DKwY8](https://img.slarker.me/blog/xgg5ydms.kz3_9DKwY8.png)
 
 ## 通过 Synology Assistant
 
-下载桌面版的 [Synology Assistant](https://www.synology.cn/zh-cn/support/download/DS923+?version=7.2#utilities) 安装后查找。
+如果 Web 工具查找不到，可以下载桌面版的 `Synology Assistant` 安装后查找。
 
-## 虚拟机控制台
-
-## 
-
+[下载 Synology Assistant](https://www.synology.cn/zh-cn/support/download/DS923+?version=7.2#utilities) 
