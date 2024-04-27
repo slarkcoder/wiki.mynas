@@ -38,7 +38,7 @@
 ## BT
 
 - [qBittorrent Remote Lite](https://play.google.com/store/apps/details?id=me.fengmlo.qbRemoteFree&hl=en_US) <Badge type="tip" text="Android" />
-- [Lizard](https://nagornyi.su/) <Badge type="tip" text="macOS" />
+- [Lizard](https://nagornyi.su/lizard/) <Badge type="tip" text="macOS" />
 - [BitRemote](https://testflight.apple.com/join/yOuPRI3A) <Badge type="tip" text="iOS" /><Badge type="danger" text="TestFlight" /><Badge type="warning" text="官方" />
 - [迅雷](https://m.xunlei.com/) <Badge type="tip" text="Android" /><Badge type="tip" text="iOS" /><Badge type="warning" text="官方" />
 - [混合盘](https://hunhepan.com/) <Badge type="tip" text="Android" /><Badge type="warning" text="官方" />
