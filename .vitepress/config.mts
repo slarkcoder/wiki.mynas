@@ -108,6 +108,7 @@ export default defineConfig({
           { text: '使用 Docker 安装 Jellyfin 并设置硬解', link: '/synology/jellyfin_decode.md' },
           { text: '使用 Docker 安装 Emby 并设置硬解', link: '/synology/emby_decode.md' },
           { text: '使用 Compose 安装照片管理工具 - Immich', link: '/synology/immich_deploy.md' },
+          { text: 'Synology Photos 常见问题', link: '/synology/photos.md' },
         ]
       },
       {
