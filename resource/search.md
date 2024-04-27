@@ -8,8 +8,9 @@
 
 ### 通过网盘搜索引擎
 
--  [奇妙搜索](https://www.magicalsearch.top/main)
+-  [混合盘](https://hunhepan.com/search?q=&type=&time=&exact=false&page=1&uid=0)
 -  [SearchSearchGo](https://ssgo.app/)
+-  [奇妙搜索](https://www.magicalsearch.top/main) <Badge type="danger" text="已停止服务" />
 
 ![5hAKoj_hhlG9C](https://img.slarker.me/blog/5hAKoj_hhlG9C.png)
 
