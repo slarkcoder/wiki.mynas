@@ -12,7 +12,7 @@
 -  [SearchSearchGo](https://ssgo.app/)
 -  [奇妙搜索](https://www.magicalsearch.top/main) <Badge type="danger" text="已停止服务" />
 
-![5hAKoj_hhlG9C](https://img.slarker.me/blog/5hAKoj_hhlG9C.png)
+![axiqg3f2.leq_Z4aiEv](https://img.slarker.me/blog/axiqg3f2.leq_Z4aiEv.png)
 
 ### 通过 Telegram
 
