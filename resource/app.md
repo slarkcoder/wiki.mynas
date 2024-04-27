@@ -36,6 +36,8 @@
 - [Ultrasonic](https://ultrasonic.gitlab.io/) <Badge type="tip" text="Android" />
 - [Musicolet Music Player](https://play.google.com/store/apps/details?id=in.krosbits.musicolet&hl=en_US) <Badge type="tip" text="Android" /> 本地播放器，如果手机存储空间足够，可搭配 `Syncthing` 将音乐同步到手机本地播放。
 
+更多本地音乐播放器可以看 [这篇介绍](https://sspai.com/post/77789)。
+
 ## 照片备份
 
 - [Immich](https://github.com/immich-app/immich/releases) <Badge type="tip" text="Android" /><Badge type="warning" text="官方" />
