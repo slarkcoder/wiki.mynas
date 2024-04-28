@@ -124,7 +124,7 @@ export default defineConfig({
         text: '资源',
         // collapsed: false,
         items:[
-          { text: '分享好用的手机 App', link: '/resource/app.md' },
+          { text: '分享好用的 App', link: '/resource/app.md' },
           { text: '搜索资源的奇技淫巧', link: '/resource/search.md' },
         ]
       }

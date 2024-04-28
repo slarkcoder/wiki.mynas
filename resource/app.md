@@ -1,8 +1,8 @@
-# 分享好用的手机 App
+# 分享好用的 App
 
 ![pexels-petercors-360438_vYCZAi](https://img.slarker.me/blog/pexels-petercors-360438_vYCZAi.jpg)
 
-经常有人问我，自组的 NAS 有哪些好用的手机 App 呢？这里我就分享一些优秀的 App。
+经常有人问我，自组的 NAS 有哪些好用的 App 呢？这里我就分享一些优秀的 App。
 
 如果你有好用的 App，也欢迎推荐给我，我会在这个页面更新。
 
