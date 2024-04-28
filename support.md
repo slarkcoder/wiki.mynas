@@ -8,7 +8,7 @@
 
 ## 软件支持
 
-以我的 [Homepage](https://homepage.slarker.me/) 所列出的应用为准，目前都可以提供技术支持。
+软件支持范围目前以我的 [Homepage](https://homepage.slarker.me/) 所列出的应用为准，都可以提供技术支持。
 
 ![B3sPoL_MiA7W7](https://img.slarker.me/blog/B3sPoL_MiA7W7.png)
 
