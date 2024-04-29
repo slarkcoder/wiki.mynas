@@ -4,12 +4,17 @@
 
 测试环境：`Synology v7.2`，`SA6400`，nyanmisaka/jellyfin `v10.8.13`
 
+## [i3-12400](https://ark.intel.com/content/www/cn/zh/ark/products/134586/intel-core-i5-12400-processor-18m-cache-up-to-4-40-ghz.html)
+
+- 核显：Intel® UHD Graphics 730，24 个执行单元
+- 转码帧率：82 fps
+
 ## [i3-12100](https://ark.intel.com/content/www/cn/zh/ark/products/134584/intel-core-i3-12100-processor-12m-cache-up-to-4-30-ghz.html)
 
 - 核显：Intel® UHD Graphics 730，24 个执行单元
 - 转码帧率：65 fps
 
-![Snipaste_2024-03-26_16-40-00_h9Nvyy](https://img.slarker.me/blog/Snipaste_2024-03-26_16-40-00_h9Nvyy.png)
+![SA6400_12400_4K120Mbps_tjzRpb](https://img.slarker.me/blog/SA6400_12400_4K120Mbps_tjzRpb.jpg)
 
 ## [N100](https://ark.intel.com/content/www/cn/zh/ark/products/231803/intel-processor-n100-6m-cache-up-to-3-40-ghz.html)
 
