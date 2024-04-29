@@ -9,12 +9,14 @@
 - 核显：Intel® UHD Graphics 730，24 个执行单元
 - 转码帧率：82 fps
 
+![SA6400_12400_4K120Mbps_tjzRpb](https://img.slarker.me/blog/SA6400_12400_4K120Mbps_tjzRpb.jpg)
+
 ## [i3-12100](https://ark.intel.com/content/www/cn/zh/ark/products/134584/intel-core-i3-12100-processor-12m-cache-up-to-4-30-ghz.html)
 
 - 核显：Intel® UHD Graphics 730，24 个执行单元
 - 转码帧率：65 fps
 
-![SA6400_12400_4K120Mbps_tjzRpb](https://img.slarker.me/blog/SA6400_12400_4K120Mbps_tjzRpb.jpg)
+![Snipaste_2024-03-26_16-40-00_h9Nvyy](https://img.slarker.me/blog/Snipaste_2024-03-26_16-40-00_h9Nvyy.png)
 
 ## [N100](https://ark.intel.com/content/www/cn/zh/ark/products/231803/intel-processor-n100-6m-cache-up-to-3-40-ghz.html)
 
