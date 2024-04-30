@@ -43,4 +43,4 @@ qm importdisk 100 /var/lib/vz/template/iso/rr.img local
 
 ## 安装
 
-修改完成之后，就可以启动群晖虚拟机了，具体安装过程可以参考 [安装系统](/synology/install.md)。
+修改完成之后，就可以启动群晖虚拟机了，具体安装过程可以参考 [安装系统](/synology/install_system.md)。
