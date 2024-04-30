@@ -113,6 +113,13 @@ export default defineConfig({
         ]
       },
       {
+        text: 'PVE',
+        collapsed: false,
+        items:[
+          { text: '更新群晖引导', link: '/pve/update_synology.md' },
+        ]
+      },
+      {
         text: '机箱',
         // collapsed: false,
         items:[
