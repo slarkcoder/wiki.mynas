@@ -18,12 +18,29 @@
 
 ## 替换虚拟群晖引导
 
-替换群晖引导，首先要删除现有群晖的引导。确保群晖虚拟机已经停止，然后在群晖虚拟机的硬件中选中虚拟的引导磁盘（通常显示为 sata0），点击 `分离`，确认选 `是`。
+替换群晖引导，首先要删除现有群晖的引导。确保群晖虚拟机已经停止，然后在群晖虚拟机的 `硬件` 中选中虚拟的引导磁盘（通常应该为 sata0），点击 `分离`，确认选 `是`。
 
 ![sd20yzcs.mhn_c25VYM](https://img.slarker.me/blog/sd20yzcs.mhn_c25VYM.png)
 
-此时在硬件最下方，会多出来一个 `未使用的磁盘`，再选中点击 `移除`。
+此时在 `硬件` 最下方，会多出来一个 `未使用的磁盘`，再选中点击 `移除`，确认选 `是`。
 
 ![ojIxLn_ygJM7Q](https://img.slarker.me/blog/ojIxLn_ygJM7Q.png)
 
+之后再 PVE 的 `Shell` 命令行粘贴下面的命令，导入新的引导：
+
+> 注意：命令中的 `100` 为群晖虚拟机的 ID，根据自己的情况修改。
+```
+qm importdisk 100 /var/lib/vz/template/iso/rr.img local
+```
+
+![tzn5nrvc.ec0_7Ex4Ox](https://img.slarker.me/blog/tzn5nrvc.ec0_7Ex4Ox.png)
+
+没什么问题的话，很快就会导入完成。接下来回到虚拟群晖的 `硬件` 中，最下面会看到一个新的 `未使用的磁盘`，双击后点击 `添加`。
+
+最后在群晖虚拟机的 `选项` 中，双击设置 `引导顺序`，勾选 `sata0` 并拖动到第一个位置。 
+
+![kpJO8E_hjP8w4](https://img.slarker.me/blog/kpJO8E_hjP8w4.png)
+
 ## 安装
+
+修改完成之后，就可以启动群晖虚拟机了，具体安装过程可以参考 [安装系统](/synology/install.md)。
