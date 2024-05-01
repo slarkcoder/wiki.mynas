@@ -138,7 +138,7 @@ export default defineConfig({
       }
     ],
     footer: {
-      message: 'Released under the MIT License.',
+      message: 'Released under the CC BY-NC 4.0 License.',
       copyright: '©2024 Slark. All rights reserved.'
     },
     search: {

@@ -1,6 +1,6 @@
 # 版权声明
 
-![copyright_LW4118](https://img.slarker.me/blog/copyright_LW4118.jpg)
+![c_nydPLS](https://img.slarker.me/blog/c_nydPLS.jpg)
 
 ## 版权所有 
 
