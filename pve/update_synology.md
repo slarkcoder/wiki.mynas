@@ -14,7 +14,7 @@
 
 [群晖 SA6400 引导](https://files.mynas.chat/share/hFwJS1KC)
 
-下载后解压，为确保后面操作不出问题，可以将得到的 `img` 文件名改成 `rr.img` 之后上传到 PVE 的 ISO 镜像。
+下载后解压，为确保后面操作不出问题，可以将得到的 `*.img` 文件重命名为 `rr.img` 之后上传到 PVE 的 ISO 镜像。
 
 ![vdoeq5za.ogt_O91rPX](https://img.slarker.me/blog/vdoeq5za.ogt_O91rPX.png)
 
@@ -28,9 +28,9 @@
 
 ![ojIxLn_ygJM7Q](https://img.slarker.me/blog/ojIxLn_ygJM7Q.png)
 
-之后再 PVE 的 `Shell` 命令行粘贴下面的命令，导入新的引导：
+之后在 `PVE` 的 `Shell` 命令行粘贴下面的命令，导入新的引导：
 
-> 注意：命令中的 `100` 为群晖虚拟机的 ID，根据自己的情况修改。
+> 注意：命令中的 `100` 为群晖虚拟机的 ID（虚拟机名称前面括号中的数字就是 ID），根据自己的情况修改。
 ```
 qm importdisk 100 /var/lib/vz/template/iso/rr.img local
 ```
