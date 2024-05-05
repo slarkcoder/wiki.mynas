@@ -1,30 +1,58 @@
 # 高颜值的 NAS 应用导航 - Homepage
 
+:::info 提示
+`推荐应用` 中的教程均包含 `Unraid` 和 `群晖` 两部分，大家可以按需参照相关部分，对于重复内容就不再赘述。
+:::
+
 ![3Ihvmm_vqfQe0](https://img.slarker.me/blog/3Ihvmm_vqfQe0.png)
 
 NAS 上装的应用一旦多了，各种端口记起来很麻烦，虽然加个书签也能解决问题，但是如果要分享给家人或者朋友用，还是不太方便。之前也折腾过这个 [Homepage](https://github.com/gethomepage/homepage)，但是维护起来并不容易，每个应用都需要单独配置 icon，好处就是自定义程度高，配好了就非常好看。
 
-为了能让大家更简单的使用 Homepage，降低上手成本，你可以根据我这个教程来配置，使用我提供的 [Docker 安装模板](https://files.mynas.chat/share/BXbuuhLC)（[如何使用模板?](/unraid/unraid_docker_template.md)）和 [配置文件](https://files.mynas.chat/share/ww2kxrPm)，十几分钟就可以自定义出专属的 Homepage。
+为了能让大家更简单的使用 Homepage，降低上手成本，你可以根据我这个教程来配置，使用我提供的 [配置文件](https://www.123pan.com/s/1JKMjv-XIxo.html)，十几分钟就可以自定义出专属的 Homepage。
 
-## 安装应用
+## Unraid 安装应用
 
-将配置文件下载，然后解压，将整个 `homepage` 目录上传到 docker 的应用数据目录 `/mnt/user/appdata` 下面。
+> [如何使用模板安装应用？](/unraid/unraid_docker_template.md)
+
+将 [配置文件](https://www.123pan.com/s/1JKMjv-XIxo.html) 下载，然后解压，将整个 `homepage` 目录上传到 docker 的应用数据目录 `/mnt/user/appdata` 下面。
 
 ![33tkv4ee.cjn_vNrnD5](https://img.slarker.me/blog/33tkv4ee.cjn_vNrnD5.png)
 
-通过模板安装 `Homepage`，所有的设置都不需要修改，直接点应用安装。
+通过 [Docker 安装模板](https://files.mynas.chat/share/BXbuuhLC) 安装 `Homepage`，所有的设置都不需要修改，直接点应用安装。
 
 ![vl5rlwbq.kkx_5MXtes](https://img.slarker.me/blog/vl5rlwbq.kkx_5MXtes.png)
+
+## 群晖安装应用
+
+在套件中心安装 `FileBrowser`，并为 `FileBrowser` 设置 docker 目录的 `读写` 权限。
+
+![2eL0cY_yTG7Sq](https://img.slarker.me/blog/2eL0cY_yTG7Sq.png)
+
+将 [配置文件](https://www.123pan.com/s/1JKMjv-XIxo.html) 下载，然后解压，将整个 `homepage` 目录上传到 docker 文件夹下面。
+
+![0smaspit.ylg_7Uz1Sb](https://img.slarker.me/blog/0smaspit.ylg_7Uz1Sb.png)
+
+群晖可以使用 Compose 安装 Homepage。在 Container Manmager 中新建项目，项目名称：homepage，选择路径为 `/docker/homepage`，会自动加载 homepage 下面的 `docker-compose.yml`。
+
+![ly3u4ynq.23l_r7qc4l](https://img.slarker.me/blog/ly3u4ynq.23l_r7qc4l.png)
+
+![3jitvipa.fr2_HDcPlm](https://img.slarker.me/blog/3jitvipa.fr2_HDcPlm.png)
+
+一路 `下一步`，直到完成。
 
 ## 自定义配置
 
 装好之后，就可以根据下面的说明来配置。
 
-推荐使用 `FileBrowser` 在浏览器里直接打开编辑 `/mnt/user/appdata/homepage/config` 里的配置文件，需要改的配置基本都在 `services.yaml` 和 `settings.yaml` 里面。
+配置文件位于 `homepage` 下面的 `config` 文件夹，图片文件位于 `homepage` 下面的 `public/images` 下面。
+
+可以使用 `FileBrowser` 直接打开编辑相关的配置文件，需要修改的配置基本都在 `services.yaml` 和 `settings.yaml` 里面，打开就能直接编辑。
+
+![xpc3nsja.ll0_4li2nt](https://img.slarker.me/blog/xpc3nsja.ll0_4li2nt.png)
 
 ### 设置 Service
 
-打开 `services.yaml` 文件。
+使用 `FileBrowser` 打开 `services.yaml` 文件。
 
 ![rt0vw24f.xuc_xBvN4E](https://img.slarker.me/blog/rt0vw24f.xuc_xBvN4E.png)
 
