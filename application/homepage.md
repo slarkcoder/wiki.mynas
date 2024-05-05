@@ -12,13 +12,13 @@ NAS 上装的应用一旦多了，各种端口记起来很麻烦，虽然加个�
 
 ## Unraid 安装应用
 
-> [如何使用模板安装应用？](/unraid/unraid_docker_template.md)
-
 将 [配置文件](https://www.123pan.com/s/1JKMjv-zIxo.html) 下载，然后解压，将整个 `homepage` 目录上传到 docker 的应用数据目录 `/mnt/user/appdata` 下面。
 
 ![33tkv4ee.cjn_vNrnD5](https://img.slarker.me/blog/33tkv4ee.cjn_vNrnD5.png)
 
 通过 [Docker 安装模板](https://files.mynas.chat/share/BXbuuhLC) 安装 `Homepage`，所有的设置都不需要修改，直接点应用安装。
+
+> [如何使用模板安装应用？](/unraid/unraid_docker_template.md)
 
 ![vl5rlwbq.kkx_5MXtes](https://img.slarker.me/blog/vl5rlwbq.kkx_5MXtes.png)
 
