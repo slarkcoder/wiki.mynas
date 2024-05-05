@@ -12,7 +12,7 @@
 
 目前最新的引导可以从这里下载：
 
-[群晖 SA6400 引导](https://files.mynas.chat/share/hFwJS1KC)
+[123 云盘：群晖 SA6400 引导](https://www.123pan.com/s/1JKMjv-jJxo.html)
 
 下载后解压，为确保后面操作不出问题，可以将得到的 `*.img` 文件重命名为 `rr.img` 之后上传到 PVE 的 ISO 镜像。
 
