@@ -18,6 +18,15 @@
 
 ![Snipaste_2024-03-26_16-40-00_h9Nvyy](https://img.slarker.me/blog/Snipaste_2024-03-26_16-40-00_h9Nvyy.png)
 
+## [至强 E2124G](https://www.intel.cn/content/www/cn/zh/products/sku/134854/intel-xeon-e2124g-processor-8m-cache-up-to-4-50-ghz/specifications.html)
+
+- 核显：Intel® UHD Graphics P630，24 个执行单元
+- 转码帧率：57 fps
+
+> 该 CPU 核显转码效果在 Unraid 下面测试。
+
+![eurhohcy.hy2_lWkVmr](https://img.slarker.me/blog/eurhohcy.hy2_lWkVmr.png)
+
 ## [N100](https://ark.intel.com/content/www/cn/zh/ark/products/231803/intel-processor-n100-6m-cache-up-to-3-40-ghz.html)
 
 - 核显：Intel® UHD Graphics，24 个执行单元
