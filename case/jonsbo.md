@@ -2,13 +2,22 @@
 
 ## 机箱介绍
 
+乔思伯机箱可以直接访问官网查看。
 
+- [乔思伯 N1 灰色](https://www.jonsbo.com/products/N1.html)
+- [乔思伯 N2 白色](https://www.jonsbo.com/products/N2bai.html)
+- [乔思伯 N2 黑色](https://www.jonsbo.com/products/N2.html)
+- [乔思伯 N3](https://www.jonsbo.com/products/N3.html)
+- [乔思伯 N4 白色](https://www.jonsbo.com/products/N4bai-.html)
+- [乔思伯 N4 黑色](https://www.jonsbo.com/products/N4--.html)
 
 ## 安装硬盘
 
 乔思伯 N1/N2/N3/N4 机箱都采用橡胶圈+螺丝的方式来安装 3.5 寸硬盘，橡胶圈可以有效的减震，同时也将硬盘牢牢的卡在导轨上，但是配的橡胶提手用过多次之后，容易发生断裂。所以建议一般拔硬盘的时候，用手的摩擦力配合包装里附带的硬盘勾子来拔出硬盘。
 
-乔思伯 N1/N2 机箱都支持 5 块 3.5 寸机械硬盘，1 块 2.5 寸 SSD。N3 支持 8 块 3.5 寸机械硬盘，2 块 2.5 寸 SSD。N4 支持 6 块 3.5 寸机械盘，2 块 2.5 寸 SSD。
+- 乔思伯 N1/N2 机箱都支持 5 块 3.5 寸机械硬盘，1 块 2.5 寸 SSD。
+- 乔思伯 N3 支持 8 块 3.5 寸机械硬盘，2 块 2.5 寸 SSD。
+- 乔思伯 N4 支持 6 块 3.5 寸机械盘，2 块 2.5 寸 SSD。
 
 ### 安装 3.5 寸机械硬盘
 
