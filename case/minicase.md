@@ -6,13 +6,15 @@
 
 机箱是巧美 ITX 迷你小机箱 4 代，尺寸为：19.8cm，13cm，22cm，体积  5.5L，有多种颜色可选。
 
-![minicase1_54qgGO](https://img.slarker.me/blog/minicase1_54qgGO.jpg)
+![Snipaste_2024-05-07_01-44-13_PKEKOv](https://img.slarker.me/blog/Snipaste_2024-05-07_01-44-13_PKEKOv.png)
 
-![minicase2_Acm3U3](https://img.slarker.me/blog/minicase2_Acm3U3.jpg)
+![644a3be2b7f17_058BJb](https://img.slarker.me/blog/644a3be2b7f17_058BJb.jpg)
 
-![minicase3_oLHIa6](https://img.slarker.me/blog/minicase3_oLHIa6.jpg)
+![63f485891877c_nhwpqK](https://img.slarker.me/blog/63f485891877c_nhwpqK.jpg)
 
 ![minicase4_ovqGug](https://img.slarker.me/blog/minicase4_ovqGug.jpg)
+
+![Snipaste_2024-05-07_01-46-28_yjFLFy](https://img.slarker.me/blog/Snipaste_2024-05-07_01-46-28_yjFLFy.png)
 
 ## 盘位
 
