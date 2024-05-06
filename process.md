@@ -8,11 +8,11 @@
 
 如果你需要让我给你推荐配置，那么我的原则是：功耗优先，绝不过度推荐，只推荐最适合你需求的配置。
 
-点击 [填写需求表单](https://form.slarker.me/s/ekrEpf)。
+点击 [填写需求表单](https://jinshuju.net/f/qGaDq1)。
 
 或者也可以使用微信扫码填写：
 
-![3girjfv3.cso_cS1p4r](https://img.slarker.me/blog/3girjfv3.cso_cS1p4r.png)
+![jinshuju1_pBXa64](https://img.slarker.me/blog/jinshuju1_pBXa64.png)
 
 ## 推荐有礼
 
