@@ -73,6 +73,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '高颜值的 NAS 应用导航 - Homepage', link: '/application/homepage.md' },
+          { text: '影音资源库 - 小雅部署教程', link: '/application/xiaoya.md' },
         ]
       },
       {
@@ -102,7 +103,6 @@ export default defineConfig({
           { text: '支持 selfhosted 的跨平台剪贴板同步方案 - SyncClipboard', link: '/unraid/clipboard_sync.md' },
           { text: '解决虚拟组网远程无法访问 80 端口问题', link: '/unraid/remote.md' },
           { text: '小姐姐元数据刮削解决方案', link: '/unraid/javspider.md' },
-          { text: '影音资源库 - 小雅部署教程', link: '/unraid/xiaoya.md' },
         ]
       },
       {
