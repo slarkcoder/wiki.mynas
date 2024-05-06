@@ -64,5 +64,5 @@ SAS 盘一般都是服务器上用的，市面上能买到的 SAS 盘也基本�
 
 SSD 是否需要用来做缓存，你都可以自己决定。在群晖里，m.2 SSD 默认是作为缓存使用的，但你也可以根据下面的教程来把 m.2 改为存储空间使用。在 Unraid 里，想做缓存或者直接存数据都可以自己设置。
 
-[Synology 如何使用 Nvme 固态做存储空间](https://didiboy0702.gitbook.io/wukongdaily/new-shou-ye/nas-qun-hui-wei-lian-tong-etc-shi-yong-ji-qiao/synology-ru-he-shi-yong-nvme-gu-tai-zuo-cun-chu-kong-jian)
+[使用 M.2 Nvme SSD 作为存储空间](/synology/ssd_storage.md)
 
