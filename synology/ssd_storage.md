@@ -1,5 +1,9 @@
 # 使用 M.2 Nvme SSD 作为存储空间
 
+![273841_9Dz1S4](https://img.slarker.me/blog/273841_9Dz1S4.jpg)
+
+在群晖中，M.2 Nvme SSD 默认是作为缓存使用的，如果觉得不需要缓存，想把 M.2 Nvme SSD 作为存储来使用，可以参照这个教程设置。
+
 首先 [使用 SSH 登录](/synology/ssh.md) 群晖，并切换到 `root` 用户。
 
 查看所有 NAS 上安装的所有 nvme 硬盘：
