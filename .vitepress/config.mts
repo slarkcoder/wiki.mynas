@@ -54,6 +54,15 @@ export default defineConfig({
         ]
       },
       {
+        text: '机箱',
+        // collapsed: false,
+        items:[
+          { text: '乔思伯机箱', link: '/case/jonsbo.md' },
+          { text: '为什么不推荐 3D 打印机箱？', link: '/case/3d_print_case.md' },
+          { text: '极限体积 - 最能装的 ITX NAS 机箱！', link: '/case/minicase.md' },
+        ]
+      },
+      {
         text: '经验分享',
         collapsed: false,
         items: [
@@ -126,15 +135,6 @@ export default defineConfig({
           { text: '更新群晖引导', link: '/pve/update_synology.md' },
           // { text: '远程访问 Windows 虚拟机', link: '/pve/windows_remote.md' },
           
-        ]
-      },
-      {
-        text: '机箱',
-        // collapsed: false,
-        items:[
-          { text: '乔思伯机箱', link: '/case/jonsbo.md' },
-          { text: '为什么不推荐 3D 打印机箱？', link: '/case/3d_print_case.md' },
-          { text: '极限体积 - 最能装的 ITX NAS 机箱！', link: '/case/minicase.md' },
         ]
       },
       {
