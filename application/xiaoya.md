@@ -4,6 +4,8 @@
 `推荐应用` 中的教程均包含 `Unraid` 和 `群晖` 两部分，大家可以按需参照相关部分，对于重复内容就不再赘述。
 :::
 
+![i67r7k_9ir0Cy](https://img.slarker.me/blog/i67r7k_9ir0Cy.png)
+
 小雅是基于阿里云盘的共享资源构建的一个比较完整的，大规模的资源库。结合你的阿里云盘，在你需要的时候，把对应的资源转移到你的阿里云盘的中转目录。而且可以做到定期清理，不用担心阿里云盘容量被转存的资源占满。配置好之后，这一切都是自动的，不需要人工干预。
 
 还有一些优点，小雅支持 WebDAV，可以结合各种客户端比如 Jellyfin、Emby 来使用，很多资源都已经过刮削，在客户端使用也非常省心。对于有些家人不会找资源的，小雅可真是个神器！相对于 nastools 之类的自动化工具，也不需要折腾 PT 站点认证，上手使用门槛非常低。
@@ -57,8 +59,6 @@ bash -c "$(curl --insecure -fsSL https://ddsrem.com/xiaoya_install.sh)"
 ![Heihqe_KDcj7U](https://img.slarker.me/blog/Heihqe_KDcj7U.png)
 
 这个时候小雅就已经可以访问了，默认端口是 `5678`。小雅首页下方也显示了默认的 `WebDAV` 账号信息。
-
-![i67r7k_9ir0Cy](https://img.slarker.me/blog/i67r7k_9ir0Cy.png)
 
 ### 安装小雅助手
 
