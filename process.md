@@ -10,7 +10,7 @@
 
 点击 [填写需求表单](https://jinshuju.net/f/qGaDq1)。
 
-或者也可以使用微信扫码填写：
+或者也可以使用 `微信扫码` 填写，**仅需要 `1` 分钟**：
 
 ![jinshuju1_pBXa64](https://img.slarker.me/blog/jinshuju1_pBXa64.png)
 
