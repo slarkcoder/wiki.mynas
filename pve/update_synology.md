@@ -43,21 +43,6 @@ qm importdisk 100 /var/lib/vz/template/iso/rr.img local
 
 ![kpJO8E_hjP8w4](https://img.slarker.me/blog/kpJO8E_hjP8w4.png)
 
-## 设置引导
+设置好之后就可以启动虚拟机了。
 
-修改完成之后，就可以启动群晖虚拟机了，到路由器中查找 `新设备 IP`，访问该 IP:7681。
-
-![3mmhfhca.knp_07gmfx](https://img.slarker.me/blog/3mmhfhca.knp_07gmfx.png)
-
-- 选择 `Choose a model`：选择 `SA6400`。
-- 选择 `Choose a version`：选择 `7.2`。
-- 选择 `Addons menu -> Add an addon -> cpuinfo`：选择 `OK` 之后返回主菜单。
-- 选择 `Build the loader`，等待编译完成。
-
-![5mjefdjo.s5f_3HQvA8](https://img.slarker.me/blog/5mjefdjo.s5f_3HQvA8.png)
-
-- 选择 `Boot the loader`，等待启动。
-
-![grnocw2m.lo0_LtarFN](https://img.slarker.me/blog/grnocw2m.lo0_LtarFN.png)
-
-后续具体安装过程可以参考 [安装系统](/synology/install_system.md)。
+后续部分可以参考 [设置引导](/synology/setting_loader.md)。

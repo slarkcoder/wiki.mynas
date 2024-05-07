@@ -10,11 +10,7 @@
 
 ## 查找群晖 IP
 
-首先查找群晖的 IP，可以在你的路由器后台查找名为 Synology 的设备 IP。
-
-![synology_install_0_1_lwht25](https://img.slarker.me/blog/synology_install_0_1_lwht25.png)
-
-有的路由器不一定会显示设备名称，你可以按照在线时间来判断哪个 IP 是群晖设备。
+可以参考 [查找群晖设备](/synology/find_synology.md)。
 
 ## 安装
 

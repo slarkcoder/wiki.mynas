@@ -118,8 +118,9 @@ export default defineConfig({
         text: 'Synology',
         collapsed: false,
         items:[
-          { text: '安装系统', link: '/synology/install_system.md' },
+          { text: '设置引导', link: '/synology/setting_loader.md' },
           { text: '查找群晖设备', link: '/synology/find_synology.md' },
+          { text: '安装系统', link: '/synology/install_system.md' },
           { text: '使用 SSH 登录', link: '/synology/ssh.md' },
           { text: '使用 Docker 安装 Jellyfin 并设置硬解', link: '/synology/jellyfin_decode.md' },
           { text: '使用 Docker 安装 Emby 并设置硬解', link: '/synology/emby_decode.md' },
