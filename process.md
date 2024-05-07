@@ -1,6 +1,6 @@
 # 定制流程
 
-![定制流程.drawio_nQNB2F](https://img.slarker.me/blog/定制流程.drawio_nQNB2F.svg)
+![1_8yzItD](https://img.slarker.me/blog/1_8yzItD.png)
 
 ## 填写需求表单
 
@@ -28,4 +28,4 @@
 
 添加好友，请备注：NAS
 
-![](https://blog-1255332810.cos.ap-shanghai.myqcloud.com/uPic/wxqrcode.jpg)
+![未命名码_HVVQ3K](https://img.slarker.me/blog/未命名码_HVVQ3K.png)
