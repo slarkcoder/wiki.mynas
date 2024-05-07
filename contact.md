@@ -18,7 +18,7 @@
 
 可以直接扫码加入：
 
-![WechatIMG148_J3UiPG](https://img.slarker.me/blog/WechatIMG148_J3UiPG.jpg)
+![WechatIMG151_lolg1H](https://img.slarker.me/blog/WechatIMG151_lolg1H.jpg)
 
 如果二维码过期，可以直接发消息到我的微信，并注明 `加群`，我手动拉你进群。
 
@@ -32,4 +32,4 @@
 
 添加好友，请备注：NAS
 
-![](https://blog-1255332810.cos.ap-shanghai.myqcloud.com/uPic/wxqrcode.jpg)
+![未命名码_HVVQ3K](https://img.slarker.me/blog/未命名码_HVVQ3K.png)

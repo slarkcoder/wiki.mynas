@@ -30,4 +30,4 @@
 
 添加好友，请备注：NAS
 
-![](https://blog-1255332810.cos.ap-shanghai.myqcloud.com/uPic/wxqrcode.jpg)
+![未命名码_HVVQ3K](https://img.slarker.me/blog/未命名码_HVVQ3K.png)

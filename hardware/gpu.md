@@ -11,6 +11,11 @@
 
 ![SA6400_12400_4K120Mbps_tjzRpb](https://img.slarker.me/blog/SA6400_12400_4K120Mbps_tjzRpb.jpg)
 
+## [i3-12300T](https://www.intel.cn/content/www/cn/zh/products/sku/223096/intel-core-i312300t-processor-12m-cache-up-to-4-20-ghz/specifications.html)
+
+- 核显：Intel® UHD Graphics 730，24 个执行单元
+- 转码帧率：65 fps
+
 ## [i3-12100](https://ark.intel.com/content/www/cn/zh/ark/products/134584/intel-core-i3-12100-processor-12m-cache-up-to-4-30-ghz.html)
 
 - 核显：Intel® UHD Graphics 730，24 个执行单元
