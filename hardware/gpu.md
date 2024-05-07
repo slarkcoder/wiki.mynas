@@ -14,9 +14,9 @@
 ## [i3-12300T](https://www.intel.cn/content/www/cn/zh/products/sku/223096/intel-core-i312300t-processor-12m-cache-up-to-4-20-ghz/specifications.html)
 
 - 核显：Intel® UHD Graphics 730，24 个执行单元
-- 转码帧率：67 fps
+- 转码帧率：73 fps
 
-![Snipaste_2024-05-07_21-37-26_NxN9Hl](https://img.slarker.me/blog/Snipaste_2024-05-07_21-37-26_NxN9Hl.png)
+![Snipaste_2024-05-07_22-06-41_PDwSQa](https://img.slarker.me/blog/Snipaste_2024-05-07_22-06-41_PDwSQa.png)
 
 ## [i3-12100](https://ark.intel.com/content/www/cn/zh/ark/products/134584/intel-core-i3-12100-processor-12m-cache-up-to-4-30-ghz.html)
 

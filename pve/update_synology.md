@@ -12,7 +12,7 @@
 
 目前最新的引导可以从这里下载：
 
-[123 云盘：群晖 SA6400 引导](https://www.123pan.com/s/1JKMjv-jJxo.html)
+[123 云盘：群晖 rr_24.4.4 引导](https://www.123pan.com/s/1JKMjv-Agxo.html)
 
 下载后解压，为确保后面操作不出问题，可以将得到的 `*.img` 文件重命名为 `rr.img` 之后上传到 PVE 的 ISO 镜像。
 
@@ -43,6 +43,21 @@ qm importdisk 100 /var/lib/vz/template/iso/rr.img local
 
 ![kpJO8E_hjP8w4](https://img.slarker.me/blog/kpJO8E_hjP8w4.png)
 
-## 安装
+## 设置引导
 
-修改完成之后，就可以启动群晖虚拟机了，具体安装过程可以参考 [安装系统](/synology/install_system.md)。
+修改完成之后，就可以启动群晖虚拟机了，到路由器中查找 `新设备 IP`，访问该 IP:7681。
+
+![3mmhfhca.knp_07gmfx](https://img.slarker.me/blog/3mmhfhca.knp_07gmfx.png)
+
+- 选择 `Choose a model`：选择 `SA6400`。
+- 选择 `Choose a version`：选择 `7.2`。
+- 选择 `Addons menu -> Add an addon -> cpuinfo`：选择 `OK` 之后返回主菜单。
+- 选择 `Build the loader`，等待编译完成。
+
+![5mjefdjo.s5f_3HQvA8](https://img.slarker.me/blog/5mjefdjo.s5f_3HQvA8.png)
+
+- 选择 `Boot the loader`，等待启动。
+
+![grnocw2m.lo0_LtarFN](https://img.slarker.me/blog/grnocw2m.lo0_LtarFN.png)
+
+后续具体安装过程可以参考 [安装系统](/synology/install_system.md)。
