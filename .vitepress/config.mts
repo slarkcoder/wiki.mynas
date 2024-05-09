@@ -60,6 +60,7 @@ export default defineConfig({
         items:[
           { text: '乔思伯机箱', link: '/case/jonsbo.md' },
           { text: '梵隆机箱', link: '/case/fanlong.md' },
+          { text: '宝藏盒机箱', link: '/case/baozang.md' },
           { text: '为什么不推荐 3D 打印机箱？', link: '/case/3d_print_case.md' },
           { text: '极限体积 - 最能装的 ITX NAS 机箱！', link: '/case/minicase.md' },
         ]

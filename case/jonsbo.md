@@ -4,12 +4,12 @@
 
 乔思伯 NAS 机箱可以直接访问官网查看。
 
-- [乔思伯 N1 灰色](https://www.jonsbo.com/products/N1.html)
-- [乔思伯 N2 白色](https://www.jonsbo.com/products/N2bai.html)
-- [乔思伯 N2 黑色](https://www.jonsbo.com/products/N2.html)
-- [乔思伯 N3 黑色](https://www.jonsbo.com/products/N3.html)
-- [乔思伯 N4 白色](https://www.jonsbo.com/products/N4bai-.html)
-- [乔思伯 N4 黑色](https://www.jonsbo.com/products/N4--.html)
+- [乔思伯 N1 灰色](https://www.jonsbo.com/products/N1.html)（散热不如 N2）
+- [乔思伯 N2 白色](https://www.jonsbo.com/products/N2bai.html)（推荐！）
+- [乔思伯 N2 黑色](https://www.jonsbo.com/products/N2.html)（推荐！）
+- [乔思伯 N3 黑色](https://www.jonsbo.com/products/N3.html)（推荐！）
+- [乔思伯 N4 白色](https://www.jonsbo.com/products/N4bai-.html)（颜值可以，实用性不及格！不推荐！）
+- [乔思伯 N4 黑色](https://www.jonsbo.com/products/N4--.html)（颜值可以，实用性不及格！不推荐！）
 
 ## 安装硬盘
 
