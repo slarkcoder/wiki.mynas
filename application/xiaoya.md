@@ -66,6 +66,50 @@ bash -c "$(curl --insecure -fsSL https://ddsrem.com/xiaoya_install.sh)"
 
 在主菜单选择 `4 -> 1`，安装小雅助手，具体清理模式可以根据自己需求来选。小雅助手设置比较简单，安装成功就能自动运行，因为你之前填的 阿里云盘 token 配置都是可以共享使用的。
 
+### 图标问题
+
+使用脚本安装的 `小雅` 和 `小雅助手` 是没有图标的，对于有些强迫症的人看起来可能很不舒服，如果需要添加图标，可以在使用一键脚本装完这两个 docker 应用之后，先删除这两个 docker 应用，然后在 Unraid 终端分别执行下面两个命令。
+
+如果需要修改图标，可以修改命令中的 `--label='net.unraid.docker.icon` 参数的图片地址。
+
+#### 小雅
+
+```yml
+docker run --name=xiaoya \
+        --hostname=Tower \
+        --volume=/mnt/user/appdata/xiaoya:/data \
+        --volume=/mnt/user/appdata/xiaoya/data:/www/data \
+        --network=host \
+        --workdir=/opt/alist \
+        --restart=always \
+        --log-opt max-size=50m \
+        --log-opt max-file=1 \
+        --runtime=runc \
+        --detach=true \
+        --label='net.unraid.docker.icon=https://img.slarker.me/unraid/xiaoya.png' \
+        xiaoyaliu/alist:hostmode \
+        /opt/alist/alist server --no-prefix
+```
+
+#### 小雅助手
+
+```yml
+docker run --name=xiaoyakeeper \
+        --hostname=Tower \
+        --env=TZ=Asia/Shanghai \
+        --volume=/var/run/docker.sock:/var/run/docker.sock \
+        --network=host \
+        --privileged \
+        --restart=always \
+        --log-opt max-size=50m \
+        --log-opt max-file=1 \
+        --runtime=runc \
+        --detach=true \
+        --label='net.unraid.docker.icon=https://img.slarker.me/unraid/Alist_encrypt_A.png' \
+        alpine:3.18.2 \
+        sh -c 'if [ -f /etc/xiaoya/aliyun_clear.sh ];then sh /etc/xiaoya/aliyun_clear.sh 0;else sleep 60;fi'
+```
+
 ## 群晖
 
 群晖安装 `xiaoya` 非常简单。
