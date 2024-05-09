@@ -72,6 +72,8 @@ bash -c "$(curl --insecure -fsSL https://ddsrem.com/xiaoya_install.sh)"
 
 如果需要修改图标，可以修改命令中的 `--label='net.unraid.docker.icon` 参数的图片地址。
 
+如果想知道下面的两个命令是怎么来的，可以参考 [给使用命令安装的 Docker 应用添加图标](/unraid/app_icon.md)。
+
 #### 小雅
 
 ```yml
