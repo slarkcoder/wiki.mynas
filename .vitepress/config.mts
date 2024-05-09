@@ -112,6 +112,7 @@ export default defineConfig({
           { text: '支持 selfhosted 的跨平台剪贴板同步方案 - SyncClipboard', link: '/unraid/clipboard_sync.md' },
           { text: '解决虚拟组网远程无法访问 80 端口问题', link: '/unraid/remote.md' },
           { text: '小姐姐元数据刮削解决方案', link: '/unraid/javspider.md' },
+          { text: '给使用命令安装的 Docker 应用添加图标', link: '/unraid/app_icon.md' },
         ]
       },
       {
