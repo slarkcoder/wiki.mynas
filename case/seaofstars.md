@@ -16,7 +16,13 @@
 
 ![1715305746808_zSYRVk](https://img.slarker.me/blog/1715305746808_zSYRVk.jpg)
 
-![1715305746856_a8KdOS](https://img.slarker.me/blog/1715305746856_a8KdOS.jpg)
+![1715307350946_CwEArr](https://img.slarker.me/blog/1715307350946_CwEArr.png)
+
+![1715307311623_pqJRIL](https://img.slarker.me/blog/1715307311623_pqJRIL.png)
+
+![1715307350895_9oCoHQ](https://img.slarker.me/blog/1715307350895_9oCoHQ.png)
+
+![1715307350867_riaIjz](https://img.slarker.me/blog/1715307350867_riaIjz.png)
 
 ## 半人马座 - 8 盘位
 
