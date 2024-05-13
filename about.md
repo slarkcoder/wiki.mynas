@@ -6,11 +6,11 @@
 
 本网站使用 [VitePress](https://vitepress.dev/) 构建，VitePress 是一个基于 Vite 和 Vue 的静态站点生成器，提供了快速的，轻量的，现代的网站内容模板引擎，非常适合技术文档网站。
 
-## MinIO
+## 缤纷云
 
-![cAthYs_5Up51Q](https://slark-blog.s3.bitiful.net/cAthYs_5Up51Q.png)
+[![cAthYs_5Up51Q](https://slark-blog.s3.bitiful.net/cAthYs_5Up51Q.png)](https://bitiful-contents.s3.bitiful.net/images/Background-logo.png?w=1280&fm=webp)
 
-本网站的图床使用自建的 [MinIO](https://min.io/) 提供支持。
+本网站的图床使用 [缤纷云](https://www.bitiful.com/) 提供支持。
 
 ## 云服务
 
