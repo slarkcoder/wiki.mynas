@@ -1,6 +1,6 @@
 # 分享好用的 App
 
-![pexels-petercors-360438_vYCZAi](https://img.slarker.me/blog/pexels-petercors-360438_vYCZAi.jpg)
+![pexels-petercors-360438_vYCZAi](https://slark-blog.s3.bitiful.net/pexels-petercors-360438_vYCZAi.jpg)
 
 经常有人问我，自组的 NAS 有哪些好用的 App 呢？这里我就分享一些优秀的 App。
 

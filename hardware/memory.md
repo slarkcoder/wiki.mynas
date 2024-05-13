@@ -1,6 +1,6 @@
 # 如何选择内存
 
-![ram_LbDnqp](https://img.slarker.me/blog/ram_LbDnqp.jpg)
+![ram_LbDnqp](https://slark-blog.s3.bitiful.net/ram_LbDnqp.jpg)
 
 ## NAS 需要考虑内存频率吗？
 
@@ -18,7 +18,7 @@
 
 Windows 可以安装 [图吧工具箱](https://www.tbtool.cn/)，自带 `MemTest64` 这个小工具，可以用来测试内存是否有问题。
 
-![Snipaste_2024-03-31_01-28-17_lKE4dK](https://img.slarker.me/blog/Snipaste_2024-03-31_01-28-17_lKE4dK.png)
+![Snipaste_2024-03-31_01-28-17_lKE4dK](https://slark-blog.s3.bitiful.net/Snipaste_2024-03-31_01-28-17_lKE4dK.png)
 
 上图中我选了测试 1 小时后停止，测试完成后，结果显示 `没有检测到错误`。
 

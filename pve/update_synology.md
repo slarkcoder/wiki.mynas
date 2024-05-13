@@ -16,17 +16,17 @@
 
 下载后解压，为确保后面操作不出问题，可以将得到的 `*.img` 文件重命名为 `rr.img` 之后上传到 PVE 的 ISO 镜像。
 
-![vdoeq5za.ogt_O91rPX](https://img.slarker.me/blog/vdoeq5za.ogt_O91rPX.png)
+![vdoeq5za.ogt_O91rPX](https://slark-blog.s3.bitiful.net/vdoeq5za.ogt_O91rPX.png)
 
 ## 替换虚拟群晖引导
 
 替换群晖引导，首先要删除现有群晖的引导。确保群晖虚拟机已经停止，然后在群晖虚拟机的 `硬件` 中选中虚拟的引导磁盘（通常应该为 sata0），点击 `分离`，确认选 `是`。
 
-![sd20yzcs.mhn_c25VYM](https://img.slarker.me/blog/sd20yzcs.mhn_c25VYM.png)
+![sd20yzcs.mhn_c25VYM](https://slark-blog.s3.bitiful.net/sd20yzcs.mhn_c25VYM.png)
 
 此时在 `硬件` 最下方，会多出来一个 `未使用的磁盘`，再选中点击 `移除`，确认选 `是`。
 
-![ojIxLn_ygJM7Q](https://img.slarker.me/blog/ojIxLn_ygJM7Q.png)
+![ojIxLn_ygJM7Q](https://slark-blog.s3.bitiful.net/ojIxLn_ygJM7Q.png)
 
 之后在 `PVE` 的 `Shell` 命令行粘贴下面的命令，导入新的引导：
 
@@ -35,13 +35,13 @@
 qm importdisk 100 /var/lib/vz/template/iso/rr.img local
 ```
 
-![tzn5nrvc.ec0_7Ex4Ox](https://img.slarker.me/blog/tzn5nrvc.ec0_7Ex4Ox.png)
+![tzn5nrvc.ec0_7Ex4Ox](https://slark-blog.s3.bitiful.net/tzn5nrvc.ec0_7Ex4Ox.png)
 
 没什么问题的话，很快就会导入完成。接下来回到虚拟群晖的 `硬件` 中，最下面会看到一个新的 `未使用的磁盘`，双击后点击 `添加`。
 
 最后在群晖虚拟机的 `选项` 中，双击设置 `引导顺序`，勾选 `sata0` 并拖动到第一个位置。 
 
-![kpJO8E_hjP8w4](https://img.slarker.me/blog/kpJO8E_hjP8w4.png)
+![kpJO8E_hjP8w4](https://slark-blog.s3.bitiful.net/kpJO8E_hjP8w4.png)
 
 设置好之后就可以启动虚拟机了。
 

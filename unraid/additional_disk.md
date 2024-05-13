@@ -4,18 +4,18 @@
 
 外接磁盘需要在应用市场安装 Unassigned Devices 插件，并在插件设置中按自己需要将 SMB 设置为公共或者私有。
 
-![smb2023_fwbmdU](https://img.slarker.me/blog/smb2023_fwbmdU.png)
+![smb2023_fwbmdU](https://slark-blog.s3.bitiful.net/smb2023_fwbmdU.png)
 
 ## 挂载外接磁盘
 
-![additional2_rxW6ZM](https://img.slarker.me/blog/additional2_rxW6ZM.png)
+![additional2_rxW6ZM](https://slark-blog.s3.bitiful.net/additional2_rxW6ZM.png)
 
 首先挂载外接磁盘，在右侧的设置里，将 `共享`  开关都打开。
 
-![additional23_l6gnFG](https://img.slarker.me/blog/additional23_l6gnFG.png)
+![additional23_l6gnFG](https://slark-blog.s3.bitiful.net/additional23_l6gnFG.png)
 
-![additional24_N9hWzD](https://img.slarker.me/blog/additional24_N9hWzD.png)
+![additional24_N9hWzD](https://slark-blog.s3.bitiful.net/additional24_N9hWzD.png)
 
 按照上面步骤操作，就可以在网络共享里找到挂载的磁盘了。
 
-![additional25_TxRFXv](https://img.slarker.me/blog/additional25_TxRFXv.png)
+![additional25_TxRFXv](https://slark-blog.s3.bitiful.net/additional25_TxRFXv.png)

@@ -1,6 +1,6 @@
 # 科学解决问题的思路 - 木桶理论
 
-![Minimum-Tonne_TJiNGj](https://img.slarker.me/blog/Minimum-Tonne_TJiNGj.svg)
+![Minimum-Tonne_TJiNGj](https://slark-blog.s3.bitiful.net/Minimum-Tonne_TJiNGj.svg)
 
 涉及到计算机的地方，经常会提到一个词 -- `木桶理论（效应）`，意思很简单，就是说一个木桶能装多少水，取决于组成这个木桶的最短的那块木板。
 
@@ -52,4 +52,4 @@
 
 不管是有线网络还是 WiFi 速度，或者硬盘读写速度，各种测试工具、办法都非常多，此类问题都可以直接问 [Kimi AI](https://kimi.moonshot.cn/)，都会得到很好的回答。
 
-![DNkvJF_xaFNec](https://img.slarker.me/blog/DNkvJF_xaFNec.png)
+![DNkvJF_xaFNec](https://slark-blog.s3.bitiful.net/DNkvJF_xaFNec.png)

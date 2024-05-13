@@ -1,6 +1,6 @@
 # 硬盘的那些事儿
 
-![harddisk_iwXjh8](https://img.slarker.me/blog/harddisk_iwXjh8.jpg)
+![harddisk_iwXjh8](https://slark-blog.s3.bitiful.net/harddisk_iwXjh8.jpg)
 
 ## 新手该如何选择硬盘？
 
@@ -30,13 +30,13 @@ Windows 可以安装 [图吧工具箱](https://www.tbtool.cn/)，里面带的 `H
 
 容量越大的硬盘，扫描时间也越长，比如东芝的 MG07 14TB，扫描一遍需要大概 16~18 个小时左右。
 
-![](https://img.slarker.me/blog/mYQSyC_tQf8hk.png)
+![](https://slark-blog.s3.bitiful.net/mYQSyC_tQf8hk.png)
 
 ## 如何查看 SSD 读写数据？
 
 Windows 可以安装 [图吧工具箱](https://www.tbtool.cn/)，里面带的 CrystalDiskInfo 这个工具，可以用来查看 SSD 读写量。
 
-![31e1f2d0-f22d-4b46-a494-ec9c350684a6_8J1MeU](https://img.slarker.me/blog/31e1f2d0-f22d-4b46-a494-ec9c350684a6_8J1MeU.jpeg)
+![31e1f2d0-f22d-4b46-a494-ec9c350684a6_8J1MeU](https://slark-blog.s3.bitiful.net/31e1f2d0-f22d-4b46-a494-ec9c350684a6_8J1MeU.jpeg)
 
 ## NAS 可以使用 SAS 盘吗？
 

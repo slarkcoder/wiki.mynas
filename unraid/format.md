@@ -10,7 +10,7 @@ fdisk -l
 
 例如下面的 `/dev/sdb` 就是需要格式化的设备，在后面你也可以看到具体的容量。后续的命令中也请将 `/dev/sdb` 替换为自己的设备。
 
-![bghptvyc.d0i_EJVLqo](https://img.slarker.me/blog/bghptvyc.d0i_EJVLqo.png)
+![bghptvyc.d0i_EJVLqo](https://slark-blog.s3.bitiful.net/bghptvyc.d0i_EJVLqo.png)
 
 如果你的硬盘容量不大（1TB 以内），可以直接使用下面的命令进行格式化，期间如果提示 `Proceed anyway`，输入 `y` 确认：
 
@@ -18,7 +18,7 @@ fdisk -l
 mkfs.ext4 /dev/sdb
 ```
 
-![9p4EWH_F8wOao](https://img.slarker.me/blog/9p4EWH_F8wOao.png)
+![9p4EWH_F8wOao](https://slark-blog.s3.bitiful.net/9p4EWH_F8wOao.png)
 
 如果你的硬盘容量比较大，可以使用下面的命令格式化，会比较快：
 
@@ -26,4 +26,4 @@ mkfs.ext4 /dev/sdb
 mkfs.ext4 -T largefile /dev/sdb
 ```
 
-![bz2dsgpw.4vf_BpqoLp](https://img.slarker.me/blog/bz2dsgpw.4vf_BpqoLp.png)
+![bz2dsgpw.4vf_BpqoLp](https://slark-blog.s3.bitiful.net/bz2dsgpw.4vf_BpqoLp.png)

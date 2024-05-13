@@ -14,7 +14,7 @@
 - 阿里云盘 OpenToken（288~335 位长度），[使用阿里云盘 App 点此扫码](https://alist.nn.ci/tool/aliyundrive/request.html) 获取备用。
 - 中转文件夹目录 ID，可以将 [中转文件夹](https://www.aliyundrive.com/s/rP9gP3h9asE) 保存到阿里云盘，然后在浏览器里打开就可以看到 `目录 ID`，获取备用。
 
-![ys1YwJ_Xu3x4m](https://img.slarker.me/blog/ys1YwJ_Xu3x4m.png)
+![ys1YwJ_Xu3x4m](https://slark-blog.s3.bitiful.net/ys1YwJ_Xu3x4m.png)
 
 ## Unraid 部署
  
@@ -28,7 +28,7 @@ bash -c "$(curl --insecure -fsSL https://ddsrem.com/xiaoya_install.sh)"
 
 打开 Unraid 的控制台，粘贴上面的一键脚本并回车执行：
 
-![BqGAQx_RS70yE](https://img.slarker.me/blog/BqGAQx_RS70yE.png)
+![BqGAQx_RS70yE](https://slark-blog.s3.bitiful.net/BqGAQx_RS70yE.png)
 
 
 ### 安装小雅
@@ -41,11 +41,11 @@ bash -c "$(curl --insecure -fsSL https://ddsrem.com/xiaoya_install.sh)"
 
 继续按提示填写我们提前准备好的 `阿里云盘 Token`，`阿里云盘 OpenToken`，`中转文件夹目录 ID`，`PikPak` 可按需选择配置，网络模式推荐使用 `host`，之后就开始安装了，直到出现 `安装完成！`
 
-![Heihqe_KDcj7U](https://img.slarker.me/blog/Heihqe_KDcj7U.png)
+![Heihqe_KDcj7U](https://slark-blog.s3.bitiful.net/Heihqe_KDcj7U.png)
 
 这个时候小雅就已经可以访问了，默认端口是 `5678`。小雅首页下方也显示了默认的 `WebDAV` 账号信息。
 
-![i67r7k_9ir0Cy](https://img.slarker.me/blog/i67r7k_9ir0Cy.png)
+![i67r7k_9ir0Cy](https://slark-blog.s3.bitiful.net/i67r7k_9ir0Cy.png)
 
 ### 安装小雅助手
 
@@ -62,4 +62,4 @@ bash -c "$(curl --insecure -fsSL https://ddsrem.com/xiaoya_install.sh)"
 使用 `FileBrowser` 在小雅配置目录（`/mnt/user/appdata/xiaoya`）建立配置文件：
 
 
-![4dvfTN_IbTCK2](https://img.slarker.me/blog/4dvfTN_IbTCK2.png) -->
+![4dvfTN_IbTCK2](https://slark-blog.s3.bitiful.net/4dvfTN_IbTCK2.png) -->

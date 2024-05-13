@@ -1,6 +1,6 @@
 # 如何选择 CPU
 
-![pexels-tookapic-8943_8vwBPb](https://img.slarker.me/blog/pexels-tookapic-8943_8vwBPb.jpg)
+![pexels-tookapic-8943_8vwBPb](https://slark-blog.s3.bitiful.net/pexels-tookapic-8943_8vwBPb.jpg)
 
 ## 常见的 CPU 性能对比
 
@@ -8,7 +8,7 @@
 
 下面的截图来自于 [PassMark](https://www.cpubenchmark.net/singleCompare.php) 这个网站，如果你想自己对比 CPU 性能，也可以到 [PassMark](https://www.cpubenchmark.net/singleCompare.php) 查询。
 
-![](https://img.slarker.me/blog/NLtHoL_DjLsC3.png)
+![](https://slark-blog.s3.bitiful.net/NLtHoL_DjLsC3.png)
 
 - First Seen on Chart：首次有测试数据的时间，也可以看成 CPU 发布时间
 - Single Thread Rating：单线程跑分
@@ -19,7 +19,7 @@
 
 如果你没有虚拟 Windows 的需求，那 N5105，N100 是完全够用的。以我用的 N5105 为例（使用 Unraid 系统），开了 30 多个 Docker 和虚拟了一个 iStoreOS 作为主路由，CPU 负载也并不高。
 
-![WechatIMG133_LdIf8V](https://img.slarker.me/blog/WechatIMG133_LdIf8V.jpg)
+![WechatIMG133_LdIf8V](https://slark-blog.s3.bitiful.net/WechatIMG133_LdIf8V.jpg)
 
 如果你需要使用 Windows 虚拟机，那可以用个 G7400 或者 i3-12100 就足够用。
 
@@ -37,7 +37,7 @@ NAS CPU 在性能够用的前提下，最需要注意的是功耗，因为 NAS �
 
 下面是 8100T，8100，N5105，N100 的性能、功耗对比。
 
-![ci3ouzzw.xb3_toxL2u](https://img.slarker.me/blog/ci3ouzzw.xb3_toxL2u.png)
+![ci3ouzzw.xb3_toxL2u](https://slark-blog.s3.bitiful.net/ci3ouzzw.xb3_toxL2u.png)
 
 可以很明显的看出，8100 相比 N100 性能并没有多大优势，而且功耗高不少，也不支持 12 代 CPU 新增的 AV1 编解码。
 

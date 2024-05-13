@@ -8,7 +8,7 @@
 
 [https://find.synology.com](https://find.synology.com)
 
-![xgg5ydms.kz3_9DKwY8](https://img.slarker.me/blog/xgg5ydms.kz3_9DKwY8.png)
+![xgg5ydms.kz3_9DKwY8](https://slark-blog.s3.bitiful.net/xgg5ydms.kz3_9DKwY8.png)
 
 ## 通过 Synology Assistant
 

@@ -1,6 +1,6 @@
 # 定制流程
 
-![1_8yzItD](https://img.slarker.me/blog/1_8yzItD.png)
+![1_8yzItD](https://slark-blog.s3.bitiful.net/1_8yzItD.png)
 
 ## 填写需求表单
 
@@ -12,7 +12,7 @@
 
 或者也可以使用 `微信扫码` 填写，**仅需要 `1` 分钟**：
 
-![jinshuju1_pBXa64](https://img.slarker.me/blog/jinshuju1_pBXa64.png)
+![jinshuju1_pBXa64](https://slark-blog.s3.bitiful.net/jinshuju1_pBXa64.png)
 
 ## 推荐有礼
 
@@ -28,4 +28,4 @@
 
 添加好友，请备注：NAS
 
-![未命名码_HVVQ3K](https://img.slarker.me/blog/未命名码_HVVQ3K.png)
+![未命名码_HVVQ3K](https://slark-blog.s3.bitiful.net/未命名码_HVVQ3K.png)

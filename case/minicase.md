@@ -6,15 +6,15 @@
 
 机箱是巧美 ITX 迷你小机箱 4 代，尺寸为：19.8cm，13cm，22cm，体积  5.5L，有多种颜色可选。
 
-![Snipaste_2024-05-07_01-44-13_PKEKOv](https://img.slarker.me/blog/Snipaste_2024-05-07_01-44-13_PKEKOv.png)
+![Snipaste_2024-05-07_01-44-13_PKEKOv](https://slark-blog.s3.bitiful.net/Snipaste_2024-05-07_01-44-13_PKEKOv.png)
 
-![644a3be2b7f17_058BJb](https://img.slarker.me/blog/644a3be2b7f17_058BJb.jpg)
+![644a3be2b7f17_058BJb](https://slark-blog.s3.bitiful.net/644a3be2b7f17_058BJb.jpg)
 
-![63f485891877c_nhwpqK](https://img.slarker.me/blog/63f485891877c_nhwpqK.jpg)
+![63f485891877c_nhwpqK](https://slark-blog.s3.bitiful.net/63f485891877c_nhwpqK.jpg)
 
-![minicase4_ovqGug](https://img.slarker.me/blog/minicase4_ovqGug.jpg)
+![minicase4_ovqGug](https://slark-blog.s3.bitiful.net/minicase4_ovqGug.jpg)
 
-![Snipaste_2024-05-07_01-46-28_yjFLFy](https://img.slarker.me/blog/Snipaste_2024-05-07_01-46-28_yjFLFy.png)
+![Snipaste_2024-05-07_01-46-28_yjFLFy](https://slark-blog.s3.bitiful.net/Snipaste_2024-05-07_01-46-28_yjFLFy.png)
 
 ## 盘位
 
@@ -30,7 +30,7 @@
 
 因为机箱体积比较小，按照机箱的设计，顶部可以装一个 6cm 的风扇，现在顶部被用来装了 3 块 SSD，所以整个机箱是没有风扇的（CPU 和电源风扇除外）。机箱四周都有很多开孔，实测室温 25℃ 的情况下，机械盘也就 39℃，SSD 40℃，并不算高，即使无风扇也能满足散热要求。
 
-![IPleFg_88VPCT](https://img.slarker.me/blog/IPleFg_88VPCT.png)
+![IPleFg_88VPCT](https://slark-blog.s3.bitiful.net/IPleFg_88VPCT.png)
 
 ## 供电
 

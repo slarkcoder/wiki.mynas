@@ -11,7 +11,7 @@
 -  [混合盘](https://hunhepan.com/search?q=&type=&time=&exact=false&page=1&uid=0)
 -  [SearchSearchGo](https://ssgo.app/)
 
-![axiqg3f2.leq_Z4aiEv](https://img.slarker.me/blog/axiqg3f2.leq_Z4aiEv.png)
+![axiqg3f2.leq_Z4aiEv](https://slark-blog.s3.bitiful.net/axiqg3f2.leq_Z4aiEv.png)
 
 ### 通过 Telegram
 
@@ -22,17 +22,17 @@
 - [Telegram: Contact @shareAliyun](https://t.me/shareAliyun)
 - [Telegram: Contact @Quark\_Share\_Channel](https://t.me/Quark_Share_Channel)
 
-![tg_HQUuHq](https://img.slarker.me/blog/tg_HQUuHq.jpg)
+![tg_HQUuHq](https://slark-blog.s3.bitiful.net/tg_HQUuHq.jpg)
 
 ### 通过搜索引擎
 
 用 Google 或者 Bing 直接通过关键字：`aliyundrive + 资源名称`，基本上直接在搜索结果里就能看到资源链接。
 
-![yFTwfh_w83Owu](https://img.slarker.me/blog/yFTwfh_w83Owu.png)
+![yFTwfh_w83Owu](https://slark-blog.s3.bitiful.net/yFTwfh_w83Owu.png)
 
 找到资源后，直接保存到网盘里。在 NAS 或者 OpenWRT 里使用 Alist 挂载好各种网盘，设置好 WebDAV，然后在 PC，手机，电视端就可以直接访问了。当然，这里你也可以把你的 NAS 的共享文件也挂载进来，各个终端访问 NAS 里的资源也无须额外再去设置。
 
-![q6689e_yMDLqz](https://img.slarker.me/blog/q6689e_yMDLqz.png)
+![q6689e_yMDLqz](https://slark-blog.s3.bitiful.net/q6689e_yMDLqz.png)
 
 
 ## BT、PT

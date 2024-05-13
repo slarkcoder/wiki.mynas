@@ -10,6 +10,6 @@ Unraid 的默认 80 端口，也就是 WebUI 无法访问，而其它的 Docker 
 
 这个问题解决起来也很简单，以 StarVPN 为例，在添加完 StarVPN 的 Docker 容器之后，会在网络里多出来一个名为 `StarVPN` 的网关，然后把这个网关名称添加到 `额外接口` 的 `包含监听的接口` 中，点应用就可以了。
 
-![WechatIMG64_6EJfqy](https://img.slarker.me/blog/WechatIMG64_6EJfqy.jpg)
+![WechatIMG64_6EJfqy](https://slark-blog.s3.bitiful.net/WechatIMG64_6EJfqy.jpg)
 
 如果用的 Zerotier 或者 TailScale，解决办法类似，照猫画虎操作即可。

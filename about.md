@@ -2,13 +2,13 @@
 
 ## VitePress
 
-![xlie3C_Jpk1YE](https://img.slarker.me/blog/xlie3C_Jpk1YE.png)
+![xlie3C_Jpk1YE](https://slark-blog.s3.bitiful.net/xlie3C_Jpk1YE.png)
 
 本网站使用 [VitePress](https://vitepress.dev/) 构建，VitePress 是一个基于 Vite 和 Vue 的静态站点生成器，提供了快速的，轻量的，现代的网站内容模板引擎，非常适合技术文档网站。
 
 ## MinIO
 
-![cAthYs_5Up51Q](https://img.slarker.me/blog/cAthYs_5Up51Q.png)
+![cAthYs_5Up51Q](https://slark-blog.s3.bitiful.net/cAthYs_5Up51Q.png)
 
 本网站的图床使用自建的 [MinIO](https://min.io/) 提供支持。
 

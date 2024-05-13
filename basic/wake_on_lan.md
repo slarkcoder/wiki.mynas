@@ -10,7 +10,7 @@
 
 以群晖系统为例，在 `控制面板` -> `电源` 选项中勾选下面的选项并应用。
 
-![synology_wol_1_dhfzD6](https://img.slarker.me/blog/synology_wol_1_dhfzD6.png)
+![synology_wol_1_dhfzD6](https://slark-blog.s3.bitiful.net/synology_wol_1_dhfzD6.png)
 
 ## Unraid
 
@@ -22,7 +22,7 @@
 ethtool -s eth0 wol g
 ```
 
-![lsjqn0su.hdn_UHrPac](https://img.slarker.me/blog/lsjqn0su.hdn_UHrPac.png)
+![lsjqn0su.hdn_UHrPac](https://slark-blog.s3.bitiful.net/lsjqn0su.hdn_UHrPac.png)
 
 ## 如何唤醒？
 
@@ -30,5 +30,5 @@ ethtool -s eth0 wol g
 
 以 `iStoreOS` 为例，在 `服务` -> `网络唤醒` 中，选择需要唤醒设备的 mac 地址或者 IP，点击 `唤醒主机` 就可以。
 
-![5ewuknk5.k0k_iYDofa](https://img.slarker.me/blog/5ewuknk5.k0k_iYDofa.png)
+![5ewuknk5.k0k_iYDofa](https://slark-blog.s3.bitiful.net/5ewuknk5.k0k_iYDofa.png)
 

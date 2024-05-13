@@ -2,7 +2,7 @@
 
 如果你想要定制 NAS，可以使用闲鱼 App 扫码，或者使用闲鱼 App 直接搜索 `islarker`，到我的鱼小铺查看现有的配置。
 
-![ovjoniih.eoa_SuGetg](https://img.slarker.me/blog/ovjoniih.eoa_SuGetg.png)
+![ovjoniih.eoa_SuGetg](https://slark-blog.s3.bitiful.net/ovjoniih.eoa_SuGetg.png)
 
 ## 微信
 
@@ -10,4 +10,4 @@
 
 添加好友，请备注：NAS
 
-![未命名码_HVVQ3K](https://img.slarker.me/blog/未命名码_HVVQ3K.png)
+![未命名码_HVVQ3K](https://slark-blog.s3.bitiful.net/未命名码_HVVQ3K.png)

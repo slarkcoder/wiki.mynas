@@ -10,7 +10,7 @@
 
 软件支持范围目前以我的 [Homepage](https://homepage.slarker.me/) 所列出的应用为准，都可以提供技术支持。
 
-![B3sPoL_MiA7W7](https://img.slarker.me/blog/B3sPoL_MiA7W7.png)
+![B3sPoL_MiA7W7](https://slark-blog.s3.bitiful.net/B3sPoL_MiA7W7.png)
 
 ## 善用搜索
 
@@ -30,4 +30,4 @@
 
 添加好友，请备注：NAS
 
-![未命名码_HVVQ3K](https://img.slarker.me/blog/未命名码_HVVQ3K.png)
+![未命名码_HVVQ3K](https://slark-blog.s3.bitiful.net/未命名码_HVVQ3K.png)

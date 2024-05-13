@@ -6,7 +6,7 @@
 
 Unraid 官方的文件管理器，基础功能够用，如果不想装第三方的管理器，那这个就是必备的。安装后在右上角会有下图所示的图标。
 
-![bjO62T_F8p5yb](https://img.slarker.me/blog/bjO62T_F8p5yb.png)
+![bjO62T_F8p5yb](https://slark-blog.s3.bitiful.net/bjO62T_F8p5yb.png)
 
 ## Unassigned Devices
 
@@ -44,4 +44,4 @@ Unraid 默认自带 Docker，使用 Docker Compose 可以运行一些更复杂�
 
 可以让 GPU 占用情况直接显示在 Unraid 面板山。安装后在仪表板的 GPU 模块里选中 GPU 显卡。
 
-![7frKWZ_Czob7R](https://img.slarker.me/blog/7frKWZ_Czob7R.png)
+![7frKWZ_Czob7R](https://slark-blog.s3.bitiful.net/7frKWZ_Czob7R.png)

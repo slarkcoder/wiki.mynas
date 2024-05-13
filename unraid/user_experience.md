@@ -8,11 +8,11 @@ Unraid 默认语言是英文，但官方也支持中文，需要从应用中心�
 
 Unraid 的控制面板设计的比较清晰明了，在仪表板这一个页面就可以查看 NAS 的几乎所有状态。CPU，GPU，内存，网络，磁盘阵列，Docker，虚拟机，共享文件夹，外接的 UPS 等都一览无余。并且 Docker 和虚拟机的基本的操作（启动，暂停等等）都可以直接在这个页面完成。模块化的布局即便对于新手来说也很容易上手。
 
-![EFOSYD_vwE4cU](https://img.slarker.me/blog/EFOSYD_vwE4cU.png)
+![EFOSYD_vwE4cU](https://slark-blog.s3.bitiful.net/EFOSYD_vwE4cU.png)
 
 作为一个上手并不难的系统，Unraid 的帮助系统也非常好用，如果你对某项菜单有疑问，可以直接在对应的菜单上出现 `?` 的时候点击，或者直接点开系统右上角的 `?` 来打开帮助指示器，相关的设置就会显示出来详细的解释供你参考。看完帮助之后，再点一次就会关闭这些帮助信息。推荐大家在遇到问题的时候优先查看这个帮助，通常情况下都非常有用。
 
-![WcAGV9_JJb9Qc](https://img.slarker.me/blog/WcAGV9_JJb9Qc.png)
+![WcAGV9_JJb9Qc](https://slark-blog.s3.bitiful.net/WcAGV9_JJb9Qc.png)
 
 ## 磁盘阵列和文件系统
 
@@ -20,7 +20,7 @@ Unraid 的控制面板设计的比较清晰明了，在仪表板这一个页面�
 
 因为没有 Raid ，Unraid 会把所有的硬盘都加到同一个磁盘阵列中，总容量相当于所有硬盘容量之和。通过对共享文件夹包含磁盘的设置，我们也可以很轻松的将某个文件夹存到指定的硬盘中，这种做法在使用 SSD + HDD 组成的磁盘阵列时非常有用。
 
-![TgJx1z_jpbfl8](https://img.slarker.me/blog/TgJx1z_jpbfl8.png)
+![TgJx1z_jpbfl8](https://slark-blog.s3.bitiful.net/TgJx1z_jpbfl8.png)
 
 HDD 的缺点是读写小文件比较慢，而 SSD 的优点恰恰是读写小文件非常快。因此像是 Unraid 系统自动创建的四个文件夹（appdata、domains、isos、system）都适合只存储到 SSD 里，而用来作为下载（比如 downloads）的或者存储影音（比如 media）的文件夹，都比较适合存储到 HDD 里，像是存储照片（比如 photos）的文件夹，小文件非常多，适合存储到 SSD 里。
 
@@ -34,11 +34,11 @@ Unraid 的文件存储分配策略有三种，`High-water` 、`填满`、`高可
 
 Unraid 对于文件权限的控制非常简陋，仅能满足非常基础的文件共享需求，只能通过对用户或用户组进行简单的设置（无访问权限，只读，读/写），在这一点上远不如群晖做的精细。对于应用的权限控制压根没有。
 
-![E03aFE_QhwPy6](https://img.slarker.me/blog/E03aFE_QhwPy6.png)
+![E03aFE_QhwPy6](https://slark-blog.s3.bitiful.net/E03aFE_QhwPy6.png)
 
 ## Docker
 
-![Ry8UWJ_Og694I](https://img.slarker.me/blog/Ry8UWJ_Og694I.png)
+![Ry8UWJ_Og694I](https://slark-blog.s3.bitiful.net/Ry8UWJ_Og694I.png)
 
 Unraid 自带的 Docker 管理面板非常直观，应用的基本信息在面板里都可以直接看到，如果想看到更多信息，还可以点击右上角的 `基本视图/高级视图` 进行切换。相比于一些其他的 NAS 系统自带的 Docker 管理功能比较简陋，可能还需要安装一些第三方的管理面板（比如 Portainer），Unraid 自带的就足够好用。
 
@@ -48,7 +48,7 @@ Unraid 自带的 Docker 管理面板非常直观，应用的基本信息在面�
 
 ## 虚拟机
 
-![pay8uO_5j9V7U](https://img.slarker.me/blog/pay8uO_5j9V7U.png)
+![pay8uO_5j9V7U](https://slark-blog.s3.bitiful.net/pay8uO_5j9V7U.png)
 
 Unraid 的虚拟机相比 PVE 和 ESXi 来说非常易用。因为 Unraid 的特点就是不针对某个平台去开发，硬件兼容性非常好，不管是老的平台还是很新的 x86 平台，不管是 AMD 还是 Intel， Unraid 都能支持的非常好，最新的 Unraid 6.12.2 版本的 Linux 内核也已经更新到了 6.1.36。
 

@@ -1,6 +1,6 @@
 # 版权声明
 
-![c_nydPLS](https://img.slarker.me/blog/c_nydPLS.jpg)
+![c_nydPLS](https://slark-blog.s3.bitiful.net/c_nydPLS.jpg)
 
 ## 版权所有 
 

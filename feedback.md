@@ -1,6 +1,6 @@
 # 意见反馈
 
-![236233_vyz46O](https://img.slarker.me/blog/236233_vyz46O.jpg)
+![236233_vyz46O](https://slark-blog.s3.bitiful.net/236233_vyz46O.jpg)
 
 本站致力于提供高质量的原创内容，所有内容均来自于用户的真实需求以及 Slark 自身的使用经验，Slark 会尽全力保证内容的可用性、实用性以及简单易操作性。
 
@@ -19,4 +19,4 @@
 
 添加好友，请备注：NAS
 
-![未命名码_HVVQ3K](https://img.slarker.me/blog/未命名码_HVVQ3K.png)
+![未命名码_HVVQ3K](https://slark-blog.s3.bitiful.net/未命名码_HVVQ3K.png)

@@ -1,6 +1,6 @@
 # 远程访问需要的上行带宽
 
-![pexels-garrettmorrow-610945_4iqSij](https://img.slarker.me/blog/pexels-garrettmorrow-610945_4iqSij.jpg)
+![pexels-garrettmorrow-610945_4iqSij](https://slark-blog.s3.bitiful.net/pexels-garrettmorrow-610945_4iqSij.jpg)
 
 由于家庭宽带一般上行只有 30Mbps~50Mbps 左右，所以很多人担心远程访问的时候是否够用，本篇就来具体说说这个问题。
 
@@ -49,22 +49,22 @@
 
 所需带宽 10Mbps。
 
-![1080p1_3mcIRp](https://img.slarker.me/blog/1080p1_3mcIRp.jpg)
+![1080p1_3mcIRp](https://slark-blog.s3.bitiful.net/1080p1_3mcIRp.jpg)
 
 #### 1080p 高清
 
 所需带宽 8Mbps。
 
-![1080p2_cNB0KF](https://img.slarker.me/blog/1080p2_cNB0KF.jpg)
+![1080p2_cNB0KF](https://slark-blog.s3.bitiful.net/1080p2_cNB0KF.jpg)
 
 #### 1080p 标清
 
 所需带宽 6Mbps。
 
-![1080p3_bvYaoQ](https://img.slarker.me/blog/1080p3_bvYaoQ.jpg)
+![1080p3_bvYaoQ](https://slark-blog.s3.bitiful.net/1080p3_bvYaoQ.jpg)
 
 #### 1080p 流畅
 
 所需带宽 4Mbps。
 
-![1080p4_x4ea9O](https://img.slarker.me/blog/1080p4_x4ea9O.jpg)
+![1080p4_x4ea9O](https://slark-blog.s3.bitiful.net/1080p4_x4ea9O.jpg)
