@@ -7,7 +7,7 @@
 
 如果你在 NAS 上收集了不少小姐姐，想必你也希望能有个海报墙，具体效果像下面这样：
 
-![J63DJA_bxqbbn](https://slark-blog.s3.bitiful.net/J63DJA_bxqbbn.png)
+![J63DJA_bxqbbn](https://img-1255332810.cos.ap-chengdu.myqcloud.com/J63DJA_bxqbbn.png)
 
 正常电影可以使用 [TinyMediaManager](/unraid/tmm.md) 来刮削，像是小姐姐这种日本电影就得通过别的方法来单独刮削，很多  GitHub 上的开源项目，都是通过抓取类似 `javbus` 这种第三方的信息网站来实现刮削。相比正常电影，日本电影的元数据信息比较简单，而且命名来说规则性很强，第三方适配起来难度也不算高。本篇教程就介绍一个相对比较简单的方案，使用 [MetaTube](https://metatube-community.github.io/) 来刮削小姐姐。
 
@@ -58,14 +58,14 @@ https://cdn.jsdelivr.net/gh/metatube-community/jellyfin-plugin-metatube@dist/man
 
 到 Jellyfin/Emby 控制台，找到 `MetaTube` 插件，只需填写上面的 `服务端地址`，`Token` 默认不用填，并保存。
 
-![144rn30e.xjx_Ng2M3Q](https://slark-blog.s3.bitiful.net/144rn30e.xjx_Ng2M3Q.png)
+![144rn30e.xjx_Ng2M3Q](https://img-1255332810.cos.ap-chengdu.myqcloud.com/144rn30e.xjx_Ng2M3Q.png)
 
 ## 设置媒体库
 
 添加你的小姐姐媒体库，并在媒体库的刮削选项中勾选 `MetaTube` 插件，把其它插件可以取消勾选。
 
-![ojwlelqp.unv_tqGinN](https://slark-blog.s3.bitiful.net/ojwlelqp.unv_tqGinN.png)
+![ojwlelqp.unv_tqGinN](https://img-1255332810.cos.ap-chengdu.myqcloud.com/ojwlelqp.unv_tqGinN.png)
 
-![u3hsti00.3o5_Eu27v6](https://slark-blog.s3.bitiful.net/u3hsti00.3o5_Eu27v6.png)
+![u3hsti00.3o5_Eu27v6](https://img-1255332810.cos.ap-chengdu.myqcloud.com/u3hsti00.3o5_Eu27v6.png)
 
 保存之后，在媒体库里刷新元数据就可以了。

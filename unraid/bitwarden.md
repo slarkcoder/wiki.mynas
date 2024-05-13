@@ -14,7 +14,7 @@ Bitwarden 是一款开源的，支持 [自部署](https://github.com/dani-garcia
 
 这里还需要设置个 `ADMIN_TOKEN`，也就是管理员密码，用来对 Bitwarden 的功能进行设置。管理页面地址是： http:// 你的 NAS IP : 端口/admin。启动后可以使用默认端口 4743 访问 Bitwarden 服务。
 
-![qUIsLs_xk0AHF](https://slark-blog.s3.bitiful.net/qUIsLs_xk0AHF.png)
+![qUIsLs_xk0AHF](https://img-1255332810.cos.ap-chengdu.myqcloud.com/qUIsLs_xk0AHF.png)
 
 ## 群晖部署 Bitwarden
 
@@ -22,17 +22,17 @@ Bitwarden 是一款开源的，支持 [自部署](https://github.com/dani-garcia
 
 在群晖 Docker 中搜索 `vaultwarden/server` 镜像，下载并运行，只需要修改下面的设置就可以顺利启动容器了，启动后可以使用 8080 端口访问 Bitwarden 服务。
 
-![a7bxi8_xrcbaS](https://slark-blog.s3.bitiful.net/a7bxi8_xrcbaS.png)
+![a7bxi8_xrcbaS](https://img-1255332810.cos.ap-chengdu.myqcloud.com/a7bxi8_xrcbaS.png)
 
 Bitwarden 默认并不需要设置 ADMIN_TOKEN，如果你也想通过 Admin 来配置 Bitwarden 选项，可以在环境变量中加入 `ADMIN_TOKEN`。
 
-![QpN2Ov_kKA3hY](https://slark-blog.s3.bitiful.net/QpN2Ov_kKA3hY.png)
+![QpN2Ov_kKA3hY](https://img-1255332810.cos.ap-chengdu.myqcloud.com/QpN2Ov_kKA3hY.png)
 
 ## 添加 HTTPS 反向代理
 
 为了保证传输安全，Bitwarden 不能通过 HTTP 直接访问，需要添加 HTTPS 证书。
 
-![SKXCQl_zQwpf8](https://slark-blog.s3.bitiful.net/SKXCQl_zQwpf8.png)
+![SKXCQl_zQwpf8](https://img-1255332810.cos.ap-chengdu.myqcloud.com/SKXCQl_zQwpf8.png)
 
 对于有公网 IP 的朋友，可以申请域名配合  [Nginx Proxy Manager](https://nginxproxymanager.com/) 来为 Bitwarden 添加 HTTPS 证书。
 

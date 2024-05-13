@@ -6,7 +6,7 @@
 
 下面这是 [immich](https://immich.app/) 的 [Roadmap](https://github.com/orgs/immich-app/projects/1/views/1)，可以看到，很多功能和 bug 都在计划之中。
 
-![L1WOp7_nhJbBF](https://slark-blog.s3.bitiful.net/L1WOp7_nhJbBF.png)
+![L1WOp7_nhJbBF](https://img-1255332810.cos.ap-chengdu.myqcloud.com/L1WOp7_nhJbBF.png)
 
 ## 如何部署？
 
@@ -16,11 +16,11 @@
 
 - 需要建一个照片存储目录，用来保存你手机上的照片和视频。比如在 Unraid 的共享里建立一个名为 `photos` 的共享目录。
 
-![IqS9vw_bwxw78](https://slark-blog.s3.bitiful.net/IqS9vw_bwxw78.jpg)
+![IqS9vw_bwxw78](https://img-1255332810.cos.ap-chengdu.myqcloud.com/IqS9vw_bwxw78.jpg)
 
 - 安装 `Docker Compose Manager` 插件。安装 immich 使用 `Docker Compose Manager` 比较方便，在应用中心搜索安装即可。
 
-![AlK5M0_qlzzvl](https://slark-blog.s3.bitiful.net/AlK5M0_qlzzvl.png)
+![AlK5M0_qlzzvl](https://img-1255332810.cos.ap-chengdu.myqcloud.com/AlK5M0_qlzzvl.png)
 
 > 什么是 `Docker Compose`？简单理解，Docker Compose 就是一组复杂的 Docker 容器集合，通过一个 docker-compose 文件来描述它们之间的关系。对于我们用户来说，只要能找到这个应用的 docker-compose 文件，我们也能轻松的让这个复杂的应用运行起来，不用去关心它们之间的关系是怎样的。需要启动的时候，直接启动这个 compose 就可以。
 
@@ -30,32 +30,32 @@
 
 建好之后，我们点击名称，会弹出提示，我们再点击 `EDIT STACK`。接下来我们会填写 `COMPOSE FILE` 以及 `ENV FILE`。
 
-![gnpiY7_Gl0LZR](https://slark-blog.s3.bitiful.net/gnpiY7_Gl0LZR.png)
+![gnpiY7_Gl0LZR](https://img-1255332810.cos.ap-chengdu.myqcloud.com/gnpiY7_Gl0LZR.png)
 
-![xj40ii_anzJus](https://slark-blog.s3.bitiful.net/xj40ii_anzJus.png)
+![xj40ii_anzJus](https://img-1255332810.cos.ap-chengdu.myqcloud.com/xj40ii_anzJus.png)
 
 点击 `COMPOSE FILE`，将官方提供的 [Compose File](https://github.com/immich-app/immich/releases/latest/download/docker-compose.yml) 全部选中，直接复制粘贴到配置文本框里，然后点击 `SAVE CHANGES`。
 
-![zje0ia4u.in3_DMqWhX](https://slark-blog.s3.bitiful.net/zje0ia4u.in3_DMqWhX.png)
+![zje0ia4u.in3_DMqWhX](https://img-1255332810.cos.ap-chengdu.myqcloud.com/zje0ia4u.in3_DMqWhX.png)
 
 再点击 `ENV FILE`，将官方提供的 [Env File](https://github.com/immich-app/immich/releases/latest/download/example.env) 全部选中，直接复制粘贴到配置文件里。
 
 接着修改上传路径 `UPLOAD_LOCATION`。比如我们之前建立的共享文件夹 `photos` 的上传路径就是 `/mnt/user/photos`。
 
-![5azpnm4t.jez_6h9Vyo](https://slark-blog.s3.bitiful.net/5azpnm4t.jez_6h9Vyo.png)
+![5azpnm4t.jez_6h9Vyo](https://img-1255332810.cos.ap-chengdu.myqcloud.com/5azpnm4t.jez_6h9Vyo.png)
 
 到现在，我们的配置就改好了，点击 `SAVE CHANGES` 保存更改。
 
 接下来，就可以点击 `COMPOSE UP` 来启动容器了。
 
-![oCmpxh_V0AoQS](https://slark-blog.s3.bitiful.net/oCmpxh_V0AoQS.png)
+![oCmpxh_V0AoQS](https://img-1255332810.cos.ap-chengdu.myqcloud.com/oCmpxh_V0AoQS.png)
 过一会，等待容器启动完成，就可以在 Docker 列表看到一堆新的 docker 容器了。看到 `2283` 这个默认的端口之后，我们就可以打开浏览器输入 `NAS IP:2283` 访问 immich 了。
 
-![E7hI72_SIJF2t](https://slark-blog.s3.bitiful.net/E7hI72_SIJF2t.png)
+![E7hI72_SIJF2t](https://img-1255332810.cos.ap-chengdu.myqcloud.com/E7hI72_SIJF2t.png)
 
 immich 这个应用的启动和停止，可以通过控制最下方的 docker compose 来实现。
 
-![LTasjz_pzX2uv](https://slark-blog.s3.bitiful.net/LTasjz_pzX2uv.png)
+![LTasjz_pzX2uv](https://img-1255332810.cos.ap-chengdu.myqcloud.com/LTasjz_pzX2uv.png)
 
 ## 客户端
 
@@ -65,7 +65,7 @@ immich 这个应用的启动和停止，可以通过控制最下方的 docker co
 
 群晖的 Photos 支持人脸识别。在 immich 的网页版中，也有机器学习的选项，支持照片分类。
 
-![qHpbnv_a8CXhH](https://slark-blog.s3.bitiful.net/qHpbnv_a8CXhH.png)
+![qHpbnv_a8CXhH](https://img-1255332810.cos.ap-chengdu.myqcloud.com/qHpbnv_a8CXhH.png)
 
 ## 硬件加速（可选）
 
@@ -84,8 +84,8 @@ devices:
 
 修改之后应该是这样：
 
-![lhcnczxp.3o2_khvpiN](https://slark-blog.s3.bitiful.net/lhcnczxp.3o2_khvpiN.png)
+![lhcnczxp.3o2_khvpiN](https://img-1255332810.cos.ap-chengdu.myqcloud.com/lhcnczxp.3o2_khvpiN.png)
 
 保存后，点击更新 `UPDATE STACK`。之后在 Web 控制台里依次点击 `Administration -> Setting -> Video Transcoding Settings -> Hardware Acceleration`，将 `ACCELERATION API` 切换为 `Quick Sync` 并保存。
 
-![2jmo5k21.lt3_M1Mwo4](https://slark-blog.s3.bitiful.net/2jmo5k21.lt3_M1Mwo4.png)
+![2jmo5k21.lt3_M1Mwo4](https://img-1255332810.cos.ap-chengdu.myqcloud.com/2jmo5k21.lt3_M1Mwo4.png)

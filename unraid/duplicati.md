@@ -6,11 +6,11 @@ Duplicati 就是这样一款开源免费的工具，在 Unraid 中很轻松就�
 
 如果需要备份到本地，安装之前可以先建立好本地的备份共享目录（比如我建立的 backups）。在 Docker 设置页面将需要备份的目录（比如 /mnt/user）以及备份文件夹都加进来。需要注意的是，最好把 PUID 和 PGID 都设置为 0，避免备份的时候出现权限问题。
 
-![L6Zm32_TQ2am6](https://slark-blog.s3.bitiful.net/L6Zm32_TQ2am6.png)
+![L6Zm32_TQ2am6](https://img-1255332810.cos.ap-chengdu.myqcloud.com/L6Zm32_TQ2am6.png)
 
 部署好之后，打开 WebUI 端口进来，就可以新增备份了，一路根据向导操作即可，都非常简单。
 
-![BExM8e_KSInY6](https://slark-blog.s3.bitiful.net/BExM8e_KSInY6.png)
+![BExM8e_KSInY6](https://img-1255332810.cos.ap-chengdu.myqcloud.com/BExM8e_KSInY6.png)
 
 在第二步保存位置这里，如果选了保存到 `本地文件夹或磁盘`，在文件夹路径中，需要选中 `backups`。
 
@@ -18,4 +18,4 @@ Duplicati 就是这样一款开源免费的工具，在 Unraid 中很轻松就�
 
 最后设置备份计划以及备份策略，之后点击保存就可以自动备份了。
 
-![WXG5EZ_Wk37tx](https://slark-blog.s3.bitiful.net/WXG5EZ_Wk37tx.png)
+![WXG5EZ_Wk37tx](https://img-1255332810.cos.ap-chengdu.myqcloud.com/WXG5EZ_Wk37tx.png)

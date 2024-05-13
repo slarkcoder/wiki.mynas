@@ -6,7 +6,7 @@ Immich 是一个非常好用的，开源的照片管理工具，支持 iOS 和 A
 
 建立共享文件夹 immich 用来保存照片文件。共享文件夹建好之后，可以在 `File Station` 中右击选择属性查看文件夹的路径，记下备用。
 
-![4YcuE6_aUBkpB](https://slark-blog.s3.bitiful.net/4YcuE6_aUBkpB.png)
+![4YcuE6_aUBkpB](https://img-1255332810.cos.ap-chengdu.myqcloud.com/4YcuE6_aUBkpB.png)
 
 ## 下载配置文件
 
@@ -40,19 +40,19 @@ REDIS_HOSTNAME=immich_redis
 
 在 File Station 中的 docker 文件夹下面建立 immich 文件夹，用来保存配置文件。将修改好的 example.env 和 docker-compose.yml 上传到 /docker/immich 下面。并把 example.env 重命名为 .env。
 
-![TIk4cP_iMOlbi](https://slark-blog.s3.bitiful.net/TIk4cP_iMOlbi.png)
+![TIk4cP_iMOlbi](https://img-1255332810.cos.ap-chengdu.myqcloud.com/TIk4cP_iMOlbi.png)
 
 在 Container Manager 项目中新增，项目名称填写 immich，设置路径选择 /docekr/immich 后会提示已含有 docker-compose.yml，使用现有的 yml 来创建项目，一直下一步就自动开始拉取镜像部署了。
 
-![vfnsdszh.3eh_htNSwa](https://slark-blog.s3.bitiful.net/vfnsdszh.3eh_htNSwa.png)
+![vfnsdszh.3eh_htNSwa](https://img-1255332810.cos.ap-chengdu.myqcloud.com/vfnsdszh.3eh_htNSwa.png)
 
 部署完成之后，会自动启动所有的容器。
 
-![LwYuGy_nUqG5G](https://slark-blog.s3.bitiful.net/LwYuGy_nUqG5G.png)
+![LwYuGy_nUqG5G](https://img-1255332810.cos.ap-chengdu.myqcloud.com/LwYuGy_nUqG5G.png)
 
 Immich 默认的 Web 端口是 2283。
 
-![uwz3fsc3.ujp_MuBCtH](https://slark-blog.s3.bitiful.net/uwz3fsc3.ujp_MuBCtH.png)
+![uwz3fsc3.ujp_MuBCtH](https://img-1255332810.cos.ap-chengdu.myqcloud.com/uwz3fsc3.ujp_MuBCtH.png)
 
 ## 如何更新？
 

@@ -18,58 +18,58 @@
 
 点击 `安装`。
 
-![synology_install_1_W0BwB0](https://slark-blog.s3.bitiful.net/synology_install_1_W0BwB0.png)
+![synology_install_1_W0BwB0](https://img-1255332810.cos.ap-chengdu.myqcloud.com/synology_install_1_W0BwB0.png)
 
 默认选择 `自动从 Synology 网站下载`，点击下一步。
 
-![synology_install_2_cpnHbP](https://slark-blog.s3.bitiful.net/synology_install_2_cpnHbP.png)
+![synology_install_2_cpnHbP](https://img-1255332810.cos.ap-chengdu.myqcloud.com/synology_install_2_cpnHbP.png)
 
 安装系统需要格式化硬盘，请确认你的硬盘数据已经备份，点击 `继续`。
 
-![synology_install_3_ScPUy7](https://slark-blog.s3.bitiful.net/synology_install_3_ScPUy7.png)
+![synology_install_3_ScPUy7](https://img-1255332810.cos.ap-chengdu.myqcloud.com/synology_install_3_ScPUy7.png)
 
 按提示输入型号 `SA6400`，点击删除。
 
-![synology_install_4_C9RZOc](https://slark-blog.s3.bitiful.net/synology_install_4_C9RZOc.png)
+![synology_install_4_C9RZOc](https://img-1255332810.cos.ap-chengdu.myqcloud.com/synology_install_4_C9RZOc.png)
 
 正在安装，会显示进度，之后会显示倒计时 10 分钟。
 
-![synology_install_5_wZc0ly](https://slark-blog.s3.bitiful.net/synology_install_5_wZc0ly.png)
+![synology_install_5_wZc0ly](https://img-1255332810.cos.ap-chengdu.myqcloud.com/synology_install_5_wZc0ly.png)
 
 如果一切顺利，到这里系统就装好了，点击开始。
 
-![synology_install_6_4vg0q1](https://slark-blog.s3.bitiful.net/synology_install_6_4vg0q1.png)
+![synology_install_6_4vg0q1](https://img-1255332810.cos.ap-chengdu.myqcloud.com/synology_install_6_4vg0q1.png)
 
 接下来设置群晖设备名，以及本地账户，按提示填写即可。
 
-![Synology_install_7_2uG5eu](https://slark-blog.s3.bitiful.net/Synology_install_7_2uG5eu.png)
+![Synology_install_7_2uG5eu](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Synology_install_7_2uG5eu.png)
 
 更新选择 `手动安装`。
 
-![synolog_install_9_thP6XQ](https://slark-blog.s3.bitiful.net/synolog_install_9_thP6XQ.png)
+![synolog_install_9_thP6XQ](https://img-1255332810.cos.ap-chengdu.myqcloud.com/synolog_install_9_thP6XQ.png)
 
 选择 `跳过`。
 
-![synology_install_10_Ldz9E8](https://slark-blog.s3.bitiful.net/synology_install_10_Ldz9E8.png)
+![synology_install_10_Ldz9E8](https://img-1255332810.cos.ap-chengdu.myqcloud.com/synology_install_10_Ldz9E8.png)
 
 设备分析，不用勾选，点击 `提交`。
 
-![synology_install_11_uWWJbT](https://slark-blog.s3.bitiful.net/synology_install_11_uWWJbT.png)
+![synology_install_11_uWWJbT](https://img-1255332810.cos.ap-chengdu.myqcloud.com/synology_install_11_uWWJbT.png)
 
 点击 `高级选项`，选择 `继续前往`。
 
-![synology_install_12_QW8Tiz](https://slark-blog.s3.bitiful.net/synology_install_12_QW8Tiz.png)
+![synology_install_12_QW8Tiz](https://img-1255332810.cos.ap-chengdu.myqcloud.com/synology_install_12_QW8Tiz.png)
 
 选择 `不用了，谢谢`。
 
-![synology_install_13_Ict3Zl](https://slark-blog.s3.bitiful.net/synology_install_13_Ict3Zl.png)
+![synology_install_13_Ict3Zl](https://img-1255332810.cos.ap-chengdu.myqcloud.com/synology_install_13_Ict3Zl.png)
 
 选择 `不用了，谢谢`。
 
-![synology_install_14_C6AnwM](https://slark-blog.s3.bitiful.net/synology_install_14_C6AnwM.png)
+![synology_install_14_C6AnwM](https://img-1255332810.cos.ap-chengdu.myqcloud.com/synology_install_14_C6AnwM.png)
 
 选择 `放弃保护我的账户`。
 
-![synology_install_15_8ZjZP5](https://slark-blog.s3.bitiful.net/synology_install_15_8ZjZP5.png)
+![synology_install_15_8ZjZP5](https://img-1255332810.cos.ap-chengdu.myqcloud.com/synology_install_15_8ZjZP5.png)
 
 至此系统安装完成，你已经可以开始使用群晖了。

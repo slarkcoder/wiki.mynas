@@ -16,4 +16,4 @@
 
 下载后解压，使用 rufus 或者 etcher
 
-![vdoeq5za.ogt_O91rPX](https://slark-blog.s3.bitiful.net/vdoeq5za.ogt_O91rPX.png)
+![vdoeq5za.ogt_O91rPX](https://img-1255332810.cos.ap-chengdu.myqcloud.com/vdoeq5za.ogt_O91rPX.png)

@@ -10,13 +10,13 @@
 
 在虚拟机中新建 Linux 虚拟机，按照下图设置。
 
-![](https://slark-blog.s3.bitiful.net/20231208004127_wfgCDv.png)
+![](https://img-1255332810.cos.ap-chengdu.myqcloud.com/20231208004127_wfgCDv.png)
 
 设置完成之后，点击创建，之后虚拟机会启动。打开虚拟机的 VM Console（VNC）就可以看到虚拟机的启动过程。
 
 启动完成之后，可以编辑（可以用 vi 命令编辑） `/etc/config/network` ，为旁路由设置一个静态 IP。比如我这里把旁路由的 IP 改成了 `192.168.2.100`，其它都保持默认，不需要修改。
 
-![](https://slark-blog.s3.bitiful.net/dvh1QC_pIPTdG.png)
+![](https://img-1255332810.cos.ap-chengdu.myqcloud.com/dvh1QC_pIPTdG.png)
 
 设置完成之后，将 Unraid 的默认网关和 DNS 服务器都修改为旁路由的 IP，Unraid 就可以通过旁路由来上网了。
 
@@ -28,17 +28,17 @@
 
 在 `工具 -> 系统设备`  里勾选需要直通的网卡，重启生效。
 
-![](https://slark-blog.s3.bitiful.net/20231208005316_W54ool.png)
+![](https://img-1255332810.cos.ap-chengdu.myqcloud.com/20231208005316_W54ool.png)
 
 虚拟机建立过程和上面的旁路由一致，不过这里需要再勾选上直通的网卡。
 
-![](https://slark-blog.s3.bitiful.net/20231208005547_JvLatS.png)
+![](https://img-1255332810.cos.ap-chengdu.myqcloud.com/20231208005547_JvLatS.png)
 
 虚拟机启动之后，编辑（可以用 vi 命令编辑） `/etc/config/network` 修改网络设置。这里需要说明一下，我用的这个机器是双网口，在 iStoreOS 中需要把 LAN 口设置为桥接的 eth0，WAN 口设置为直通的物理网卡 eth1。
 
 一般情况下，软路由中默认的 eth0 都是桥接的网卡，可以作为 LAN 口，其它的网卡（比如直通的网卡）可以作为 WAN 口。
 
-![](https://slark-blog.s3.bitiful.net/5dsGV0_wQ2pnl.png)
+![](https://img-1255332810.cos.ap-chengdu.myqcloud.com/5dsGV0_wQ2pnl.png)
 
 除了修改网卡之外，再把 LAN 口的 IP 设置好就可以了。
 
@@ -48,6 +48,6 @@
 
 在 Unraid 网络设置中，eth0 的桥接默认已经开启，将 eth1 的启用桥接设置为 `是`。
 
-![](https://slark-blog.s3.bitiful.net/20231208020629_fjnrR0.png)
+![](https://img-1255332810.cos.ap-chengdu.myqcloud.com/20231208020629_fjnrR0.png)
 
 创建虚拟机的过程和上面一致，在网卡部分，添加一个 `br2` 的网卡，随机生成一个 mac 地址即可。剩下的操作和上面的多网口一样，这里不再赘述。

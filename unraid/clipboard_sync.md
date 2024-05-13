@@ -38,11 +38,11 @@ sudo xattr -d com.apple.quarantine /Applications/SyncClipboard.app
 
 打开软件后，把服务器的配置填进去：
 
-![ma3hzywr.o5w_Zdak1I](https://slark-blog.s3.bitiful.net/ma3hzywr.o5w_Zdak1I.png)
+![ma3hzywr.o5w_Zdak1I](https://img-1255332810.cos.ap-chengdu.myqcloud.com/ma3hzywr.o5w_Zdak1I.png)
 
 mac 端似乎没有开机登录的选项，可以在系统的登录项中手动添加。
 
-![QmlG58_qKPD1f](https://slark-blog.s3.bitiful.net/QmlG58_qKPD1f.png)
+![QmlG58_qKPD1f](https://img-1255332810.cos.ap-chengdu.myqcloud.com/QmlG58_qKPD1f.png)
 
 如果你只有一台电脑和手机同步，那也可以直接用这台电脑作为服务器。
 ## Android
@@ -52,17 +52,17 @@ mac 端似乎没有开机登录的选项，可以在系统的登录项中手动�
 到这里下载 [AutoX](https://github.com/kkevsekk1/AutoX/releases) 安卓客户端，安装之后，导入 [ js 配置](https://github.com/Jeric-X/SyncClipboard/blob/master/script/SyncAutoxJs.js)，并修改配置中的 url（也就是你的服务器连接地址），username（用户名） 和 token（密码）。 Autox.js
 中也可以直接编辑 js 脚本：
 
-![zgknads2.0uz_wHrQgp](https://slark-blog.s3.bitiful.net/zgknads2.0uz_wHrQgp.png)
+![zgknads2.0uz_wHrQgp](https://img-1255332810.cos.ap-chengdu.myqcloud.com/zgknads2.0uz_wHrQgp.png)
 
 修改完之后，把 Autox.js 这个 app 的后台运行权限打开，确保不会被系统杀掉。为 js 配置脚本添加一个定时任务，让 Autox.js 启动时就自动运行。
 
-![Screenshot_2024-01-08-11-12-57-366_org.autojs.autoxjs.v6_tCKn9b](https://slark-blog.s3.bitiful.net/Screenshot_2024-01-08-11-12-57-366_org.autojs.autoxjs.v6_tCKn9b.jpg)
+![Screenshot_2024-01-08-11-12-57-366_org.autojs.autoxjs.v6_tCKn9b](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Screenshot_2024-01-08-11-12-57-366_org.autojs.autoxjs.v6_tCKn9b.jpg)
 
-![Screenshot_2024-01-08-11-17-43-359_org.autojs.autoxjs.v6_rgRZas](https://slark-blog.s3.bitiful.net/Screenshot_2024-01-08-11-17-43-359_org.autojs.autoxjs.v6_rgRZas.jpg)
+![Screenshot_2024-01-08-11-17-43-359_org.autojs.autoxjs.v6_rgRZas](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Screenshot_2024-01-08-11-17-43-359_org.autojs.autoxjs.v6_rgRZas.jpg)
 
 在管理页面，确保脚本是在运行中的。
 
-![u5vxq5e5.4dp_6YLcwk](https://slark-blog.s3.bitiful.net/u5vxq5e5.4dp_6YLcwk.png)
+![u5vxq5e5.4dp_6YLcwk](https://img-1255332810.cos.ap-chengdu.myqcloud.com/u5vxq5e5.4dp_6YLcwk.png)
 
 至此，就可以试试具体效果了， mac 端复制，手机端就已经提示复制到剪贴板了。
 
@@ -70,7 +70,7 @@ mac 端似乎没有开机登录的选项，可以在系统的登录项中手动�
 
 > 源设备复制 -> 目标设备粘贴
 
-![Screenshot_2024-01-08-11-37-06-817_com.miui.home-edit_vqaM1F](https://slark-blog.s3.bitiful.net/Screenshot_2024-01-08-11-37-06-817_com.miui.home-edit_vqaM1F.jpg)
+![Screenshot_2024-01-08-11-37-06-817_com.miui.home-edit_vqaM1F](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Screenshot_2024-01-08-11-37-06-817_com.miui.home-edit_vqaM1F.jpg)
 
 如果是安卓手机端复制，需要同步到 mac 剪贴板，受限于安卓系统的限制，需要下面条件之一：
 - Android 版本小于等于 Android 9 Pie

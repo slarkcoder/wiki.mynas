@@ -6,7 +6,7 @@
 
 如果宿主机是 `Unraid` 驱动可以从 `设置` -> `管理器` 中下载，在创建虚拟机的时候选择驱动就行。
 
-![ls2zrvod.spn_xguAii](https://slark-blog.s3.bitiful.net/ls2zrvod.spn_xguAii.png)
+![ls2zrvod.spn_xguAii](https://img-1255332810.cos.ap-chengdu.myqcloud.com/ls2zrvod.spn_xguAii.png)
 
 如果宿主机是 PVE，可以从 PVE 官网 [下载 VirtIO 驱动](https://pve.proxmox.com/wiki/Windows_VirtIO_Drivers#Installation)，在创建虚拟机的时候额外添加一个 ISO 镜像，装好 `Windows` 进入系统之后就能直接从 CD 驱动器中安装 `VirtIO` 驱动。
 

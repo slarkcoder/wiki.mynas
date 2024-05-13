@@ -18,7 +18,7 @@
 
 可以直接扫码加入：
 
-![WechatIMG151_lolg1H](https://slark-blog.s3.bitiful.net/WechatIMG151_lolg1H.jpg)
+![WechatIMG151_lolg1H](https://img-1255332810.cos.ap-chengdu.myqcloud.com/WechatIMG151_lolg1H.jpg)
 
 如果二维码过期，可以直接发消息到我的微信，并注明 `加群`，我手动拉你进群。
 
@@ -32,4 +32,4 @@
 
 添加好友，请备注：NAS
 
-![未命名码_HVVQ3K](https://slark-blog.s3.bitiful.net/未命名码_HVVQ3K.png)
+![未命名码_HVVQ3K](https://img-1255332810.cos.ap-chengdu.myqcloud.com/未命名码_HVVQ3K.png)

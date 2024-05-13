@@ -12,7 +12,7 @@ https://mirror.ccs.tencentyun.com
 
 登录（如果没有，可以直接用手机号登录）阿里云 [https://cr.console.aliyun.com/cn-shanghai/instances/repositories](https://cr.console.aliyun.com/cn-shanghai/instances/repositories) 之后就可以在 `镜像工具 -> 镜像加速器` 中看到 `加速器地址` 了。
 
-![b4hhN4_npdhLI](https://slark-blog.s3.bitiful.net/b4hhN4_npdhLI.png)
+![b4hhN4_npdhLI](https://img-1255332810.cos.ap-chengdu.myqcloud.com/b4hhN4_npdhLI.png)
 
 ## 配置 Docker 加速
 
@@ -33,4 +33,4 @@ https://mirror.ccs.tencentyun.com/
 
 之后在 `设置 -> Docker` 中，先将 `启用 Docker` 设置为 `否`，点击应用，再将 `启用 Docker` 设置为 `是`，点击应用。这样就完成了重启 Docker 的操作，Docker 的镜像加速服务也就生效了。
 
-![u1TStC_UEOb4d](https://slark-blog.s3.bitiful.net/u1TStC_UEOb4d.png)
+![u1TStC_UEOb4d](https://img-1255332810.cos.ap-chengdu.myqcloud.com/u1TStC_UEOb4d.png)

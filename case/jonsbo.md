@@ -27,17 +27,17 @@
 - **减震螺丝不要拧的太紧，否则插拔会很费劲。**
 - **如果 3.5 寸盘插进去了，发现磁吸硬盘盖盖不上，那肯定是你的 3.5 寸硬盘没插到位，再多用点力往里推吧。**
 
-![dn2fknly.ufe_MHolZd](https://slark-blog.s3.bitiful.net/dn2fknly.ufe_MHolZd.png)
+![dn2fknly.ufe_MHolZd](https://img-1255332810.cos.ap-chengdu.myqcloud.com/dn2fknly.ufe_MHolZd.png)
 
-![j5aw5vyh.0u2_TY8g76](https://slark-blog.s3.bitiful.net/j5aw5vyh.0u2_TY8g76.png)
+![j5aw5vyh.0u2_TY8g76](https://img-1255332810.cos.ap-chengdu.myqcloud.com/j5aw5vyh.0u2_TY8g76.png)
 
 ### 安装 2.5 寸 SSD 硬盘
 
 2.5 寸 SSD 的位置位于机箱内部，需要打开机箱盖子才能安装，安装需要使用随机包装附带的 SSD 螺丝， 2.5 寸 SSD 所需的 SATA 线和电源线都有预留。
 
-![0xjgiim4.rek_gV5TTQ](https://slark-blog.s3.bitiful.net/0xjgiim4.rek_gV5TTQ.png)
+![0xjgiim4.rek_gV5TTQ](https://img-1255332810.cos.ap-chengdu.myqcloud.com/0xjgiim4.rek_gV5TTQ.png)
 
-![qsbn2_nDn4VV](https://slark-blog.s3.bitiful.net/qsbn2_nDn4VV.png)
+![qsbn2_nDn4VV](https://img-1255332810.cos.ap-chengdu.myqcloud.com/qsbn2_nDn4VV.png)
 
 ### 免费获取 2.5 寸硬盘支架
 

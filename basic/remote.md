@@ -1,6 +1,6 @@
 # 常见的远程访问 NAS 方法
 
-![remote_En32qD](https://slark-blog.s3.bitiful.net/remote_En32qD.jpg)
+![remote_En32qD](https://img-1255332810.cos.ap-chengdu.myqcloud.com/remote_En32qD.jpg)
 
 ## 最佳方案 - 公网 IPv4
 
