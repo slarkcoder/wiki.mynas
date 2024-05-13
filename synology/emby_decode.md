@@ -4,7 +4,7 @@
 
 开始之前，可以先下载测试视频文件备用。
 
-[阿里云盘：4K+IMAX DTS：X-碟中谍4.mkv](https://www.alipan.com/s/WbghdnCdCxo)
+[123 云盘：4K+IMAX DTS：X-碟中谍4.mkv](https://www.123pan.com/s/1JKMjv-VJxo.html)
 
 ::: warning 注意
 Jellyfin 和 Emby 默认都使用 8096 端口，不能共存，只能二选一。
