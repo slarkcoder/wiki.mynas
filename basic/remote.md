@@ -13,6 +13,10 @@
 
 ## 值得试试 - Zerotier
 
+:::warning 提示
+如果你在 Unraid 中使用 docker 安装 `zerotier`，遇到无法远程访问 unraid 管理页面，但其它 docker 服务端口可以正常访问时，可以试试这个解决办法。[解决虚拟组网远程无法访问 80 端口问题](/unraid/remote.md)。
+:::
+
 如果申请不到公网 IPv4，可以试试 Zerotier。
 
 - 优点：采用虚拟 VPN 的方式来组建网络，相较于公网 IP 暴露端口的方式，比较安全。
@@ -23,6 +27,10 @@
 类似的方案还有 [tailscale](https://tailscale.com/)，原理和 Zerotier 类似，可以自行了解。
 
 ## 星空组网 - [Starvpn](https://starvpn.cn/)
+
+:::warning 提示
+如果你在 Unraid 中使用 docker 安装 `星空组网`，遇到无法远程访问 unraid 管理页面，但其它 docker 服务端口可以正常访问时，可以试试这个解决办法。[解决虚拟组网远程无法访问 80 端口问题](/unraid/remote.md)。
+:::
 
 星空组网是一个国产的异地虚拟组网软件，原理也和 Zerotier 类似，但因为服务器在国内，所以连接速度非常快。如果能够实现点对点直连，效果也就和使用公网 IP 一样，如果直连不成功，就走星空组网提供的中转服务器，限速 10Mbps。支持各种客户端，包括 Openwrt，群晖，iOS 和 Android，官网也提供了详细的设置教程，使用起来没难度。
 
