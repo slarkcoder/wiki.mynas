@@ -4,6 +4,12 @@
 
 测试环境：`Synology v7.2`，`SA6400`，nyanmisaka/jellyfin `v10.8.13`
 
+## [i5-12500](https://www.intel.cn/content/www/cn/zh/products/sku/96144/intel-core-i512500-processor-18m-cache-up-to-4-60-ghz/specifications.html)
+- 核显：Intel® UHD Graphics 770，32 个执行单元
+- 转码帧率：72 fps
+
+![12500_DMRanZ](https://img-1255332810.cos.ap-chengdu.myqcloud.com/12500_DMRanZ.png)
+
 ## [i3-12400](https://ark.intel.com/content/www/cn/zh/ark/products/134586/intel-core-i5-12400-processor-18m-cache-up-to-4-40-ghz.html)
 
 - 核显：Intel® UHD Graphics 730，24 个执行单元
