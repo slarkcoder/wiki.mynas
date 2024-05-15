@@ -2,6 +2,12 @@
 
 本文以 [iStoreOS](https://fw.koolcenter.com/iStoreOS/x86_64/) 为例来介绍如何在 Unraid 中安装软路由。IStoreOS 基于 OpenWrt 开发，在易用性上做了很多优化，系统支持在线更新，由于是国内公司开发的系统，默认并不含有代理功能。如有相关需求，可以自行 [下载相关插件包](https://github.com/AUK9527/Are-u-ok/tree/main/x86) 安装。
 
+## 各种常见网络拓扑的区别
+
+在安装软路由之前，可以先仔细看看下面这个图，了解各种网络拓扑的区别。
+
+![main_router.drawio_9x2DFh](https://img-1255332810.cos.ap-chengdu.myqcloud.com/main_router.drawio_9x2DFh.svg)
+
 ## 旁路由（单网口）
 
 如果你的设备只有一个网口，那可以安装旁路由。
