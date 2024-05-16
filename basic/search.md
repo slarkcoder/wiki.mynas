@@ -39,7 +39,13 @@ Unraid 官方的中文论坛也有不少有价值的讨论，遇到问题也可�
 
 国内可以直接试试 [Kimi](https://kimi.moonshot.cn)。
 
+下面是一些使用 Kimi 来解决群友提问的例子：
+
 ![mRUHMe_buvePN](https://img-1255332810.cos.ap-chengdu.myqcloud.com/mRUHMe_buvePN.png)
+
+![WechatIMG5165_aZ4yFo](https://img-1255332810.cos.ap-chengdu.myqcloud.com/WechatIMG5165_aZ4yFo.jpg)
+
+![WechatIMG5404_uCwgly](https://img-1255332810.cos.ap-chengdu.myqcloud.com/WechatIMG5404_uCwgly.jpg)
 
 ## 本站的搜索功能
 
