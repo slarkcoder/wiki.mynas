@@ -27,6 +27,10 @@
 - **减震螺丝不要拧的太紧，否则插拔会很费劲。**
 - **如果 3.5 寸盘插进去了，发现磁吸硬盘盖盖不上，那肯定是你的 3.5 寸硬盘没插到位，再多用点力往里推吧。**
 
+![1715833801685_xlF0aV](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1715833801685_xlF0aV.jpg)
+
+![1715833801699_Vo3fVJ](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1715833801699_Vo3fVJ.jpg)
+
 ![dn2fknly.ufe_MHolZd](https://img-1255332810.cos.ap-chengdu.myqcloud.com/dn2fknly.ufe_MHolZd.png)
 
 ![j5aw5vyh.0u2_TY8g76](https://img-1255332810.cos.ap-chengdu.myqcloud.com/j5aw5vyh.0u2_TY8g76.png)
@@ -48,3 +52,11 @@
 ::: warning 注意
 硬盘支架只送给有需求的用户，默认不送，如果你有需求，请及时和我说明需求数量。
 :::
+
+安装方法参考下面几张图：
+
+![1715833801673_LiWbl0](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1715833801673_LiWbl0.jpg)
+
+![1715833801666_qtWyT9](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1715833801666_qtWyT9.jpg)
+
+![1715833801660_NGx3jj](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1715833801660_NGx3jj.jpg)
