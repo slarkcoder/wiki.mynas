@@ -6,7 +6,6 @@
 
 - 选择 `Choose a model`：选择 `SA6400`。
 - 选择 `Choose a version`：选择 `7.2`。
-- 选择 `Addons menu -> Add an addon -> cpuinfo`：选择 `OK` 之后返回主菜单。
 - 选择 `Build the loader`，等待编译完成。
 
 ![5mjefdjo.s5f_3HQvA8](https://img-1255332810.cos.ap-chengdu.myqcloud.com/5mjefdjo.s5f_3HQvA8.png)
