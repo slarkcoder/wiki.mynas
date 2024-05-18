@@ -26,11 +26,23 @@
 
 ## 如何扫描机械硬盘坏道？
 
+### 使用 Windows 直接扫描
+
 Windows 可以安装 [图吧工具箱](https://www.tbtool.cn/)，里面带的 `HDTune Pro` 这个工具，可以用来错误扫描，扫描完正常的结果应该是全绿，如下图所示。
 
 容量越大的硬盘，扫描时间也越长，比如东芝的 MG07 14TB，扫描一遍需要大概 16~18 个小时左右。
 
 ![](https://img-1255332810.cos.ap-chengdu.myqcloud.com/mYQSyC_tQf8hk.png)
+
+### 使用 U 盘启动 PE 扫描
+
+如果你的 Windows 无法外接硬盘扫描，那可以把硬盘都直接装到 NAS 里，使用 U 制作一个 PE 启动盘，在 NAS 主板 BIOS 里设置通过 U 盘启动 PE 来扫描。
+
+PE 推荐使用 [Edgeless](https://down.edgeless.top/)，下载 ISO 镜像，使用 [rufus](https://rufus.ie/zh/) 或者 [balenaEtcher](https://etcher.balena.io/) 之类的启动盘制作工具将镜像写入 U 盘，通过 U 盘启动 PE 之后，可以使用 `DiskGenius` 的 [坏道检测与修复](https://www.diskgenius.cn/help/verify.php) 功能来扫描坏道。
+
+### 使用虚拟机启动 PE 扫描
+
+如果没有 Windows，你使用的是 `PVE` 或者 `Unraid`，也可以启动一个 PE 虚拟机，将硬盘直通给 PE 虚拟机。PE 推荐使用 [Edgeless](https://down.edgeless.top/)，启动 PE 之后，可以使用 `DiskGenius` 的 [坏道检测与修复](https://www.diskgenius.cn/help/verify.php) 功能来扫描坏道。
 
 ## 如何查看 SSD 读写数据？
 
