@@ -21,13 +21,13 @@ export default defineConfig({
       { text: '定制 NAS & 联系我', 
         items: [
           { text: '定制流程', link: '/process.md' },
-          // { text: '系统方案', link: '/system_design.md' },
+          // { text: '系统方案', link: '/system_solution.md' },
           { text: '技术支持', link: '/support.md' },
           { text: '售后服务', link: '/after_sales_service.md' },
           { text: '闲鱼-鱼小铺', link: '/store.md' },
         ]
       },
-      
+      { text: '提交需求', link: 'https://jinshuju.net/f/qGaDq1' },
       { text: '交流群组', link: '/contact.md' },
       { text: '我的博客', link: 'https://slarker.me' },
       { text: '☕️ 喝咖啡！', link: '/coffee.md' },
