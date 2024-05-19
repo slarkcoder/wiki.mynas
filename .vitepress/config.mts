@@ -140,6 +140,7 @@ export default defineConfig({
         text: 'PVE',
         collapsed: false,
         items:[
+          { text: '常见功能设置', link: '/pve/basic.md' },
           { text: '更新群晖引导', link: '/pve/update_synology.md' },
           // { text: '远程访问 Windows 虚拟机', link: '/pve/windows_remote.md' },
           
