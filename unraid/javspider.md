@@ -7,7 +7,7 @@
 
 如果你在 NAS 上收集了不少小姐姐，想必你也希望能有个海报墙，具体效果像下面这样：
 
-![J63DJA_bxqbbn](https://img-1255332810.cos.ap-chengdu.myqcloud.com/J63DJA_bxqbbn.png)
+![J63DJA_bxqbbn_ggjsEO](https://img-1255332810.cos.ap-chengdu.myqcloud.com/J63DJA_bxqbbn_ggjsEO.jpg)
 
 正常电影可以使用 [TinyMediaManager](/unraid/tmm.md) 来刮削，像是小姐姐这种日本电影就得通过别的方法来单独刮削，很多  GitHub 上的开源项目，都是通过抓取类似 `javbus` 这种第三方的信息网站来实现刮削。相比正常电影，日本电影的元数据信息比较简单，而且命名来说规则性很强，第三方适配起来难度也不算高。本篇教程就介绍一个相对比较简单的方案，使用 [MetaTube](https://metatube-community.github.io/) 来刮削小姐姐。
 

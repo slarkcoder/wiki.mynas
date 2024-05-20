@@ -55,8 +55,8 @@
 
 安装方法参考下面几张图：
 
-![1715833801673_LiWbl0](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1715833801673_LiWbl0.jpg)
+![1715833801673_LiWbl0_y15HpP](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1715833801673_LiWbl0_y15HpP.jpg)
 
-![1715833801666_qtWyT9](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1715833801666_qtWyT9.jpg)
+![1715833801666_qtWyT9_nFANvS](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1715833801666_qtWyT9_nFANvS.jpg)
 
 ![1715833801660_NGx3jj](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1715833801660_NGx3jj.jpg)

@@ -8,7 +8,7 @@
 - 核显：Intel® UHD Graphics 770，32 个执行单元
 - 转码帧率：72 fps
 
-![12500_DMRanZ](https://img-1255332810.cos.ap-chengdu.myqcloud.com/12500_DMRanZ.png)
+![12500_DMRanZ_kHwjNF](https://img-1255332810.cos.ap-chengdu.myqcloud.com/12500_DMRanZ_kHwjNF.jpg)
 
 ## [i3-12400](https://ark.intel.com/content/www/cn/zh/ark/products/134586/intel-core-i5-12400-processor-18m-cache-up-to-4-40-ghz.html)
 
@@ -38,7 +38,7 @@
 
 > 该 CPU 核显转码效果在 Unraid 下面测试。
 
-![eurhohcy.hy2_lWkVmr](https://img-1255332810.cos.ap-chengdu.myqcloud.com/eurhohcy.hy2_lWkVmr.png)
+![eurhohcy.hy2_lWkVmr_6bVIue](https://img-1255332810.cos.ap-chengdu.myqcloud.com/eurhohcy.hy2_lWkVmr_6bVIue.jpg)
 
 ## [N100](https://ark.intel.com/content/www/cn/zh/ark/products/231803/intel-processor-n100-6m-cache-up-to-3-40-ghz.html)
 
@@ -55,7 +55,7 @@
 
 转码质量选择 `4K 40Mbps`，最多可满足 4 个终端同时流畅观看。
 
-![Emby_4K_40Mbps_wAmPKF](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Emby_4K_40Mbps_wAmPKF.png)
+![Emby_4K_40Mbps_wAmPKF_uMLGP1](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Emby_4K_40Mbps_wAmPKF_uMLGP1.jpg)
 
 ## [N5105](https://www.intel.cn/content/www/cn/zh/products/sku/212328/intel-celeron-processor-n5105-4m-cache-up-to-2-90-ghz/specifications.html)
 
