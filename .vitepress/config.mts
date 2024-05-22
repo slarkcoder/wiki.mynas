@@ -119,6 +119,7 @@ export default defineConfig({
           { text: '解决虚拟组网远程无法访问 80 端口问题', link: '/unraid/remote.md' },
           { text: '小姐姐元数据刮削解决方案', link: '/unraid/javspider.md' },
           { text: '给使用命令安装的 Docker 应用添加图标', link: '/unraid/app_icon.md' },
+          { text: '适合个人和小团队的看板应用 - Planka', link: '/unraid/planka.md' },
         ]
       },
       {
