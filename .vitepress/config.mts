@@ -56,7 +56,7 @@ export default defineConfig({
       },
       {
         text: '机箱',
-        // collapsed: false,
+        collapsed: false,
         items:[
           { text: '乔思伯机箱', link: '/case/jonsbo.md' },
           { text: '梵隆机箱', link: '/case/fanlong.md' },
@@ -95,6 +95,7 @@ export default defineConfig({
         text: 'Unraid',
         collapsed: false,
         items: [
+          // { text: '磁盘阵列和 ZFS', link: '/unraid/array.md' },
           { text: '用户和共享', link: '/unraid/user_share.md' },
           { text: '文件管理', link: '/unraid/filemanager.md' },
           { text: '网络测速', link: '/unraid/speedtest.md' },
@@ -143,7 +144,7 @@ export default defineConfig({
         items:[
           { text: '常见功能设置', link: '/pve/basic.md' },
           { text: '更新群晖引导', link: '/pve/update_synology.md' },
-          // { text: '远程访问 Windows 虚拟机', link: '/pve/windows_remote.md' },
+          // { text: '安装 Windows 虚拟机并设置远程访问', link: '/pve/windows_remote.md' },
           
         ]
       },

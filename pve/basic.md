@@ -57,3 +57,23 @@ PVE 作为一个系统，本身也需要一些内存来稳定运行，所以分�
 之后在 `硬件` 中就能看到多出来一个 `USB 设备`，启动虚拟机就能在虚拟机中看到相关的设备。
 
 ![1tvqmtss.mg3_REB9ey](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1tvqmtss.mg3_REB9ey.png)
+
+## 将 PVE 切换为 DHCP 自动获取 IP
+
+PVE 在安装的时候，会提示设置静态 IP，如果想要切换成 DHCP 的方式，自动从路由器获取 IP，可以打开 PVE 的 Shell 输入下面的命令：
+
+```sh
+# 进入到 /etc/network
+cd /etc/network
+
+# 修改之前，查看网络配置
+cat interfaces
+
+# 修改为 DHCP
+sed -i -e 's/addr/#addr/g' -e 's/gate/#gate/g' -e 's/static/dhcp/g' interfaces
+
+# 修改之后，查看网络配置，确认 vmbr0 由 static 变成了 dhcp 就可以了
+cat interfaces
+```
+
+修改完成可以重启 PVE 测试下。
