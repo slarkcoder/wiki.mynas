@@ -58,9 +58,9 @@ PVE 作为一个系统，本身也需要一些内存来稳定运行，所以分�
 
 ![1tvqmtss.mg3_REB9ey](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1tvqmtss.mg3_REB9ey.png)
 
-## 将 PVE 切换为 DHCP 自动获取 IP
+## 切换 DHCP
 
-PVE 在安装的时候，会提示设置静态 IP，如果想要切换成 DHCP 的方式，自动从路由器获取 IP，可以打开 PVE 的 Shell 输入下面的命令：
+PVE 在安装的时候，会要求设置静态 IP，如果装好后想要切换成 DHCP 的方式，自动从路由器获取 IP，可以打开 PVE 的 Shell 输入下面的命令：
 
 ```sh
 # 进入到 /etc/network
