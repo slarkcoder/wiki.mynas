@@ -12,18 +12,7 @@ Unraid 自带一个 root 用户，该用户拥有系统的最高控制权限，�
 
 ![mDxs5D_W5LiIo](https://img-1255332810.cos.ap-chengdu.myqcloud.com/mDxs5D_W5LiIo.png)
 
-## 设置共享文件夹
-
-磁盘阵列第一次启动后会自动创建四个系统共享文件夹，默认也都会保存到磁盘阵列设备里。Unraid 默认的共享文件夹有四个：
-
-- `appdata`，用来保存默认的 Docker 应用设置，如果要从应用中心安装应用，这个会经常用到
-- `domains`，默认的虚拟机虚拟磁盘文件夹
-- `isos`，默认的 iso 镜像文件路径
-- `system`，系统文件夹，一般用不到
-
-![TM4Sa3_q4MDrd](https://img-1255332810.cos.ap-chengdu.myqcloud.com/TM4Sa3_q4MDrd.png)
-
-如果你需要将这四个系统文件夹保存到 ZFS 里，可以在将 ZFS 创建好之后，将这几个系统文件夹的存储位置修改为 zfs，然后使用 Unraid 的文件管理器插件移动到 ZFS 阵列中。
+## 设置 SMB 共享
 
 在 Unraid 中如果要添加一个共享文件夹非常简单，只需要点击 `添加共享`，输入共享文件夹的名称，其他设置保持默认，点击最下方的添加共享按钮之后会出现一个 `SMB 安全设置`，将导出设置为 `是`，点击应用即可。
 

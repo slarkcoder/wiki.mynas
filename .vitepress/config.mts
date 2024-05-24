@@ -97,7 +97,7 @@ export default defineConfig({
         items: [
           { text: '磁盘阵列和 ZFS', link: '/unraid/array.md' },
           { text: '我的 Unraid 数据存储方案', link: '/unraid/storage.md' },
-          // { text: '共享文件夹', link: '/unraid/share_folder.md' }, 
+          { text: '共享文件夹', link: '/unraid/share_folder.md' }, 
           { text: '用户和共享', link: '/unraid/user_share.md' },
           { text: '文件管理', link: '/unraid/filemanager.md' },
           { text: '网络测速', link: '/unraid/speedtest.md' },
