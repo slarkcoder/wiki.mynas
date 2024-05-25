@@ -18,7 +18,7 @@
 
 可以直接扫码加入：
 
-![1716024059613_4tzQK3](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1716024059613_4tzQK3.png)
+![1716622967348_chrSQW](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1716622967348_chrSQW.png)
 
 如果二维码过期，可以直接发消息到我的微信，并注明 `加群`，我手动拉你进群。
 
