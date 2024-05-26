@@ -2,6 +2,12 @@
 
 Immich 默认的智能搜索模型是 `ViT-B-32__openai`，但这个模型不支持中文，Immich 官方提供了一些大模型，在 [模型列表](https://huggingface.co/immich-app) 可以找到。其中就有一个 [XLM-Roberta-Large-Vit-B-16Plus](https://huggingface.co/immich-app/XLM-Roberta-Large-Vit-B-16Plus) 支持中文。
 
+:::warning 注意
+模型的体积比较大，下面介绍的拉取模型办法实际是把模型保存到了 `/mnt/user/system/docker/docker.img` 中， Unraid 默认的 Docker 虚拟磁盘大小为 20G，如果你没有修改过，可以提前将虚拟磁盘容量改大一些，避免拉取过程出错。具体办法如下：
+
+在 Unraid `设置` -> `Docker` -> `启用 Docker` 修改为 `否`，修改虚拟磁盘大小之后重新启用即可。
+:::
+
 ## 拉取模型
 
 网上介绍的办法有点麻烦，路径很容易搞错，这里介绍一个比较简单的办法。可以直接通过 git 将这个模型直接拉到本地。需要提前 [安装 git-lfs](/unraid/git-lfs.md)。
