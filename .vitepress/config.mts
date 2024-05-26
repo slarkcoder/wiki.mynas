@@ -77,6 +77,7 @@ export default defineConfig({
           { text: '远程访问需要的上行带宽', link: '/basic/bandwidth.md' },
           // { text: 'NAS 系统该怎么选？', link: '/basic/os.md' },
           { text: '如何确保数据安全？', link: '/basic/data_safe.md' },
+          { text: 'UPS - NAS 的好搭档', link: '/basic/ups.md' },
           { text: '网络唤醒', link: '/basic/wake_on_lan.md' },
           { text: '设置交换机模式', link: '/basic/bridge_network.md' },
           { text: '值得推荐的 NAS 应用', link: '/basic/docker.md' },
