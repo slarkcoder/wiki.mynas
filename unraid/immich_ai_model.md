@@ -22,6 +22,12 @@ cd /var/lib/docker/volumes/immich_model-cache/_data/clip
 git clone https://huggingface.co/immich-app/XLM-Roberta-Large-Vit-B-16Plus
 ```
 
+## 更新模型
+
+如果后续模型有更新，可以直接 `cd` 到对应的模型下面，使用 `git pull` 直接更新。
+
+![ldGAKu_zvmuzo](https://img-1255332810.cos.ap-chengdu.myqcloud.com/ldGAKu_zvmuzo.png)
+
 ## 设置 Smart Search
 
 模型拉下来之后，可以在 Immich 后台 `Administration` -> `Setting` -> `Machine Learning Setting` -> `Smart Search` 中，将 `CLIP MODEL` 修改为大模型的名称，并点击保存。
