@@ -2,7 +2,13 @@
 
 本篇教程介绍在 Unraid 系统下面安装 Jellyfin 实现硬解 4K，适用的 CPU 为带核显的 Intel CPU。
 
-测试文件：[123 云盘：4K+IMAX DTS：X-碟中谍4.7z](https://www.123pan.com/s/1JKMjv-5lxo.html)，下载后需解压（解压密码：wiki.slarker.me）。
+测试文件：[123 云盘：4K+IMAX DTS：X-碟中谍4.7z](https://www.123pan.com/s/1JKMjv-5lxo.html)，下载后需解压。
+
+解压密码：
+
+```sh
+wiki.slarker.me
+```
 
 ## 建立共享目录
 
