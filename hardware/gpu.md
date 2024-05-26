@@ -1,6 +1,6 @@
 # 常见的 CPU 核显转码效果对比
 
-测试文件：[123 云盘：4K+IMAX DTS：X-碟中谍4.mkv](https://www.123pan.com/s/1JKMjv-VJxo.html)，下载后需解压。
+测试文件：[123 云盘：4K+IMAX DTS：X-碟中谍4.7z](https://www.123pan.com/s/1JKMjv-5lxo.html)，下载后需解压（解压密码：wiki.slarker.me）。
 
 测试环境：`Synology v7.2`，`SA6400`，nyanmisaka/jellyfin `v10.8.13`
 

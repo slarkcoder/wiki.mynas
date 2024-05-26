@@ -2,6 +2,8 @@
 
 本篇教程介绍在 Unraid 系统下面安装 Jellyfin 实现硬解 4K，适用的 CPU 为带核显的 Intel CPU。
 
+测试文件：[123 云盘：4K+IMAX DTS：X-碟中谍4.7z](https://www.123pan.com/s/1JKMjv-5lxo.html)，下载后需解压（解压密码：wiki.slarker.me）。
+
 ## 建立共享目录
 
 我推荐的做法是建立一个专门的共享目录比如 `media`，来存放媒体文件。然后在 media 目录下面再建立 `movies` 和 `tvshows` 来分别存放电影和电视剧。当然你可以把 movies 和 tvshows 都直接放到 `downloads` 这个下载共享目录里，下面的教程我都以 `media` 这个目录为例，在对应的地方你需要改成自己建立的目录。
