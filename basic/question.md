@@ -12,6 +12,14 @@ https://spk7.imnks.com/
 
 ![](https://img-1255332810.cos.ap-chengdu.myqcloud.com/synology_photo_03_oD0zrU.png)
 
+这里也有一些其它的 [第三方套件源](https://synopackage.com/sources)，需要的可以看看。
+
+## 群晖的 Docker 套件在哪里？
+
+新版的群晖 Docker 已改名为 `Container Manager`。
+
+![hhRI1G_H2X3T1](https://img-1255332810.cos.ap-chengdu.myqcloud.com/hhRI1G_H2X3T1.png)
+
 ## iStore 魔法插件到哪里下载？
 
 iStore 本身并不自带魔法插件，可以使用这里的包一键自动安装。
