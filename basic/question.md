@@ -20,11 +20,11 @@ https://spk7.imnks.com/
 
 ![hhRI1G_H2X3T1](https://img-1255332810.cos.ap-chengdu.myqcloud.com/hhRI1G_H2X3T1.png)
 
-## iStore 魔法插件到哪里下载？
+## iStoreOS 魔法插件到哪里下载？
 
-iStore 本身并不自带魔法插件，可以使用这里的包一键自动安装。
+iStoreOS 本身并不自带魔法插件，可以使用这里的包一键自动安装。
 
-[iStore 软件包](https://github.com/AUK9527/Are-u-ok/tree/main/x86)
+[iStoreOS 软件包](https://github.com/AUK9527/Are-u-ok/tree/main/x86)
 
 ## qBittorrent 默认密码是多少？
 
@@ -52,9 +52,10 @@ iStore 本身并不自带魔法插件，可以使用这里的包一键自动安�
 
 [解决虚拟组网远程无法访问 80 端口问题](/unraid/remote.md)
 
-## Unraid 安装 Docker 应用出错，Docker 无法下载，该怎么解决?
+## 群晖、Unraid 安装 Docker 应用出错，Docker 无法下载，该怎么解决?
 
 Docker 镜像拉不下来，一般都是网络问题。由于 Docker 镜像服务器在国外，最简单直接有效的办法是使用软路由，在软路由上配置魔法解决，具体可以看这个教程：
 
-[一文搞定 Unraid 安装软路由](/unraid/router.md)
+- Unraid：[一文搞定 Unraid 安装软路由](/unraid/router.md)
+- 群晖：[安装旁路由](/synology/router.md)
 
