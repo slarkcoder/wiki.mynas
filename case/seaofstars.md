@@ -1,5 +1,19 @@
 # 星之海机箱
 
+## 天蝎座 - 4 盘位
+
+外观看起来是像是御夫座的缩小版，设计布局又和乔思伯 N2 差不多，体积控制的不错，4 盘位又多了一个选择！竟然能装一个 19*19 的主板，可以支持两个 PCIE，不过这个尺寸的 MATX 主板比较少。参考价：￥459
+
+![1717174636936_HKlTql](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1717174636936_HKlTql.jpg)
+
+![1717174636966_yh82zf](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1717174636966_yh82zf.jpg)
+
+![1717174636977_S1bsQj](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1717174636977_S1bsQj.jpg)
+
+![1717174636956_N0I4Of](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1717174636956_N0I4Of.jpg)
+
+![lDDNCL_VJwgd2](https://img-1255332810.cos.ap-chengdu.myqcloud.com/lDDNCL_VJwgd2.png)
+
 ## 御夫座 - 6 盘位
 
 颜值不错，6 盘位可以用 MATX 主板和 ATX 电源，缺点也有，就是机箱电源位于主板正上方，导致 CPU 风扇只能用下压式，并且电源风扇和 CPU 风扇对着吹。参考价：￥569
