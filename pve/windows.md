@@ -37,7 +37,7 @@
 
 ![pve_win10_4_VJrrLX](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pve_win10_4_VJrrLX.png)
 
-CPU 核心可以直接填核心总数的值，类别改成 `host`，点击下一步。
+CPU 核心可以按需填写，最大不要超过 CPU 的物理核心数量，类别改成 `host`，点击下一步。
 
 ![pve_win10_5_jVa58a](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pve_win10_5_jVa58a.png)
 
