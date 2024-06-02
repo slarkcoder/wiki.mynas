@@ -2,7 +2,6 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  lang: 'zh-cn',
   title: "一起玩 NAS! ",
   description: "分享 NAS 的使用经验。",
   lastUpdated: true,
@@ -24,18 +23,18 @@ export default defineConfig({
           // { text: '系统方案', link: '/system_solution.md' },
           { text: '技术支持', link: '/support.md' },
           { text: '售后服务', link: '/after_sales_service.md' },
-          { text: '闲鱼-鱼小铺', link: '/store.md' },
+          { text: '闲鱼小铺', link: '/store.md' },
         ]
       },
       { text: '提交需求', link: 'https://jinshuju.net/f/qGaDq1' },
       { text: '交流群组', link: '/contact.md' },
       { text: '我的博客', link: 'https://slarker.me' },
-      { text: '☕️ 喝咖啡！', link: '/coffee.md' },
+      { text: '☕️ 喝杯咖啡！', link: '/coffee.md' },
       {
         text: '关于',
         items: [
           { text: '意见反馈', link: '/feedback.md' },
-          { text: '原创版权声明', link: '/copyright.md' },
+          { text: '原创声明', link: '/copyright.md' },
           { text: '镜像站点', link: 'https://wiki.mynas.chat' },
           { text: '关于网站', link: '/about.md' },
         ]
@@ -168,7 +167,23 @@ export default defineConfig({
       copyright: '©2024 Slark. All rights reserved.'
     },
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        translations: {
+          button: {
+            buttonText: '搜索文档',
+            buttonAriaLabel: '搜索文档'
+          },
+          modal: {
+            noResultsText: '无法找到相关结果',
+            resetButtonTitle: '清除查询条件',
+            footer: {
+              selectText: '选择',
+              navigateText: '切换'
+            }
+          }
+        }
+      }
     }
   }
 })

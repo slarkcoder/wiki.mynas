@@ -1,4 +1,4 @@
-# 版权声明
+# 原创声明
 
 ![c_nydPLS](https://img-1255332810.cos.ap-chengdu.myqcloud.com/c_nydPLS.jpg)
 
