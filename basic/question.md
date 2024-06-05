@@ -14,6 +14,14 @@ https://spk7.imnks.com/
 
 这里也有一些其它的 [第三方套件源](https://synopackage.com/sources)，需要的可以看看。
 
+## 群晖套件中心显示网络连接失败，网络错误，如何解决？
+
+可以尝试修改群晖的 `DNS`。到 `控制面板` -> `网络` 中按下图手动设置 DNS，并点击 `应用`。
+
+推荐修改为：`223.5.5.5`，`114.114.114.114`。
+
+![ujwOIJ_41eBnO](https://img-1255332810.cos.ap-chengdu.myqcloud.com/ujwOIJ_41eBnO.png)
+
 ## 群晖的 Docker 套件在哪里？
 
 新版的群晖 Docker 已改名为 `Container Manager`。
