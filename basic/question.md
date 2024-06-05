@@ -28,6 +28,14 @@ https://spk7.imnks.com/
 
 ![hhRI1G_H2X3T1](https://img-1255332810.cos.ap-chengdu.myqcloud.com/hhRI1G_H2X3T1.png)
 
+## 相册应用导入大量照片后 CPU 占用很高，甚至高达 100%，是否正常？
+
+不管是群晖自带的 Photos 还是 Unraid 上的 Immich，PhotoPrism 等等类似的照片应用，在导入照片后，都会对照片做一次索引，包括且不限于 `AI 识别`，`生成缩略图` 等等，这些操作都会比较占用 CPU 资源，因此 CPU 占用高是很正常的。
+
+即便你换了性能比较强的 CPU，比如 12100，甚至 12400 这种，CPU 也会占用很高，只是持续时间长短问题，等照片索引完成之后，就会恢复正常。
+
+![UFjhLW_MeErSW](https://img-1255332810.cos.ap-chengdu.myqcloud.com/UFjhLW_MeErSW.png)
+
 ## iStoreOS 魔法插件到哪里下载？
 
 iStoreOS 本身并不自带魔法插件，可以使用这里的包一键自动安装。
