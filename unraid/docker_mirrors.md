@@ -6,5 +6,5 @@
 
 - 适用于 `Unraid`：[一文搞定 Unraid 安装软路由](/unraid/router.md)
 - 适用于 `群晖`：[安装旁路由](/synology/router.md)
-- 适用于 `PVE`：[安装软路由]()
+<!-- - 适用于 `PVE`：[安装软路由]() -->
 
