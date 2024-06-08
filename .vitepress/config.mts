@@ -101,7 +101,6 @@ export default defineConfig({
           { text: '用户和共享', link: '/unraid/user_share.md' },
           { text: '文件管理', link: '/unraid/filemanager.md' },
           { text: '网络测速', link: '/unraid/speedtest.md' },
-          // { text: '配置 Docker 加速镜像', link: '/unraid/docker_mirrors.md' },
           { text: '挂载、共享外接磁盘', link: '/unraid/additional_disk.md' },
           { text: '使用命令行格式化硬盘', link: '/unraid/format.md' },
           { text: '一文搞定软路由', link: '/unraid/router.md' },
