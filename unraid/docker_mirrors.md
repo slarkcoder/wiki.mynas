@@ -1,36 +1,10 @@
-# 配置 Docker 加速器
+# 解决 Docker 镜像下载失败问题
 
-Unraid 上的绝大多数应用都是以 Docker 的方式部署的，但 Docker 镜像的服务器位于国外。如果没有网络代理服务，部署时经常会出现下载失败，或者网络错误。除了设置网络代理之外，还可以通过各大云服务厂商提供的 Docker 镜像加速服务来解决镜像下载问题。
+由于近期各个 Docker 加速镜像失效，导致很多朋友安装 Docker 应用的时候出现下载失败问题。想解决这个问题比较方便的办法是使用主路由或者旁路由，在路由上配置魔法，可以有效的解决 Docker 下载问题。
 
-## 腾讯云镜像加速地址
+此前我已经写了几篇相关的教程，可以按需参考：
 
-```
-https://mirror.ccs.tencentyun.com
-```
+- 适用于 `Unraid`：[一文搞定 Unraid 安装软路由](/unraid/router.md)
+- 适用于 `群晖`：[安装旁路由](/synology/router.md)
+- 适用于 `PVE`：[安装软路由]()
 
-## 阿里云镜像加速地址
-
-登录（如果没有，可以直接用手机号登录）阿里云 [https://cr.console.aliyun.com/cn-shanghai/instances/repositories](https://cr.console.aliyun.com/cn-shanghai/instances/repositories) 之后就可以在 `镜像工具 -> 镜像加速器` 中看到 `加速器地址` 了。
-
-![b4hhN4_npdhLI](https://img-1255332810.cos.ap-chengdu.myqcloud.com/b4hhN4_npdhLI.png)
-
-## 配置 Docker 加速
-
-> 注意：将下面命令中的 `https://xxx.mirror.aliyuncs.com`  替换为上一步你获取到的阿里云镜像加速地址。
-
-在 Unraid 终端工具输入下面的命令：
-
-```
-mkdir -p /etc/docker
-tee /etc/docker/daemon.json <<-'EOF'
-{
-  "registry-mirrors": ["https://xxx.mirror.aliyuncs.com"]
-}
-EOF
-```
-
-https://mirror.ccs.tencentyun.com/
-
-之后在 `设置 -> Docker` 中，先将 `启用 Docker` 设置为 `否`，点击应用，再将 `启用 Docker` 设置为 `是`，点击应用。这样就完成了重启 Docker 的操作，Docker 的镜像加速服务也就生效了。
-
-![u1TStC_UEOb4d](https://img-1255332810.cos.ap-chengdu.myqcloud.com/u1TStC_UEOb4d.png)

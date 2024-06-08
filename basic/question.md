@@ -36,11 +36,21 @@ https://spk7.imnks.com/
 
 ![UFjhLW_MeErSW](https://img-1255332810.cos.ap-chengdu.myqcloud.com/UFjhLW_MeErSW.png)
 
-## iStoreOS 魔法插件到哪里下载？
+## iStoreOS魔法插件到哪里下载？
 
 iStoreOS 本身并不自带魔法插件，可以使用这里的包一键自动安装。
 
 [iStoreOS 软件包](https://github.com/AUK9527/Are-u-ok/tree/main/x86)
+
+如果上面的地址无法打开，可以到这里下载：
+
+[123 云盘：iStoreOS 插件](https://www.123pan.com/s/1JKMjv-0jxo.html)
+
+下载好之后到 iStoreOS 中手动上传安装：
+
+![voo450c5.qrq_PH9mYj](https://img-1255332810.cos.ap-chengdu.myqcloud.com/voo450c5.qrq_PH9mYj.png)
+
+装好之后，在 `服务` 中可以找到相关插件。
 
 ## qBittorrent 默认密码是多少？
 

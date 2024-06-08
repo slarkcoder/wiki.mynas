@@ -1,6 +1,10 @@
 # 一文搞定 Unraid 安装软路由
 
-本文以 [iStoreOS](https://fw.koolcenter.com/iStoreOS/x86_64/) 为例来介绍如何在 Unraid 中安装软路由。IStoreOS 基于 OpenWrt 开发，在易用性上做了很多优化，系统支持在线更新，由于是国内公司开发的系统，默认并不含有代理功能。如有相关需求，可以自行 [下载相关插件包](https://github.com/AUK9527/Are-u-ok/tree/main/x86) 安装。
+本文以 [iStoreOS](https://fw.koolcenter.com/iStoreOS/x86_64/) 为例来介绍如何在 Unraid 中安装软路由。IStoreOS 基于 OpenWrt 开发，在易用性上做了很多优化，系统支持在线更新。
+
+由于是国内公司开发的系统，默认并不含有代理功能。如有魔法需求，可以看这里：
+
+[iStoreOS 魔法插件到哪里下载？](/basic/question.html#istoreos魔法插件到哪里下载)
 
 ## 各种常见网络拓扑的区别
 

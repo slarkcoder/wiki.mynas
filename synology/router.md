@@ -90,9 +90,9 @@
 
 ## 安装代理插件
 
-如果需要安装代理插件，可以到这里先下载 [iStore 软件包](https://github.com/AUK9527/Are-u-ok/tree/main/x86)，然后到 iStoreOS 中手动上传安装。
+由于 iStoreOS 是国内公司开发的系统，默认并不含有代理功能。如有魔法需求，可以看这里：
 
-![voo450c5.qrq_PH9mYj](https://img-1255332810.cos.ap-chengdu.myqcloud.com/voo450c5.qrq_PH9mYj.png)
+[iStoreOS 魔法插件到哪里下载？](/basic/question.html#istoreos魔法插件到哪里下载)
 
 ## 群晖使用旁路由
 
