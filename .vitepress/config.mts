@@ -70,6 +70,7 @@ export default defineConfig({
         text: '经验分享',
         collapsed: false,
         items: [
+          { text: '解决 Docker 镜像无法下载问题', link: '/basic/docker_mirrors.md' },
           { text: '解决问题的技巧 - 善用搜索', link: '/basic/search.md' },
           { text: '常见问题解答', link: '/basic/question.md' },
           { text: '常见的远程访问方案', link: '/basic/remote.md' },
