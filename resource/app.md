@@ -34,6 +34,7 @@
 - [音流](https://music.aqzscn.cn/) <Badge type="tip" text="Android" /><Badge type="tip" text="iOS" />
 - [Symfonium](https://symfonium.app/) <Badge type="tip" text="Android" />
 - [Ultrasonic](https://ultrasonic.gitlab.io/) <Badge type="tip" text="Android" />
+- [DS Music](https://apps.apple.com/cn/app/ds-music-synology%E7%BE%A4%E6%99%96nas%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/id6476442387) <Badge type="tip" text="iOS" />
 - [Musicolet Music Player](https://play.google.com/store/apps/details?id=in.krosbits.musicolet&hl=en_US) <Badge type="tip" text="Android" /> 本地播放器，如果手机存储空间足够，可搭配 `Syncthing` 将音乐同步到手机本地播放。
 
 更多本地音乐播放器可以看 [这篇介绍](https://sspai.com/post/77789)。
