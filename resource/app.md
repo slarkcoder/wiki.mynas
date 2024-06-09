@@ -6,6 +6,18 @@
 
 如果你有好用的 App，也欢迎推荐给我，我会在这个页面更新。
 
+:::info Tips
+安卓（手机、电视）用户下载 App 时可以注意下：手机一般适合下载文件名中带有 `arm64-v8a` 字样的包，电视一般适合下载文件名中带有 `armeabi-v7a` 字样的包。如果实在不知道改如何选，可以直接选带有 `universal` 的包。
+
+比如下面是 Nova Video Player 的下载页面，提供了很多版本的安装包：
+
+![1q3j21se.cug_DJREAq](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1q3j21se.cug_DJREAq.png)
+
+`arm64-v8a`，`armeabi-v7a` 等不同字样的具体区别如下：
+
+![NIpSmS_OWBhvx](https://img-1255332810.cos.ap-chengdu.myqcloud.com/NIpSmS_OWBhvx.png)
+:::
+
 ## Emby 
 
 - [Emby For Android](https://emby.media/emby-for-android.html) <Badge type="tip" text="Android" /><Badge type="warning" text="官方" />
