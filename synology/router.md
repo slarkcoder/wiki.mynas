@@ -90,9 +90,9 @@
 
 ## 安装代理插件
 
-由于 iStoreOS 是国内公司开发的系统，默认并不含有代理功能。如有魔法需求，可以看这里：
+由于 iStoreOS 是国内公司开发的系统，默认并不含有代理功能。如有代理需求，可以看这里：
 
-[iStoreOS 魔法插件到哪里下载？](/basic/question.html#istoreos魔法插件到哪里下载)
+[iStoreOS 代理插件到哪里下载？](/basic/question.html#istoreos代理插件到哪里下载)
 
 ## 群晖使用旁路由
 
