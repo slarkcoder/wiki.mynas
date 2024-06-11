@@ -10,7 +10,7 @@
 
 ### 使用 SSH 登录群晖
 
-> Windows、macOS 以及各种 Linux 都自带终端，在系统中搜索 `terminal` 就有。也可以使用第三方的终端，比如 Windows 中的 `putty` 或者 macOS 中的 `iTerm2` 等等。
+> Windows、macOS 以及各种 Linux 都自带终端，在系统中搜索 `terminal` 就有。也可以使用第三方的终端，比如 Windows 自带的 `cmd` 终端，以及第三方的 `putty` 或者 macOS 中的 `iTerm2` 等等。
 
 在终端中使用 `ssh` 登录群晖：
 
