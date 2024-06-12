@@ -54,15 +54,18 @@ iStoreOS 本身并不自带代理插件，可以使用这里的包一键自动�
 
 ## qBittorrent 默认密码是多少？
 
-旧版的 `qBittorrent`，默认密码是：`admin/adminadmin`。
+### 旧版（4.6.1 之前版本）
 
-新版的 `qBittorrent` 默认密码为随机生成的密码，需要到 `qBittorrent` 的日志中查看。
+默认密码是：`admin/adminadmin`。
 
-如果是 Unraid，可以到 `qBittorrent` 容器图标上左键单击，点 `日志` 进去就能看到。
+### 新版（4.6.1 及以后版本）
 
-如果是群晖套件版 `qBittorrent`，默认密码目前和旧版一致。
+默认密码为随机生成的密码，需要到 `qBittorrent` 的日志中查看。如果使用 Docker 安装，需要到 `qBittorrent` 容器的日志中查看。
 
-登录之后可以到 `qBittorrent` WebUI 修改密码。
+- 如果是 Unraid，可以到 `qBittorrent` 容器图标上左键单击，点 `日志` 进去就能看到。
+- 如果是群晖，可以到 `Container Manager` -> `容器` 中，在具体的应用上面右击，点击 `详情` 进去，切换到 `日志` 标签页查看。
+
+登录之后可以到 `qBittorrent` WebUI 中修改密码。
 
 ## NAS 上安装的迅雷提示需要邀请码？
 
@@ -80,8 +83,6 @@ iStoreOS 本身并不自带代理插件，可以使用这里的包一键自动�
 
 ## 群晖、Unraid 安装 Docker 应用出错，Docker 无法下载，该怎么解决?
 
-Docker 镜像拉不下来，一般都是网络问题。由于 Docker 镜像服务器在国外，最简单直接有效的办法是使用软路由，在软路由上配置代理解决，具体可以看这个教程：
+由于 Docker 官方地址被屏蔽，近期国内主流的镜像加速服务也相继失效，可以参考这个教程解决。
 
-- Unraid：[一文搞定 Unraid 安装软路由](/unraid/router.md)
-- 群晖：[安装旁路由](/synology/router.md)
-
+[解决 Docker 镜像无法下载问题](/basic/docker_mirrors.md)。

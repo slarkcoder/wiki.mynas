@@ -79,6 +79,7 @@ export default defineConfig({
           { text: '如何确保数据安全？', link: '/basic/data_safe.md' },
           { text: 'UPS - NAS 的好搭档', link: '/basic/ups.md' },
           { text: '网络唤醒', link: '/basic/wake_on_lan.md' },
+          { text: '温度监控', link: '/basic/temperature.md' },
           { text: '设置交换机模式', link: '/basic/bridge_network.md' },
           { text: '值得推荐的 NAS 应用', link: '/basic/docker.md' },
           { text: '科学解决问题的思路 - 木桶理论', link: '/basic/barreltheory.md' },
