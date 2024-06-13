@@ -51,6 +51,7 @@ export default defineConfig({
           { text: '常见的 CPU 核显转码效果对比', link: '/hardware/gpu.md' },
           { text: '硬盘的那些事儿', link: '/hardware/harddrive.md' },
           { text: '如何选择内存', link: '/hardware/memory.md' },
+          { text: '硬件测试', link: '/hardware/test.md' },
         ]
       },
       {

@@ -29,5 +29,5 @@ Windows 可以安装 [图吧工具箱](https://www.tbtool.cn/)，自带 `MemTest
 由我组装的 NAS 整机，都会对内存进行单独测试。
 
 ::: tip 内存测试通过标准
-使用 `MemTest64` 持续测试 1 小时无错误。
+使用 `MemTest86 V11.0` 测试 4 轮无错误。
 :::
