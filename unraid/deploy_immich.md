@@ -59,7 +59,11 @@ immich 这个应用的启动和停止，可以通过控制最下方的 docker co
 
 ## 客户端
 
-[immich](https://immich.app/) 支持 iOS 和 Android 客户端，而且功能非常完善，备份功能非常好用。Immich 也有网页版。比较遗憾的是，目前网页版还不支持中文，但相信这个问题也会很快解决。
+[immich](https://immich.app/) 支持 iOS 和 Android 客户端，而且功能非常完善，备份功能非常好用。Immich 也有网页版。
+
+## 设置中文
+
+目前，最新版的 `immich` Web 端已支持中文，登录 Web 版后台，点击自己的头像，在 `Account Setting` -> `App Setting` -> `Language` 中可以找到 `Chinese(Simplified)` 选项，点击就可以切换。
 
 ## 机器学习
 

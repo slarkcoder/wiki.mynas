@@ -54,6 +54,10 @@ Immich 默认的 Web 端口是 2283。
 
 ![uwz3fsc3.ujp_MuBCtH](https://img-1255332810.cos.ap-chengdu.myqcloud.com/uwz3fsc3.ujp_MuBCtH.png)
 
+## 设置中文
+
+目前，最新版的 `immich` Web 端已支持中文，登录 Web 版后台，点击自己的头像，在 `Account Setting` -> `App Setting` -> `Language` 中可以找到 `Chinese(Simplified)` 选项，点击就可以切换。
+
 ## 如何更新？
 
 Immich 这个项目更新的非常频繁，当有新版本需要更新的时候，在 `映像` 里会有更新的提示，直接点击更新就可以了。
