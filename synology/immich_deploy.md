@@ -8,17 +8,26 @@ Immich 是一个非常好用的，开源的照片管理工具，支持 iOS 和 A
 
 ![4YcuE6_aUBkpB](https://img-1255332810.cos.ap-chengdu.myqcloud.com/4YcuE6_aUBkpB.png)
 
-## 下载配置文件
+## 配置文件
 
 由于 immich 依赖的服务比较多，所以官方推荐使用 Compose 的方式来安装。首先从 [immich 官网](https://immich.app/docs/install/docker-compose) 下载配置文件：[docker-compose.yml](https://github.com/immich-app/immich/releases/latest/download/docker-compose.yml)，[example.env](https://github.com/immich-app/immich/releases/latest/download/example.env)。
 
-下载好之后，使用文本编辑器修改 example.env 中的 `UPLOAD_LOCATION` 路径为上一步的照片共享文件夹的路径，并保存，修改好应该像下面这样。docker-compose.yml 不需要修改。
+下载好之后，使用文本编辑器修改 example.env 中的 `UPLOAD_LOCATION` 路径为上一步的照片共享文件夹的路径，修改 `DB_DATA_LOCATION` 路径为 `/volume1/docker/immich/postgres` 并保存，修改好应该像下面这样。
+
+:::warning 注意
+这里示例配置中的 `immich 照片文件夹` 和 `docker 配置文件夹` 都位于 `volume1` 上面，你需要根据自己的实际情况修改。
+:::
 
 ```yml
 # You can find documentation for all the supported env variables at https://immich.app/docs/install/environment-variables
 
 # The location where your uploaded files are stored
 UPLOAD_LOCATION=/volume1/immich
+# The location where your database files are stored
+DB_DATA_LOCATION=/volume1/docker/immich/postgres
+
+# To set a timezone, uncomment the next line and change Etc/UTC to a TZ identifier from this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
+# TZ=Etc/UTC
 
 # The Immich version to use. You can pin this to a specific version like "v1.71.0"
 IMMICH_VERSION=release
@@ -28,21 +37,25 @@ DB_PASSWORD=postgres
 
 # The values below this line do not need to be changed
 ###################################################################################
-DB_HOSTNAME=immich_postgres
 DB_USERNAME=postgres
 DB_DATABASE_NAME=immich
-
-REDIS_HOSTNAME=immich_redis
-
 ```
+
+按照下面提示修改 `docker-compose.yml`：
+
+最近有群友安装最新版的 immich 时遇到问题，提示不支持 `start_interval` 属性：
+
+![WechatIMG166_rpHaX1](https://img-1255332810.cos.ap-chengdu.myqcloud.com/WechatIMG166_rpHaX1.png)
+
+由于群晖目前版本的 Docker 不支持该属性，可以将该属性所在行直接删除，不影响 `immich` 正常使用。
 
 ## 建立 Compose 项目并部署
 
-在 File Station 中的 docker 文件夹下面建立 immich 文件夹，用来保存配置文件。将修改好的 example.env 和 docker-compose.yml 上传到 /docker/immich 下面。并把 example.env 重命名为 .env。
+在 `File Station` 中的 docker 文件夹下面建立 `immich` 文件夹，用来保存配置文件。将修改好的 `example.env` 和 `docker-compose.yml` 上传到 `/docker/immich` 路径下面，并在 `/docker/immich` 下面建立 `postgres` 文件夹用来存储数据库，最后把 `example.env` 重命名为 `.env`。
 
-![TIk4cP_iMOlbi](https://img-1255332810.cos.ap-chengdu.myqcloud.com/TIk4cP_iMOlbi.png)
+![x0gx320b.gbe_OyT7Yk](https://img-1255332810.cos.ap-chengdu.myqcloud.com/x0gx320b.gbe_OyT7Yk.png)
 
-在 Container Manager 项目中新增，项目名称填写 immich，设置路径选择 /docekr/immich 后会提示已含有 docker-compose.yml，使用现有的 yml 来创建项目，一直下一步就自动开始拉取镜像部署了。
+在 Container Manager 项目中新增，项目名称填写 immich，设置路径选择 /docekr/immich 后会提示已含有 docker-compose.yml，选择 `使用现有的 docker-compose.yml 来创建项目`，点击确定，一直下一步就自动开始拉取镜像部署了。
 
 ![vfnsdszh.3eh_htNSwa](https://img-1255332810.cos.ap-chengdu.myqcloud.com/vfnsdszh.3eh_htNSwa.png)
 

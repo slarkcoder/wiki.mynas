@@ -143,6 +143,7 @@ export default defineConfig({
           { text: '使用 Compose 安装照片管理工具 - Immich', link: '/synology/immich_deploy.md' },
           { text: 'Synology Photos 常见问题', link: '/synology/photos.md' },
           { text: '使用 M.2 Nvme SSD 作为存储空间', link: '/synology/ssd_storage.md' },
+          // { text: '升级 Compose', link: '/synology/compose_upgrade.md' },
         ]
       },
       {
