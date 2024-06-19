@@ -16,11 +16,7 @@
 
 ## 如何测试内存是否有故障？
 
-Windows 可以安装 [图吧工具箱](https://www.tbtool.cn/)，自带 `MemTest64` 这个小工具，可以用来测试内存是否有问题。
-
-![Snipaste_2024-03-31_01-28-17_lKE4dK](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-03-31_01-28-17_lKE4dK.png)
-
-上图中我选了测试 1 小时后停止，测试完成后，结果显示 `没有检测到错误`。
+可以看这篇教程：[硬件测试](/hardware/test.md)。
 
 ## 内存稳定性对 NAS 的影响
 
