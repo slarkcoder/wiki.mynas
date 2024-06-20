@@ -47,7 +47,7 @@ Unraid 为了用户可以更方便的使用 Docker，加入了模板这个概念
 
 其中 `xml` 都是 docker 模板，`zip` 压缩包都是 docker compose 模板。
 
-下载解压，将里面的 xml 文件都复制到引导 U 盘的 `/config/plugins/dockerMan/templates-user` 目录中。
+将里面的 xml 文件都复制到引导 U 盘的 `/config/plugins/dockerMan/templates-user` 目录中。
 
 如果是 `zip`，解压后将整个文件夹都复制到引导 U 盘的 `/config/plugins/compose.manager/projects` 目录中。
 
