@@ -1,5 +1,11 @@
 # 安装 Immich 并开启硬件加速
 
+:::warning 提示
+目前 `Unraid 6.12.10` 自带的 Docker 版本为 `24.0.9`。Immich 官网最新的配置文件中加入了 heathcheck 相关参数，需要 Docker 版本为 `25.x` 及以后版本才能支持。所以建议最好等 Unraid 更新到 `6.13` 版本之后再使用官网的配置文件安装 immich。
+
+你可以使用我分享的 [模板](/unraid/unraid_docker_template.md) 来安装 immich。
+:::
+
 一直以来，我都用群晖自带的 Photos 来备份手机照片，因为除了群晖相册之外，很少有一款相册的功能强大，而且有方便的手机客户端可以使用。而要使用群晖相册，就必须用群晖的系统，或者用白群晖，或者就得开个虚拟机。然而想想也就为了备份个相册而已，这么做实在太过笨拙。
 
 而现在，[immich](https://immich.app/) 的出现让我终于有了放弃群晖相册的想法。跟着官方教程，一次就部署成功了，没遇到什么坑，App 也很好用。[immich](https://immich.app/) 这个项目很活跃，版本更新频繁，以至于官方在文档的显著位置放了一句提示：“⚠️ The project is under very active development. Expect bugs and changes. Do not use it as the only way to store your photos and videos!”。😂

@@ -38,13 +38,20 @@ Unraid 为了用户可以更方便的使用 Docker，加入了模板这个概念
 - Metube，默认下载目录为共享文件夹 downloads
 - Navidrome，默认音乐目录为共享文件夹  musics
 - qBittorrent，默认下载目录为共享文件夹 downloads
+- immich，默认的照片备份文件夹为 photos
 - Homepage
 - SpeedTest
 - SyncClipboard
 - TinyMediaManager
 - xunlei，默认下载目录为共享文件夹 downloads
 
-下载解压，将里面的 xml 文件都复制到引导 U 盘的 `/config/plugins/dockerMan/templates-user` 目录中。可以把引导 U 盘的 SMB 共享打开，通过网络共享就可以直接把文件复制进去，之后在 Docker 页面添加容器的时候，就可以通过模板来添加了。
+其中 `xml` 都是 docker 模板，`zip` 压缩包都是 docker compose 模板。
+
+下载解压，将里面的 xml 文件都复制到引导 U 盘的 `/config/plugins/dockerMan/templates-user` 目录中。
+
+如果是 `zip`，解压后将整个文件夹都复制到引导 U 盘的 `/config/plugins/compose.manager/projects` 目录中。
+
+可以把引导 U 盘的 SMB 共享打开，通过网络共享就可以直接把文件复制进去，之后在 Docker 页面添加容器的时候，就可以通过模板来添加了。
 
 ![lvz4tgnp.z2o_lEfsj3](https://img-1255332810.cos.ap-chengdu.myqcloud.com/lvz4tgnp.z2o_lEfsj3.png)
 ![2dqqtu55.4ck_xjjLY5](https://img-1255332810.cos.ap-chengdu.myqcloud.com/2dqqtu55.4ck_xjjLY5.png)
