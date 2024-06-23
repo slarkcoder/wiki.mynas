@@ -16,20 +16,16 @@
 
 ## 微信群
 
-可以直接扫码加入：
-
-![1716622967348_chrSQW](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1716622967348_chrSQW.png)
-
-如果二维码过期，可以直接发消息到我的微信，并注明 `加群`，我手动拉你进群。
-
-### Telegram Group
-
-如果你使用 Telegram，可以加入：[Telegram Group](https://t.me/+__eB9jok9YhkMDc5)。
+由于群已满 200 人，可以直接扫码添加我的微信，并注明 `加群`，我手动拉你进群。
 
 ## 微信
 
-如果你遇到 NAS 相关问题需要咨询，可以扫码添加我的微信，获得支持。
+如果你想加群，或者遇到 NAS 相关问题需要咨询，可以扫码添加我的微信。
 
 添加好友，请备注：NAS
 
 ![未命名码_HVVQ3K](https://img-1255332810.cos.ap-chengdu.myqcloud.com/未命名码_HVVQ3K.png)
+
+### Telegram Group
+
+如果你使用 Telegram，可以加入：[Telegram Group](https://t.me/+__eB9jok9YhkMDc5)。
