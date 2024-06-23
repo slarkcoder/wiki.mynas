@@ -127,6 +127,7 @@ export default defineConfig({
           { text: '给使用命令安装的 Docker 应用添加图标', link: '/unraid/app_icon.md' },
           { text: '适合个人和小团队的看板应用 - Planka', link: '/unraid/planka.md' },
           { text: '虚拟 Windows', link: '/unraid/windows.md' },
+          { text: '虚拟 HomeAssistantOS', link: '/unraid/haos.md' },
         ]
       },
       {
