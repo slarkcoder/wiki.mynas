@@ -17,6 +17,8 @@
 
 ### 群晖
 
+> 群晖仅支持为 Docker Hub 的镜像添加加速地址。对于其它仓库 （比如 Github）的 Docker 镜像，则需要 `手动替换为加速地址` 后再拉取。比如：`ghcr.io/ggerganov/llama.cpp:full`，则需要将 `ghcr.io` 替换为加速地址之后，通过命令行手动拉取。
+
 打开 `Container Manager`，在 `注册表` -> `设置` 中编辑名为 `Docker Hub（v1）` 的条目。
 
 ![Su5bhz_pqRrkx](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Su5bhz_pqRrkx.png)
