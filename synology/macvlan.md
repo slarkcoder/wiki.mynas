@@ -2,9 +2,9 @@
 
 很多 PT 网站对盒子（就是专门用来刷上传的 VPS）有限制，如果群晖前面的主路由（比如 iStoreOS）上面配置了魔法工具，可能导致 BT/PT 流量也会走代理，从而被 PT 网站识别为盒子。比较好的解决这个问题的办法是在魔法软件上，通过端口或者 IP 来设置规则，来避免 PT 流量走代理。
 
-但在有些魔法软件上面，并不支持针对端口来设置规则，只能针对 IP 来设置规则，好在为 Docker 设置独立的 IP 也不算多么困难。下面就介绍如何使用 macvlan 来给 qBittorrent 设置独立的 IP。
+但在有些魔法软件上面，并不支持针对端口来设置规则，只能针对 IP 来设置规则，好在为 Docker 设置独立的 IP 也不复杂。下面就介绍如何使用 macvlan 来给 qBittorrent 设置独立的 IP。
 
-这篇教程步骤比较复杂，教程中涉及到的 IP 如下，为了尽量减少出错，你可以把自己的 IP 也都提前列出来，根据自己的实际情况来替换：
+这篇教程虽然步骤比较多，但流程比较清晰。教程中涉及到的 IP 如下，为了尽量减少出错，你可以把自己的 IP 也都提前列出来，根据自己的实际情况来替换：
 
 - 主路由 IP：`192.168.2.1`
 - 群晖 IP：`192.168.2.164`
@@ -67,7 +67,8 @@ docker network rm vlan
 ## 使用 docker 命令安装 qBittorrent
 
 :::info 提示
-由于群晖 Container Manager 暂不支持添加额外的参数（比如 `--net`，`--ip`），所以只能通过命令安装 qBittorrent
+- 由于群晖 Container Manager 暂不支持添加额外的参数（比如 `--net`，`--ip`），所以只能通过命令安装 qBittorrent。
+- 如果你之前装过套件版或者使用 Container Manager 安装了 qBittorrent，请先卸载，然后再用下面的命令重新安装。 
 :::
 
 建好 macvlan 网络之后，就可以使用下面的命令来安装 qBittorrent 了。可以将下面命令中的 `端口` 和 `文件夹` 按需修改：
@@ -107,7 +108,7 @@ docker run -d \
 
 这就导致群晖上面装的其它应用也无法和 qBittorrent 容器通信。解决办法如下：
 
-创建一个 macvlan 网桥，并设置静态 ip，这里设置为：`192.168.2.102`，设置路由，让宿主机（群晖 `192.168.2.164`）访问容器的数据经过 macvlan 接口。命令如下：
+创建一个 macvlan 网桥，并设置静态 ip，这里设置为：`192.168.2.102`，设置路由，让宿主机（群晖 `192.168.2.164`）访问容器的数据经过 macvlan 网桥。命令如下：
 
 ```sh
 ip link add vlan_bridge link ovs_eth0 type macvlan mode bridge
@@ -138,7 +139,7 @@ vi 命令基本操作可以参考：[vi 编辑器基本命令](/synology/vi.md)
 vi /usr/local/lib/systemd/system/macvlan.service
 ```
 
-按 `i` 进入编辑模式，复制粘贴以下内容，作用是将启动、停止 macvlan 配置为服务：
+按 `i` 进入编辑模式，复制粘贴以下内容，作用是将启动、停止 macvlan 配置为 `systemd` 服务：
 
 ```yml
 [Unit]
@@ -222,7 +223,9 @@ systemctl stop macvlan
 systemctl status macvlan
 ```
 
-执行 `systemctl enable macvlan` 设置开机启动后，可以重启群晖测试 macvlan 是否正常。
+执行 `systemctl enable macvlan` 设置开机启动后，可以重启群晖用上面的 `systemctl status macvlan` 查看 macvlan 服务是否正常（显示绿色 `active` 表示已经启动）。
+
+![cniz6B_s2Lt9F](https://img-1255332810.cos.ap-chengdu.myqcloud.com/cniz6B_s2Lt9F.png)
 
 ## 设置访问控制
 
