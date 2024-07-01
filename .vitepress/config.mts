@@ -165,6 +165,7 @@ export default defineConfig({
           { text: '分享好用的 App', link: '/resource/app.md' },
           { text: 'BT 和 PT', link: '/resource/bt_pt.md' },
           { text: '搜索资源的奇技淫巧', link: '/resource/search.md' },
+          { text: '推荐好用的工具', link: '/resource/tools.md' },
         ]
       }
     ],
