@@ -65,6 +65,7 @@ export default defineConfig({
           { text: '星之海机箱', link: '/case/seaofstars.md' },
           { text: '为什么不推荐 3D 打印机箱？', link: '/case/3d_print_case.md' },
           { text: '极限体积 - 最能装的 ITX NAS 机箱！', link: '/case/minicase.md' },
+          { text: '性价比之王 - 金河田 N1!', link: '/case/goldenfield.md' },
         ]
       },
       {
