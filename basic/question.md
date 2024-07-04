@@ -2,6 +2,10 @@
 
 这里收集一些新手经常遇到的问题。
 
+## 群晖找不到了怎么办？
+
+可以参考教程：[查找群晖设备](/synology/find_synology.md)。
+
 ## 群晖如何使用第三方套件？
 
 可以在 `套件中心` 添加第三方套件源，使用人数比较多的是矿神这个：
@@ -77,12 +81,8 @@ iStoreOS 本身并不自带代理插件，可以使用这里的包一键自动�
 
 ## Unraid 上装的 Zerotier、星空组网无法访问 Unraid WebUI，但是其它 docker WebUI 可以访问，该怎么解决？
 
-可以参考这个教程解决：
-
-[解决虚拟组网远程无法访问 80 端口问题](/unraid/remote.md)
+可以参考教程：[解决虚拟组网远程无法访问 80 端口问题](/unraid/remote.md)
 
 ## 群晖、Unraid 安装 Docker 应用出错，Docker 无法下载，该怎么解决?
 
-由于 Docker 官方地址被屏蔽，近期国内主流的镜像加速服务也相继失效，可以参考这个教程解决。
-
-[解决 Docker 镜像无法下载问题](/basic/docker_mirrors.md)。
+由于 Docker 官方地址被屏蔽，近期国内主流的镜像加速服务也相继失效，可以参考教程：[解决 Docker 镜像无法下载问题](/basic/docker_mirrors.md)。
