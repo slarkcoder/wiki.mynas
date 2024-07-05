@@ -2,6 +2,12 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  head: [
+    [
+      'script',
+      { async: 'defer', src: 'https://ai.slarker.me/api/application/embed?protocol=https&host=ai.slarker.me&token=81969a66665f0996' }
+    ],
+  ],
   title: "一起玩 NAS! ",
   description: "分享 NAS 的使用经验。",
   lastUpdated: true,
@@ -28,7 +34,6 @@ export default defineConfig({
       },
       { text: '提交需求', link: 'https://jinshuju.net/f/qGaDq1' },
       { text: '交流群组', link: '/contact.md' },
-      { text: 'AI 助手', link: 'https://ai.slarker.me/ui/chat/81969a66665f0996' },
       { text: '我的博客', link: 'https://slarker.me' },
       { text: '☕️ 喝杯咖啡！', link: '/coffee.md' },
       {
