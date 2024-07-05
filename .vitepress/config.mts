@@ -5,7 +5,7 @@ export default defineConfig({
   head: [
     [
       'script',
-      { async: 'defer', src: 'https://ai.slarker.me/api/application/embed?protocol=https&host=ai.slarker.me&token=81969a66665f0996' }
+      { async: '', src: 'https://ai.slarker.me/api/application/embed?protocol=https&host=ai.slarker.me&token=81969a66665f0996' }
     ],
   ],
   title: "一起玩 NAS! ",
