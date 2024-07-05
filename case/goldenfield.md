@@ -9,8 +9,8 @@
 ## 机箱基本信息
 
 - 机箱尺寸：260 * 328 * 202mm（宽 * 高 * 深）
-- 主板：ITX，MATX 主板（仅限 22*17cm 尺寸）
-    > 根据实测：（19.7 cm x 18.8 cm） 的华擎 [H610M-HVS](https://www.asrock.com/MB/Intel/H610M-HVS/index.cn.asp) 主板刚好可以装上（使用 ATX 电源的情况下）
+- 主板：ITX，MATX 主板（机箱官方数据：仅限 22*17cm 尺寸）
+    > 根据实测：（19.7 cm x 18.8 cm） 的华擎 [H610M-HVS](https://www.asrock.com/MB/Intel/H610M-HVS/index.cn.asp) 主板刚好可以装上（使用 ATX 电源的情况下），也就是说，实际主板尺寸限制为（22*18.8cm）
 - 扩展插槽：2个
 - 电源位置：标准 ATX 电源（前置），可通过 SFX 支架来安装 SFX 电源，实现安装更多的 3.5 寸 SATA 硬盘
 - 散热系统：后置一个 12CM 风扇位
