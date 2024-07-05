@@ -23,12 +23,12 @@ export default defineConfig({
           // { text: '系统方案', link: '/system_solution.md' },
           { text: '技术支持', link: '/support.md' },
           { text: '售后服务', link: '/after_sales_service.md' },
-          { text: 'AI 助手', link: 'https://ai.slarker.me/ui/chat/81969a66665f0996' },
           { text: '闲鱼小铺', link: '/store.md' },
         ]
       },
       { text: '提交需求', link: 'https://jinshuju.net/f/qGaDq1' },
       { text: '交流群组', link: '/contact.md' },
+      { text: 'AI 助手', link: 'https://ai.slarker.me/ui/chat/81969a66665f0996' },
       { text: '我的博客', link: 'https://slarker.me' },
       { text: '☕️ 喝杯咖啡！', link: '/coffee.md' },
       {
