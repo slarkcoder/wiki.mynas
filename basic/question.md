@@ -86,3 +86,11 @@ iStoreOS 本身并不自带代理插件，可以使用这里的包一键自动�
 ## 群晖、Unraid 安装 Docker 应用出错，Docker 无法下载，该怎么解决?
 
 由于 Docker 官方地址被屏蔽，近期国内主流的镜像加速服务也相继失效，可以参考教程：[解决 Docker 镜像无法下载问题](/basic/docker_mirrors.md)。
+
+## 使用 iStoreOS 作为主路由时，无法正常上网，该怎么解决?
+
+最常见的问题是 iStoreOS 的 DHCP 分配不起作用。
+
+使用有线把电脑连接到 iStoreOS 网口，可以先检查你的电脑是否能正常从 iStoreOS 中获取到 IP。如果获取不到，首先确保你的 iStoreOS 正常运行，把你的电脑改成和 iStoreOS 同一网段，使用浏览器登录 iStoreOS，然后打开 `网络` -> `接口` -> `lan`，点击右侧的 `编辑`，在 `高级设置` 中将 `使用自定义的 DNS 服务器` 修改为 `114.114.114.114` 和 `223.5.5.5`，然后点击 `保存`。切换到 `DHCP 服务器`，勾选 `高级设置` 中的 `强制` 选项，然后点击 `保存`，最后点击 `保存并应用`。
+
+![h7SAXM_dtaHXh](https://img-1255332810.cos.ap-chengdu.myqcloud.com/h7SAXM_dtaHXh.png)
