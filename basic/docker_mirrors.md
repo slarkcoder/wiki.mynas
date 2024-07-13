@@ -64,3 +64,11 @@ Unraid 重启之后，`/etc/docker/daemon.json` 会被清空。可以将上面�
 
 在 Unraid 主界面中，点击引导设备 Flash，打开引导设备的 SMB，通过电脑上的文本编辑器编辑 `go` 文件，将上面的命令粘贴到 `go` 文件末尾，保存退出。
 :::
+
+#### Unraid 移除加速镜像
+
+如果不想使用加速镜像地址，可以把 `/etc/docker/daemon.json` 这个文件删除，把 `boot/config/go` 中添加的命令删除，然后重启 Docker 服务。删除文件可以用下面这个命令：
+
+```sh
+rm -rf /etc/docker/daemon.json
+```
