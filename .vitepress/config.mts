@@ -39,6 +39,7 @@ export default defineConfig({
       {
         text: '关于',
         items: [
+          { text: '一起玩 NAS 的朋友们', link: '/link.md' },
           { text: '意见反馈', link: '/feedback.md' },
           { text: '原创声明', link: '/copyright.md' },
           { text: '镜像站点', link: 'https://wiki.mynas.chat' },
@@ -81,6 +82,7 @@ export default defineConfig({
           { text: '解决 Docker 镜像无法下载问题', link: '/basic/docker_mirrors.md' },
           { text: '解决问题的技巧 - 善用搜索', link: '/basic/search.md' },
           { text: '常见问题解答', link: '/basic/question.md' },
+          // { text: '家庭组网的几个建议', link: '/basic/network.md' },
           { text: '常见的远程访问方案', link: '/basic/remote.md' },
           { text: '远程访问需要的上行带宽', link: '/basic/bandwidth.md' },
           // { text: 'NAS 系统该怎么选？', link: '/basic/os.md' },
