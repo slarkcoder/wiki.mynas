@@ -6,9 +6,12 @@
 
 ## 小剧客栈
 
-https://bh-lay.com/
+https://bh-lay.com
 
 ## 凉心's Blog
 
 https://www.lxink.cn
 
+## 三十三言
+
+http://o0o0o0.cn
