@@ -2,6 +2,10 @@
 
 这里收集一些新手经常遇到的问题。
 
+## 群晖系统装在哪里？
+
+这里有个官方的文档，说的很详细：[DSM 操作系统安装在哪个硬盘上？](https://kb.synology.cn/zh-cn/DSM/tutorial/Which_drive_is_DSM_installed_on)。
+
 ## 群晖找不到了怎么办？
 
 可以参考教程：[查找群晖设备](/synology/find_synology.md)。
