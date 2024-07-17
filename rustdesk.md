@@ -1,6 +1,6 @@
 # 远程协助
 
-如果你需要远程协助，推荐使用 [Rustdesk](https://rustdesk.com/zh/)。
+如果你需要远程协助，推荐使用 [Rustdesk](https://rustdesk.com/zh/)。当然，使用其它的远程工具，比如 [Todesk](https://www.todesk.com/)，[向日葵](https://sunlogin.oray.com/) 也可以。
 
 Rustdesk 是一个开源的远程协助软件，支持 Windows、Linux、macOS 和 Android。
 
