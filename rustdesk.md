@@ -27,5 +27,5 @@ Rustdesk 是一个开源的远程协助软件，支持 Windows、Linux、macOS �
 ![1jldxaiv.tnv_YSLyIL](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1jldxaiv.tnv_YSLyIL.png)
 
 :::info 自建服务器
-如果你需要自建服务器，可以参考 [Rustdesk 自建服务器](https://51.ruyo.net/18517.html)。
+如果你有自己的 VPS，想要自建 Rustdesk 服务器，可以参考 [Rustdesk 自建服务器](https://51.ruyo.net/18517.html)。
 :::
