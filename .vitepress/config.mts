@@ -28,6 +28,7 @@ export default defineConfig({
           { text: '定制流程', link: '/process.md' },
           // { text: '系统方案', link: '/system_solution.md' },
           { text: '技术支持', link: '/support.md' },
+          { text: '远程协助', link: '/rustdesk.md' },
           { text: '售后服务', link: '/after_sales_service.md' },
           { text: '闲鱼小铺', link: '/store.md' },
         ]
