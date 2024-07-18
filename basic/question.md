@@ -75,6 +75,22 @@ iStoreOS 本身并不自带代理插件，可以使用这里的包一键自动�
 
 登录之后可以到 `qBittorrent` WebUI 中修改密码。
 
+## 如何重置群晖 qBittorrent 套件密码？
+
+套件版 `qBittorrent` 忘记密码，可以按照下面的方法重置。
+
+:::info 套件版本
+适用于 `4.x ~ 4.6.x`
+:::
+
+在套件中心停止 `qBittorrent`，使用 `ssh` 登录群晖，并切换到 `root` 用户，执行下面的命令：
+
+```sh
+sudo sed -i '/WebUI\\Port/i\WebUI\\Password_PBKDF2=\"@ByteArray(xK2EwRvfGtxfF+Ot9v4WYQ==:bNStY\/6mFYYW8m\/Xm4xSbBjoR2tZNsLZ4KvdUzyCLEOg7tfpchVJucIK9Dwcp6Xe9DI4RwpoCPI9zhicTdtf5A==)\"' /var/packages/qBittorrent/target/qBittorrent_conf/config/qBittorrent.conf
+```
+
+在套件中心启动 `qBittorrent`，默认密码会被重置为 `adminadmin`。
+
 ## NAS 上安装的迅雷提示需要邀请码？
 
 迅雷邀请码可以填这个：
