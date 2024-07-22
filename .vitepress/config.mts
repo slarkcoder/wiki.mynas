@@ -1,13 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
-  head: [
-    [
-      'script',
-      { async: '', src: 'https://ai.slarker.me/api/application/embed?protocol=https&host=ai.slarker.me&token=81969a66665f0996' }
-    ],
-  ],
+export default defineConfig({ 
   title: "一起玩 NAS! ",
   description: "分享 NAS 的使用经验。",
   lastUpdated: true,
