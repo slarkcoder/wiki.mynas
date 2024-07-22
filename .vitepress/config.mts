@@ -30,7 +30,7 @@ export default defineConfig({
       { text: '提交需求', link: 'https://jinshuju.net/f/qGaDq1' },
       { text: '交流群组', link: '/contact.md' },
       { text: '我的博客', link: 'https://slarker.me' },
-      { text: '☕️ 喝杯咖啡！', link: '/coffee.md' },
+      { text: '打赏支持', link: '/reward.md' },
       {
         text: '关于',
         items: [
