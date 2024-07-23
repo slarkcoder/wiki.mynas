@@ -6,7 +6,7 @@ export default defineConfig({
   description: "分享 NAS 的使用经验。",
   lastUpdated: true,
   themeConfig: {
-    logo: `/play.svg`,
+    logo: `/logo.svg`,
     lastUpdated: {
       text: '更新于',
       formatOptions: {

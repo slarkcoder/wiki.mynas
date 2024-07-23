@@ -10,6 +10,9 @@ hero:
   tagline: 致力于解决使用 NAS 过程中遇到的各种常见问题
   image:
     src: https://img-1255332810.cos.ap-chengdu.myqcloud.com/logo_yAOyFN.png
+    # src: https://img-1255332810.cos.ap-chengdu.myqcloud.com/3075838_VZDgjI.png
+    # src: https://img-1255332810.cos.ap-chengdu.myqcloud.com/3075838_9XgT5m.png
+    # src: https://img-1255332810.cos.ap-chengdu.myqcloud.com/Remove-bg.ai_1721749034709_NdKEEF.png
   actions:
     - theme: brand
       text: 开始定制
