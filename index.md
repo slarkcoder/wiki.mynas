@@ -22,7 +22,7 @@ hero:
       link: /unraid/array.md
     - theme: alt
       text: 经验分享
-      link: /basic/question.md
+      link: /basic/docker_mirrors.md
 
 
 features:
@@ -30,16 +30,19 @@ features:
       src: https://img-1255332810.cos.ap-chengdu.myqcloud.com/diy_DthrrN.png
     title: 按需定制
     details: 可以按需定制 NAS，提供一条龙的 DIY 的服务，以及完善的入门指南，让新手也能快速上手，少走弯路！省时省力更省钱！
+    link: /diy/process.md
   
   - icon:
       src: https://img-1255332810.cos.ap-chengdu.myqcloud.com/docker-mark-blue_DZVYmE.png
     title: 技术支持
     details: 不管是 Unraid、TrueNAS、iStoreOS，PVE（All in one），或者是 Docker 等，都能提供超出你预期的技术支持！
+    link: /diy/support.md
   
   - icon:
       src: https://img-1255332810.cos.ap-chengdu.myqcloud.com/wechat_oDXK5N.png 
     title: 交流群组
     details: 欢迎加入聊天群组，和大佬们一起交流使用 NAS 的技巧和经验！
+    link: /contact.md
 
 ---
 
