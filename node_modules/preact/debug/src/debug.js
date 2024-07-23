@@ -72,7 +72,7 @@ export function initDebug() {
 				useEffect: new WeakMap(),
 				useLayoutEffect: new WeakMap(),
 				lazyPropTypes: new WeakMap()
-		  };
+			};
 	const deprecations = [];
 
 	options._catchError = (error, vnode, oldVNode, errorInfo) => {
@@ -247,11 +247,31 @@ export function initDebug() {
 		if (oldBeforeDiff) oldBeforeDiff(vnode);
 	};
 
+	let renderCount = 0;
+	let currentComponent;
 	options._render = vnode => {
 		if (oldRender) {
 			oldRender(vnode);
 		}
 		hooksAllowed = true;
+
+		const nextComponent = vnode._component;
+		if (nextComponent === currentComponent) {
+			renderCount++;
+		} else {
+			renderCount = 1;
+		}
+
+		if (renderCount >= 25) {
+			throw new Error(
+				`Too many re-renders. This is limited to prevent an infinite loop ` +
+					`which may lock up your browser. The component causing this is: ${getDisplayName(
+						vnode
+					)}`
+			);
+		}
+
+		currentComponent = nextComponent;
 	};
 
 	options._hook = (comp, index, type) => {
@@ -333,7 +353,17 @@ export function initDebug() {
 			});
 		}
 
-		if (typeof type === 'string' && (isTableElement(type) || type === 'p')) {
+		if (vnode._component === currentComponent) {
+			renderCount = 0;
+		}
+
+		if (
+			typeof type === 'string' &&
+			(isTableElement(type) ||
+				type === 'p' ||
+				type === 'a' ||
+				type === 'button')
+		) {
 			// Avoid false positives when Preact only partially rendered the
 			// HTML tree. Whilst we attempt to include the outer DOM in our
 			// validation, this wouldn't work on the server for
@@ -367,11 +397,10 @@ export function initDebug() {
 					type === 'tr' &&
 					domParentName !== 'thead' &&
 					domParentName !== 'tfoot' &&
-					domParentName !== 'tbody' &&
-					domParentName !== 'table'
+					domParentName !== 'tbody'
 				) {
 					console.error(
-						'Improper nesting of table. Your <tr> should have a <thead/tbody/tfoot/table> parent.' +
+						'Improper nesting of table. Your <tr> should have a <thead/tbody/tfoot> parent.' +
 							serializeVNode(vnode) +
 							`\n\n${getOwnerStack(vnode)}`
 					);
@@ -397,6 +426,16 @@ export function initDebug() {
 						'Improper nesting of paragraph. Your <p> should not have ' +
 							illegalDomChildrenTypes.join(', ') +
 							'as child-elements.' +
+							serializeVNode(vnode) +
+							`\n\n${getOwnerStack(vnode)}`
+					);
+				}
+			} else if (type === 'a' || type === 'button') {
+				if (getDomChildren(vnode).indexOf(type) !== -1) {
+					console.error(
+						`Improper nesting of interactive content. Your <${type}>` +
+							` should not have other ${type === 'a' ? 'anchor' : 'button'}` +
+							' tags as child-elements.' +
 							serializeVNode(vnode) +
 							`\n\n${getOwnerStack(vnode)}`
 					);

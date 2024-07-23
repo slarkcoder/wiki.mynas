@@ -1,39 +1,43 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
-layout: doc
+layout: home
+
+hero:
+  name: "一起玩 NAS!                  不是被 NAS 玩！"
+  text: "适合新手的入门指南"
+  tagline: 致力于解决使用 NAS 过程中遇到的各种常见问题
+  image:
+    src: /src/logo.png
+  actions:
+    - theme: brand
+      text: 开始定制
+      link: /diy/process.md
+    - theme: alt
+      text: 新手上路
+      link: /hardware/cpu.md
+    - theme: alt
+      text: Unraid 教程
+      link: /unraid/array.md
+    - theme: alt
+      text: 经验分享
+      link: /basic/question.md
+
+
+features:
+  - icon:
+      src: /src/diy.png
+    title: 按需定制
+    details: 可以按需定制 NAS，提供一条龙的 DIY 的服务，以及完善的入门指南，让新手也能快速上手，少走弯路！省时省力更省钱！
+  
+  - icon:
+      src: /src/docker-mark-blue.png
+    title: 技术支持
+    details: 不管是 Unraid、TrueNAS、iStoreOS，PVE（All in one），或者是 Docker 等，都能提供超出你预期的技术支持！
+  
+  - icon:
+      src: /src/wechat.png  
+    title: 交流群组
+    details: 欢迎加入聊天群组，和大佬们一起交流使用 NAS 的技巧和经验！
+
 ---
-# 一起玩 NAS！🎉
-
-![pexels-photo-510028_uONiPB](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-photo-510028_uONiPB.jpg)
-
-你好，我是 Slark，这是我分享自己使用 NAS 经验的网站。
-
-我从 2019 年开始使用 NAS，第一台 NAS 是威联通 TS-551，威联通系统并不算好用，直到后来遇到了 Unraid，开始自己 DIY NAS，才觉得相见恨晚。和很多人一样，我使用 NAS 需求也就是下载，备份照片，同步文件，玩玩 Docker、虚拟机之类的。对我来说，目前 Unraid 已经非常完美了，这些常见的需求都能很好的满足。
-
-喜欢折腾的同时，也帮很多人组装了 NAS，有初入门的不知 BT 为何物的小白用户，也有斥资万金只为看电影的土豪大佬，还有不少是用来给团队搭建影视剪辑的公司用户，期间遇到了不少奇奇怪怪的需求。总之，对于各种 NAS 系统都折腾过，积累了不少的经验，希望能通过这个网站分享给大家，能让大家节省时间，少走弯路。
-
-## 联系我 
-
-需要说明的是，本网站致力于提供高质量的内容，所有内容都来自于我的经验，一定会有不足，或者含有某些错误的地方，如果你发现了错误，欢迎联系我指正，感激不尽！
-
-如果你需要定制 NAS，或者有 NAS 相关的疑问，也可以点上方的 `联系我` 咨询。
-
-## 推荐有礼
-
-如果你觉得我的服务不错，也欢迎推荐给有需要的朋友，凡是成功推荐购买我定制的 NAS，我会发个 ￥50 红包给你表示感谢！
-
-## 一起玩 NAS 的朋友们
-
-这里有一些 [群友的 blog](/link.md)，希望帮你发现更多有趣的伙伴。
-
-## 加个书签
-
-如果你觉得我写的内容对你有用，不妨加个书签。有朋友给我反馈说主站有的地区无法访问，这里我也提供了另一个镜像站点，内容一致。
-
-推荐都加个书签，择优访问。
-
-- 主站：https://wiki.slarker.me
-- 镜像：https://wiki.mynas.chat
-
-
 

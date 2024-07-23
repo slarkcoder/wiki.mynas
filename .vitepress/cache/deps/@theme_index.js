@@ -1,12 +1,12 @@
 import {
   useMediaQuery
-} from "./chunk-YNLO5MEJ.js";
+} from "./chunk-I6NZBE4P.js";
 import {
   computed,
   ref,
   shallowRef,
   watch
-} from "./chunk-5QLTCEDZ.js";
+} from "./chunk-FSF5CYNS.js";
 
 // node_modules/vitepress/dist/client/theme-default/index.js
 import "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
@@ -26,15 +26,16 @@ import Layout from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/the
 import { default as default2 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
 import { default as default3 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPImage.vue";
 import { default as default4 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPButton.vue";
-import { default as default5 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
-import { default as default6 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
-import { default as default7 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
-import { default as default8 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
-import { default as default9 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPSponsors.vue";
-import { default as default10 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPTeamPage.vue";
-import { default as default11 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
-import { default as default12 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
-import { default as default13 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
+import { default as default5 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPHomeContent.vue";
+import { default as default6 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
+import { default as default7 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
+import { default as default8 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
+import { default as default9 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
+import { default as default10 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPSponsors.vue";
+import { default as default11 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPTeamPage.vue";
+import { default as default12 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
+import { default as default13 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
+import { default as default14 } from "/Users/slark/wiki.nas/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
 
 // node_modules/vitepress/dist/client/theme-default/support/utils.js
 import { withBase } from "vitepress";
@@ -194,23 +195,22 @@ function resolveHeaders(headers, range) {
     resolvedHeaders.push({ element, link });
   }
   const ret = [];
-  outer:
-    for (let i = 0; i < headers.length; i++) {
-      const cur = headers[i];
-      if (i === 0) {
-        ret.push(cur);
-      } else {
-        for (let j = i - 1; j >= 0; j--) {
-          const prev = headers[j];
-          if (prev.level < cur.level) {
-            ;
-            (prev.children || (prev.children = [])).push(cur);
-            continue outer;
-          }
+  outer: for (let i = 0; i < headers.length; i++) {
+    const cur = headers[i];
+    if (i === 0) {
+      ret.push(cur);
+    } else {
+      for (let j = i - 1; j >= 0; j--) {
+        const prev = headers[j];
+        if (prev.level < cur.level) {
+          ;
+          (prev.children || (prev.children = [])).push(cur);
+          continue outer;
         }
-        ret.push(cur);
       }
+      ret.push(cur);
     }
+  }
   return ret;
 }
 
@@ -241,16 +241,17 @@ var without_fonts_default = theme;
 export {
   default2 as VPBadge,
   default4 as VPButton,
-  default8 as VPDocAsideSponsors,
-  default6 as VPHomeFeatures,
-  default5 as VPHomeHero,
-  default7 as VPHomeSponsors,
+  default9 as VPDocAsideSponsors,
+  default5 as VPHomeContent,
+  default7 as VPHomeFeatures,
+  default6 as VPHomeHero,
+  default8 as VPHomeSponsors,
   default3 as VPImage,
-  default9 as VPSponsors,
-  default13 as VPTeamMembers,
-  default10 as VPTeamPage,
-  default12 as VPTeamPageSection,
-  default11 as VPTeamPageTitle,
+  default10 as VPSponsors,
+  default14 as VPTeamMembers,
+  default11 as VPTeamPage,
+  default13 as VPTeamPageSection,
+  default12 as VPTeamPageTitle,
   without_fonts_default as default,
   useLocalNav,
   useSidebar

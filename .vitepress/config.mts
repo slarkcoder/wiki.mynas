@@ -19,22 +19,22 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '定制 NAS & 联系我', 
         items: [
-          { text: '定制流程', link: '/process.md' },
+          { text: '定制流程', link: '/diy/process.md' },
           // { text: '系统方案', link: '/system_solution.md' },
-          { text: '技术支持', link: '/support.md' },
-          { text: '远程协助', link: '/rustdesk.md' },
-          { text: '售后服务', link: '/after_sales_service.md' },
-          { text: '闲鱼小铺', link: '/store.md' },
+          { text: '技术支持', link: '/diy/support.md' },
+          { text: '远程协助', link: '/diy/rustdesk.md' },
+          { text: '售后服务', link: '/diy/after_sales_service.md' },
+          { text: '闲鱼小铺', link: '/diy/store.md' },
         ]
       },
       { text: '提交需求', link: 'https://jinshuju.net/f/qGaDq1' },
       { text: '交流群组', link: '/contact.md' },
-      { text: '我的博客', link: 'https://slarker.me' },
       { text: '打赏支持', link: '/reward.md' },
       {
         text: '关于',
         items: [
           { text: '一起玩 NAS 的朋友们', link: '/link.md' },
+          { text: '我的博客', link: 'https://slarker.me' },
           { text: '意见反馈', link: '/feedback.md' },
           { text: '原创声明', link: '/copyright.md' },
           { text: '镜像站点', link: 'https://wiki.mynas.chat' },
@@ -46,7 +46,7 @@ export default defineConfig({
     sidebar: [
       {
         text: '选择硬件',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: '如何选择 CPU', link: '/hardware/cpu.md' },
           { text: '关于硬解的一些科普', link: '/hardware/decode.md' },
@@ -58,7 +58,7 @@ export default defineConfig({
       },
       {
         text: '机箱',
-        collapsed: false,
+        collapsed: true,
         items:[
           { text: '乔思伯机箱', link: '/case/jonsbo.md' },
           { text: '梵隆机箱', link: '/case/fanlong.md' },
@@ -72,7 +72,7 @@ export default defineConfig({
       },
       {
         text: '经验分享',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: '解决 Docker 镜像无法下载问题', link: '/basic/docker_mirrors.md' },
           { text: '解决问题的技巧 - 善用搜索', link: '/basic/search.md' },
@@ -92,7 +92,7 @@ export default defineConfig({
       },
       {
         text: '推荐应用',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: '高颜值的 NAS 应用导航 - Homepage', link: '/application/homepage.md' },
           { text: '影音资源库 - 小雅部署教程', link: '/application/xiaoya.md' },
@@ -100,7 +100,7 @@ export default defineConfig({
       },
       {
         text: 'Unraid',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: '磁盘阵列和 ZFS', link: '/unraid/array.md' },
           { text: '我的 Unraid 数据存储方案', link: '/unraid/storage.md' },
@@ -136,7 +136,7 @@ export default defineConfig({
       },
       {
         text: 'Synology',
-        collapsed: false,
+        collapsed: true,
         items:[
           { text: '设置引导', link: '/synology/setting_loader.md' },
           { text: '查找群晖设备', link: '/synology/find_synology.md' },
@@ -155,7 +155,7 @@ export default defineConfig({
       },
       {
         text: 'PVE',
-        collapsed: false,
+        collapsed: true,
         items:[
           { text: '常见功能设置', link: '/pve/basic.md' },
           { text: '更新群晖引导', link: '/pve/update_synology.md' },
@@ -164,7 +164,7 @@ export default defineConfig({
       },
       {
         text: '资源',
-        // collapsed: false,
+        collapsed: true,
         items:[
           { text: '分享好用的 App', link: '/resource/app.md' },
           { text: 'BT 和 PT', link: '/resource/bt_pt.md' },
