@@ -3,7 +3,9 @@
 layout: home
 
 hero:
-  name: "一起玩 NAS!                  不是被 NAS 玩！"
+  name: "一起玩 NAS!
+  
+  不是被 NAS 玩！"
   text: "适合新手的入门指南"
   tagline: 致力于解决使用 NAS 过程中遇到的各种常见问题
   image:
