@@ -10,6 +10,12 @@ wiki.slarker.me
 
 测试环境：`Synology v7.2`，`SA6400`，nyanmisaka/jellyfin `v10.8.13`
 
+## [i5-14400T](https://www.intel.cn/content/www/cn/zh/products/sku/236790/intel-core-i5-processor-14400t-20m-cache-up-to-4-50-ghz/specifications.html)
+- 核显：Intel® UHD Graphics 730，24 个执行单元
+- 转码帧率：101 fps
+
+![Snipaste_2024-07-24_17-24-36_iXpmAY](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-07-24_17-24-36_iXpmAY.jpg)
+
 ## [i5-12500](https://www.intel.cn/content/www/cn/zh/products/sku/96144/intel-core-i512500-processor-18m-cache-up-to-4-60-ghz/specifications.html)
 - 核显：Intel® UHD Graphics 770，32 个执行单元
 - 转码帧率：72 fps
