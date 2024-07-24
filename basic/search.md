@@ -1,5 +1,7 @@
 # 解决问题的技巧 - 善用搜索
 
+![pexels-caio-6711_VUH0Xa](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-caio-6711_VUH0Xa.jpg)
+
 下面介绍一些能够帮你快速解决问题的技巧，非常实用。
 
 不管是 Unraid 还是群晖，都有自带的搜索功能，可以帮你快速找到相关的功能设置。

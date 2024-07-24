@@ -1,5 +1,7 @@
 # 网络唤醒
 
+![pexels-pixabay-21052_suMSDk](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-pixabay-21052_suMSDk.jpg)
+
 网络唤醒功能可以让你的 NAS 在关机状态时，通过其它设备发送网络唤醒魔术包实现远程开机，不需要你手动按下 NAS 的开机键。如果你需要使用网络唤醒功能，需要主板支持并打开网络唤醒的设置。
 
 ## 主板设置

@@ -1,5 +1,7 @@
 # 技术支持
 
+![pexels-olly-84545_MOAqnf](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-olly-84545_MOAqnf.jpg)
+
 对于所有购买定制 NAS 的用户，提供一年的技术支持服务。
 
 ## 系统支持

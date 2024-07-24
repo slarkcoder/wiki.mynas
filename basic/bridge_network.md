@@ -1,5 +1,7 @@
 # 设置交换机模式
 
+![pexels-brett-sayles-288122_SoctoD](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-brett-sayles-288122_SoctoD.jpg)
+
 ## 最常见的网络拓扑
 
 大部分情况下，我们的网络拓扑应该是这样的：

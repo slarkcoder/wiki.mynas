@@ -1,5 +1,7 @@
 # 硬件测试
 
+![pexels-thisisengineering-386213_h4Lnzz](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-thisisengineering-386213_h4Lnzz.jpg)
+
 硬件问题一般比较难排查，装好 NAS 之后建议做一些常规的测试，有助于找到可能存在的问题。下面就介绍一些常用的测试办法。
 
 ## 内存测试

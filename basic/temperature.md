@@ -1,5 +1,7 @@
 # 温度监控
 
+![pexels-enginakyurt-143551_wD65iA](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-enginakyurt-143551_wD65iA.jpg)
+
 使用 NAS 的过程中，需要注意硬件的温度是否有异常。不管是 Unraid，PVE 还是群晖，都可以通过 CPU，主板和硬盘内置的温度传感器来获取到温度信息。
 
 ## 温度范围

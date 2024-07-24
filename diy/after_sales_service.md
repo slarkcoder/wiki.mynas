@@ -1,5 +1,7 @@
 # 售后服务
 
+![pexels-pixabay-25788_njKFs7](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-pixabay-25788_njKFs7.jpg)
+
 ## 保修期
 
 除有特殊说明外（如果是二手配件，会有 `二手` 标记），所有硬件均为全新。对于 `二手` 配件，提供 `三个月` 质保。对于全新配件，提供至少 `一年` 保修，具体保修期参见具体配置表格。

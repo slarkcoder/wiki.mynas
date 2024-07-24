@@ -1,5 +1,7 @@
 # 家庭组网的几个建议
 
+![pexels-field-engineer-147254-442154_chVhoT](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-field-engineer-147254-442154_chVhoT.jpg)
+
 ## 网络扁平化
 
 尽可能将网络扁平化，减少网络层级，降低网络复杂度。我用下面这张图来解释什么是扁平化：

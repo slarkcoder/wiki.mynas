@@ -1,5 +1,7 @@
 # 常见问题解答
 
+![pexels-alex-green-569945_QwNpJJ](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-alex-green-569945_QwNpJJ.jpg)
+
 这里收集一些新手经常遇到的问题。
 
 ## 群晖系统装在哪里？
