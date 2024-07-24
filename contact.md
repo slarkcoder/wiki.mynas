@@ -26,7 +26,7 @@
 
 <!-- 由于群已满 200 人，可以直接扫码添加我的微信，并注明 `加群`，我手动拉你进群。 -->
 
-## 微信
+### 微信
 
 如果你想加群，或者遇到 NAS 相关问题需要咨询，可以扫码添加我的微信。
 
@@ -34,6 +34,6 @@
 
 ![未命名码_HVVQ3K](https://img-1255332810.cos.ap-chengdu.myqcloud.com/未命名码_HVVQ3K.png)
 
-### Telegram Group
+## Telegram Group
 
 如果你使用 Telegram，可以加入：[Telegram Group](https://t.me/+__eB9jok9YhkMDc5)。

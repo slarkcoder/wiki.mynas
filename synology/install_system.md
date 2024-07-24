@@ -26,7 +26,7 @@
 
 默认为 `自动从 Synology 网站下载`，这里推荐选择 `从计算机手动上传 .pat 文件`，手动上传可以避免因网络原因导致安装失败。
 
-下载 [DSM_SA6400_69057.pat](https://www.123pan.com/s/1JKMjv-LKpo.html)，上传后点击下一步。
+下载 [DSM_SA6400_69057.pat](https://www.123pan.com/s/1JKMjv-o9fo.html)，上传后点击下一步。
 
 ![synology_install_2_cpnHbP](https://img-1255332810.cos.ap-chengdu.myqcloud.com/synology_install_2_cpnHbP.png)
 
