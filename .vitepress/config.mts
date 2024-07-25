@@ -96,6 +96,7 @@ export default defineConfig({
         items: [
           { text: '高颜值的 NAS 应用导航 - Homepage', link: '/application/homepage.md' },
           { text: '影音资源库 - 小雅部署教程', link: '/application/xiaoya.md' },
+          { text: '低门槛、易上手的自动化观影方案', link: '/application/douban_tool.md' },
         ]
       },
       {

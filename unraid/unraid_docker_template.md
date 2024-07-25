@@ -28,22 +28,23 @@ Unraid 为了用户可以更方便的使用 Docker，加入了模板这个概念
 
 目前包含下面这些应用：
 
-- AList
-- Aria2-Pro，默认下载目录为共享文件夹 downloads，默认 RPC Secret 为：7iQzqgg6Soe5MqpWGaLODhAbNcFwkFEaQYCQhCAtDrIZ
-- Ariang
-- Duplicati
-- Filebrowser
-- Jellyfin，默认媒体目录为共享文件夹  media
-- MetaTube
-- Metube，默认下载目录为共享文件夹 downloads
-- Navidrome，默认音乐目录为共享文件夹  musics
-- qBittorrent，默认下载目录为共享文件夹 downloads
-- immich，默认的照片备份文件夹为 photos
-- Homepage
-- SpeedTest
-- SyncClipboard
-- TinyMediaManager
-- xunlei，默认下载目录为共享文件夹 downloads
+- AList，挂载各大网盘，方便其它设备通过统一的 `WebDAV` 访问。
+- Aria2-Pro，强大的轻量级下载工具，默认下载目录为共享文件夹 `downloads`，默认 RPC Secret 为：`7iQzqgg6Soe5MqpWGaLODhAbNcFwkFEaQYCQhCAtDrIZ`
+- Ariang，搭配 `Aria2-Pro` 使用的 Web 前端。
+- [Duplicati](/unraid/duplicati.md)，自动备份工具。
+- [Douban_tool](/application/douban_tool.md)，通过豆瓣标记自动下载资源神器！
+- Filebrowser，第三方的文件管理器，简洁易用。
+- [Jellyfin](/unraid/jellyfin_harddecode.md)，默认媒体目录为共享文件夹 `media`
+- [MetaTube](/unraid/javspider.md)，自动刮削小姐姐插件
+- Metube，支持主流视频网站（B 站，油管）的下载视频，默认下载目录为共享文件夹 `downloads`
+- Navidrome，自建音乐库的不二之选，默认音乐目录为共享文件夹 `musics`
+- qBittorrent，知名的 BT/PT 下载客户端，默认下载目录为共享文件夹 `downloads`
+- [Immich](/unraid/deploy_immich.md)，媲美 `Google Photos` 的开源照片备份工具，默认的照片备份文件夹为 `photos`
+- [Homepage](/application/homepage.md)，美观的 NAS 主页导航。
+- [SpeedTest](/unraid/speedtest.md)，局域网测速。
+- [SyncClipboard](/unraid/clipboard_sync.md)，跨平台多设备剪贴板同步。
+- [TinyMediaManager](/unraid/tmm.md)，影视刮削。
+- xunlei，默认下载目录为共享文件夹 `downloads`。
 
 其中 `xml` 都是 docker 模板，`zip` 压缩包都是 docker compose 模板。
 
