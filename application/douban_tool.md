@@ -27,7 +27,9 @@
 
 ## Unraid
 
-Unraid 可以通过模板安装 douban-tool，具体可以看 [通过模板更新 Docker 应用](/unraid/unraid_docker_template.md)。
+Unraid 可以通过模板安装 `douban-tool` 和 `qBittorrent`，具体可以看 [通过模板更新 Docker 应用](/unraid/unraid_docker_template.md)。
+
+![5vwApf_8Y84zi](https://img-1255332810.cos.ap-chengdu.myqcloud.com/5vwApf_8Y84zi.png)
 
 <!-- ## 群晖
 
