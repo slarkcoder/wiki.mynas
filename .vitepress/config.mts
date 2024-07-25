@@ -57,7 +57,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '机箱',
+        text: 'NAS 机箱',
         collapsed: true,
         items:[
           { text: '乔思伯机箱', link: '/case/jonsbo.md' },
@@ -100,7 +100,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Unraid',
+        text: 'Unraid 教程',
         collapsed: true,
         items: [
           { text: '磁盘阵列和 ZFS', link: '/unraid/array.md' },
@@ -136,7 +136,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Synology',
+        text: 'Synology 教程',
         collapsed: true,
         items:[
           { text: '设置引导', link: '/synology/setting_loader.md' },
@@ -155,7 +155,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'PVE',
+        text: 'PVE 教程',
         collapsed: true,
         items:[
           { text: '常见功能设置', link: '/pve/basic.md' },

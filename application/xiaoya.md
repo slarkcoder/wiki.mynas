@@ -1,7 +1,7 @@
 # 影音资源库 - 小雅部署教程
 
 :::info 提示
-`推荐应用` 中的教程均包含 `Unraid` 和 `群晖` 两部分，大家可以按需参照相关部分，对于重复内容就不再赘述。
+由于阿里云盘政策收紧对第三方应用的限制，如果没有付费将导致 `xiaoya` 无法正常使用，因此推荐采用 [低门槛、易上手的自动化观影方案](/application/douban_tool.md) 来实现自动观影。
 :::
 
 ![i67r7k_9ir0Cy](https://img-1255332810.cos.ap-chengdu.myqcloud.com/i67r7k_9ir0Cy.png)

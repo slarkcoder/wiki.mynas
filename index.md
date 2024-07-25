@@ -19,7 +19,7 @@ hero:
       link: /diy/process.md
     - theme: alt
       text: 新手上路
-      link: /hardware/cpu.md
+      link: /start.md
     - theme: alt
       text: Unraid 教程
       link: /unraid/array.md
