@@ -8,20 +8,20 @@
 
 ## 注意事项
 
-- douban-tool 默认的 web 端口是 5000，经过我在 Unraid 上面的测试，如果改成其它端口，会出现无法访问的情况，所以推荐使用默认的 5000 端口，如果有其它应用已经占用了 5000 端口，可以把该应用改成别的端口。
+- `douban-tool` 默认的 web 端口是 5000，经过我在 Unraid 上面的测试，如果改成其它端口，会出现无法访问的情况，所以推荐使用默认的 5000 端口，如果有其它应用已经占用了 5000 端口，可以把该应用改成别的端口。
 - 这个方案是基于 BT 下载资源，下载速度要看该资源是否热门。资源热门，BT 同时下载人数越多，下载就快。反之资源越冷门，BT 同时下载人数就越少，下载就慢。
-- 使用 qBittorrent 作为下载工具，可以通过添加 tracker 来连接更多的下载用户，提高下载速度。
+- 使用 `qBittorrent` 作为下载工具，可以通过添加 `tracker` 来连接更多的下载用户，提高下载速度。
 - 这个方案的原理是每隔一段时间去检查豆瓣标记（建议是间隔 2 个小时以上），避免被豆瓣风控，所以标记后不一定会立即下载，需要等一段时间。
 
 ## 准备工作
 
-douban-tool 实现的主要功能为获取豆瓣标记，通过 [BTNULL](https://www.btnull.org/) 这个网站匹配相应的 BT 资源，然后调用 BT 工具资源下载到本地并使用 TMDB API 来实现刮削。
+`douban-tool` 实现的主要功能为获取豆瓣标记，通过 [BTNULL](https://www.btnull.org/) 这个网站匹配相应的 BT 资源，然后调用 BT 工具资源下载到本地并使用 `TMDB API` 来实现刮削。
 
 需要提前注册好 [BTNULL](https://www.btnull.org/) 和 [TMDB](https://www.themoviedb.org/) 账号。
 
 整个流程比较清晰简单，步骤也不复杂，涉及到的 docker 也只有 2 个，分别是 `douban-tool` 和 `qBittorrent` 或者 `迅雷`，本篇教程以 `qBittorrent` 为例作为介绍，迅雷设置方法可以参考 [这里](https://www.bilibili.com/read/cv35942028/?jump_opus=1)。
 
-douban-tool 的资源目录和 `qBittorrent` 的下载目录，需要保持一致。
+`douban-tool` 的资源目录和 `qBittorrent` 的下载目录，需要保持一致。
 
 如果需要使用 `Emby` 或者 `Jellyfin` 等工具，可以通过 docker 单独安装，将 BT 的下载目录挂载到 `Emby` 或者 `Jellyfin` 中。
 
@@ -35,7 +35,7 @@ Unraid 可以通过模板安装 douban-tool，具体可以看 [通过模板更�
 
 ## 设置 douban-tool
 
-打开 douban-tool 的 web 页面（默认端口：5000），按照下图进行设置：
+打开 `douban-tool` 的 web 页面（默认端口：5000），按照下图进行设置：
 
 - 豆瓣 id 可以使用浏览器打开你的 [豆瓣](https://www.douban.com/) 个人主页，浏览器地址栏 `people` 后面的一串 `数字` 就是你的豆瓣 ID。
 - Sleep Interval：设置检查豆瓣标记的间隔时间，默认为 `2` 小时，间隔过短可能导致账号被风控，建议保持默认。
@@ -52,7 +52,7 @@ Unraid 可以通过模板安装 douban-tool，具体可以看 [通过模板更�
 
 ## 设置 qBittorrent tracker
 
-为了让 qBittorrent 能连接到更多的用户，可以添加 Tracker tracker 可以到下面这几个网站获取：
+为了让 `qBittorrent` 能连接到更多的用户，可以添加 tracker 地址，具体地址可以到下面这几个网站获取：
 
 - https://dns.icoa.cn/tracker/
 - https://trackerslist.com/#/zh
