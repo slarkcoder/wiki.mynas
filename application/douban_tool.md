@@ -36,6 +36,7 @@ Unraid 可以通过模板安装 `douban-tool` 和 `qBittorrent`，具体可以�
 群晖可以在 `Container Manager` 中安装 `douban-tool`，在注册表中搜索 `douban-tool`，下载镜像后运行。
 
 按图中所示映射端口号、文件夹（左侧为 `主机`，右侧为 `容器`）：
+
 - `5002` -> `5000`，为避免和群晖默认端口冲突，主机端口可以改成 `5002` 或者其它端口
 - `/docker/douban-tool/config` -> `/app/config`
 - `/docker/douban-tool/data` -> `/app/data`
@@ -47,9 +48,9 @@ Unraid 可以通过模板安装 `douban-tool` 和 `qBittorrent`，具体可以�
 
 ## 设置 douban-tool
 
-打开 `douban-tool` 的 web 页面（默认端口：5000），按照下图进行设置：
+打开 `douban-tool` 的 web 页面（Unraid 模板默认端口：`5000`，群晖默认端口：`5002`），按照下图进行设置：
 
-- 豆瓣 id 可以使用浏览器打开你的 [豆瓣](https://www.douban.com/) 个人主页，浏览器地址栏 `people` 后面的一串 `数字` 就是你的豆瓣 ID。
+- 豆瓣 id 可以使用浏览器打开你的 [豆瓣](https://www.douban.com/) 个人主页，浏览器地址栏 `people` 后面的一串 `数字`（不包含 `/`）就是你的豆瓣 ID。
 - Sleep Interval：设置检查豆瓣标记的间隔时间，默认为 `2` 小时，间隔过短可能导致账号被风控，建议保持默认。
 - Junk File Size：过滤掉小于多少 `MB` 的文件，可以避免下载低质量或者似是而非或者的垃圾资源。
 - TMDB API Key：如果需要刮削，可以 [获取 TMDB API Key](https://www.themoviedb.org/settings/api)，用于获取电影和电视剧的详细信息。
