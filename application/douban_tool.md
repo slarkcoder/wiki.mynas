@@ -8,7 +8,7 @@
 
 ## 注意事项
 
-- `douban-tool` 默认的 web 端口是 5000，经过我在 Unraid 上面的测试，如果改成其它端口，会出现无法访问的情况，所以推荐使用默认的 5000 端口，如果有其它应用已经占用了 5000 端口，可以把该应用改成别的端口。
+- `douban-tool` 默认的 web 端口是 5000，经过我在 Unraid 上面的测试，如果改成其它端口，可能会出现无法访问的情况，所以推荐使用默认的 5000 端口，如果有其它应用已经占用了 5000 端口，可以把该应用改成别的端口。
 - 这个方案是基于 BT 下载资源，下载速度要看该资源是否热门。资源热门，BT 同时下载人数越多，下载就快。反之资源越冷门，BT 同时下载人数就越少，下载就慢。
 - 使用 `qBittorrent` 作为下载工具，可以通过添加 `tracker` 来连接更多的下载用户，提高下载速度。
 - 这个方案的原理是每隔一段时间去检查豆瓣标记（建议是间隔 2 个小时以上），避免被豆瓣风控，所以标记后不一定会立即下载，需要等一段时间。
@@ -31,9 +31,19 @@ Unraid 可以通过模板安装 `douban-tool` 和 `qBittorrent`，具体可以�
 
 ![5vwApf_8Y84zi](https://img-1255332810.cos.ap-chengdu.myqcloud.com/5vwApf_8Y84zi.png)
 
-<!-- ## 群晖
+## 群晖
 
-群晖可以通过 docker 容器安装 douban-tool，具体可以看 [群晖 Docker 容器](/synology/synology_docker.md)。 -->
+群晖可以在 `Container Manager` 中安装 `douban-tool`，在注册表中搜索 `douban-tool`，下载镜像后运行。
+
+按图中所示映射端口号、文件夹（左侧为 `主机`，右侧为 `容器`）：
+- `5002` -> `5000`，为避免和群晖默认端口冲突，主机端口可以改成 `5002` 或者其它端口
+- `/docker/douban-tool/config` -> `/app/config`
+- `/docker/douban-tool/data` -> `/app/data`
+- `/downloads` -> `/downloads`
+
+![z35vukbq.zzt_gnMolb](https://img-1255332810.cos.ap-chengdu.myqcloud.com/z35vukbq.zzt_gnMolb.png)
+
+设置好之后，一路下一步，就可以完成了。
 
 ## 设置 douban-tool
 
