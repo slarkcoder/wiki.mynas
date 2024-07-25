@@ -94,9 +94,9 @@ export default defineConfig({
         text: '推荐应用',
         collapsed: true,
         items: [
+          { text: '低门槛、易上手的自动化观影方案', link: '/application/douban_tool.md' },
           { text: '高颜值的 NAS 应用导航 - Homepage', link: '/application/homepage.md' },
           { text: '影音资源库 - 小雅部署教程', link: '/application/xiaoya.md' },
-          { text: '低门槛、易上手的自动化观影方案', link: '/application/douban_tool.md' },
         ]
       },
       {
@@ -175,8 +175,9 @@ export default defineConfig({
       }
     ],
     footer: {
-      message: 'Released under the CC BY-NC 4.0 License.',
-      copyright: '©2024 Slark. All rights reserved.'
+      
+      message: 'Released under the <a href="https://wiki.slarker.me/copyright.html">CC BY-NC 4.0 License</a>.',
+      copyright: '©2024 <a href="https://slarker.me">Slark</a>. All rights reserved.'
     },
     search: {
       provider: 'local',
