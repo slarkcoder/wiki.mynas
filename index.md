@@ -46,5 +46,12 @@ features:
     details: 欢迎加入聊天群组，和大佬们一起交流使用 NAS 的技巧和经验！
     link: /contact.md
     linkText: 加入讨论
+
+  - icon:
+      src: https://img-1255332810.cos.ap-chengdu.myqcloud.com/10507120_gAbckb.png
+    title: 付费咨询
+    details: 如果你有 NAS 相关的疑难杂症，可以联系我付费咨询！
+    link: /counselling.md
+    linkText: 立即咨询
 ---
 
