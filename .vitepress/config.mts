@@ -5,6 +5,7 @@ export default defineConfig({
   title: "一起玩 NAS! ",
   description: "分享 NAS 的使用经验。",
   lastUpdated: true,
+  appearance:'dark',
   themeConfig: {
     logo: `/logo.svg`,
     lastUpdated: {
