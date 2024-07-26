@@ -29,7 +29,7 @@ export default defineConfig({
       },
       { text: '提交需求', link: 'https://jinshuju.net/f/qGaDq1' },
       { text: '交流群组', link: '/contact.md' },
-      { text: '打赏支持', link: '/reward.md' },
+      { text: '打赏', link: '/reward.md' },
       {
         text: '关于',
         items: [
