@@ -22,7 +22,7 @@ wiki.slarker.me
 
 ![12500_DMRanZ_kHwjNF](https://img-1255332810.cos.ap-chengdu.myqcloud.com/12500_DMRanZ_kHwjNF.jpg)
 
-## [i3-12400](https://ark.intel.com/content/www/cn/zh/ark/products/134586/intel-core-i5-12400-processor-18m-cache-up-to-4-40-ghz.html)
+## [i5-12400](https://ark.intel.com/content/www/cn/zh/ark/products/134586/intel-core-i5-12400-processor-18m-cache-up-to-4-40-ghz.html)
 
 - 核显：Intel® UHD Graphics 730，24 个执行单元
 - 转码帧率：82 fps
