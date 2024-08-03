@@ -90,3 +90,12 @@ cat interfaces
 这两种办法效果一样，都属于正常的关机操作，都会触发 PVE 的关机流程：PVE 会按开机顺序的倒序，依次关闭虚拟机，之后完成关机动作。关机过程需要几分钟，请耐心等待。
 
 ![20240530195417_eyKd7r](https://img-1255332810.cos.ap-chengdu.myqcloud.com/20240530195417_eyKd7r.png)
+
+## PVE 频繁提示登录
+
+有时候会遇到 PVE 每隔几分钟就要求登录，这种情况一般都是系统本地时间不对导致的，可以用下面的命令解决：
+
+```
+touch /etc/pve/authkey.pub
+touch /etc/pve/authkey.pub.old
+```
