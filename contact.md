@@ -24,7 +24,7 @@
 新人入群，请先查看群公告。
 :::
 
-![1722482394886_wtHhP4](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1722482394886_wtHhP4.png)
+![1723087547944_OeipTe](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1723087547944_OeipTe.png)
 
 <!-- 由于群已满 200 人，可以直接扫码添加我的微信，并注明 `加群`，我手动拉你进群。 -->
 
