@@ -74,3 +74,16 @@ Unraid 可以通过模板安装 `douban-tool` 和 `qBittorrent`，具体可以�
 
 ![7NQJZe_Y327ci](https://img-1255332810.cos.ap-chengdu.myqcloud.com/7NQJZe_Y327ci.png)
 
+## 使用迅雷作为下载工具
+
+如果你有迅雷会员，想让迅雷作为 `douban-tool` 的默认下载工具，可以参照下面进行设置。推荐使用 docker 版的迅雷，注意迅雷的下载目录需要和 `douban-tool` 保持一致。
+
+![5D2Vtt_pw7dLG](https://img-1255332810.cos.ap-chengdu.myqcloud.com/5D2Vtt_pw7dLG.png)
+
+`Xunlei Device Name` 在绑定手机迅雷 App 后，可以在远程设备里看到，这里需要填写完整的设备名称，如下图所示：
+
+![KWgyTV_XOapEc](https://img-1255332810.cos.ap-chengdu.myqcloud.com/KWgyTV_XOapEc.png)
+
+## 常见错误
+
+可以到 [这篇文章](https://www.bilibili.com/read/cv35942028/?jump_opus=1) 查看具体错误原因及解决方案：
