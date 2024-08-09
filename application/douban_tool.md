@@ -84,6 +84,10 @@ Unraid 可以通过模板安装 `douban-tool` 和 `qBittorrent`，具体可以�
 
 ![KWgyTV_XOapEc](https://img-1255332810.cos.ap-chengdu.myqcloud.com/KWgyTV_XOapEc.png)
 
-## 常见错误
+## 常见错误排查
 
-可以到 [这篇文章](https://www.bilibili.com/read/cv35942028/?jump_opus=1) 查看具体错误原因及解决方案：
+可以查看 `douban-tool` 的日志，来确认是否正常。
+
+![koapg4ho.g3a_7Sr6G5](https://img-1255332810.cos.ap-chengdu.myqcloud.com/koapg4ho.g3a_7Sr6G5.png)
+
+如果遇到错误提示不明白含义，可以到 [这篇文章](https://www.bilibili.com/read/cv35942028/?jump_opus=1) 查看具体错误原因及解决方案：
