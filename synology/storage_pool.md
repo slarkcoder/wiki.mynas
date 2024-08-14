@@ -13,7 +13,7 @@
 
 ## 建立存储池
 
-在 `存储管理器` 中，可以按需创建存储池。可以根据硬盘数量，选择不同的 `Raid` 类型。如果你不了解各种 `Raid` 类型有什么区别，可以到群晖的 [容量计算器](https://www.synology.cn/zh-cn/support/RAID_calculator) 中查看。
+在 `存储管理器` 中，可以按需创建存储池。可以根据硬盘数量，选择不同的 `Raid` 类型。如果你不了解各种 `Raid` 类型有什么区别，也可以到群晖的 [容量计算器](https://www.synology.cn/zh-cn/support/RAID_calculator) 中对比。
 
 ![F9Gg3W_pMMh3c](https://img-1255332810.cos.ap-chengdu.myqcloud.com/F9Gg3W_pMMh3c.png)
 
