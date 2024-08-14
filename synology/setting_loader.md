@@ -31,3 +31,7 @@
 
 - [查找群晖设备](/synology/find_synology.md)
 - [安装系统](/synology/install_system.md)
+
+## 更新引导
+
+更新引导请参考 [更新引导](/pve/update_synology.md) 中的 `在线更新引导` 部分。

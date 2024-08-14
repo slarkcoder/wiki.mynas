@@ -8,7 +8,27 @@
 
 有时候想更新群晖系统，或者群晖系统出问题无法解决，可以尝试更新引导，重新安装系统解决。
 
-## 下载引导
+更新引导有两种方式，优先推荐使用 `在线更新`，如果在线更新异常，可以尝试手动更新引导。
+
+## 在线更新引导
+
+`RR` 引导支持在线更新，你可以在群晖的 `控制面板` -> `任务计划` 中手动运行名为 `RebootToLoader` 的任务，然后重启群晖就会自动进入引导菜单，在引导菜单中可以直接更新引导。
+
+![Snipaste_2024-08-14_23-49-02_gWeY5Q](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-08-14_23-49-02_gWeY5Q.png)
+
+重启后访问 `NAS IP:7681` 端口，就能进入引导菜单，选择 `Update menu` 菜单。
+
+![lgigko4n.ppz_GlAKrm](https://img-1255332810.cos.ap-chengdu.myqcloud.com/lgigko4n.ppz_GlAKrm.png)
+
+按提示就可以在线更新，更新完成后重新 `Boot the loader`，就可以启动群晖。
+
+![ejhzz3gh.feb_UVe7ZY](https://img-1255332810.cos.ap-chengdu.myqcloud.com/ejhzz3gh.feb_UVe7ZY.png)
+
+## 手动更新引导
+
+如果无法在线更新引导，或者切换其它的引导，可以参考下面的教程操作。
+
+### 下载引导
 
 目前最新的引导可以从这里下载：
 
@@ -20,7 +40,7 @@
 
 ![vdoeq5za.ogt_O91rPX](https://img-1255332810.cos.ap-chengdu.myqcloud.com/vdoeq5za.ogt_O91rPX.png)
 
-## 替换虚拟群晖引导
+### 替换虚拟群晖引导
 
 替换群晖引导，首先要删除现有群晖的引导。确保群晖虚拟机已经停止，然后在群晖虚拟机的 `硬件` 中选中虚拟的引导磁盘（通常应该为 sata0），点击 `分离`，确认选 `是`。
 

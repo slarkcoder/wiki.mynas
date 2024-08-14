@@ -6,7 +6,7 @@
 
 - [Win_10_22H2_64BIT](https://www.123pan.com/s/1JKMjv-xbxo.html)
 - [Win_11_23H2_64BIT](https://www.123pan.com/s/1JKMjv-abxo.html)
-- [VirtIO 驱动](https://www.123pan.com/s/1JKMjv-Bbxo.html)
+- [VirtIO 驱动](https://www.123pan.com/s/1JKMjv-b2fo.html)
 - [Autologon](https://learn.microsoft.com/zh-cn/sysinternals/downloads/autologon)，开启 Windows 自动登录
 
 ## 安装 Windows
