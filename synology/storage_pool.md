@@ -1,5 +1,7 @@
 # 存储池
 
+![d8fee6d8da2a4b79750c8a46aa42906b_Sp4NzU](https://img-1255332810.cos.ap-chengdu.myqcloud.com/d8fee6d8da2a4b79750c8a46aa42906b_Sp4NzU.jpeg)
+
 ## 常见 Raid 类型
 
 | **RAID 类型** | **硬盘数量** | **冗余硬盘数量**      | **特点**     |
