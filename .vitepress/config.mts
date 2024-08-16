@@ -21,7 +21,7 @@ export default defineConfig({
       { text: '定制 NAS & 联系我', 
         items: [
           { text: '定制流程', link: '/diy/process.md' },
-          // { text: '系统方案', link: '/system_solution.md' },
+          { text: '系统方案', link: '/system_solution.md' },
           { text: '技术支持', link: '/diy/support.md' },
           { text: '远程协助', link: '/diy/rustdesk.md' },
           { text: '售后服务', link: '/diy/after_sales_service.md' },

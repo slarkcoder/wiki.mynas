@@ -1,5 +1,7 @@
 # 系统方案
 
+![fba9de411d46233ba1ff00ddd831a564_PeOKLc](https://img-1255332810.cos.ap-chengdu.myqcloud.com/fba9de411d46233ba1ff00ddd831a564_PeOKLc.png)
+
 ## 如何选择系统？
 
 常见的 NAS 系统有 Unraid，Synology，TrueNAS Scale，OpenMediaVault 等等，每个系统都有自己的独到之处。只有结合自己的实际需求、知识水平、动手能力，搭配合适的 NAS 系统，才能起到事半功倍的效果。
