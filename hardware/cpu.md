@@ -10,6 +10,8 @@
 
 ![](https://img-1255332810.cos.ap-chengdu.myqcloud.com/NLtHoL_DjLsC3.png)
 
+![PruQsN_Uvggpe](https://img-1255332810.cos.ap-chengdu.myqcloud.com/PruQsN_Uvggpe.png)
+
 - First Seen on Chart：首次有测试数据的时间，也可以看成 CPU 发布时间
 - Single Thread Rating：单线程跑分
 - Other：这里一般写的都是核显信息，如果没显示，那就是无核显
