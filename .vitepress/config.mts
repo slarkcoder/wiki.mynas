@@ -55,6 +55,7 @@ export default defineConfig({
           { text: '硬盘的那些事儿', link: '/hardware/harddrive.md' },
           { text: '如何选择内存', link: '/hardware/memory.md' },
           { text: '硬件测试', link: '/hardware/test.md' },
+          { text: '功耗信息', link: '/hardware/power_consumption.md' },
         ]
       },
       {
