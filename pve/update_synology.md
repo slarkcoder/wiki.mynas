@@ -32,7 +32,7 @@
 
 目前最新的引导可以从这里下载：
 
-[123 云盘：群晖 rr 引导](https://www.123pan.com/s/1JKMjv-Q9fo.html)
+[Synology RR 引导](https://www.123pan.com/s/1JKMjv-vlfo.html)
 
 其中的 `*.pat` 文件为离线安装包，如果后续在线安装失败，可以使用手动上传安装包的方式进行安装。
 
