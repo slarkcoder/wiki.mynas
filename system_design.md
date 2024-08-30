@@ -4,9 +4,9 @@
 
 ## 如何选择系统？
 
-常见的 NAS 系统有 Unraid，Synology，TrueNAS Scale，OpenMediaVault 等等，每个系统都有自己的独到之处。只有结合自己的实际需求、知识水平、动手能力，搭配合适的 NAS 系统，才能起到事半功倍的效果。
+常见的 NAS 系统有 Unraid，[fnOS](https://www.fnnas.com/)，Synology，TrueNAS Scale，OpenMediaVault 等等，每个系统都有自己的独到之处。只有结合自己的实际需求、知识水平、动手能力，搭配合适的 NAS 系统，才能起到事半功倍的效果。
 
-比如对于喜欢折腾的用户来说，我都直接推荐 Unraid。对于只用来影视剪辑的用户，我都倾向于推荐 TrueNAS Scale。对于想用 NAS 和软路由的用户来说，我更推荐 PVE（All in one）。如果是小白希望上手简单，我都推荐 Synology。
+比如对于喜欢折腾的用户来说，我都直接推荐 Unraid。对于只用来影视剪辑的用户，我都倾向于推荐 TrueNAS Scale。对于想用 NAS 和软路由的用户来说，我更推荐 PVE（All in one）。如果是小白希望上手简单，我都推荐 [fnOS](https://www.fnnas.com/)，Synology。
 
 ## Unraid 
 
@@ -22,7 +22,7 @@ PVE 是一个开源稳定的专业虚拟化平台，很适合用来实现 All in
 
 比如对于 N5105/N100 这种自带 4 个 2.5G 网口的主板来说，使用开源稳定的 PVE 虚拟化平台来安装软路由，网口可以直通给 iStoreOS，该方案能充分利用四个 2.5G 网口，为你省下一台交换机的钱。
 
-最常见的 All in one 方案是以 PVE 作为底层基础平台，在上面虚拟 iStoreOS、NAS（Synology、TrueNAS、OpenMediaVault）、Home Assistant，包括 Windows，Linux 等常见的虚拟机。
+最常见的 All in one 方案是以 PVE 作为底层基础平台，在上面虚拟 iStoreOS、NAS（[fnOS](https://www.fnnas.com/)，Synology、TrueNAS、OpenMediaVault）、Home Assistant，包括 Windows，Linux 等常见的虚拟机。
 
 常见的虚拟机用途如下：
 

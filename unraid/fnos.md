@@ -1,10 +1,12 @@
-# 使用 Unraid 虚拟 fnOS（飞牛 OS）
+# 虚拟 fnOS（飞牛 OS）
 
 [fnOS](https://www.fnnas.com/) 可以说是国产 NAS 系统中的佼佼者，尽管目前处于公测阶段，但其功能已经比较完整。从实际系统体验来看，fnOS 团队的技术实力在国内属于第一梯队，我个人认为，fnOS 成为国内最好的 NAS 系统，只是时间问题。
 
+如果你想使用 Unraid 的虚拟机功能体验 `fnOS`，可以按照本教程安装。
+
 ## 下载镜像
 
-从官网就能 [下载](https://www.fnnas.com/download) 到公测包 ISO 镜像文件，上传到 Unraid 的 `isos` 共享文件夹。
+在官网 [下载 fnOS ISO 镜像公测包](https://www.fnnas.com/download) 文件，上传到 Unraid 的 `isos` 共享文件夹。
 
 ## 建立虚拟机
 

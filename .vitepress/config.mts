@@ -135,7 +135,7 @@ export default defineConfig({
           { text: '适合个人和小团队的看板应用 - Planka', link: '/unraid/planka.md' },
           { text: '虚拟 Windows', link: '/unraid/windows.md' },
           { text: '虚拟 HomeAssistantOS', link: '/unraid/haos.md' },
-          { text: '虚拟 fnOS（飞牛 OS）', link: '/unraid/fnos.md' },
+          { text: '虚拟 fnOS (飞牛OS)', link: '/unraid/fnos.md' },
         ]
       },
       {
@@ -147,7 +147,8 @@ export default defineConfig({
           { text: '安装系统', link: '/synology/install_system.md' },
           { text: '存储池', link: '/synology/storage_pool.md' },
           { text: '使用 SSH 登录', link: '/synology/ssh.md' },
-          { text: '安装旁路由', link: '/synology/router.md' },
+          { text: '虚拟旁路由 (iStoreOS)', link: '/synology/router.md' },
+          { text: '虚拟 fnOS (飞牛OS)', link: '/synology/fnos.md' },
           { text: '使用 Docker 安装 Jellyfin 并设置硬解', link: '/synology/jellyfin_decode.md' },
           { text: '使用 Docker 安装 Emby 并设置硬解', link: '/synology/emby_decode.md' },
           { text: '使用 Compose 安装照片管理工具 - Immich', link: '/synology/immich_deploy.md' },

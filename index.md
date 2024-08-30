@@ -36,7 +36,7 @@ features:
   - icon:
       src: https://img-1255332810.cos.ap-chengdu.myqcloud.com/docker-mark-blue_DZVYmE.png
     title: 技术支持
-    details: 不管是 Unraid、TrueNAS、iStoreOS，PVE（All in one），或者是 Docker 等，都能提供超出你预期的技术支持！
+    details: 不管是 Unraid、fnOS（飞牛OS）、TrueNAS、iStoreOS，PVE（All in one），或者是 Docker 等，都能提供超出你预期的技术支持！
     link: /diy/support.md
     linkText: 支持范围
   
