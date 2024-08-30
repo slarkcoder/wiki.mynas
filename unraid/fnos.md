@@ -12,7 +12,7 @@
 
 ![Snipaste_2024-08-30_13-49-02_FtkpmI](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-08-30_13-49-02_FtkpmI.png)
 
-fnOS 系统盘只需要不到 70G 的空间就足够，图中我分配的虚拟磁盘 `vdisk1` 作为系统盘，大小为 80G。
+fnOS 系统盘只需要不到 70G 的空间就足够，图中我添加的虚拟磁盘 `vdisk1` 作为系统盘，大小为 80G。添加的虚拟磁盘 `vdisk2` 作为数据盘，大小为 100G。
 
 第一次启动，安装 ISO 镜像启动顺序应该为 `1`，表示首先从 ISO 镜像启动。
 
