@@ -135,6 +135,7 @@ export default defineConfig({
           { text: '适合个人和小团队的看板应用 - Planka', link: '/unraid/planka.md' },
           { text: '虚拟 Windows', link: '/unraid/windows.md' },
           { text: '虚拟 HomeAssistantOS', link: '/unraid/haos.md' },
+          { text: '虚拟 fnOS（飞牛 OS）', link: '/unraid/fnos.md' },
         ]
       },
       {
