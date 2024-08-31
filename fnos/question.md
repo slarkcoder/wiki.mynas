@@ -1,14 +1,22 @@
 # fnOS 常见问题解答
 
+![Snipaste_2024-08-31_14-51-40_EuryBP](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-08-31_14-51-40_EuryBP.jpg)
+
+## 如何在虚拟上安装体验 fnOS？
+
+- [Unraid 虚拟 fnOS](/unraid/fnos.md)
+- [群晖虚拟 fnOS](/synology/fnos.md)
+- PVE、ESXi 虚拟 fnOS 可以参考[官方教程](https://help.fnnas.com/articles/fnosV1/start/install-virtual.md)。
+
 ## fnOS 系统安装在哪里？
 
-fnOS 安装在 SSD 硬盘上，如果是 128G 的硬盘，系统只会占用大约 60~70G 的空间。实测使用 16G 的傲腾 M10 SSD 也可以顺利安装，系统也可以正常升级。
+fnOS 推荐安装在 SSD 硬盘上，如果是 128G 的 SSD 硬盘，系统只会占用大约 60~70G 的空间。实测使用 16G 的傲腾 M10 SSD 也可以顺利安装，系统也可以正常升级。
 
 ![ZsCnwY_pxBpNX](https://img-1255332810.cos.ap-chengdu.myqcloud.com/ZsCnwY_pxBpNX.png)
 
 ## fnOS 开关机很快吗？
 
-快！非常快！实测系统装在 SSD 上，开机只需要不超过 20s，关机只需要不到 10s。
+快！非常快！实测系统装在 SSD 上，开机只需要不超过 20s，关机只需要大约 8s。
 
 ## fnOS 支持硬盘休眠吗？
 
