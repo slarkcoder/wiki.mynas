@@ -18,6 +18,9 @@ hero:
       text: 新手上路
       link: /start.md
     - theme: alt
+      text: fnOS 教程
+      link: /fnos/question.md
+    - theme: alt
       text: Unraid 教程
       link: /unraid/array.md
     - theme: alt

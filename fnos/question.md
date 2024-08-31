@@ -6,7 +6,7 @@
 
 国内用户免费使用，具体信息可以看 [官网公告](https://help.fnnas.com/articles/fnosV1/contact/profit-statement.md)。
 
-## 如何在虚拟上安装体验 fnOS？
+## 如何在虚拟机上安装体验 fnOS？
 
 - [Unraid 虚拟 fnOS](/unraid/fnos.md)
 - [群晖虚拟 fnOS](/synology/fnos.md)
