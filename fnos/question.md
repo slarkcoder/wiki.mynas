@@ -18,6 +18,16 @@ fnOS 推荐安装在 SSD 硬盘上，如果是 128G 的 SSD 硬盘，系统只�
 
 ![ZsCnwY_pxBpNX](https://img-1255332810.cos.ap-chengdu.myqcloud.com/ZsCnwY_pxBpNX.png)
 
+## fnOS 有手机 App 吗？
+
+iOS，Android App 都有，并且还有 TV 版（飞牛影视）。
+
+![](https://static2.fnnas.com/official/web/download_img_3.png)
+
+## fnOS 可以远程访问吗？
+
+可以远程，自带 FN Connect（类似于群晖 QC），操作简单，使用方便，对小白很友好。
+
 ## fnOS 支持 Docker 和虚拟机吗？
 
 目前公测版支持 Docker，暂不支持虚拟机功能，后续版本会支持。
