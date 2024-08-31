@@ -102,6 +102,13 @@ export default defineConfig({
         ]
       },
       {
+        text: 'fnOS 教程',
+        collapsed: true,
+        items: [
+          { text: 'fnOS 常见问题解答', link: '/fnos/question.md' },
+        ]
+      },
+      {
         text: 'Unraid 教程',
         collapsed: true,
         items: [
