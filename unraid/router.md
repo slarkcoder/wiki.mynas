@@ -14,19 +14,35 @@
 
 ## 旁路由（单网口）
 
-如果你的设备只有一个网口，那可以安装旁路由。
+如果你的设备只有一个网口，那可以设置为旁路由。
 
-下载 iStoreOS 镜像并解压，将 img 镜像上传到 Unraid 的 domains 文件夹中。
+因为我们装的 iStoreOS 只有一个虚拟网卡，开机后会自动从主路由获取 IP 地址。
 
-在虚拟机中新建 Linux 虚拟机，按照下图设置。
+![P5fuml_LHABaf](https://img-1255332810.cos.ap-chengdu.myqcloud.com/P5fuml_LHABaf.png)
 
-![](https://img-1255332810.cos.ap-chengdu.myqcloud.com/20231208004127_wfgCDv.png)
+浏览器打开该 IP，就可以登录旁路由了。默认用户名/密码：root/password。
 
-设置完成之后，点击创建，之后虚拟机会启动。打开虚拟机的 VM Console（VNC）就可以看到虚拟机的启动过程。
+登录之后，直接点击首页的网络向导，设置为旁路由模式。
 
-启动完成之后，可以编辑（可以用 vi 命令编辑） `/etc/config/network` ，为旁路由设置一个静态 IP。比如我这里把旁路由的 IP 改成了 `192.168.2.100`，其它都保持默认，不需要修改。
+![si1yxa1r.ke0_ncNe0K](https://img-1255332810.cos.ap-chengdu.myqcloud.com/si1yxa1r.ke0_ncNe0K.png)
 
-![](https://img-1255332810.cos.ap-chengdu.myqcloud.com/dvh1QC_pIPTdG.png)
+点击 `配置为旁路由`。
+
+![BXn4qF_39KVlS](https://img-1255332810.cos.ap-chengdu.myqcloud.com/BXn4qF_39KVlS.png)
+
+可以直接点 `自动配置`。
+
+![pbi1225x.sig_qD2m9X](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pbi1225x.sig_qD2m9X.png)
+
+点击 `点此刷新`，会自动刷新当前连接信息，点击 `自动填写`。
+
+![0qsqklj0.le0_yaUwUg](https://img-1255332810.cos.ap-chengdu.myqcloud.com/0qsqklj0.le0_yaUwUg.png)
+
+如果需要修改旁路由 IP，可以在这里修改，关闭 `提供 DHCPv4 服务`，打开 `开启 NAT`，最后点击 `保存配置`。
+
+![hs35odhz.4ej_49Iqxd](https://img-1255332810.cos.ap-chengdu.myqcloud.com/hs35odhz.4ej_49Iqxd.png)
+
+到这里旁路由就设置好了。
 
 设置完成之后，将 Unraid 的默认网关和 DNS 服务器都修改为旁路由的 IP，Unraid 就可以通过旁路由来上网了。
 
