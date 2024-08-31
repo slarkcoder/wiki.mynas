@@ -32,6 +32,14 @@ iOS，Android App 都有，并且还有 TV 版（飞牛影视）。
 
 目前公测版支持 Docker，暂不支持虚拟机功能，后续版本会支持。
 
+## 如果从其他 NAS 系统切换到 fnOS，需要格式化硬盘吗？
+
+需要格式化，请先备份好重要数据再切换。
+
+## 如果想要同时使用 iStoreOS 和 fnOS 怎么办？
+
+目前 fnOS 不支持虚拟机，推荐的方案是使用 PVE（iStoreOS + fnOS）。即底层使用 PVE 来作为虚拟化平台，虚拟 iStoreOS 和 fnOS 两个虚拟机。iStoreOS 负责网络，fnOS 负责 NAS 存储。
+
 ## fnOS 开关机很快吗？
 
 快！非常快！实测系统装在 SSD 上，开机只需要不超过 20s，关机只需要大约 8s。
