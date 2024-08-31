@@ -6,7 +6,7 @@
 
 - [Unraid 虚拟 fnOS](/unraid/fnos.md)
 - [群晖虚拟 fnOS](/synology/fnos.md)
-- PVE、ESXi 虚拟 fnOS 可以参考[官方教程](https://help.fnnas.com/articles/fnosV1/start/install-virtual.md)。
+- PVE、ESXi 虚拟 fnOS 可以参考 [官方教程](https://help.fnnas.com/articles/fnosV1/start/install-virtual.md)。
 
 ## fnOS 系统安装在哪里？
 

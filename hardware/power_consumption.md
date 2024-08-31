@@ -17,4 +17,4 @@
 
 ## 功耗数据
 
-可以 [点击这里](/nas_power.html) 查看功耗数据。
+可以 [点击这里](https://wiki.slarker.me/nas_power.html) 查看功耗数据。
