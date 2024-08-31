@@ -2,7 +2,7 @@
 
 ![38a7d180604e27244aa5c13435205e31_hhKUW5](https://img-1255332810.cos.ap-chengdu.myqcloud.com/38a7d180604e27244aa5c13435205e31_hhKUW5.jpg)
 
-这里收集了一些群友提交的功耗信息，供大家对比参考。
+这里收集了一些群友提交的 [功耗信息](https://wiki.slarker.me/nas_power.html)，供大家对比参考。
 
 ## 如何获取准确的功耗信息？
 
