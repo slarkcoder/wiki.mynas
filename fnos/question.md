@@ -2,6 +2,10 @@
 
 ![Snipaste_2024-08-31_14-51-40_EuryBP](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-08-31_14-51-40_EuryBP.jpg)
 
+## fnOS 系统是付费的吗？
+
+国内用户免费使用，具体信息可以看 [官网公告](https://help.fnnas.com/articles/fnosV1/contact/profit-statement.md)。
+
 ## 如何在虚拟上安装体验 fnOS？
 
 - [Unraid 虚拟 fnOS](/unraid/fnos.md)
@@ -13,6 +17,10 @@
 fnOS 推荐安装在 SSD 硬盘上，如果是 128G 的 SSD 硬盘，系统只会占用大约 60~70G 的空间。实测使用 16G 的傲腾 M10 SSD 也可以顺利安装，系统也可以正常升级。
 
 ![ZsCnwY_pxBpNX](https://img-1255332810.cos.ap-chengdu.myqcloud.com/ZsCnwY_pxBpNX.png)
+
+## fnOS 支持 Docker 和虚拟机吗？
+
+目前公测版支持 Docker，暂不支持虚拟机功能，后续版本会支持。
 
 ## fnOS 开关机很快吗？
 

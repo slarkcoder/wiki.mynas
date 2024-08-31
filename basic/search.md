@@ -29,6 +29,10 @@ Unraid 官方的中文论坛也有不少有价值的讨论，遇到问题也可�
 - [Unraid 论坛 - 中文板块](https://forums.unraid.net/forum/88-chinese-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87/)
 - [Unraid 论坛 - 英文板块](https://forums.unraid.net/)
 
+## fnOS 帮助中心
+
+fnOS 的 [帮助中心](https://help.fnnas.com/) 教程也比较详细。
+
 ## 群晖官方文档
 
 群晖的官方文档非常详细，对于常见的问题，都有非常详尽的解决办法。
