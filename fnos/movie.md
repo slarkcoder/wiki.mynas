@@ -43,6 +43,10 @@ docker run -d \
     cloudnas/clouddrive2
 ```
 
+安装成功后可以在 docker 的 `容器设置` 里把 clouddrive 的 `开机自启` 选项打开。
+
+![Snipaste_2024-09-01_21-12-22_0i5U6b](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-09-01_21-12-22_0i5U6b.jpg)
+
 ## 挂载网盘
 
 :::info 提示
