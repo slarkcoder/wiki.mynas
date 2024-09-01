@@ -19,7 +19,7 @@ hero:
       link: /start.md
     - theme: alt
       text: fnOS 教程
-      link: /fnos/question.md
+      link: /fnos/movie.md
     - theme: alt
       text: Unraid 教程
       link: /unraid/array.md
