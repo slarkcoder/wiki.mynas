@@ -106,6 +106,9 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'fnOS 常见问题解答', link: '/fnos/question.md' },
+          { text: '使用 SSH 登录', link: '/fnos/ssh.md' },
+          { text: '飞牛影视刮削、播放网盘电影', link: '/fnos/movie.md' },
+          
         ]
       },
       {
