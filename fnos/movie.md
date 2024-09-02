@@ -22,6 +22,11 @@ Clouddrive 是一个网盘挂载工具，可以挂载任何支持 FUSE 的网盘
 
 ### 在 Docker 服务中启用 MountFlags
 
+:::info 提示
+- Clouddrive 使用 fuse3 来挂载云存储服务，使用 fuse3 在 Docker 容器中挂载云存储服务时，需要在主机系统上启用共享挂载。为了在 Docker 容器中启用 fuse 并将挂载分享给主机，需要在 Docker 服务中启用 MountFlags。具体可以查看 [官方文档](https://www.clouddrive2.com/docker.html)。
+- fnOS 的 Docker 以 `systemd service` 运行，所以需要修改 `systemd service` 配置。
+:::
+
 [使用 SSH 登录](/fnos/ssh.md) fnOS，并切换到 `root` 用户，依次粘贴执行下面的命令：
 
 创建 docker 服务配置目录：
