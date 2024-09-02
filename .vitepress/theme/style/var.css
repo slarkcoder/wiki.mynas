@@ -1,0 +1,22 @@
+:root {
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
+    /* --vp-c-brand-1: #18794e;
+    --vp-c-brand-2: #299764;
+    --vp-c-brand-3: #30a46c; */
+  }
+
+  /* .dark {
+    --vp-c-brand-1: #3dd68c;
+    --vp-c-brand-2: #30a46c;
+    --vp-c-brand-3: #298459;
+  } */
+
+  h1 {
+    background: -webkit-linear-gradient(-45deg, #41d1ff 5%, #bd34fe 35%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  }
+
