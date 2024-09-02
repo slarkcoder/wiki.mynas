@@ -20,6 +20,29 @@ Clouddrive 是一个网盘挂载工具，可以挂载任何支持 FUSE 的网盘
 
 ![x0zisuj0.tq1_VoBgDx](https://img-1255332810.cos.ap-chengdu.myqcloud.com/x0zisuj0.tq1_VoBgDx.png)
 
+### 在 Docker 服务中启用 MountFlags
+
+[使用 SSH 登录](/fnos/ssh.md) fnOS，并切换到 `root` 用户，依次粘贴执行下面的命令：
+
+创建 docker 服务配置目录：
+```sh
+mkdir -p /etc/systemd/system/docker.service.d/
+```
+
+修改 docker 服务配置：
+```sh
+cat <<EOF > /etc/systemd/system/docker.service.d/clear_mount_propagation_flags.conf
+[Service]
+MountFlags=shared
+EOF
+```
+
+重启 docker 服务：
+```sh
+systemctl daemon-reload
+systemctl restart docker.service
+```
+
 ### 使用命令安装 clouddrive
 
 [使用 SSH 登录](/fnos/ssh.md) fnOS，并切换到 `root` 用户，粘贴执行下面的命令：
@@ -27,7 +50,6 @@ Clouddrive 是一个网盘挂载工具，可以挂载任何支持 FUSE 的网盘
 :::warning 注意
 下面命令中的路径为 `/vol1/1000`，`vol1` 表示 `存储空间 1`，需要和上面建立的文件夹存储位置保持一致，请根据实际情况修改。
 :::
-
 
 ```sh
 docker run -d \
@@ -68,10 +90,6 @@ Clouddrive 默认的端口是：`19798`，使用 `NAS IP:19798` 打开后注册�
 挂载好之后，在 fnOS 文件管理中，点开 `clouddrive`，就可以看到网盘里的资源了。
 
 ![RojvnL_eTlZRZ](https://img-1255332810.cos.ap-chengdu.myqcloud.com/RojvnL_eTlZRZ.png)
-
-:::info 提示
-115 用户如果挂载好之后，在 fnOS 的文件管理器里看不到网盘资源，可以尝试在 115 App 里退出其它已登录的客户端，然后重装 clouddrive docker，并重新挂载 115 网盘到本地。
-:::
 
 ## 影视设置
 
