@@ -69,6 +69,10 @@ Clouddrive 默认的端口是：`19798`，使用 `NAS IP:19798` 打开后注册�
 
 ![RojvnL_eTlZRZ](https://img-1255332810.cos.ap-chengdu.myqcloud.com/RojvnL_eTlZRZ.png)
 
+:::info 提示
+115 用户如果挂载好之后，在 fnOS 的文件管理器里看不到网盘资源，可以尝试在 115 App 里退出其它已登录的客户端，然后重装 clouddrive docker，并重新挂载 115 网盘到本地。
+:::
+
 ## 影视设置
 
 在 fnOS 应用中心安装 `影视` 应用，并设置可访问的文件夹。
