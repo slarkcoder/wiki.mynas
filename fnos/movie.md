@@ -22,7 +22,7 @@ Clouddrive 是一个网盘挂载工具，可以挂载任何支持 FUSE 的网盘
 
 ![x0zisuj0.tq1_VoBgDx](https://img-1255332810.cos.ap-chengdu.myqcloud.com/x0zisuj0.tq1_VoBgDx.png)
 
-### 在 Docker 服务中启用 MountFlags
+<!-- ### 在 Docker 服务中启用 MountFlags
 
 :::info 提示
 - Clouddrive 使用 fuse3 来挂载云存储服务，使用 fuse3 在 Docker 容器中挂载云存储服务时，需要在主机系统上启用共享挂载。为了在 Docker 容器中启用 fuse 并将挂载分享给主机，需要在 Docker 服务中启用 MountFlags。具体可以查看 [官方文档](https://www.clouddrive2.com/docker.html)。
@@ -48,7 +48,7 @@ EOF
 ```sh
 systemctl daemon-reload
 systemctl restart docker.service
-```
+``` -->
 
 ### 使用命令安装 clouddrive
 
@@ -61,7 +61,7 @@ systemctl restart docker.service
 ```sh
 docker run -d \
     --name clouddrive \
-    --restart unless-stopped \
+    --restart=always \
     --env CLOUDDRIVE_HOME=/Config \
     -v /vol1/1000/clouddrive:/CloudNAS:shared \
     -v /vol1/1000/docker/clouddrive/config:/Config \
@@ -71,10 +71,10 @@ docker run -d \
     --device /dev/fuse:/dev/fuse \
     cloudnas/clouddrive2
 ```
-
+<!-- 
 安装成功后可以在 docker 的 `容器设置` 里把 clouddrive 的 `开机自启` 选项打开。
 
-![Snipaste_2024-09-01_21-12-22_0i5U6b](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-09-01_21-12-22_0i5U6b.jpg)
+![Snipaste_2024-09-01_21-12-22_0i5U6b](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-09-01_21-12-22_0i5U6b.jpg) -->
 
 ## 挂载网盘
 
