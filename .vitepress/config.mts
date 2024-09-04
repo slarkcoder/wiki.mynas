@@ -6,6 +6,9 @@ export default defineConfig({
   description: "分享 NAS 的使用经验。",
   lastUpdated: true,
   appearance:'dark',
+  head: [
+    ['script',{src:"https://static.cloudflareinsights.com/beacon.min.js",'data-cf-beacon':'{"token": "e0485eebb49d4765afdfcc56d58cea01"}'}]
+  ],
   themeConfig: {
     logo: `/logo.svg`,
     lastUpdated: {
