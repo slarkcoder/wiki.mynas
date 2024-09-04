@@ -18,6 +18,7 @@ const { isDark } = useData();
             reactionsenabled="1"
             emitmetadata="0"
             inputposition="top"
+            lang="zh-CN"
             loading="lazy"
             :theme="isDark ? 'dark' : 'light'"
             :key="route.path"
