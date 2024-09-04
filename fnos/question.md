@@ -4,9 +4,7 @@
 
 ## 反馈问题
 
-目前 fnOS 处于公测阶段，如果遇到问题，可以向开发团队提交反馈。
-
-[官方反馈渠道](https://trim-nas.feishu.cn/share/base/form/shrcn2iVepeqaASZzMF0iMNAC5e)。
+目前 fnOS 处于公测阶段，如果遇到问题，可以向开发团队 [提交反馈](https://trim-nas.feishu.cn/share/base/form/shrcn2iVepeqaASZzMF0iMNAC5e)。
 
 ## fnOS 系统是付费的吗？
 
