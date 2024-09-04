@@ -2,6 +2,12 @@
 
 ![Snipaste_2024-08-31_14-51-40_EuryBP](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-08-31_14-51-40_EuryBP.jpg)
 
+## 反馈问题
+
+目前 fnOS 处于公测阶段，如果遇到问题，可以向开发团队提交反馈。
+
+[官方反馈渠道](https://trim-nas.feishu.cn/share/base/form/shrcn2iVepeqaASZzMF0iMNAC5e)。
+
 ## fnOS 系统是付费的吗？
 
 国内用户免费使用，具体信息可以看 [官网公告](https://help.fnnas.com/articles/fnosV1/contact/profit-statement.md)。
