@@ -2,8 +2,8 @@
 
 Immich 的优秀无须多说，相比一些自带的相册应用，immich 已经很成熟了人脸识别，自然语言搜索，支持中文，支持多账户等等，该有的功能也都有。尤其是目前 fnOS 自带的相册功能也比较基础，使用 immich 来替代自带的相册也会是大多数人的选择。之前我也写过在 Unraid、群晖上的安装教程，具体可以看：
 
-- [安装 Immich 并开启硬件加速](/unraid/deploy_immich.md)
-- [使用 Compose 安装照片管理工具 - Immich](/synology/immich_deploy.md)
+- Unraid：[安装 Immich 并开启硬件加速](/unraid/deploy_immich.md)
+- Synology：[使用 Compose 安装照片管理工具 - Immich](/synology/immich_deploy.md)
 
 在 fnOS 上安装 immich 和群晖上没什么区别，但为了方便 fnOS 用户安装，我还是决定再写一篇如何在 fnOS 上安装 immich 的教程。
 
