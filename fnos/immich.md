@@ -5,9 +5,7 @@ Immich 的优秀无须多说，相比一些自带的相册应用，immich 已经
 - Unraid：[安装 Immich 并开启硬件加速](/unraid/deploy_immich.md)
 - Synology：[使用 Compose 安装照片管理工具 - Immich](/synology/immich_deploy.md)
 
-在 fnOS 上安装 immich 和群晖上没什么区别，但为了方便 fnOS 用户安装，我还是决定再写一篇如何在 fnOS 上安装 immich 的教程。
-
-有英文阅读能力的，建议跟着 [官网教程](https://immich.app/docs/install/docker-compose) 走一遍。
+在 fnOS 上安装 immich 和群晖上没什么区别，但为了方便 fnOS 用户安装，我还是决定再写一篇如何在 fnOS 上安装 immich 的教程。有英文阅读能力的，建议跟着 [官网教程](https://immich.app/docs/install/docker-compose) 走一遍。
 
 > 值得注意的是，fnOS 的 docker 版本比较新，目前为 `Docker version 26.0.0`，而 Unraid 6.12.13 的 docker 版本为 `Docker version 24.0.9`。所以在 Unraid 和群晖上出现的 Docker 参数 `start_interval` 不支持的问题，在 fnOS 上不会出现，这一点也方便很多。
 
