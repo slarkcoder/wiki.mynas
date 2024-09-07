@@ -44,48 +44,10 @@
 
 以上面提到的测速为例，因为无线连接受到的影响因素太多，所以尽量使用有线来测试网速，这样就可以直接排除掉很多环节。如果有线还是测速慢，那就检查电脑有线网卡的连接速度、光猫的网口是否是百兆、网线是否只能跑到百兆。
 
+具体可以参考：[网络速度测试](/basic/speedtest.md)
+
 ### 最有可能发生问题
 
 以上面提到的万兆 NAS 传输速度为例，瓶颈最有可能出在读写速度不够上面，比如从电脑的 SSD 上传输数据到 NAS 的阵列里。要达到万兆（换算成文件读写大概是 1.2GB/s），电脑如果是 SATA SSD 读取速度最快也就 500MB/s 左右，显然就会成为瓶颈。
 
-#### 测试网络速度
-
-如果在同局域网里也接了 NAS，可以很方便的使用 NAS 上的测速工具，比如 `OpenSpeedTest`，`iperf3` 等等，通过 `交叉验证` 等技巧来找出网络方面的瓶颈。
-
-![Vy9FM5_DsJQg8](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Vy9FM5_DsJQg8.png)
-
-![nQDsrW_BGpxB7](https://img-1255332810.cos.ap-chengdu.myqcloud.com/nQDsrW_BGpxB7.png)
-
-#### 测试硬盘读写性能
-
-如果想测试是否是硬盘读写方面的瓶颈，在基于 Linux 的 NAS 系统中，可以通过下面的命令来测试读写性能，下面的方法同样适用于 `群晖`，`TrueNAS`，`OMV`，`fnOS` 等等基于 Linux 开发的系统。
-
-以 `Unraid` 为例：
-
-:::warning 警告
-使用 `dd` 命令要注意，**不要在存储池根目录或者磁盘的根目录写入文件**，最好是新建一个测试文件夹再写入，测试完成之后删除。
-:::
-
-- time 用来统计程序的执行时间
-- dd 是一个在 Unix 和类 Unix 操作系统中用于转换和复制文件的命令行工具。
-- if=/dev/zero 指定输入文件（if 代表 input file），/dev/zero 是一个特殊的文件，它提供了无限的字节流，每个字节都是0。
-- of=/mnt/disk1/test/test.dbf 指定输出文件（of 代表 output file），这里是要创建的文件路径和名称。
-- bs=4k 表示块大小（bs 代表 block size），这里是4千字节。
-- count=6000000 表示复制的块数量。
-
-```sh
-# 测试性能
-time dd if=/dev/zero of=/mnt/disk1/test/test.dbf bs=4k count=6000000
-# 测试完成，删除测试文件
-rm -rf /mnt/disk1/test
-```
-
-测试结果如下：
-
-![Snipaste_2024-08-28_02-00-54_wQcDn9](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-08-28_02-00-54_wQcDn9.png)
-
-可以将 count 参数改大一些，多试几次，这样得到的结果会更有参考性。
-
-不管是有线网络还是 WiFi 速度，或者硬盘读写速度，各种测试工具、办法都非常多，此类问题都可以直接问 [Kimi AI](https://kimi.moonshot.cn/)，都会得到很好的回答。
-
-![DNkvJF_xaFNec](https://img-1255332810.cos.ap-chengdu.myqcloud.com/DNkvJF_xaFNec.png)
+具体可以参考：[阵列读写性能测试](/basic/raid_performance.md.md)

@@ -88,8 +88,10 @@ export default defineConfig({
           // { text: 'NAS 系统该怎么选？', link: '/basic/os.md' },
           { text: '如何确保数据安全？', link: '/basic/data_safe.md' },
           { text: 'UPS - NAS 的好搭档', link: '/basic/ups.md' },
-          { text: '网络唤醒', link: '/basic/wake_on_lan.md' },
           { text: '温度监控', link: '/basic/temperature.md' },
+          { text: '网络速度测试', link: '/basic/speedtest.md' },
+          { text: '阵列读写性能测试', link: '/basic/raid_performance.md' },
+          { text: '网络唤醒', link: '/basic/wake_on_lan.md' },
           { text: '设置交换机模式', link: '/basic/bridge_network.md' },
           { text: '值得推荐的 NAS 应用', link: '/basic/app.md' },
           { text: '科学解决问题的思路 - 木桶理论', link: '/basic/barreltheory.md' },
@@ -111,7 +113,7 @@ export default defineConfig({
           { text: 'fnOS 常见问题解答', link: '/fnos/question.md' },
           { text: '使用 SSH 登录', link: '/fnos/ssh.md' },
           { text: '飞牛影视刮削、播放网盘电影', link: '/fnos/movie.md' },
-          
+          { text: '优秀的照片管理工具 - immich', link: '/fnos/immich.md' },
         ]
       },
       {
