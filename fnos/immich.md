@@ -26,7 +26,8 @@ Immich 的优秀无须多说，相比一些自带的相册应用，immich 已经
 ## 准备配置文件
 
 :::info 提示
-配置文件中的 `/vol1/` 表示 `存储空间 1`，需要和上面建立的文件夹的实际路径保持一致。
+- 配置文件中的 `vol1` 表示 `存储空间 1`，需要和上面建立的文件夹的实际路径保持一致。
+- 配置文件中的 `1000` 为当前用户的 `User ID`。
 :::
 
 下载配置文件 [docker-compose.yml](https://github.com/immich-app/immich/releases/latest/download/docker-compose.yml) 和 [example.env](https://github.com/immich-app/immich/releases/latest/download/example.env)。`docker-compose.yml` 不需要修改，example.env 需要修改其中的：
