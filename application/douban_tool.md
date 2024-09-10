@@ -50,7 +50,7 @@ Unraid 可以通过模板安装 `douban-tool` 和 `qBittorrent`，具体可以�
 
 首先按照下图所示建好文件夹：
 
-![](https://img.slarker.me/wiki/202409110019590.png)
+![](https://img.slarker.me/wiki/202409110032422.png)
 
 [使用 SSH 登录](/fnos/ssh.md) fnOS，并切换到 `root` 用户，执行下面的命令创建 `douban-tool` 容器：
 
