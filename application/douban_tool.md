@@ -25,13 +25,13 @@
 
 如果需要使用 `Emby` 或者 `Jellyfin` 等工具，可以通过 docker 单独安装，将 BT 的下载目录挂载到 `Emby` 或者 `Jellyfin` 中。
 
-## Unraid
+## Unraid 安装 douban-tool
 
 Unraid 可以通过模板安装 `douban-tool` 和 `qBittorrent`，具体可以看 [通过模板更新 Docker 应用](/unraid/unraid_docker_template.md)。
 
 ![5vwApf_8Y84zi](https://img-1255332810.cos.ap-chengdu.myqcloud.com/5vwApf_8Y84zi.png)
 
-## 群晖
+## 群晖安装 douban-tool
 
 群晖可以在 `Container Manager` 中安装 `douban-tool`，在注册表中搜索 `douban-tool`，下载镜像后运行。
 
@@ -45,6 +45,26 @@ Unraid 可以通过模板安装 `douban-tool` 和 `qBittorrent`，具体可以�
 ![z35vukbq.zzt_gnMolb](https://img-1255332810.cos.ap-chengdu.myqcloud.com/z35vukbq.zzt_gnMolb.png)
 
 设置好之后，一路下一步，就可以完成了。
+
+## fnOS 安装 douban-tool
+
+首先按照下图所示建好文件夹：
+
+![](https://img.slarker.me/wiki/202409110019590.png)
+
+[使用 SSH 登录](/fnos/ssh.md) fnOS，并切换到 `root` 用户，执行下面的命令创建 `douban-tool` 容器：
+
+```sh
+docker run -d \
+  --name douban-tool \
+  --restart=always \
+  --net=bridge \
+  -p 5000:5000 \
+  -v /vol1/docker/douban-tool/data:/app/data \
+  -v /vol1/docker/douban-tool/config:/app/config \
+  -v /vol1/downloads:/downloads \
+  zack357/douban-tool:latest
+```
 
 ## 设置 douban-tool
 
