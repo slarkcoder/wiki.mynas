@@ -52,6 +52,13 @@ wiki.slarker.me
 
 ![eurhohcy.hy2_lWkVmr_6bVIue](https://img-1255332810.cos.ap-chengdu.myqcloud.com/eurhohcy.hy2_lWkVmr_6bVIue.jpg)
 
+## [8505](https://ark.intel.com/content/www/cn/zh/ark/products/226262/intel-pentium-gold-processor-8505-8m-cache-up-to-4-40-ghz.html)
+
+- 核显：Intel® UHD Graphics，48 个执行单元
+- 转码帧率：76 fps
+
+![](https://img.slarker.me/wiki/202409102214980.jpg)
+
 ## [N100](https://ark.intel.com/content/www/cn/zh/ark/products/231803/intel-processor-n100-6m-cache-up-to-3-40-ghz.html)
 
 - 核显：Intel® UHD Graphics，24 个执行单元
