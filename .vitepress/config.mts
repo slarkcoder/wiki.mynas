@@ -114,6 +114,7 @@ export default defineConfig({
           { text: '使用 SSH 登录', link: '/fnos/ssh.md' },
           { text: '飞牛影视刮削、播放网盘电影', link: '/fnos/movie.md' },
           { text: '优秀的照片管理工具 - immich', link: '/fnos/immich.md' },
+          { text: '第三方文件管理器 - FileBrowser', link: '/fnos/filebrowser.md' },
         ]
       },
       {
