@@ -25,13 +25,15 @@
 
 如果需要使用 `Emby` 或者 `Jellyfin` 等工具，可以通过 docker 单独安装，将 BT 的下载目录挂载到 `Emby` 或者 `Jellyfin` 中。
 
-## Unraid 安装 douban-tool
+## 安装 douban-tool
+
+### Unraid 
 
 Unraid 可以通过模板安装 `douban-tool` 和 `qBittorrent`，具体可以看 [通过模板更新 Docker 应用](/unraid/unraid_docker_template.md)。
 
 ![5vwApf_8Y84zi](https://img-1255332810.cos.ap-chengdu.myqcloud.com/5vwApf_8Y84zi.png)
 
-## 群晖安装 douban-tool
+### 群晖
 
 群晖可以在 `Container Manager` 中安装 `douban-tool`，在注册表中搜索 `douban-tool`，下载镜像后运行。
 
@@ -46,7 +48,7 @@ Unraid 可以通过模板安装 `douban-tool` 和 `qBittorrent`，具体可以�
 
 设置好之后，一路下一步，就可以完成了。
 
-## fnOS 安装 douban-tool
+### fnOS
 
 首先按照下图所示建好文件夹：
 
