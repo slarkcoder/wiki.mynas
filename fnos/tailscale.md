@@ -90,7 +90,7 @@ Tailscale App 比较简单，使用同样的账号登录 App，需要远程访�
 
 `Tailscale` 官方的服务器使用的人比较多，国内连接速度比较慢，所以如果无法直连的话，可以尝试使用自建中继。自建教程可以 [参考这里](https://cqjn.cc/archives/1719844788120)。
 
-建好之后，在 `Tailscale` 后台的 `Access controls` 中，`"ssh"` 前面添加下面的内容：
+建好之后，在 `Tailscale` 后台的 `Access controls` 中，`"ssh"` 前面添加下面的内容（需要按提示修改相关信息）：
 
 ```
 "derpMap": {
