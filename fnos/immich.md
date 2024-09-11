@@ -1,5 +1,7 @@
 # 优秀的照片管理工具 - immich
 
+![](https://img.slarker.me/wiki/202409112117284.jpg)
+
 Immich 的优秀无须多说，相比一些自带的相册应用，immich 已经很成熟了人脸识别，自然语言搜索，支持中文，支持多账户等等，该有的功能也都有。尤其是目前 fnOS 自带的相册功能也比较基础，使用 immich 来替代自带的相册也会是大多数人的选择。之前我也写过在 Unraid、群晖上的安装教程，具体可以看：
 
 - Unraid：[安装 Immich 并开启硬件加速](/unraid/deploy_immich.md)

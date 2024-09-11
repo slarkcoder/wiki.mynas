@@ -24,7 +24,7 @@
 
 具体使用可以参考我的教程：[使用 Zerotier 进行内网穿透](https://slarker.me/zerotier)
 
-类似的方案还有 [tailscale](https://tailscale.com/)，原理和 Zerotier 类似，可以自行了解。
+类似的方案还有 [Tailscale](/fnos/tailscale.md)，原理和 Zerotier 类似。
 
 ## 星空组网 - [Starvpn](https://starvpn.cn/)
 
@@ -43,21 +43,3 @@
 免费版支持 4Mbps 转发速度，支持添加 4 条穿透通道，每月流量 20G，只要不涉及大文件传输，应对日常的远程访问需求（查看 NAS 状态，管理 BT/PT，备份照片）都可以满足。
 
 ![l51Mwl_9ilQxW](https://img-1255332810.cos.ap-chengdu.myqcloud.com/l51Mwl_9ilQxW.png)
-
-## 免费方案 - 星空 frp
-
-https://frp.starryfrp.com
-
-星空内网穿透，是一个提供免费+付费 frp 内网穿透的网站，免费方案提供 5 条可用隧道数量，8Mbps 限速，每日签到获取 1 ~ 10 GiB 随机流量，如果对穿透要求不高，可以使用这个方案。
-
-官网也有详细的 [设置教程](https://doc.starryfrp.com/#/app/synology) 可供参考。
-
-<!-- ## 付费方案 - NPS
-
-NPS 是我用开源的 NPS 服务搭建的中转服务器，提供给上述几种方案都无法满足需求的用户。所有购买 NAS 的用户都可以免费使用 1 年的中转服务。支持 Unraid、群晖。
-
-因为服务器资源有限，中转服务带宽限速 10Mbps，支持最多 10 个映射数量，延迟大约在 100ms 左右。远程管理 BT 下载任务，传一些小文件没什么问题，支持 HTTPS 自定义域名访问（*.mynas.chat）。
-
-如果觉得服务不错，到期后可续费购买，续费价格 99 元/年。
-
-如果觉得带宽不够用，也可以联系我定制套餐。 -->
