@@ -62,9 +62,9 @@ docker run -d \
   --restart=always \
   --net=bridge \
   -p 5000:5000 \
-  -v /vol1/docker/douban-tool/data:/app/data \
-  -v /vol1/docker/douban-tool/config:/app/config \
-  -v /vol1/downloads:/downloads \
+  -v /vol1/1000/docker/douban-tool/data:/app/data \
+  -v /vol1/1000/docker/douban-tool/config:/app/config \
+  -v /vol1/1000/downloads:/downloads \
   zack357/douban-tool:latest
 ```
 
