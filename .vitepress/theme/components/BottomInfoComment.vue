@@ -6,7 +6,7 @@ import { useData } from 'vitepress'
 
 <template>
 <div class="cookieCard">
-  <p class="cookieHeading">一起玩 NAS！</p>
+  <p class="cookieHeading">一起玩 NAS！🎉</p>
   <p class="cookieDescription">📝 如果遇到问题，可以 <a href="https://wiki.slarker.me/contact.html">加群</a> 请教大佬，也可以直接在下方 👇 评论区留言。</p>
   <p class="cookieDescription">💬 如果需要 <b>定制 NAS</b>，可以 <a href="https://jsj.top/f/qGaDq1">提交需求</a> 或者直接添加我的 <a href=https://wiki.slarker.me/contact.html#%E5%BE%AE%E4%BF%A1>微信</a> 沟通。</p>
   <p class="cookieDescription">👍 如果觉的本篇教程对你有用，不妨打赏支持 ！鼓励我产出更多更优质的内容！</p>
