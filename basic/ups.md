@@ -30,6 +30,10 @@ Unraid 的 UPS 设置非常简单，把 UPS 的 USB 线接入 Unraid，就可以
 
 ![hJMYNo_5gx0MR](https://img-1255332810.cos.ap-chengdu.myqcloud.com/hJMYNo_5gx0MR.png)
 
+## fnOS 配置 UPS
+
+fnOS 目前官方尚不支持 UPS，不过 fnOS 基于 `Debian` 开发，如果想使用 UPS，可以通过 `ssh` 命令行配置。
+
 ## 如何让一台 UPS 支持多台设备
 
 目前市面上的 UPS 基本只带了一根 USB 信号线，那么如果有两台设备，能否同时使用 USB 来接到 UPS 呢？一个开脑洞的想法是买一根 1 分 2 的 USB 线，把两台设备都同时接到 UPS 上，不过经过搜索后发现，已经有网友试过了，这种办法并不可行。

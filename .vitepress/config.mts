@@ -115,7 +115,7 @@ export default defineConfig({
           { text: '优秀的照片管理工具 - immich', link: '/fnos/immich.md' },
           { text: '第三方文件管理器 - FileBrowser', link: '/fnos/filebrowser.md' },
           { text: '方便、安全远程访问 fnOS - Tailscale', link: '/fnos/tailscale.md' },
-          
+          { text: 'fnOS 配置 UPS', link: '/fnos/ups.md' },
         ]
       },
       {
