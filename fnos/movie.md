@@ -79,7 +79,7 @@ docker run -d \
 ## 挂载网盘
 
 :::info 提示
-Clouddrive 免费版只能挂载一个网盘，对很多人来说也够用了。
+Clouddrive 免费版只能挂载一个网盘，对很多人来说也够用了。如果你不想购买 Clouddrive 授权，又想挂载更多网盘，这里也有一个套娃的办法，可以先通过 Alist 挂载网盘，再用 Clouddrive 挂载 Alist 的 Webdav。
 :::
 
 Clouddrive 默认的端口是：`19798`，使用 `NAS IP:19798` 打开后注册登录账号，添加网盘。
