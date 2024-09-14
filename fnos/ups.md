@@ -1,5 +1,7 @@
 # fnOS 配置 UPS
 
+![](https://img.slarker.me/wiki/power.webp)
+
 尽管 fnOS 目前官方不支持 UPS，不过 fnOS 基于 `Debian` 开发，如果想使用 UPS，也非常简单，可以通过 `ssh` 命令行配置。
 
 以我使用的山特 TG-Box 850 为例，将 UPS 的 USB 信号线插到 NAS 的 USB 接口。[使用 SSH 登录](/fnos/ssh.md) fnOS，并切换到 `root` 用户，依次执行下面的命令。
