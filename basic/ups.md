@@ -32,7 +32,7 @@ Unraid 的 UPS 设置非常简单，把 UPS 的 USB 线接入 Unraid，就可以
 
 ## fnOS 配置 UPS
 
-fnOS 目前官方尚不支持 UPS，不过 fnOS 基于 `Debian` 开发，如果想使用 UPS，可以通过 `ssh` 命令行配置。
+fnOS 配置 UPS 可以查看教程：[fnOS 配置 UPS](/fnos/ups.md)。
 
 ## 如何让一台 UPS 支持多台设备
 
