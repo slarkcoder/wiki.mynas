@@ -6,11 +6,9 @@
 
 白色，支持 ITX 主板，使用 Flex 1U 电源。参考价格：￥287。
 
-![1688930443359_ErxOuF](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1688930443359_ErxOuF.jpg)
+![](https://img.slarker.me/wiki/1726408436156.webp)
 
-![1691802778570_INCwoW](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1691802778570_INCwoW.jpg)
-
-![1688930457678_th8Wto](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1688930457678_th8Wto.jpg)
+![](https://img.slarker.me/wiki/1726408495146.webp)
 
 ## 4 盘位（8643 接口）
 
