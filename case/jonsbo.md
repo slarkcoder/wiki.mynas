@@ -1,5 +1,7 @@
 # 乔思伯机箱
 
+![](https://img.slarker.me/wiki/202491265190.webp)
+
 ## 机箱介绍
 
 乔思伯 NAS 机箱可以直接访问官网查看。
@@ -10,6 +12,11 @@
 - [乔思伯 N3 黑色](https://www.jonsbo.com/products/N3.html)（推荐！）
 - [乔思伯 N4 白色](https://www.jonsbo.com/products/N4bai-.html)（颜值可以，实用性不及格！不推荐！）
 - [乔思伯 N4 黑色](https://www.jonsbo.com/products/N4--.html)（颜值可以，实用性不及格！不推荐！）
+- [乔思伯 N5 黑色](https://www.jonsbo.com/products/N5hei.html)（即将上市，支持 ATX 主板和水冷的 12 盘位 NAS 机箱）看官网图片左侧的四个盘位没有独立的散热风扇，散热效果存疑。
+
+![](https://img.slarker.me/wiki/202491254991.webp)
+
+![](https://img.slarker.me/wiki/202491234735.webp)
 
 ## 安装硬盘
 
