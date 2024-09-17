@@ -18,8 +18,11 @@
 ### 群晖
 
 :::warning 注意
-近几天群晖 `Docker` 注册表提示出错，原因暂时未知，但目前手动拉取镜像正常，可以使用教程末尾的命令方法拉取 `Docker` 镜像。
+近几天群晖 `Docker` 注册表提示出错，原因是 `auth.docker.io` 被屏蔽。
+
 ![](https://img.slarker.me/wiki/gx32fa50.xef.webp)
+
+目前通过命令拉取镜像正常，建议使用教程末尾的方法拉取 `Docker` 镜像。
 :::
 
 > 群晖仅支持为 Docker Hub 的镜像添加加速地址。对于其它仓库 （比如 Github）的 Docker 镜像，则需要 `手动替换为加速地址` 后再拉取。比如：`ghcr.io/ggerganov/llama.cpp:full`，则需要将 `ghcr.io` 替换为加速地址之后，通过命令行手动拉取。
