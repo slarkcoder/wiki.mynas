@@ -27,7 +27,6 @@ hero:
       text: 经验分享
       link: /basic/docker_mirrors.md
 
-
 features:
   - icon:
       src: https://img-1255332810.cos.ap-chengdu.myqcloud.com/diy_DthrrN.png
