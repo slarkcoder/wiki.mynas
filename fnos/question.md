@@ -59,3 +59,11 @@ iOS，Android App 都有，并且还有 TV 版（飞牛影视）。
 fnOS 基于 Debian 开发，兼容性很好。实测在华擎 N3150 这种较老主板，以及倍控 N100 这种比较新的主板都可以正常安装运行，而且非常流畅，多个网口也可以正常识别。
 
 ![9WrxAt_C7CzDr](https://img-1255332810.cos.ap-chengdu.myqcloud.com/9WrxAt_C7CzDr.png)
+
+## fnOS 是否支持无线网卡？
+
+目前支持部分无线网卡，但没有一个详细的支持列表，可以看官方 [说明](https://help.fnnas.com/articles/fnosV1/settings/wifi.md)。
+
+## fnOS 多网口设备可以作为交换机使用吗？
+
+fnOS 兼容性很好，像是 N100 这种多网口的设备可以正常识别到多网口，但目前不支持作为交换机使用。
