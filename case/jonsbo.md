@@ -12,7 +12,7 @@
 - [乔思伯 N3 黑色](https://www.jonsbo.com/products/N3.html)（推荐！）
 - [乔思伯 N4 白色](https://www.jonsbo.com/products/N4bai-.html)（颜值可以，实用性不及格！不推荐！）
 - [乔思伯 N4 黑色](https://www.jonsbo.com/products/N4--.html)（颜值可以，实用性不及格！不推荐！）
-- [乔思伯 N5 黑色](https://www.jonsbo.com/products/N5hei.html)（即将上市，支持 ATX 主板和水冷的 12 盘位 NAS 机箱）看官网图片左侧的四个盘位没有独立的散热风扇，散热效果存疑。
+- [乔思伯 N5 黑色](https://www.jonsbo.com/products/N5hei.html)（不推荐！价格太贵，做工比不上同价位段的梵隆的 12 盘位机箱。左侧的四个盘位没有独立的散热风扇，散热效果存疑。）
 
 ![](https://img.slarker.me/wiki/202491254991.webp)
 
