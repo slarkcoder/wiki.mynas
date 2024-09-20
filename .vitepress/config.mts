@@ -116,6 +116,7 @@ export default defineConfig({
           { text: '第三方文件管理器 - FileBrowser', link: '/fnos/filebrowser.md' },
           { text: '方便、安全远程访问 fnOS - Tailscale', link: '/fnos/tailscale.md' },
           { text: 'fnOS 配置 UPS', link: '/fnos/ups.md' },
+          { text: '支持加密的备份工具 - Duplicati', link: '/fnos/duplicati.md' },
         ]
       },
       {
