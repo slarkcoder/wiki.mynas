@@ -62,15 +62,15 @@ Duplicati 默认端口是 `8200`，使用 `fnOS IP:8200` 就可以访问了。
 
 ## 备份
 
-新增备份，可以选择加密。
+新增备份，可以选择加密。整体流程非常简单明了，一路下一步就行了。
 
 ![](https://img.slarker.me/wiki/kcc2wyry.jtd.webp)
 
-备份保存位置，这里可以直接看到 fnOS 里的所有文件夹。
+备份保存位置，这里可以直接看到 fnOS 里的所有文件夹，这里我选 NAS 上的另一个存储池上的 `backup` 文件夹。
 
 ![](https://img.slarker.me/wiki/km50zsmv.e0k.webp)
 
-支持的备份位置也比较多。
+支持的备份位置也比较多，包括 S3，对象存储（国内的阿里云 OSS，腾讯云 COS 等），以及好用的 `webdav` 等等。
 
 ![](https://img.slarker.me/wiki/202409202148556.webp)
 
@@ -82,10 +82,10 @@ Duplicati 默认端口是 `8200`，使用 `fnOS IP:8200` 就可以访问了。
 
 ![](https://img.slarker.me/wiki/5zll2frn.4mm.webp)
 
-备份操作非常简单，一路下一步就行了。
+设置完成之后，可以点 `立即运行`，试试效果。
 
 ![](https://img.slarker.me/wiki/cutjqfz4.ql0.webp)
 
-加密过的备份文件。
+备份完成后，在备份位置可以看到加密过的备份文件。
 
 ![](https://img.slarker.me/wiki/202409202145448.webp)
