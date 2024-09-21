@@ -48,7 +48,7 @@ qBittorrent 是非常流行的 BT/PT 下载工具，但是其自带的 WebUI 比
 
 ![](https://img.slarker.me/wiki/pegeonxo.stl.webp)
 
-在 qBittorrent 的 `设置 -> WebUI` 里，勾选使用自定义 WEBUI 并粘贴刚才的文件夹位置：
+在 qBittorrent 的 `设置 -> WebUI` 里，勾选 `使用备用 Web UI` 并粘贴文件夹位置：
 
 ![](https://img.slarker.me/wiki/jqvywe1s.nyf.webp)
 
