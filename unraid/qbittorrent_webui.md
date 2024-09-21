@@ -2,11 +2,21 @@
 
 qBittorrent 是非常流行的 BT/PT 下载工具，但是其自带的 WebUI 比较丑，在手机端也不是很好用。本篇教程就教你如何给 qBittorrent 更换 WebUI。
 
-先来看看更换后的效果：
+## WebUI 效果
+
+除了 `VueTorrent` 之外，也可以试试 `qb-web`。先来看看更换后的效果：
+
+- [VueTorrent](https://github.com/WDaan/VueTorrent)
 
 ![jusDSs_75WMPV](https://img-1255332810.cos.ap-chengdu.myqcloud.com/jusDSs_75WMPV.png)
 
-这套 WebUI 是 [VueTorrent](https://github.com/WDaan/VueTorrent/releases)，更换之前先将 vuetorrent.zip 下载到本地并解压。
+- [qb-web](https://github.com/CzBiX/qb-web)
+
+![](https://img.slarker.me/wiki/202409211638731.webp)
+
+## 如何更换？
+
+以 [VueTorrent](https://github.com/WDaan/VueTorrent/releases) 为例，更换之前先将 vuetorrent.zip 下载到本地并解压。
 
 下载地址：[https://github.com/WDaan/VueTorrent/releases](https://github.com/WDaan/VueTorrent/releases)
 
