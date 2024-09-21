@@ -184,6 +184,7 @@ export default defineConfig({
           { text: '常见功能设置', link: '/pve/basic.md' },
           { text: '更新群晖引导', link: '/pve/update_synology.md' },
           { text: '虚拟 Windows', link: '/pve/windows.md' },
+          { text: '虚拟 HomeAssistantOS', link: '/pve/haos.md' },
         ]
       },
       {

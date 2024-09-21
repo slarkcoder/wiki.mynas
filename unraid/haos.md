@@ -4,7 +4,7 @@ HomeAssistant 可以通过独立的 HAOS，Docker，Core，Supervised 等方式�
 
 ![m5clphqn.bnz_aboQwI](https://img-1255332810.cos.ap-chengdu.myqcloud.com/m5clphqn.bnz_aboQwI.png)
 
-HAOS 对各种特性支持最完整，因此只要条件允许，推荐安装 HAOS。
+HAOS 对各种特性支持最完整，因此只要条件允许，推荐安装 HAOS。本篇就来介绍如何在 Unraid 中虚拟 HAOS。
 
 ## 获取镜像
 
