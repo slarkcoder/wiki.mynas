@@ -20,15 +20,36 @@ qBittorrent 是非常流行的 BT/PT 下载工具，但是其自带的 WebUI 比
 
 下载地址：[https://github.com/WDaan/VueTorrent/releases](https://github.com/WDaan/VueTorrent/releases)
 
+### Unraid
+
 以 Unraid 系统为例，使用 FileBrowser 或者自带的文件管理器，将上面解压得到的 vuetorrent 文件夹上传到 `/appdata/qbittorrent` 下面，如图所示：
 
 ![rhIsj1_ZBg09i](https://img-1255332810.cos.ap-chengdu.myqcloud.com/rhIsj1_ZBg09i.png)
 
 然后在 qBittorrent 的 `设置 -> WebUI` 里，勾选使用自定义 WEBUI 并填写文件路径：
 
-```
+```sh
 /config/vuetorrent
 ```
 
 最后点击保存即可生效。
 
+### 群晖
+
+如果是通过套件安装的 `qBittorrent`，可以把 `vuetorrent` 解压上传到自己的 `home` 目录下面，目录结构如下图，并为 `qBittorrent` 套件添加 `完全控制` 权限。
+
+![](https://img.slarker.me/wiki/vhxd03v2.qdx.webp)
+
+在 vuetorrent 文件夹上右击选择属性：
+
+![](https://img.slarker.me/wiki/202409211756289.webp)
+
+复制文件夹位置：
+
+![](https://img.slarker.me/wiki/pegeonxo.stl.webp)
+
+在 qBittorrent 的 `设置 -> WebUI` 里，勾选使用自定义 WEBUI 并粘贴刚才的文件夹位置：
+
+![](https://img.slarker.me/wiki/jqvywe1s.nyf.webp)
+
+最后点击保存即可生效。
