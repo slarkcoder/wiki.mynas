@@ -7,7 +7,8 @@ export default defineConfig({
   lastUpdated: true,
   appearance:'dark',
   head: [
-    ['script',{src:"https://static.cloudflareinsights.com/beacon.min.js",'data-cf-beacon':'{"token": "e0485eebb49d4765afdfcc56d58cea01"}'}]
+    ['script',{src:"https://static.cloudflareinsights.com/beacon.min.js",'data-cf-beacon':'{"token": "e0485eebb49d4765afdfcc56d58cea01"}'}],
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
   themeConfig: {
     logo: `/logo.svg`,
