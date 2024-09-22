@@ -8,7 +8,7 @@ export default defineConfig({
   appearance:'dark',
   head: [
     ['script',{src:"https://static.cloudflareinsights.com/beacon.min.js",'data-cf-beacon':'{"token": "e0485eebb49d4765afdfcc56d58cea01"}'}],
-    ['link', { rel: 'icon', href: 'https://img-1255332810.cos.ap-chengdu.myqcloud.com/favicon.png' }]
+    ['link', { rel: 'icon', href: 'https://img.slarker.me/wiki/04bb35e53d22440d94321e33a0855b13.svg' }]
   ],
   themeConfig: {
     logo: `/logo.svg`,
