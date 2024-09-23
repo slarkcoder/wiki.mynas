@@ -82,7 +82,7 @@ Tailscale App 比较简单，使用同样的账号登录 App，需要远程访�
 
 ## 测速
 
-手机远程连上之后，可以访问 NAS 上的测速工具测试网络连接速度。
+手机远程连上之后，可以访问 NAS 上的 [网速测试工具 - OpenSpeedtest](/fnos/speedtest.md) 测试网络连接速度。
 
 ![](https://img.slarker.me/wiki/202409111746274.jpg)
 

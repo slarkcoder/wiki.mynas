@@ -112,14 +112,15 @@ export default defineConfig({
         items: [
           { text: 'fnOS 常见问题解答', link: '/fnos/question.md' },
           { text: '使用 SSH 登录', link: '/fnos/ssh.md' },
+          { text: '网速测试工具 - OpenSpeedtest', link: '/fnos/speedtest.md' },
+          { text: '第三方文件管理器 - FileBrowser', link: '/fnos/filebrowser.md' },
           { text: '飞牛影视刮削、播放网盘电影', link: '/fnos/movie.md' },
           { text: '优秀的照片管理工具 - immich', link: '/fnos/immich.md' },
-          { text: '第三方文件管理器 - FileBrowser', link: '/fnos/filebrowser.md' },
           { text: '方便、安全远程访问 fnOS - Tailscale', link: '/fnos/tailscale.md' },
+          // { text: '方便、安全远程访问 fnOS - Zerotier', link: '/fnos/zerotier.md' },
           { text: 'fnOS 配置 UPS', link: '/fnos/ups.md' },
           { text: '支持加密的备份工具 - Duplicati', link: '/fnos/duplicati.md' },
-          { text: '开源免费的跨平台文件同步工具 - Syncthing', link: '/fnos/syncthing.md' },
-          { text: '网速测试工具 - OpenSpeedtest', link: '/fnos/speedtest.md' },
+          // { text: '开源免费的跨平台文件同步工具 - Syncthing', link: '/fnos/syncthing.md' },
         ]
       },
       {
