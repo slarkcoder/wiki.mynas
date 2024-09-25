@@ -121,6 +121,7 @@ export default defineConfig({
           { text: 'fnOS 配置 UPS', link: '/fnos/ups.md' },
           { text: '支持加密的备份工具 - Duplicati', link: '/fnos/duplicati.md' },
           // { text: '开源免费的跨平台文件同步工具 - Syncthing', link: '/fnos/syncthing.md' },
+          { text: '用网心云把宽带钱赚回来！', link: '/fnos/onethingcloud.md' },
         ]
       },
       {
