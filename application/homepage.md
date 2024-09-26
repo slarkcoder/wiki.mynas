@@ -1,16 +1,12 @@
 # 高颜值的 NAS 应用导航 - Homepage
 
-:::info 提示
-`推荐应用` 中的教程均包含 `Unraid` 和 `群晖` 两部分，大家可以按需参照相关部分，对于重复内容就不再赘述。
-:::
-
 ![3Ihvmm_vqfQe0](https://img-1255332810.cos.ap-chengdu.myqcloud.com/3Ihvmm_vqfQe0.png)
 
 NAS 上装的应用一旦多了，各种端口记起来很麻烦，虽然加个书签也能解决问题，但是如果要分享给家人或者朋友用，还是不太方便。之前也折腾过这个 [Homepage](https://github.com/gethomepage/homepage)，但是维护起来并不容易，每个应用都需要单独配置 icon，好处就是自定义程度高，配好了就非常好看。
 
 为了能让大家更简单的使用 Homepage，降低上手成本，你可以根据我这个教程来配置，使用我提供的 [配置文件](https://www.123pan.com/s/1JKMjv-zIxo.html)，十几分钟就可以自定义出专属的 Homepage。
 
-## Unraid 安装应用
+## Unraid 安装 Homepage
 
 将 [配置文件](https://www.123pan.com/s/1JKMjv-zIxo.html) 下载，然后解压，将整个 `homepage` 目录上传到 docker 的应用数据目录 `/mnt/user/appdata` 下面。
 
@@ -22,7 +18,7 @@ NAS 上装的应用一旦多了，各种端口记起来很麻烦，虽然加个�
 
 ![vl5rlwbq.kkx_5MXtes](https://img-1255332810.cos.ap-chengdu.myqcloud.com/vl5rlwbq.kkx_5MXtes.png)
 
-## 群晖安装应用
+## 群晖安装 Homepage
 
 在套件中心安装 `FileBrowser`，并为 `FileBrowser` 设置 docker 目录的 `读写` 权限。
 
@@ -40,11 +36,21 @@ NAS 上装的应用一旦多了，各种端口记起来很麻烦，虽然加个�
 
 一路 `下一步`，直到完成。
 
+## fnOS 安装 Homepage
+
+将 [配置文件](https://www.123pan.com/s/1JKMjv-zIxo.html) 下载，然后解压，将整个 `homepage` 目录上传到 docker 文件夹下面。
+
+![](https://img.slarker.me/wiki/6ee1dbde116f44c48138103f2e9dfb5f.png)
+
+在 `Docker` -> `Compose` 中 `新增项目`，命名为 `homepage`，路径选择 `/vol1/1000/docker/homepage`，使用现有配置文件创建项目，勾选 `创建项目立即启动`，最后点击 `完成` 就可以开始安装了。
+
+![](https://img.slarker.me/wiki/973a635a37114abe996b903660d83979.png)
+
 ## 自定义配置
 
-装好之后，就可以根据下面的说明来配置。
+Homepage 默认端口为：3000，装好后使用 `NAS IP:3000` 访问。
 
-配置文件位于 `homepage` 下面的 `config` 文件夹，图片文件位于 `homepage` 下面的 `public/images` 下面。
+接下来可以根据下面的说明来配置。配置文件位于 `homepage` 下面的 `config` 文件夹，图片文件位于 `homepage` 下面的 `public/images` 下面。
 
 可以使用 `FileBrowser` 直接打开编辑相关的配置文件，需要修改的配置基本都在 `services.yaml` 和 `settings.yaml` 里面，打开就能直接编辑。
 
