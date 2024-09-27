@@ -38,7 +38,7 @@
 
 ## 客户端
 
-Syncthing 支持 Windows（推荐使用 [SyncTrayzor](https://github.com/canton7/SyncTrayzor)），macOS，Linux，Android，可以到 [官网](downloads) 或者应用市场下载。
+Syncthing 支持 Windows（推荐使用 [SyncTrayzor](https://github.com/canton7/SyncTrayzor)），macOS，Linux，Android，可以到 [官网](https://syncthing.net/downloads/) 或者应用市场下载。
 
 iOS 没有官方的 App，可以使用第三方开源的客户端 [Synctrain](https://github.com/pixelspark/sushitrain)。
 
