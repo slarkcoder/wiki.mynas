@@ -4,6 +4,10 @@
 
 这里有一些群友的 blog，希望帮你发现更多有趣的伙伴。
 
+## 喝红茶聊技术
+
+https://space.bilibili.com/2093259559
+
 ## 小剧客栈
 
 https://bh-lay.com

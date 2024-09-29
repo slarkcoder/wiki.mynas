@@ -8,6 +8,12 @@
 
 ![k5c23woo.1me_CaGu6T](https://img-1255332810.cos.ap-chengdu.myqcloud.com/k5c23woo.1me_CaGu6T.png)
 
+## PVE 系列教程
+
+如果你是小白，想学习 PVE，推荐观看群友 `@红茶海` 的 [系列视频教程](https://space.bilibili.com/2093259559)。零基础入门，对小白友好！
+
+哔哩哔哩：[喝红茶聊技术](https://space.bilibili.com/2093259559)。
+
 ## 关闭虚拟机
 
 如果需要修改虚拟机设置，或者给虚拟机添加 USB 设备，需要 **先关闭虚拟机**。
