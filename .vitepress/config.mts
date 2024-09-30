@@ -112,6 +112,7 @@ export default defineConfig({
         items: [
           { text: 'fnOS 常见问题解答', link: '/fnos/question.md' },
           { text: '使用 SSH 登录', link: '/fnos/ssh.md' },
+          { text: '常用的下载工具', link: '/fnos/download.md' },
           { text: '网速测试工具 - OpenSpeedtest', link: '/fnos/speedtest.md' },
           { text: '第三方文件管理器 - FileBrowser', link: '/fnos/filebrowser.md' },
           { text: '飞牛影视刮削、播放网盘电影', link: '/fnos/movie.md' },
