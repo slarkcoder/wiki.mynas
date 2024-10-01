@@ -35,6 +35,7 @@
 需要在功能选项中勾选 `使用高权限执行容器`。
 :::
 
+镜像介绍：迅雷 docker 版，从群晖套件中提取出来的，支持绑定手机迅雷，可以远程控制。
 镜像名称：[cnk3x/xunlei](https://hub.docker.com/r/cnk3x/xunlei)
 
 | 名称        |     fnOS 主机      |  容器 |
@@ -46,10 +47,11 @@
 ## qBittorrent
 
 :::warning 注意
-- qBittorrent 初始密码请查看 docker 应用日志
+- qBittorrent 初始密码请查看 docker 应用日志。
 - 下面的连接端口（TCP、UDP）为 50000，安装好之后需要在 WebUI 中将监听端口修改为 `50000`。
 :::
 
+镜像介绍：非常流行的 BT/PT 下载客户端。
 镜像名称：[linuxserver/qbittorrent](https://hub.docker.com/r/linuxserver/qbittorrent)
 
 | 名称        |     fnOS 主机      |  容器 |
@@ -62,6 +64,7 @@
 
 ## Metube
 
+镜像介绍：基于知名的 [yt-dlp](https://github.com/yt-dlp/yt-dlp) 封装，支持主流视频网站的视频下载器。
 镜像名称：[alexta69/metube](https://github.com/alexta69/metube)
 
 | 名称        |     fnOS 主机      |  容器 |
@@ -71,6 +74,7 @@
 
 ## 百度网盘
 
+镜像介绍：官方百度网盘客户端 VNC 版。
 镜像名称：[johngong/baidunetdisk](https://hub.docker.com/r/johngong/baidunetdisk)
 
 | 名称        |     fnOS 主机      |  容器 |
@@ -85,6 +89,7 @@
 如果 115 docker 内提示更新，不要更新！
 :::
 
+镜像介绍：115 网盘 Linux 版本的 Docker 封装。
 镜像名称：[funcman/115pc](https://hub.docker.com/r/funcman/115pc/)
 
 | 名称        |     fnOS 主机      |  容器 |
