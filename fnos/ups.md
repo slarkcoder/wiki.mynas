@@ -38,6 +38,8 @@ nano /etc/apcupsd/apcupsd.conf
 ```sh
 # 删除 UPSNAME 前面的 #，可以改成自己的 UPS 型号，比如 `tg-box850`。
 UPSNAME tg-box850
+# 如果 UPS 使用 USB 接口的信号线，请注释下面这行（在下面这行前面加 #）
+DEVICE /dev/ttyS0
 # 删除 POLLTIME 名称前面的 #，POLLTIME 表示检测 ups 状态的间隔时间，默认 60 秒
 POLLTIME 60
 ```
@@ -76,7 +78,37 @@ systemctl status apcupsd
 apcaccess
 ```
 
-配置成功如图所示：
+配置成功如下所示：
 
-![](https://img.slarker.me/wiki/Snipaste_2024-09-14_21-50-05.webp)
+```sh
+APC      : 001,028,0667
+DATE     : 2024-10-02 21:30:26 +0800  
+HOSTNAME : pve
+VERSION  : 3.14.14 (31 May 2016) debian
+UPSNAME  : tg-box850
+CABLE    : USB Cable
+DRIVER   : USB UPS Driver
+UPSMODE  : Stand Alone
+STARTTIME: 2024-10-02 21:30:22 +0800  
+MODEL    : SANTAK TG-BOX
+STATUS   : ONLINE  # 状态为 ONLINE（在线）
+LOADPCT  : 11.0 Percent
+BCHARGE  : 100.0 Percent
+TIMELEFT : 44.0 Minutes
+MBATTCHG : 80 Percent
+MINTIMEL : 3 Minutes
+MAXTIME  : 60 Seconds
+OUTPUTV  : 230.0 Volts
+DWAKE    : -1 Seconds
+LOTRANS  : 184.0 Volts
+HITRANS  : 264.0 Volts
+ALARMDEL : 30 Seconds
+NUMXFERS : 0
+TONBATT  : 0 Seconds
+CUMONBATT: 0 Seconds
+XOFFBATT : N/A
+STATFLAG : 0x05000008
+SERIALNO : Blank
+END APC  : 2024-10-02 21:30:27 +0800
+```
 
