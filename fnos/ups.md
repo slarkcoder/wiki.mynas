@@ -83,7 +83,7 @@ apcaccess
 ```sh
 APC      : 001,028,0667
 DATE     : 2024-10-02 21:30:26 +0800  
-HOSTNAME : pve
+HOSTNAME : fnOS
 VERSION  : 3.14.14 (31 May 2016) debian
 UPSNAME  : tg-box850
 CABLE    : USB Cable
