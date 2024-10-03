@@ -191,6 +191,7 @@ export default defineConfig({
           { text: '更新群晖引导', link: '/pve/update_synology.md' },
           { text: '虚拟 Windows', link: '/pve/windows.md' },
           { text: '虚拟 HomeAssistantOS', link: '/pve/haos.md' },
+          { text: '重装系统', link: '/pve/reset.md' },
         ]
       },
       {
