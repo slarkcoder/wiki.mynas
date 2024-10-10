@@ -2,7 +2,7 @@
 
 在 Unraid 中，通过应用市场的模板来安装 Docker 应用，一般都会自带一个图标，Unraid 提供了非常直观的编辑 Docker 页面，可以很方便的修改这些图标。
 
-![8lprAH_T3kK1n](https://img-1255332810.cos.ap-chengdu.myqcloud.com/8lprAH_T3kK1n.png)
+![8lprAH_T3kK1n](https://img.slarker.me/wiki/8lprAH_T3kK1n.png)
 
 应用成功安装后，会将当前的设置都保存到 `xml` 模板文件中。比如以迅雷为例，其模板文件是这样的：
 
@@ -56,17 +56,17 @@ bash -c "$(curl -s https://xiaoyahelper.zengge99.eu.org/aliyun_clear.sh| tail -n
 
 到应用市场安装这个插件：
 
-![OqI14a_JpoEhS](https://img-1255332810.cos.ap-chengdu.myqcloud.com/OqI14a_JpoEhS.png)
+![OqI14a_JpoEhS](https://img.slarker.me/wiki/OqI14a_JpoEhS.png)
 
 在插件中打开 `Nerd Tools` 后输入想安装的包的关键字，找到结果点应用就能自动装好：
 
-![lNiuxh_6ayjQt](https://img-1255332810.cos.ap-chengdu.myqcloud.com/lNiuxh_6ayjQt.png)
+![lNiuxh_6ayjQt](https://img.slarker.me/wiki/lNiuxh_6ayjQt.png)
 
 比如你还可以装一个命令行版的 `7z` 解压工具，以后就能直接在 `Unraid` 命令行解压缩文件了：
 
-![6ga2hY_A5Lq9y](https://img-1255332810.cos.ap-chengdu.myqcloud.com/6ga2hY_A5Lq9y.png)
+![6ga2hY_A5Lq9y](https://img.slarker.me/wiki/6ga2hY_A5Lq9y.png)
 
-![Wyg8cT_UJko7C](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Wyg8cT_UJko7C.png)
+![Wyg8cT_UJko7C](https://img.slarker.me/wiki/Wyg8cT_UJko7C.png)
 
 ## 查看 Docker 运行命令
 
@@ -85,7 +85,7 @@ runlike -p Xunlei
 
 > Xunlei 就是 docker 应用的名称，也是 xml 模板中的 `Name` 参数，也是 docker 运行命令中的 --name 参数。
 
-![rhGgjq_E9KB3B](https://img-1255332810.cos.ap-chengdu.myqcloud.com/rhGgjq_E9KB3B.png)
+![rhGgjq_E9KB3B](https://img.slarker.me/wiki/rhGgjq_E9KB3B.png)
 
 到这里，眼尖的朋友应该已经发现了，我们想要的参数已经出来了。就是这里的 `--label` 参数：
 
@@ -99,7 +99,7 @@ runlike -p Xunlei
 runlike -p xiaoyakeeper 
 ```
 
-![ksJ35m_p9LAxA](https://img-1255332810.cos.ap-chengdu.myqcloud.com/ksJ35m_p9LAxA.png)
+![ksJ35m_p9LAxA](https://img.slarker.me/wiki/ksJ35m_p9LAxA.png)
 
 把这个 docker 运行命令复制下来，然后把上面的图标链接 `--label` 参数给加上去，注意是把整行参数都加上：
 
@@ -130,4 +130,4 @@ docker run --name=xiaoyakeeper \
 
 把之前的没有图标的 docker 删掉（不需要移除镜像），重新执行下加好参数的命令，新的 docker 就有图标啦！
 
-![vfssVa_IrpJq7](https://img-1255332810.cos.ap-chengdu.myqcloud.com/vfssVa_IrpJq7.png)
+![vfssVa_IrpJq7](https://img.slarker.me/wiki/vfssVa_IrpJq7.png)

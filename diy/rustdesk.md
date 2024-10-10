@@ -1,6 +1,6 @@
 # 远程协助
 
-![pexels-george-milton-701433_u4rpA0](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-george-milton-701433_u4rpA0.jpg)
+![pexels-george-milton-701433_u4rpA0](https://img.slarker.me/wiki/pexels-george-milton-701433_u4rpA0.jpg)
 
 如果你需要远程协助，推荐使用 [Rustdesk](https://rustdesk.com/zh/)。当然使用其它的远程工具比如 [Todesk](https://www.todesk.com/)，[向日葵](https://sunlogin.oray.com/) 也可以。
 
@@ -22,11 +22,11 @@ Rustdesk 是一个开源的远程协助软件，支持 Windows、Linux、macOS �
 
 以 `macOS` 客户端为例，在 `设置` -> `网络` 中填写 `ID 服务器` 和 `Key`，并点击应用。
 
-![KzHgPb_d6NhgC](https://img-1255332810.cos.ap-chengdu.myqcloud.com/KzHgPb_d6NhgC.png)
+![KzHgPb_d6NhgC](https://img.slarker.me/wiki/KzHgPb_d6NhgC.png)
 
 设置好之后，请将你 Rustdesk 主页显示的 `ID` 和 `一次性密码` 发送给我。
 
-![1jldxaiv.tnv_YSLyIL](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1jldxaiv.tnv_YSLyIL.png)
+![1jldxaiv.tnv_YSLyIL](https://img.slarker.me/wiki/1jldxaiv.tnv_YSLyIL.png)
 
 :::info 自建服务器
 如果你有自己的 VPS，想要自建 Rustdesk 服务器，可以参考 [Rustdesk 自建服务器](https://51.ruyo.net/18517.html)。

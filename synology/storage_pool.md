@@ -1,6 +1,6 @@
 # 存储池
 
-![d8fee6d8da2a4b79750c8a46aa42906b_Sp4NzU](https://img-1255332810.cos.ap-chengdu.myqcloud.com/d8fee6d8da2a4b79750c8a46aa42906b_Sp4NzU.jpeg)
+![d8fee6d8da2a4b79750c8a46aa42906b_Sp4NzU](https://img.slarker.me/wiki/d8fee6d8da2a4b79750c8a46aa42906b_Sp4NzU.jpeg)
 
 :::warning 要点
 - 没有冗余，代表任意一块硬盘损坏，整个阵列的数据将会全部丢失。
@@ -28,11 +28,11 @@
 
 在 `存储管理器` 中，可以按需创建存储池。可以根据硬盘数量，选择不同的 `Raid` 类型。如果你不了解各种 `Raid` 类型有什么区别，也可以到群晖的 [容量计算器](https://www.synology.cn/zh-cn/support/RAID_calculator) 中对比。
 
-![F9Gg3W_pMMh3c](https://img-1255332810.cos.ap-chengdu.myqcloud.com/F9Gg3W_pMMh3c.png)
+![F9Gg3W_pMMh3c](https://img.slarker.me/wiki/F9Gg3W_pMMh3c.png)
 
 选择存储池类型之后可以看到详细的介绍：
 
-![Snipaste_2024-08-14_13-58-39_cXVsGb](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-08-14_13-58-39_cXVsGb.png)
+![Snipaste_2024-08-14_13-58-39_cXVsGb](https://img.slarker.me/wiki/Snipaste_2024-08-14_13-58-39_cXVsGb.png)
 
 ## 正常状态的存储池
 
@@ -40,7 +40,7 @@
 
 正常状态的存储池会显示 `良好`。
 
-![Snipaste_2024-08-14_14-40-02_d7dRWZ](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-08-14_14-40-02_d7dRWZ.png)
+![Snipaste_2024-08-14_14-40-02_d7dRWZ](https://img.slarker.me/wiki/Snipaste_2024-08-14_14-40-02_d7dRWZ.png)
 
 ## 存储池降级
 
@@ -48,9 +48,9 @@
 
 存储池会显示 `堪用`，意思就是可以继续用，数据没有丢失，需要通过更换硬盘让存储池恢复正常状态。
 
-![Snipaste_2024-08-14_14-45-45_0Ikoxf](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-08-14_14-45-45_0Ikoxf.png)
+![Snipaste_2024-08-14_14-45-45_0Ikoxf](https://img.slarker.me/wiki/Snipaste_2024-08-14_14-45-45_0Ikoxf.png)
 
-![Snipaste_2024-08-14_15-51-05_dkOqAl](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-08-14_15-51-05_dkOqAl.png)
+![Snipaste_2024-08-14_15-51-05_dkOqAl](https://img.slarker.me/wiki/Snipaste_2024-08-14_15-51-05_dkOqAl.png)
 
 ## 修复存储池
 
@@ -60,16 +60,16 @@
 更换故障硬盘时，如果你没有办法根据盘位编号来判断故障硬盘是哪一个，可以比对 `HDD/SSD` 中显示的硬盘序列号和硬盘标签上的 `SN` 序列号来判断。
 :::
 
-![Snipaste_2024-08-14_14-53-07_MAfGTB](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-08-14_14-53-07_MAfGTB.png)
+![Snipaste_2024-08-14_14-53-07_MAfGTB](https://img.slarker.me/wiki/Snipaste_2024-08-14_14-53-07_MAfGTB.png)
 
-![Snipaste_2024-08-14_14-53-44_kbqBfD](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-08-14_14-53-44_kbqBfD.png)
+![Snipaste_2024-08-14_14-53-44_kbqBfD](https://img.slarker.me/wiki/Snipaste_2024-08-14_14-53-44_kbqBfD.png)
 
 修复完成，存储池恢复正常（显示 `良好`）。
 
-![Snipaste_2024-08-14_15-14-03_Ra0hUe](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-08-14_15-14-03_Ra0hUe.png)
+![Snipaste_2024-08-14_15-14-03_Ra0hUe](https://img.slarker.me/wiki/Snipaste_2024-08-14_15-14-03_Ra0hUe.png)
 
 ## 存储池丢失
 
 当存储池中发生故障的硬盘数量超过存储池的最大冗余能力，会导致整个存储池 `丢失`，该存储池中的数据都会丢失，无法恢复。
 
-![ayrxvupf.dpy_eans52](https://img-1255332810.cos.ap-chengdu.myqcloud.com/ayrxvupf.dpy_eans52.png)
+![ayrxvupf.dpy_eans52](https://img.slarker.me/wiki/ayrxvupf.dpy_eans52.png)

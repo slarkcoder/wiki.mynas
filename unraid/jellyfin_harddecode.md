@@ -14,7 +14,7 @@ wiki.slarker.me
 
 我推荐的做法是建立一个专门的共享目录比如 `media`，来存放媒体文件。然后在 media 目录下面再建立 `movies` 和 `tvshows` 来分别存放电影和电视剧。当然你可以把 movies 和 tvshows 都直接放到 `downloads` 这个下载共享目录里，下面的教程我都以 `media` 这个目录为例，在对应的地方你需要改成自己建立的目录。
 
-![CFIbG2_Oi0NwG](https://img-1255332810.cos.ap-chengdu.myqcloud.com/CFIbG2_Oi0NwG.png)
+![CFIbG2_Oi0NwG](https://img.slarker.me/wiki/CFIbG2_Oi0NwG.png)
 
 ## 安装插件
 
@@ -22,7 +22,7 @@ wiki.slarker.me
 
 在仪表板里设置 GPU Statistics，找到显卡勾选并应用。
 
-![4jAbL4_1Z6e7F](https://img-1255332810.cos.ap-chengdu.myqcloud.com/4jAbL4_1Z6e7F.png)
+![4jAbL4_1Z6e7F](https://img.slarker.me/wiki/4jAbL4_1Z6e7F.png)
 
 ## 部署 Jellyfin
 
@@ -36,7 +36,7 @@ wiki.slarker.me
 
 点击最下面的 `添加另一个路径、端口、变量、标签或设备` ，配置类型选择设备，参数按下图所示，最后点击添加。
 
-![qcpUBy_uL478Q](https://img-1255332810.cos.ap-chengdu.myqcloud.com/qcpUBy_uL478Q.png)
+![qcpUBy_uL478Q](https://img.slarker.me/wiki/qcpUBy_uL478Q.png)
 
 最后点击应用，等待部署完成。
 
@@ -46,8 +46,8 @@ wiki.slarker.me
 
 在控制台中点击播放，在转码的地方选择硬件加速，其它按下图所示配置：
 
-![KYGGSu_ZGKMAg](https://img-1255332810.cos.ap-chengdu.myqcloud.com/KYGGSu_ZGKMAg.png)
+![KYGGSu_ZGKMAg](https://img.slarker.me/wiki/KYGGSu_ZGKMAg.png)
 
-![H7LJk7_uBlLkG](https://img-1255332810.cos.ap-chengdu.myqcloud.com/H7LJk7_uBlLkG.png)
+![H7LJk7_uBlLkG](https://img.slarker.me/wiki/H7LJk7_uBlLkG.png)
 
 最后点击最下方的保存。

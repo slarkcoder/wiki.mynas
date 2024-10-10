@@ -1,6 +1,6 @@
 # UPS - NAS 的好搭档
 
-![pexels-cookiecutter-11488_QhaS7q](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-cookiecutter-11488_QhaS7q.jpg)
+![pexels-cookiecutter-11488_QhaS7q](https://img.slarker.me/wiki/pexels-cookiecutter-11488_QhaS7q.jpg)
 
 机械硬盘成本在 NAS 里肯定算是大头，同时机械硬盘在 NAS 的所有部件里也是最脆弱的，异常断电对机械硬盘造成的危害不小，我见过不少因为异常断电导致硬盘损坏丢数据的用户。基于这些惨痛的教训，有必要为 NAS 配一个不间断电源，也就是 UPS。一个 UPS 也就几百块，对于 NAS 整机成本来说影响很小，却可以很大程度保障你的 NAS 安全，因此非常推荐购买。
 
@@ -14,13 +14,13 @@
 
 你可以根据自己的 NAS 的实际功耗来选择 UPS，像是山特 TG-Box 600 已经够绝大多数 NAS 设备使用了。以山特 TG-Box 600 为例，如果你的 NAS 功耗是 100W，那么 UPS 可以坚持 10 分钟，这足够你的 NAS 完成关机动作了。
 
-![ipDxB9_BifmXo](https://img-1255332810.cos.ap-chengdu.myqcloud.com/ipDxB9_BifmXo.png)
+![ipDxB9_BifmXo](https://img.slarker.me/wiki/ipDxB9_BifmXo.png)
 
 ## Unraid 配置 UPS
 
 Unraid 的 UPS 设置非常简单，把 UPS 的 USB 线接入 Unraid，就可以在 `设置 -> UPS 设置` 中配置：
 
-![2GGO8X_XyxJWn](https://img-1255332810.cos.ap-chengdu.myqcloud.com/2GGO8X_XyxJWn.png)
+![2GGO8X_XyxJWn](https://img.slarker.me/wiki/2GGO8X_XyxJWn.png)
 
 ## 群晖配置 UPS
 
@@ -28,7 +28,7 @@ Unraid 的 UPS 设置非常简单，把 UPS 的 USB 线接入 Unraid，就可以
 
 点击 `设备信息` 就能看到 UPS 信息。
 
-![hJMYNo_5gx0MR](https://img-1255332810.cos.ap-chengdu.myqcloud.com/hJMYNo_5gx0MR.png)
+![hJMYNo_5gx0MR](https://img.slarker.me/wiki/hJMYNo_5gx0MR.png)
 
 ## fnOS 配置 UPS
 
@@ -46,11 +46,11 @@ fnOS 配置 UPS 可以查看教程：[fnOS 配置 UPS](/fnos/ups.md)。
 
 首先将 UPS 的 USB 添加到群晖里。
 
-![1rkxupwb.hgn_SY701G](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1rkxupwb.hgn_SY701G.png)
+![1rkxupwb.hgn_SY701G](https://img.slarker.me/wiki/1rkxupwb.hgn_SY701G.png)
 
 启动群晖，先按上面的 `群晖配置 UPS` 部分设置完成，再勾选 `启用网络 UPS 服务器`，并在允许的 Synology NAS 设备中，填入 PVE 的 IP 地址后点击 `应用`。
 
-![3ycmlzty.2br_vMgfeA](https://img-1255332810.cos.ap-chengdu.myqcloud.com/3ycmlzty.2br_vMgfeA.png)
+![3ycmlzty.2br_vMgfeA](https://img.slarker.me/wiki/3ycmlzty.2br_vMgfeA.png)
 
 上面已经设置好了群晖作为 nut 服务器，接下来设置 PVE 作为 nut 客户端就可以了。
 
@@ -79,4 +79,4 @@ systemctl start nut-client && systemctl enable nut-client
 upsc ups@nas的ip
 ```
 
-![0uo1xqpa.uhx_v6pUS6](https://img-1255332810.cos.ap-chengdu.myqcloud.com/0uo1xqpa.uhx_v6pUS6.png)
+![0uo1xqpa.uhx_v6pUS6](https://img.slarker.me/wiki/0uo1xqpa.uhx_v6pUS6.png)

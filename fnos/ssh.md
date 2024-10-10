@@ -19,7 +19,7 @@
 
 在 fnOS `设置` -> `SSH` 中打开 `SSH 功能` 开关。
 
-![OK2SIN_7sTAMA](https://img-1255332810.cos.ap-chengdu.myqcloud.com/OK2SIN_7sTAMA.png)
+![OK2SIN_7sTAMA](https://img.slarker.me/wiki/OK2SIN_7sTAMA.png)
 
 ## 通过 SSH 登录 fnOS
 
@@ -39,4 +39,4 @@ ssh slark@192.168.2.113
 
 使用 `sudo -i` 切换到 root 用户。
 
-![KtM6vm_OpSjwA](https://img-1255332810.cos.ap-chengdu.myqcloud.com/KtM6vm_OpSjwA.png)
+![KtM6vm_OpSjwA](https://img.slarker.me/wiki/KtM6vm_OpSjwA.png)

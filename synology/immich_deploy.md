@@ -6,7 +6,7 @@ Immich 是一个非常好用的，开源的照片管理工具，支持 iOS 和 A
 
 建立共享文件夹 immich 用来保存照片文件。共享文件夹建好之后，可以在 `File Station` 中右击选择属性查看文件夹的路径，记下备用。
 
-![4YcuE6_aUBkpB](https://img-1255332810.cos.ap-chengdu.myqcloud.com/4YcuE6_aUBkpB.png)
+![4YcuE6_aUBkpB](https://img.slarker.me/wiki/4YcuE6_aUBkpB.png)
 
 ## 配置文件
 
@@ -45,7 +45,7 @@ DB_DATABASE_NAME=immich
 
 最近有群友安装最新版的 immich 时遇到问题，提示不支持 `start_interval` 属性：
 
-![WechatIMG166_rpHaX1](https://img-1255332810.cos.ap-chengdu.myqcloud.com/WechatIMG166_rpHaX1.png)
+![WechatIMG166_rpHaX1](https://img.slarker.me/wiki/WechatIMG166_rpHaX1.png)
 
 由于群晖目前版本的 Docker 不支持该属性，可以将该属性所在行直接删除，不影响 `immich` 正常使用。
 
@@ -53,19 +53,19 @@ DB_DATABASE_NAME=immich
 
 在 `File Station` 中的 docker 文件夹下面建立 `immich` 文件夹，用来保存配置文件。将修改好的 `example.env` 和 `docker-compose.yml` 上传到 `/docker/immich` 路径下面，并在 `/docker/immich` 下面建立 `postgres` 文件夹用来存储数据库，最后把 `example.env` 重命名为 `.env`。
 
-![x0gx320b.gbe_OyT7Yk](https://img-1255332810.cos.ap-chengdu.myqcloud.com/x0gx320b.gbe_OyT7Yk.png)
+![x0gx320b.gbe_OyT7Yk](https://img.slarker.me/wiki/x0gx320b.gbe_OyT7Yk.png)
 
 在 Container Manager 项目中新增，项目名称填写 immich，设置路径选择 /docekr/immich 后会提示已含有 docker-compose.yml，选择 `使用现有的 docker-compose.yml 来创建项目`，点击确定，一直下一步就自动开始拉取镜像部署了。
 
-![vfnsdszh.3eh_htNSwa](https://img-1255332810.cos.ap-chengdu.myqcloud.com/vfnsdszh.3eh_htNSwa.png)
+![vfnsdszh.3eh_htNSwa](https://img.slarker.me/wiki/vfnsdszh.3eh_htNSwa.png)
 
 部署完成之后，会自动启动所有的容器。
 
-![LwYuGy_nUqG5G](https://img-1255332810.cos.ap-chengdu.myqcloud.com/LwYuGy_nUqG5G.png)
+![LwYuGy_nUqG5G](https://img.slarker.me/wiki/LwYuGy_nUqG5G.png)
 
 Immich 默认的 Web 端口是 2283。
 
-![uwz3fsc3.ujp_MuBCtH](https://img-1255332810.cos.ap-chengdu.myqcloud.com/uwz3fsc3.ujp_MuBCtH.png)
+![uwz3fsc3.ujp_MuBCtH](https://img.slarker.me/wiki/uwz3fsc3.ujp_MuBCtH.png)
 
 ## 设置中文
 

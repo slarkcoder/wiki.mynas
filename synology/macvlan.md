@@ -15,7 +15,7 @@
 
 打开 `控制面板` -> `网络` -> `网络界面` -> `管理` -> `Open vSwitch 设置`，勾选 `启用 Open vSwitch` 并确定。
 
-![XPjbNQ_D6FmC7](https://img-1255332810.cos.ap-chengdu.myqcloud.com/XPjbNQ_D6FmC7.png)
+![XPjbNQ_D6FmC7](https://img.slarker.me/wiki/XPjbNQ_D6FmC7.png)
 
 [使用 SSH 登录](/synology/ssh.md) 群晖，并切换到 `root` 用户。查看群晖网络：
 
@@ -23,7 +23,7 @@
 ip addr
 ```
 
-![yrMGvJ_PXa74H](https://img-1255332810.cos.ap-chengdu.myqcloud.com/yrMGvJ_PXa74H.png)
+![yrMGvJ_PXa74H](https://img.slarker.me/wiki/yrMGvJ_PXa74H.png)
 
 可以看到，开启 `Open vSwitch` 之后，群晖通过一个名为 `ovs_eth0` 的网桥来连接网络。
 
@@ -51,11 +51,11 @@ docker network create -d macvlan --subnet=192.168.2.0/24 --gateway=192.168.2.1 -
 docker network ls
 ```
 
-![khmw1rwv.ri0_kVxAoX](https://img-1255332810.cos.ap-chengdu.myqcloud.com/khmw1rwv.ri0_kVxAoX.png)
+![khmw1rwv.ri0_kVxAoX](https://img.slarker.me/wiki/khmw1rwv.ri0_kVxAoX.png)
 
 也可以在群晖的 `Container Manager` 的网络中查看：
 
-![RqaBH6_pSzO7r](https://img-1255332810.cos.ap-chengdu.myqcloud.com/RqaBH6_pSzO7r.png)
+![RqaBH6_pSzO7r](https://img.slarker.me/wiki/RqaBH6_pSzO7r.png)
 
 如果需要删除创建的 macvlan 网络，可以使用下面的命令：
 
@@ -100,11 +100,11 @@ docker run -d \
 
 在群晖里直接 ping qBittorrent 容器的 IP 就会失败：
 
-![WdWJ4S_SFuiIA](https://img-1255332810.cos.ap-chengdu.myqcloud.com/WdWJ4S_SFuiIA.png)
+![WdWJ4S_SFuiIA](https://img.slarker.me/wiki/WdWJ4S_SFuiIA.png)
 
 而使用网络中的其它设备 ping qBittorrent 容器的 IP 就可以成功：
 
-![vZ8GrD_Gifmzm](https://img-1255332810.cos.ap-chengdu.myqcloud.com/vZ8GrD_Gifmzm.png)
+![vZ8GrD_Gifmzm](https://img.slarker.me/wiki/vZ8GrD_Gifmzm.png)
 
 这就导致群晖上面装的其它应用也无法和 qBittorrent 容器通信。解决办法如下：
 
@@ -119,7 +119,7 @@ ip route add 192.168.2.101 dev vlan_bridge
 
 可以看到设置好 vlan_bridge 这个 macvlan 网桥之后，宿主机就可以访问 qBittorrent 容器了：
 
-![vRysK0_TKjMPs](https://img-1255332810.cos.ap-chengdu.myqcloud.com/vRysK0_TKjMPs.png)
+![vRysK0_TKjMPs](https://img.slarker.me/wiki/vRysK0_TKjMPs.png)
 
 ## 使用 systemd 管理 macvlan 服务
 
@@ -225,12 +225,12 @@ systemctl status macvlan
 
 执行 `systemctl enable macvlan` 设置开机启动后，可以重启群晖用上面的 `systemctl status macvlan` 查看 macvlan 服务是否正常（显示绿色 `active` 表示已经启动）。
 
-![cniz6B_s2Lt9F](https://img-1255332810.cos.ap-chengdu.myqcloud.com/cniz6B_s2Lt9F.png)
+![cniz6B_s2Lt9F](https://img.slarker.me/wiki/cniz6B_s2Lt9F.png)
 
 ## 设置访问控制
 
 现在 qbittorrent 已经有独立的 IP（192.168.2.101），那么我们就可以在软路由的魔法插件中设置访问控制了。以 iStoreOS 中的 SSRP 插件为例：
 
-![jmDHb3_PXWTwU](https://img-1255332810.cos.ap-chengdu.myqcloud.com/jmDHb3_PXWTwU.png)
+![jmDHb3_PXWTwU](https://img.slarker.me/wiki/jmDHb3_PXWTwU.png)
 
 如此，就可以避免 PT 流量走代理，从而被识别为盒子了。

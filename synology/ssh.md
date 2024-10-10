@@ -6,7 +6,7 @@
 
 打开 `控制面板` -> `终端机和 SNMP`，勾选 `启动 SSH 功能` 并应用。
 
-![5ei2wi4t.oer_CMYeJZ](https://img-1255332810.cos.ap-chengdu.myqcloud.com/5ei2wi4t.oer_CMYeJZ.png)
+![5ei2wi4t.oer_CMYeJZ](https://img.slarker.me/wiki/5ei2wi4t.oer_CMYeJZ.png)
 
 ### 使用 SSH 登录群晖
 
@@ -23,7 +23,7 @@ ssh rooter@192.168.2.227
 
 > 切换到 `root` 用户并不是必须，是否需要切换到 root 用户，要具体的需求来确定。
 
-![hlvan5eo.bhr_N5hslt](https://img-1255332810.cos.ap-chengdu.myqcloud.com/hlvan5eo.bhr_N5hslt.png)
+![hlvan5eo.bhr_N5hslt](https://img.slarker.me/wiki/hlvan5eo.bhr_N5hslt.png)
 
 >注意：在终端最左侧会显示当前的用户身份，使用 `sudo -i` 切换成 root 用户之后，前面显示的用户就会由 `rooter` 变成 `root`。
 
@@ -31,4 +31,4 @@ ssh rooter@192.168.2.227
 
 将所需的命令执行完毕后，可以在终端中输入 `exit` 退出登录。如果当前是 `root` 用户，则需要先输入 `exit` 退到普通用户，再输一次才能退出登录。
 
-![xzbjx0p0.hxv_CVxNnf](https://img-1255332810.cos.ap-chengdu.myqcloud.com/xzbjx0p0.hxv_CVxNnf.png)
+![xzbjx0p0.hxv_CVxNnf](https://img.slarker.me/wiki/xzbjx0p0.hxv_CVxNnf.png)

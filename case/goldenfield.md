@@ -21,7 +21,7 @@
 
 机箱设计的硬盘位如下：
 
-![wTHV17_5chXGx](https://img-1255332810.cos.ap-chengdu.myqcloud.com/wTHV17_5chXGx.png)
+![wTHV17_5chXGx](https://img.slarker.me/wiki/wTHV17_5chXGx.png)
 
 使用 ATX 电源的情况下，顶部可以装 2 块 3.5 寸机械盘，侧边可以装 2 块 2.5 寸 SSD。
 
@@ -33,11 +33,11 @@
 
 在使用 ATX 电源的情况下，可以使用两组不锈钢角码，在机箱中部的横梁下面吊装 8 块 2.5 寸硬盘（机械盘或者 SSD 均可），通过扎带固定到横梁上。侧边可以装 2 块 2.5 寸 SSD。算下来就是 10 个 2.5 寸盘位。具体效果如下：
 
-![pmolFY_aQMqzt](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pmolFY_aQMqzt.png)
+![pmolFY_aQMqzt](https://img.slarker.me/wiki/pmolFY_aQMqzt.png)
 
-![1720113950492_fETvhz](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1720113950492_fETvhz.jpg)
+![1720113950492_fETvhz](https://img.slarker.me/wiki/1720113950492_fETvhz.jpg)
 
-![1720113950502_Ioyfh6](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1720113950502_Ioyfh6.jpg)
+![1720113950502_Ioyfh6](https://img.slarker.me/wiki/1720113950502_Ioyfh6.jpg)
 
 散热器：可以使用下压式散热器，比如 `ID Cooling IS40X`，散热没问题。
 
@@ -47,9 +47,9 @@
 
 下图的为 2 盘位的支架，有 3 盘位的版本，两对支架就是 6 盘位。
 
-![1720113950473_pv2nYg](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1720113950473_pv2nYg.jpg)
+![1720113950473_pv2nYg](https://img.slarker.me/wiki/1720113950473_pv2nYg.jpg)
 
-![1720114395292_tcnnjp](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1720114395292_tcnnjp.jpg)
+![1720114395292_tcnnjp](https://img.slarker.me/wiki/1720114395292_tcnnjp.jpg)
 
 散热器：可以使用下压式散热器，比如 `ID Cooling IS40X`，散热没问题。
 

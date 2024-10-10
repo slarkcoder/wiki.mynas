@@ -1,6 +1,6 @@
 # 如何选择 CPU
 
-![pexels-tookapic-8943_8vwBPb](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-tookapic-8943_8vwBPb.jpg)
+![pexels-tookapic-8943_8vwBPb](https://img.slarker.me/wiki/pexels-tookapic-8943_8vwBPb.jpg)
 
 ## 常见的 CPU 性能对比
 
@@ -8,9 +8,9 @@
 
 下面的截图来自于 [PassMark](https://www.cpubenchmark.net/singleCompare.php) 这个网站，如果你想自己对比 CPU 性能，也可以到 [PassMark](https://www.cpubenchmark.net/singleCompare.php) 查询。
 
-![](https://img-1255332810.cos.ap-chengdu.myqcloud.com/NLtHoL_DjLsC3.png)
+![](https://img.slarker.me/wiki/NLtHoL_DjLsC3.png)
 
-![PruQsN_Uvggpe](https://img-1255332810.cos.ap-chengdu.myqcloud.com/PruQsN_Uvggpe.png)
+![PruQsN_Uvggpe](https://img.slarker.me/wiki/PruQsN_Uvggpe.png)
 
 - First Seen on Chart：首次有测试数据的时间，也可以看成 CPU 发布时间
 - Single Thread Rating：单线程跑分
@@ -21,7 +21,7 @@
 
 如果你没有虚拟 Windows 的需求，那 N5105，N100 是完全够用的。以我用的 N5105 为例（使用 Unraid 系统），开了 30 多个 Docker 和虚拟了一个 iStoreOS 作为主路由，CPU 负载也并不高。
 
-![WechatIMG133_LdIf8V](https://img-1255332810.cos.ap-chengdu.myqcloud.com/WechatIMG133_LdIf8V.jpg)
+![WechatIMG133_LdIf8V](https://img.slarker.me/wiki/WechatIMG133_LdIf8V.jpg)
 
 如果你需要使用 Windows 虚拟机，那可以用个 G7400 或者 i3-12100 就足够用。
 
@@ -39,7 +39,7 @@ NAS CPU 在性能够用的前提下，最需要注意的是功耗，因为 NAS �
 
 下面是 8100T，8100，N5105，N100 的性能、功耗对比。
 
-![ci3ouzzw.xb3_toxL2u](https://img-1255332810.cos.ap-chengdu.myqcloud.com/ci3ouzzw.xb3_toxL2u.png)
+![ci3ouzzw.xb3_toxL2u](https://img.slarker.me/wiki/ci3ouzzw.xb3_toxL2u.png)
 
 可以很明显的看出，8100 相比 N100 性能并没有多大优势，而且功耗高不少，也不支持 12 代 CPU 新增的 AV1 编解码。
 
@@ -53,7 +53,7 @@ NAS CPU 在性能够用的前提下，最需要注意的是功耗，因为 NAS �
 
 N305 和 12300T 都是 12 代 CPU，性能对比如下：
 
-![UJZ4ZV_31gdRt](https://img-1255332810.cos.ap-chengdu.myqcloud.com/UJZ4ZV_31gdRt.png)
+![UJZ4ZV_31gdRt](https://img.slarker.me/wiki/UJZ4ZV_31gdRt.png)
 
 目前市面上的 N305 都是集成在主板上的，板 U 价格大概在 1400 左右，相比 12300T 板 U 只要 1000 出头，性能不如 12300T，价格还比 12300T 贵很多，N305 的性价比显的实在很低，个人非常不推荐 N305。
 

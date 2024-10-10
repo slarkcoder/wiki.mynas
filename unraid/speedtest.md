@@ -4,15 +4,15 @@
 
 ## SpeedTest
 
-![tdzkww0r.srv_lnm7B0](https://img-1255332810.cos.ap-chengdu.myqcloud.com/tdzkww0r.srv_lnm7B0.png)
+![tdzkww0r.srv_lnm7B0](https://img.slarker.me/wiki/tdzkww0r.srv_lnm7B0.png)
 
 SpeedTest 部署很简单，在 Unraid 应用中心搜索点击安装，修改下默认的端口号（比如我修改成了 9000），其他配置保持不变，点击应用。
 
-![3znoiN_R1nPeA](https://img-1255332810.cos.ap-chengdu.myqcloud.com/3znoiN_R1nPeA.png)
+![3znoiN_R1nPeA](https://img.slarker.me/wiki/3znoiN_R1nPeA.png)
 
 部署好之后，就可以打开对应的端口进行测速。
 
-![bflv403e.jsq_V1fDUk](https://img-1255332810.cos.ap-chengdu.myqcloud.com/bflv403e.jsq_V1fDUk.png)
+![bflv403e.jsq_V1fDUk](https://img.slarker.me/wiki/bflv403e.jsq_V1fDUk.png)
 
 通常局域网内的 ping 延迟一般都很低，大概 2~3ms 左右。如果你通过远程访问 NAS，也可以用 SpeedTest 来测试延迟情况。以 zerotier 这种远程访问方式为例，如果你测试的延迟比较高，达到了几百 ms，那说明你当前的连接方式并非是直连，很可能是到国外绕路了一圈导致延迟较高。如果测试延迟在 30ms 左右，而且测速基本可以跑满宽带的上行带宽，那说明你当前的连接方式大概率是直连。
 
@@ -30,6 +30,6 @@ iperf3 -c 192.168.2.184 -R
 
 得到的结果：
 
-![E6CnRF_kL7EAS](https://img-1255332810.cos.ap-chengdu.myqcloud.com/E6CnRF_kL7EAS.png)
+![E6CnRF_kL7EAS](https://img.slarker.me/wiki/E6CnRF_kL7EAS.png)
 
 因为我是通过 zerotier 远程连接到 NAS，NAS 的宽带是 30Mbps 上传。所以测速结果显示基本上跑满了带宽。iPerf3 的参数也有不少，想学习其他用法的可以自己去搜索相关资料。

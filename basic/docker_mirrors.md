@@ -29,15 +29,15 @@
 
 打开 `Container Manager`，在 `注册表` -> `设置` 中编辑名为 `Docker Hub（v1）` 的条目。
 
-![Su5bhz_pqRrkx](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Su5bhz_pqRrkx.png)
+![Su5bhz_pqRrkx](https://img.slarker.me/wiki/Su5bhz_pqRrkx.png)
 
 选中 `启用注册表镜像`，点击 `新增`，填写镜像加速地址，并应用。
 
-![fadx1q1i.u1y_qkVNsU](https://img-1255332810.cos.ap-chengdu.myqcloud.com/fadx1q1i.u1y_qkVNsU.png)
+![fadx1q1i.u1y_qkVNsU](https://img.slarker.me/wiki/fadx1q1i.u1y_qkVNsU.png)
 
 之后在 `套件中心` 先 `停用` Container Manager，再 `启动`，镜像加速地址就可以生效。
 
-![DeBY64_ZtHWt7](https://img-1255332810.cos.ap-chengdu.myqcloud.com/DeBY64_ZtHWt7.png)
+![DeBY64_ZtHWt7](https://img.slarker.me/wiki/DeBY64_ZtHWt7.png)
 
 ### Unraid
 
@@ -56,7 +56,7 @@ EOF
 
 之后到 `设置` -> `Docker` 中先将 `启用 Docker` 设置为 `否`，点击应用：
 
-![adwo3ql1.34y_djmT5u](https://img-1255332810.cos.ap-chengdu.myqcloud.com/adwo3ql1.34y_djmT5u.png)
+![adwo3ql1.34y_djmT5u](https://img.slarker.me/wiki/adwo3ql1.34y_djmT5u.png)
 
 之后再设置为 `是`，再次点击应用，加速镜像地址即可生效。
 

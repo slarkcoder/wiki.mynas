@@ -1,6 +1,6 @@
 # 常见的远程访问 NAS 方法
 
-![remote_En32qD](https://img-1255332810.cos.ap-chengdu.myqcloud.com/remote_En32qD.jpg)
+![remote_En32qD](https://img.slarker.me/wiki/remote_En32qD.jpg)
 
 ## 最佳方案 - 公网 IPv4
 
@@ -42,4 +42,4 @@
 
 免费版支持 4Mbps 转发速度，支持添加 4 条穿透通道，每月流量 20G，只要不涉及大文件传输，应对日常的远程访问需求（查看 NAS 状态，管理 BT/PT，备份照片）都可以满足。
 
-![l51Mwl_9ilQxW](https://img-1255332810.cos.ap-chengdu.myqcloud.com/l51Mwl_9ilQxW.png)
+![l51Mwl_9ilQxW](https://img.slarker.me/wiki/l51Mwl_9ilQxW.png)

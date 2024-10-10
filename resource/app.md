@@ -1,6 +1,6 @@
 # 分享好用的 App
 
-![pexels-petercors-360438_vYCZAi](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-petercors-360438_vYCZAi.jpg)
+![pexels-petercors-360438_vYCZAi](https://img.slarker.me/wiki/pexels-petercors-360438_vYCZAi.jpg)
 
 经常有人问我，自组的 NAS 有哪些好用的 App 呢？这里我就分享一些优秀的 App。
 
@@ -11,11 +11,11 @@
 
 比如下面是 Nova Video Player 的下载页面，提供了很多版本的安装包：
 
-![1q3j21se.cug_DJREAq](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1q3j21se.cug_DJREAq.png)
+![1q3j21se.cug_DJREAq](https://img.slarker.me/wiki/1q3j21se.cug_DJREAq.png)
 
 `arm64-v8a`，`armeabi-v7a` 等不同字样的具体区别如下：
 
-![NIpSmS_OWBhvx](https://img-1255332810.cos.ap-chengdu.myqcloud.com/NIpSmS_OWBhvx.png)
+![NIpSmS_OWBhvx](https://img.slarker.me/wiki/NIpSmS_OWBhvx.png)
 :::
 
 ## Emby 

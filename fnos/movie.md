@@ -1,8 +1,8 @@
 # 飞牛影视刮削、播放网盘电影
 
-![fnmovie_ATapWY](https://img-1255332810.cos.ap-chengdu.myqcloud.com/fnmovie_ATapWY.jpg)
+![fnmovie_ATapWY](https://img.slarker.me/wiki/fnmovie_ATapWY.jpg)
 
-![Snipaste_2024-08-31_22-49-46_ZVhFDr](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-08-31_22-49-46_ZVhFDr.jpg)
+![Snipaste_2024-08-31_22-49-46_ZVhFDr](https://img.slarker.me/wiki/Snipaste_2024-08-31_22-49-46_ZVhFDr.jpg)
 
 上面这两张图就是飞牛影视的刮削效果。飞牛影视的刮削功能非常强悍，不用折腾什么 `TMDB API`，也不用改 host，也不用折腾网络环境。识别速度快，准确度高达 99%，支持在线匹配字幕，支持多用户访问权限控制，最重要的是上手还非常简单，极大的降低了小白用户的上手门槛，对很多影视用户来说，完美解决了刮削这个痛点。
 
@@ -20,7 +20,7 @@ Clouddrive 是一个网盘挂载工具，可以挂载任何支持 FUSE 的网盘
 
 在 fnOS 的文件管理中 `新建文件夹`，`clouddrive` 用来挂载网盘，`docker` 用来保存容器的配置。具体层级如下：
 
-![x0zisuj0.tq1_VoBgDx](https://img-1255332810.cos.ap-chengdu.myqcloud.com/x0zisuj0.tq1_VoBgDx.png)
+![x0zisuj0.tq1_VoBgDx](https://img.slarker.me/wiki/x0zisuj0.tq1_VoBgDx.png)
 
 <!-- ### 在 Docker 服务中启用 MountFlags
 
@@ -74,7 +74,7 @@ docker run -d \
 <!-- 
 安装成功后可以在 docker 的 `容器设置` 里把 clouddrive 的 `开机自启` 选项打开。
 
-![Snipaste_2024-09-01_21-12-22_0i5U6b](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-09-01_21-12-22_0i5U6b.jpg) -->
+![Snipaste_2024-09-01_21-12-22_0i5U6b](https://img.slarker.me/wiki/Snipaste_2024-09-01_21-12-22_0i5U6b.jpg) -->
 
 ## 挂载网盘
 
@@ -84,41 +84,41 @@ Clouddrive 免费版只能挂载一个网盘，对很多人来说也够用了。
 
 Clouddrive 默认的端口是：`19798`，使用 `NAS IP:19798` 打开后注册登录账号，添加网盘。
 
-![MhlFfT_VUtbq5](https://img-1255332810.cos.ap-chengdu.myqcloud.com/MhlFfT_VUtbq5.png)
+![MhlFfT_VUtbq5](https://img.slarker.me/wiki/MhlFfT_VUtbq5.png)
 
 具体添加操作按提示来就行，添加好之后可以把网盘挂载到本地。
 
-![JRJzOx_xVBT3Z](https://img-1255332810.cos.ap-chengdu.myqcloud.com/JRJzOx_xVBT3Z.png)
+![JRJzOx_xVBT3Z](https://img.slarker.me/wiki/JRJzOx_xVBT3Z.png)
 
 挂载点选择 `CloudNAS`。
 
-![A9GKXC_Bpgzmj](https://img-1255332810.cos.ap-chengdu.myqcloud.com/A9GKXC_Bpgzmj.png)
+![A9GKXC_Bpgzmj](https://img.slarker.me/wiki/A9GKXC_Bpgzmj.png)
 
 挂载好之后，在 fnOS 文件管理中，点开 `clouddrive`，就可以看到网盘里的资源了。
 
-![RojvnL_eTlZRZ](https://img-1255332810.cos.ap-chengdu.myqcloud.com/RojvnL_eTlZRZ.png)
+![RojvnL_eTlZRZ](https://img.slarker.me/wiki/RojvnL_eTlZRZ.png)
 
 ## 影视设置
 
 在 fnOS 应用中心安装 `影视` 应用，并设置可访问的文件夹。
 
-![Snipaste_2024-09-01_20-44-02_WdTE9T](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-09-01_20-44-02_WdTE9T.jpg)
+![Snipaste_2024-09-01_20-44-02_WdTE9T](https://img.slarker.me/wiki/Snipaste_2024-09-01_20-44-02_WdTE9T.jpg)
 
 允许 `影视` 应用访问挂载到本地的网盘文件夹。
 
-![Snipaste_2024-09-01_20-46-54_Z3WrbF](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-09-01_20-46-54_Z3WrbF.jpg)
+![Snipaste_2024-09-01_20-46-54_Z3WrbF](https://img.slarker.me/wiki/Snipaste_2024-09-01_20-46-54_Z3WrbF.jpg)
 
 打开 `影视` 应用，按提示进行授权，创建管理员账号，创建媒体库，`媒体文件夹` 选择挂载到本地的网盘影视文件夹。
 
-![bEBpWd_d6iO8O](https://img-1255332810.cos.ap-chengdu.myqcloud.com/bEBpWd_d6iO8O.png)
+![bEBpWd_d6iO8O](https://img.slarker.me/wiki/bEBpWd_d6iO8O.png)
 
 创建好之后，等待自动刮削完成就可以了，非常省心！
 
-![Snipaste_2024-08-31_22-10-01_G26xFt](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-08-31_22-10-01_G26xFt.jpg)
+![Snipaste_2024-08-31_22-10-01_G26xFt](https://img.slarker.me/wiki/Snipaste_2024-08-31_22-10-01_G26xFt.jpg)
 
 详情介绍也很完整。
 
-![Snipaste_2024-09-01_20-53-22_prNdiO](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-09-01_20-53-22_prNdiO.jpg)
+![Snipaste_2024-09-01_20-53-22_prNdiO](https://img.slarker.me/wiki/Snipaste_2024-09-01_20-53-22_prNdiO.jpg)
 
 ## 115 资源
 

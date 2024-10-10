@@ -1,6 +1,6 @@
 # 硬盘的那些事儿
 
-![harddisk_iwXjh8](https://img-1255332810.cos.ap-chengdu.myqcloud.com/harddisk_iwXjh8.jpg)
+![harddisk_iwXjh8](https://img.slarker.me/wiki/harddisk_iwXjh8.jpg)
 
 ## 新手该如何选择硬盘？
 
@@ -33,7 +33,7 @@ Windows 可以安装 [图吧工具箱](https://www.tbtool.cn/)，里面带的 `H
 
 容量越大的硬盘，扫描时间也越长，比如东芝的 MG07 14TB，扫描一遍需要大概 16~18 个小时左右。
 
-![](https://img-1255332810.cos.ap-chengdu.myqcloud.com/mYQSyC_tQf8hk.png)
+![](https://img.slarker.me/wiki/mYQSyC_tQf8hk.png)
 
 ### 使用 U 盘引导启动 PE 扫描
 
@@ -63,7 +63,7 @@ PE 推荐使用 [Edgeless](https://down.edgeless.top/)，下载 ISO 镜像，使
 
 Windows 可以安装 [图吧工具箱](https://www.tbtool.cn/)，里面带的 CrystalDiskInfo 这个工具，可以用来查看 SSD 读写量。
 
-![31e1f2d0-f22d-4b46-a494-ec9c350684a6_8J1MeU](https://img-1255332810.cos.ap-chengdu.myqcloud.com/31e1f2d0-f22d-4b46-a494-ec9c350684a6_8J1MeU.jpeg)
+![31e1f2d0-f22d-4b46-a494-ec9c350684a6_8J1MeU](https://img.slarker.me/wiki/31e1f2d0-f22d-4b46-a494-ec9c350684a6_8J1MeU.jpeg)
 
 ## NAS 可以使用 SAS 盘吗？
 

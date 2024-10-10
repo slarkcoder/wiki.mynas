@@ -2,7 +2,7 @@
 
 HomeAssistant 可以通过独立的 HAOS，Docker，Core，Supervised 等方式安装，各个版本区别如下：
 
-![m5clphqn.bnz_aboQwI](https://img-1255332810.cos.ap-chengdu.myqcloud.com/m5clphqn.bnz_aboQwI.png)
+![m5clphqn.bnz_aboQwI](https://img.slarker.me/wiki/m5clphqn.bnz_aboQwI.png)
 
 HAOS 对各种特性支持最完整，因此只要条件允许，推荐安装 HAOS。本篇就来介绍如何在 PVE 中虚拟 HAOS。
 

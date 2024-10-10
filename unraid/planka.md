@@ -1,6 +1,6 @@
 # 适合个人和小团队的看板应用 - Planka
 
-![Snipaste_2024-05-22_14-21-25_zlCEIu](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-05-22_14-21-25_zlCEIu.jpg)
+![Snipaste_2024-05-22_14-21-25_zlCEIu](https://img.slarker.me/wiki/Snipaste_2024-05-22_14-21-25_zlCEIu.jpg)
 
 [Planka](https://planka.app/) 是一个开源免费的看板应用，界面简洁清爽，适合个人或者小团队来实现工作内容可视化，任务安排，追踪进度，帮你提高工作效率。
 

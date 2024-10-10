@@ -1,6 +1,6 @@
 # 网络唤醒
 
-![pexels-pixabay-21052_suMSDk](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-pixabay-21052_suMSDk.jpg)
+![pexels-pixabay-21052_suMSDk](https://img.slarker.me/wiki/pexels-pixabay-21052_suMSDk.jpg)
 
 网络唤醒功能可以让你的 NAS 在关机状态时，通过其它设备发送网络唤醒魔术包实现远程开机，不需要你手动按下 NAS 的开机键。如果你需要使用网络唤醒功能，需要主板支持并打开网络唤醒的设置。
 
@@ -12,7 +12,7 @@
 
 以群晖系统为例，在 `控制面板` -> `电源` 选项中勾选下面的选项并应用。
 
-![synology_wol_1_dhfzD6](https://img-1255332810.cos.ap-chengdu.myqcloud.com/synology_wol_1_dhfzD6.png)
+![synology_wol_1_dhfzD6](https://img.slarker.me/wiki/synology_wol_1_dhfzD6.png)
 
 ## Unraid
 
@@ -24,7 +24,7 @@
 ethtool -s eth0 wol g
 ```
 
-![lsjqn0su.hdn_UHrPac](https://img-1255332810.cos.ap-chengdu.myqcloud.com/lsjqn0su.hdn_UHrPac.png)
+![lsjqn0su.hdn_UHrPac](https://img.slarker.me/wiki/lsjqn0su.hdn_UHrPac.png)
 
 ## 如何唤醒？
 
@@ -32,5 +32,5 @@ ethtool -s eth0 wol g
 
 以 `iStoreOS` 为例，在 `服务` -> `网络唤醒` 中，选择需要唤醒设备的 mac 地址或者 IP，点击 `唤醒主机` 就可以。
 
-![5ewuknk5.k0k_iYDofa](https://img-1255332810.cos.ap-chengdu.myqcloud.com/5ewuknk5.k0k_iYDofa.png)
+![5ewuknk5.k0k_iYDofa](https://img.slarker.me/wiki/5ewuknk5.k0k_iYDofa.png)
 

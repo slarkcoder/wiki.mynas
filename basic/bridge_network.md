@@ -1,12 +1,12 @@
 # 设置交换机模式
 
-![pexels-brett-sayles-288122_SoctoD](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-brett-sayles-288122_SoctoD.jpg)
+![pexels-brett-sayles-288122_SoctoD](https://img.slarker.me/wiki/pexels-brett-sayles-288122_SoctoD.jpg)
 
 ## 最常见的网络拓扑
 
 大部分情况下，我们的网络拓扑应该是这样的：
 
-![synology_network.drawio_EiQOJh](https://img-1255332810.cos.ap-chengdu.myqcloud.com/synology_network.drawio_EiQOJh.svg)
+![synology_network.drawio_EiQOJh](https://img.slarker.me/wiki/synology_network.drawio_EiQOJh.svg)
 
 电脑和 NAS 都通过网线直连路由器，或者直连路由器下面的交换机。
 
@@ -18,7 +18,7 @@
 
 当然是有的，如果你的 NAS 有多个网口，可以在 NAS 上设置桥接，把 NAS 的 2.5G/10G 网口当成交换机来用，这样你的电脑就可以直接把 2.5G/10G 网口接到 NAS 的 2.5 G/10G 网口，既可以正常通过 NAS 来上网，也可以实现传输文件跑满带宽。 具体网络拓扑如下：
 
-![synology_network.drawio3_egeUhs](https://img-1255332810.cos.ap-chengdu.myqcloud.com/synology_network.drawio3_egeUhs.svg)
+![synology_network.drawio3_egeUhs](https://img.slarker.me/wiki/synology_network.drawio3_egeUhs.svg)
 
 上图中的 NAS 具有一个千兆口，一个 2.5G/10G 网口，设置好交换机模式之后，把千兆口接到路由器上，2.5G/10G 网口和 `电脑 2` 的 2.5/10G 网口相连，这样电脑 2 就可以通过 NAS 上网，同时和 NAS 之间的传输速度也能达到 2.5G/10G 速度。
 
@@ -30,13 +30,13 @@
 
 打开 `控制面板` -> `网络` -> `网络界面` -> `管理` -> `Open vSwitch 设置`，勾选 `启用 Open vSwitch` 并确定。
 
-![XPjbNQ_D6FmC7](https://img-1255332810.cos.ap-chengdu.myqcloud.com/XPjbNQ_D6FmC7.png)
+![XPjbNQ_D6FmC7](https://img.slarker.me/wiki/XPjbNQ_D6FmC7.png)
 
 ### 查看当前网络
 
 在 `控制面板` -> `网络` -> `网络界面` 中可以看到当前的网络连接状态。
 
-![upi5hb4s.oxh_KWdA4l](https://img-1255332810.cos.ap-chengdu.myqcloud.com/upi5hb4s.oxh_KWdA4l.png)
+![upi5hb4s.oxh_KWdA4l](https://img.slarker.me/wiki/upi5hb4s.oxh_KWdA4l.png)
 
 前面已经说了，这台 NAS 上的网卡只有三个，分别是千兆和双口万兆。目前 NAS 只有千兆网卡连接了路由器，所以显示 `已联机` 的 `局域网 1` 就是千兆网卡，显示 `尚未联机` 的 `局域网 2` 和 `局域网 3` 就是两个万兆网卡。
 
@@ -50,11 +50,11 @@ ifconfig
 
 下面这张图是启用 `Open vSwitch` 之前的网络配置：
 
-![1mlkyale.ev2_qnqpGe](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1mlkyale.ev2_qnqpGe.png)
+![1mlkyale.ev2_qnqpGe](https://img.slarker.me/wiki/1mlkyale.ev2_qnqpGe.png)
 
 下面这张图是启用 `Open vSwitch` 之后的网络配置：
 
-![FMTgqF_epmJyh](https://img-1255332810.cos.ap-chengdu.myqcloud.com/FMTgqF_epmJyh.png)
+![FMTgqF_epmJyh](https://img.slarker.me/wiki/FMTgqF_epmJyh.png)
 
 通过网卡 IP 可以判断，上面两张图中，eth0 就是千兆网卡，eth1 和 eth2 就是两个万兆网卡。对比可以看到，启用 `Open vSwitch` 之前，NAS 直接通过千兆物理网卡上网。启用 `Open vSwitch` 之后，系统为每个物理网卡分别生成并绑定了一个虚拟的交换机（`ovs_eth0`，`ovs_eth1`，`ovs_eth2`），而现在的联网方式变成了通过这个虚拟交换机 `ovs_eth0` 上网。
 
@@ -81,7 +81,7 @@ ovs-vsctl del-br ovs_eth2
 
 删除之后可以重新使用 `ifconfig` 查看下当前的网络配置：
 
-![z1ncz00g.qok_X6wJQM](https://img-1255332810.cos.ap-chengdu.myqcloud.com/z1ncz00g.qok_X6wJQM.png)
+![z1ncz00g.qok_X6wJQM](https://img.slarker.me/wiki/z1ncz00g.qok_X6wJQM.png)
 
 可以看到，`ovs_eth1` 和 `ovs_eth2` 已经被删除了，下面我们把 `eth1` 和 `eth2` 这两个万兆网卡添加到 `ovs_eth0` 中：
 
@@ -98,13 +98,13 @@ ovs-vsctl show
 
 可以看到 `ovs_eth0` 中已经包含了 `eth0`，`eth1`，`eth2` 这三个网卡，说明交换机模式已经设置成功了。
 
-![rzeksrx1.zvi_REiPLE](https://img-1255332810.cos.ap-chengdu.myqcloud.com/rzeksrx1.zvi_REiPLE.png)
+![rzeksrx1.zvi_REiPLE](https://img.slarker.me/wiki/rzeksrx1.zvi_REiPLE.png)
 
 现在你就可以把电脑直接接到 NAS 的万兆网卡上，电脑使用 `DHCP` 的模式就可以自动从路由器获取到 IP 上网。在电脑的网络属性中，也可以看到网络的链接速度是 `10G`。
 
 最后，用一张图来总结下涉及到的操作。
 
-![ovs_switch2.drawio_KwKBr1](https://img-1255332810.cos.ap-chengdu.myqcloud.com/ovs_switch2.drawio_KwKBr1.svg)
+![ovs_switch2.drawio_KwKBr1](https://img.slarker.me/wiki/ovs_switch2.drawio_KwKBr1.svg)
 
 ### 开机脚本
 
@@ -112,7 +112,7 @@ ovs-vsctl show
 
 在 `控制面板` -> `任务计划` -> `新增` -> `触发的任务` -> `用户定义的脚本` 中设置任务名称为 `ovs`，切换用户账号为 `root` 用户。
 
-![xns9xs_7h9Fqn](https://img-1255332810.cos.ap-chengdu.myqcloud.com/xns9xs_7h9Fqn.png)
+![xns9xs_7h9Fqn](https://img.slarker.me/wiki/xns9xs_7h9Fqn.png)
 
 切换到任务设置，填写上面设置虚拟交换机的命令：
 
@@ -124,11 +124,11 @@ ovs-vsctl add-port ovs_eth0 eth1
 ovs-vsctl add-port ovs_eth0 eth2
 ```
 
-![3voWYT_5I1Xcm](https://img-1255332810.cos.ap-chengdu.myqcloud.com/3voWYT_5I1Xcm.png)
+![3voWYT_5I1Xcm](https://img.slarker.me/wiki/3voWYT_5I1Xcm.png)
 
 设置好之后点击 `确定`，出现系统提示再次 `确定` 之后输入密码提交。
 
-![x95OJE_KboTMf](https://img-1255332810.cos.ap-chengdu.myqcloud.com/x95OJE_KboTMf.png)
+![x95OJE_KboTMf](https://img.slarker.me/wiki/x95OJE_KboTMf.png)
 
 可以重启系统测试下是否 OK。
 
@@ -136,10 +136,10 @@ ovs-vsctl add-port ovs_eth0 eth2
 
 Unraid 的设置方法比较简单，默认情况下，Unraid 会将所有网口都绑定到 eth0 接口：
 
-![utvpGD_5Ow2NU](https://img-1255332810.cos.ap-chengdu.myqcloud.com/utvpGD_5Ow2NU.png)
+![utvpGD_5Ow2NU](https://img.slarker.me/wiki/utvpGD_5Ow2NU.png)
 
 这里把 `启用绑定` 改为 `否`，`启用桥接` 改为 `是`，在 `桥接其成员 br0` 勾选所有网口：
 
-![CqmR8F_Bm2cnU](https://img-1255332810.cos.ap-chengdu.myqcloud.com/CqmR8F_Bm2cnU.png)
+![CqmR8F_Bm2cnU](https://img.slarker.me/wiki/CqmR8F_Bm2cnU.png)
 
 然后点击应用即可，设置生效后，如果 eth0 接口默认是 DHCP 自动获取 IP，此时 IP 地址可能会有变化，可以到路由器后台查找新的 IP。

@@ -24,10 +24,10 @@ rm -rf /mnt/disk1/test
 
 测试结果如下：
 
-![Snipaste_2024-08-28_02-00-54_wQcDn9](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-08-28_02-00-54_wQcDn9.png)
+![Snipaste_2024-08-28_02-00-54_wQcDn9](https://img.slarker.me/wiki/Snipaste_2024-08-28_02-00-54_wQcDn9.png)
 
 可以将 count 参数改大一些，多试几次，这样得到的结果会更有参考性。
 
 不管是有线网络还是 WiFi 速度，或者硬盘读写速度，各种测试工具、办法都非常多，此类问题都可以直接问 [Kimi AI](https://kimi.moonshot.cn/)，都会得到很好的回答。
 
-![DNkvJF_xaFNec](https://img-1255332810.cos.ap-chengdu.myqcloud.com/DNkvJF_xaFNec.png)
+![DNkvJF_xaFNec](https://img.slarker.me/wiki/DNkvJF_xaFNec.png)

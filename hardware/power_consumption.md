@@ -1,6 +1,6 @@
 # 功耗信息
 
-![38a7d180604e27244aa5c13435205e31_hhKUW5](https://img-1255332810.cos.ap-chengdu.myqcloud.com/38a7d180604e27244aa5c13435205e31_hhKUW5.jpg)
+![38a7d180604e27244aa5c13435205e31_hhKUW5](https://img.slarker.me/wiki/38a7d180604e27244aa5c13435205e31_hhKUW5.jpg)
 
 这里收集了一些群友提交的 [功耗信息](https://oocahw4xg0.feishu.cn/share/base/view/shrcn8Ee5uOncwQIcaRJvLm9Y8J)，供大家对比参考。
 

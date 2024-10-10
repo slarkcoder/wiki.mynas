@@ -1,6 +1,6 @@
 # 高颜值的 NAS 应用导航 - Homepage
 
-![3Ihvmm_vqfQe0](https://img-1255332810.cos.ap-chengdu.myqcloud.com/3Ihvmm_vqfQe0.png)
+![3Ihvmm_vqfQe0](https://img.slarker.me/wiki/3Ihvmm_vqfQe0.png)
 
 NAS 上装的应用一旦多了，各种端口记起来很麻烦，虽然加个书签也能解决问题，但是如果要分享给家人或者朋友用，还是不太方便。之前也折腾过这个 [Homepage](https://github.com/gethomepage/homepage)，但是维护起来并不容易，每个应用都需要单独配置 icon，好处就是自定义程度高，配好了就非常好看。
 
@@ -10,29 +10,29 @@ NAS 上装的应用一旦多了，各种端口记起来很麻烦，虽然加个�
 
 将 [配置文件](https://www.123pan.com/s/1JKMjv-zIxo.html) 下载，然后解压，将整个 `homepage` 目录上传到 docker 的应用数据目录 `/mnt/user/appdata` 下面。
 
-![33tkv4ee.cjn_vNrnD5](https://img-1255332810.cos.ap-chengdu.myqcloud.com/33tkv4ee.cjn_vNrnD5.png)
+![33tkv4ee.cjn_vNrnD5](https://img.slarker.me/wiki/33tkv4ee.cjn_vNrnD5.png)
 
 通过 [Docker 安装模板](https://files.mynas.chat/share/BXbuuhLC) 安装 `Homepage`，所有的设置都不需要修改，直接点应用安装。
 
 > [如何使用模板安装应用？](/unraid/unraid_docker_template.md)
 
-![vl5rlwbq.kkx_5MXtes](https://img-1255332810.cos.ap-chengdu.myqcloud.com/vl5rlwbq.kkx_5MXtes.png)
+![vl5rlwbq.kkx_5MXtes](https://img.slarker.me/wiki/vl5rlwbq.kkx_5MXtes.png)
 
 ## 群晖安装 Homepage
 
 在套件中心安装 `FileBrowser`，并为 `FileBrowser` 设置 docker 目录的 `读写` 权限。
 
-![2eL0cY_yTG7Sq](https://img-1255332810.cos.ap-chengdu.myqcloud.com/2eL0cY_yTG7Sq.png)
+![2eL0cY_yTG7Sq](https://img.slarker.me/wiki/2eL0cY_yTG7Sq.png)
 
 将 [配置文件](https://www.123pan.com/s/1JKMjv-zIxo.html) 下载，然后解压，将整个 `homepage` 目录上传到 docker 文件夹下面。
 
-![0smaspit.ylg_7Uz1Sb](https://img-1255332810.cos.ap-chengdu.myqcloud.com/0smaspit.ylg_7Uz1Sb.png)
+![0smaspit.ylg_7Uz1Sb](https://img.slarker.me/wiki/0smaspit.ylg_7Uz1Sb.png)
 
 群晖可以使用 Compose 安装 Homepage。在 Container Manmager 中新建项目，项目名称：homepage，选择路径为 `/docker/homepage`，会自动加载 homepage 下面的 `docker-compose.yml`。
 
-![ly3u4ynq.23l_r7qc4l](https://img-1255332810.cos.ap-chengdu.myqcloud.com/ly3u4ynq.23l_r7qc4l.png)
+![ly3u4ynq.23l_r7qc4l](https://img.slarker.me/wiki/ly3u4ynq.23l_r7qc4l.png)
 
-![3jitvipa.fr2_HDcPlm](https://img-1255332810.cos.ap-chengdu.myqcloud.com/3jitvipa.fr2_HDcPlm.png)
+![3jitvipa.fr2_HDcPlm](https://img.slarker.me/wiki/3jitvipa.fr2_HDcPlm.png)
 
 一路 `下一步`，直到完成。
 
@@ -54,13 +54,13 @@ Homepage 默认端口为：3000，装好后使用 `NAS IP:3000` 访问。
 
 可以使用 `FileBrowser` 直接打开编辑相关的配置文件，需要修改的配置基本都在 `services.yaml` 和 `settings.yaml` 里面，打开就能直接编辑。
 
-![xpc3nsja.ll0_4li2nt](https://img-1255332810.cos.ap-chengdu.myqcloud.com/xpc3nsja.ll0_4li2nt.png)
+![xpc3nsja.ll0_4li2nt](https://img.slarker.me/wiki/xpc3nsja.ll0_4li2nt.png)
 
 ### 设置 Service
 
 使用 `FileBrowser` 打开 `services.yaml` 文件。
 
-![rt0vw24f.xuc_xBvN4E](https://img-1255332810.cos.ap-chengdu.myqcloud.com/rt0vw24f.xuc_xBvN4E.png)
+![rt0vw24f.xuc_xBvN4E](https://img.slarker.me/wiki/rt0vw24f.xuc_xBvN4E.png)
 
 Homepage 页面上每个链接都是一个 Service，每个 Service 既可以是一个 Docker 应用，也可以是一个链接。多个 Service 可以组合成为一个 Group，比如 `下载工具`、`文件服务` 等等。
 
@@ -78,7 +78,7 @@ Homepage 页面上每个链接都是一个 Service，每个 Service 既可以是
 
 icon 代表图标，href 是链接地址，description 是描述，siteMonitor 是监控信息，会在右上角显示 ping 延迟。
 
-![5XYAcD_1OvRQ8](https://img-1255332810.cos.ap-chengdu.myqcloud.com/5XYAcD_1OvRQ8.png)
+![5XYAcD_1OvRQ8](https://img.slarker.me/wiki/5XYAcD_1OvRQ8.png)
 
 以 SpeedTest 这个 Docker 应用为例：
 
@@ -92,21 +92,21 @@ icon 代表图标，href 是链接地址，description 是描述，siteMonitor �
 
 和上面的 iStoreOS 有区别的只有 siteMonitor 变成了 container，因为这是个 Docker 应用，可以把 SpeedTest 这个应用的 Docker 应用名字填到 container 后面，就能在 Service 的右上角显示这个应用的状态。
 
-![VKWyJd_xbsIhr](https://img-1255332810.cos.ap-chengdu.myqcloud.com/VKWyJd_xbsIhr.png)
+![VKWyJd_xbsIhr](https://img.slarker.me/wiki/VKWyJd_xbsIhr.png)
 
 如果有不需要的应用，可以使用 `#` 将整个 Service 都注释掉。
 
-![nt5dfbi0.hx2_ytBb00](https://img-1255332810.cos.ap-chengdu.myqcloud.com/nt5dfbi0.hx2_ytBb00.png)
+![nt5dfbi0.hx2_ytBb00](https://img.slarker.me/wiki/nt5dfbi0.hx2_ytBb00.png)
 
 建议修改的时候，再开一个浏览器窗口并排显示，这样修改并保存后，刷新就可以看到修改的效果，如果有出错的地方，也可以及时修改。
 
-![mx1y2gl3.a5f_5KnqLs](https://img-1255332810.cos.ap-chengdu.myqcloud.com/mx1y2gl3.a5f_5KnqLs.png)
+![mx1y2gl3.a5f_5KnqLs](https://img.slarker.me/wiki/mx1y2gl3.a5f_5KnqLs.png)
 
 ### Widgets
 
 有些 Docker 应用，`homepage` 单独为其定义了 Widgets，可以用来多展示一部分信息。比如：
 
-![hgf32azo.4bt_pqyZqT](https://img-1255332810.cos.ap-chengdu.myqcloud.com/hgf32azo.4bt_pqyZqT.png)
+![hgf32azo.4bt_pqyZqT](https://img.slarker.me/wiki/hgf32azo.4bt_pqyZqT.png)
 
 所需的配置信息可以到 [官方文档](https://gethomepage.dev/latest/widgets/) 查找。
 
@@ -145,11 +145,11 @@ widget:
 
 我提前下载好了两套 icon，位于 `/homepage/public/images` 下面，涵盖了常用的网站 logo 和应用 icon。如果需要查找 icon，可以在 `FileBrowser` 里使用关键字搜索。
 
-![e1zt15ma.isu_qKKhCX](https://img-1255332810.cos.ap-chengdu.myqcloud.com/e1zt15ma.isu_qKKhCX.png)
+![e1zt15ma.isu_qKKhCX](https://img.slarker.me/wiki/e1zt15ma.isu_qKKhCX.png)
 
 比如搜索 `alist`，就出现了好几个 icon。
 
-![rw3jsmu4.ajw_hAb5d1](https://img-1255332810.cos.ap-chengdu.myqcloud.com/rw3jsmu4.ajw_hAb5d1.png)
+![rw3jsmu4.ajw_hAb5d1](https://img.slarker.me/wiki/rw3jsmu4.ajw_hAb5d1.png)
 
 可以点某个 icon 具体看下，有哪个是自己想要的，鼠标右键对应的路径复制下来，比如：
 

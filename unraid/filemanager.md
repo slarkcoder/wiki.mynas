@@ -4,15 +4,15 @@
 
 Unraid 默认并没有带文件管理器，而是以插件的形式提供给用户来安装，可以在 Unraid 的应用中心搜索 `Dynamix File Manager` 进行安装。
 
-![PppxR9_0K2igH](https://img-1255332810.cos.ap-chengdu.myqcloud.com/PppxR9_0K2igH.png)
+![PppxR9_0K2igH](https://img.slarker.me/wiki/PppxR9_0K2igH.png)
 
 安装之后，会在 Unraid 的右上角多出一个图标。
 
-![yeq5LT_hGHzst](https://img-1255332810.cos.ap-chengdu.myqcloud.com/yeq5LT_hGHzst.png)
+![yeq5LT_hGHzst](https://img.slarker.me/wiki/yeq5LT_hGHzst.png)
 
 点击之后，就可以进入文件管理器了。
 
-![47Cx5x_sMxcyD](https://img-1255332810.cos.ap-chengdu.myqcloud.com/47Cx5x_sMxcyD.png)
+![47Cx5x_sMxcyD](https://img.slarker.me/wiki/47Cx5x_sMxcyD.png)
 
 基本的文件管理功能都有，可以满足绝大部分需求。
 
@@ -22,11 +22,11 @@ Unraid 默认并没有带文件管理器，而是以插件的形式提供给用�
 
 ### 应用中心安装
 
-![GtAnCj_0QFMpd](https://img-1255332810.cos.ap-chengdu.myqcloud.com/GtAnCj_0QFMpd.png)
+![GtAnCj_0QFMpd](https://img.slarker.me/wiki/GtAnCj_0QFMpd.png)
 
 Unraid 应用中心就有这款文件管理器的镜像，选择 unraides 这款点击安装。
 
-![ql7gNG_QePfEv](https://img-1255332810.cos.ap-chengdu.myqcloud.com/ql7gNG_QePfEv.png)
+![ql7gNG_QePfEv](https://img.slarker.me/wiki/ql7gNG_QePfEv.png)
 
 将特权开关打开，给予文件管理器更高的权限等级。将 `Data Path` 更改为 `/mnt/user/`，如果不作修改，默认的文件管理器访问端口是 `30000`。其它配置保持默认不变，之后点击应用。
 
@@ -52,5 +52,5 @@ filebrowser/filebrowser:s6
 
 在 FileBrowser 文件管理器的设置中，可以将语言切换为中文。
 
-![jsck66_OSWX7w](https://img-1255332810.cos.ap-chengdu.myqcloud.com/jsck66_OSWX7w.png)
+![jsck66_OSWX7w](https://img.slarker.me/wiki/jsck66_OSWX7w.png)
  

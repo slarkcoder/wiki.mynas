@@ -9,7 +9,7 @@
 - `isos`，默认的 iso 镜像文件路径
 - `system`，系统文件夹，一般用不到
 
-![TM4Sa3_q4MDrd](https://img-1255332810.cos.ap-chengdu.myqcloud.com/TM4Sa3_q4MDrd.png)
+![TM4Sa3_q4MDrd](https://img.slarker.me/wiki/TM4Sa3_q4MDrd.png)
 
 共享文件夹前面显示黄色 ⚠️ 表示这个文件夹里的部分或者全部内容没有受到保护。如果你需要将这四个系统文件夹保存到 ZFS 里，可以在将 ZFS 创建好之后，将这几个系统文件夹的存储位置修改为 zfs，然后使用 Unraid 的文件管理器插件移动到 ZFS 阵列中。
 
@@ -19,17 +19,17 @@
 
 当系统文件夹都存到了 ZFS 池中，共享文件夹前面也会变成绿色的 ●。
 
-![HgwXpJ_Av7txg](https://img-1255332810.cos.ap-chengdu.myqcloud.com/HgwXpJ_Av7txg.png)
+![HgwXpJ_Av7txg](https://img.slarker.me/wiki/HgwXpJ_Av7txg.png)
 
 ## 主存储空间
 
 共享文件夹默认的主存储空间为阵列，如果你的文件夹里的数据比较重要，可以在创建的时候选择存储到 ZFS 池中。
 
-![tQETbL_qIWMQN](https://img-1255332810.cos.ap-chengdu.myqcloud.com/tQETbL_qIWMQN.png)
+![tQETbL_qIWMQN](https://img.slarker.me/wiki/tQETbL_qIWMQN.png)
 
 对于已经存储到磁盘阵列中的共享文件夹，如果想要移动到 ZFS 池中，由于共享文件夹中的数据都是分散在阵列中的每块磁盘上面，手动移动的话会非常麻烦，可以借助 `unbalanced` 插件来归集和转移文件。
 
-![cdMBN4_a2pARf](https://img-1255332810.cos.ap-chengdu.myqcloud.com/cdMBN4_a2pARf.png)
+![cdMBN4_a2pARf](https://img.slarker.me/wiki/cdMBN4_a2pARf.png)
 
 ## 分配方法
 
@@ -54,4 +54,4 @@
 
 比如，想让 downloads 文件夹只存储到 `Disk 4` 上面，可以在包含的磁盘中只勾选 `Disk 4`，同时在 `已排除的磁盘` 中将其它盘（`Disk 1`，`Disk 2`，`Disk 3`）都勾上。
 
-![tVz0mH_A5OvNY](https://img-1255332810.cos.ap-chengdu.myqcloud.com/tVz0mH_A5OvNY.png)
+![tVz0mH_A5OvNY](https://img.slarker.me/wiki/tVz0mH_A5OvNY.png)

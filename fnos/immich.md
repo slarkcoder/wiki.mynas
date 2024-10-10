@@ -19,11 +19,11 @@ Immich 的优秀无须多说，相比一些自带的相册应用，immich 已经
 - `/docker/immich/db`：数据库文件夹
 - `/photos`：保存照片文件夹
 
-![VnJnSQ_eyrmOC](https://img-1255332810.cos.ap-chengdu.myqcloud.com/VnJnSQ_eyrmOC.png)
+![VnJnSQ_eyrmOC](https://img.slarker.me/wiki/VnJnSQ_eyrmOC.png)
 
 文件夹的实际路径也可以在文件夹上右击 -> 选择 `详细信息` -> `复制原始路径` 得到。
 
-![Snipaste_2024-09-07_23-10-38_kGBfHx](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-09-07_23-10-38_kGBfHx.png)
+![Snipaste_2024-09-07_23-10-38_kGBfHx](https://img.slarker.me/wiki/Snipaste_2024-09-07_23-10-38_kGBfHx.png)
 
 ## 准备配置文件
 
@@ -66,17 +66,17 @@ DB_DATABASE_NAME=immich
 
 将配置文件 `docker-compose.yml` 和 `example.env` 上传到 immich 中，并将 `example.env` 重命名为 `.env`。
 
-![Snipaste_2024-09-07_22-24-40_EDIwzE](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-09-07_22-24-40_EDIwzE.png)
+![Snipaste_2024-09-07_22-24-40_EDIwzE](https://img.slarker.me/wiki/Snipaste_2024-09-07_22-24-40_EDIwzE.png)
 
 ## 通过 Compose 安装 immich
 
 在 fnOS 的 Docker 中创建 Compose 项目，路径选择 `/docker/immich`，使用现有配置文件创建项目，点击 `确定`。勾选 `创建项目后立即启动`，点击 `完成`。
 
-![NQzP7e_7ni8iX](https://img-1255332810.cos.ap-chengdu.myqcloud.com/NQzP7e_7ni8iX.png)
+![NQzP7e_7ni8iX](https://img.slarker.me/wiki/NQzP7e_7ni8iX.png)
 
 Compose 会自动拉取相关的 Docker 镜像，按照配置自动构建相关容器，等待完成，immich 就装好了。
 
-![YE6ffu_TW5LNK](https://img-1255332810.cos.ap-chengdu.myqcloud.com/YE6ffu_TW5LNK.png)
+![YE6ffu_TW5LNK](https://img.slarker.me/wiki/YE6ffu_TW5LNK.png)
 
 immich 的默认端口为：`2283`，浏览器打开 `fnOS IP:2283` 就能访问了。
 

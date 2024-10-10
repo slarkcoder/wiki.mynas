@@ -1,6 +1,6 @@
 # 如何选择内存
 
-![ram_LbDnqp](https://img-1255332810.cos.ap-chengdu.myqcloud.com/ram_LbDnqp.jpg)
+![ram_LbDnqp](https://img.slarker.me/wiki/ram_LbDnqp.jpg)
 
 ## NAS 需要考虑内存频率吗？
 

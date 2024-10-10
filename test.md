@@ -12,8 +12,8 @@
   <script setup>
   import { ref } from 'vue';
   const items = [
-    { src: 'https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-07-25_13-13-51_L15NtG.jpg' },
-    { src: 'https://img-1255332810.cos.ap-chengdu.myqcloud.com/3Ihvmm_vqfQe0.png' },
+    { src: 'https://img.slarker.me/wiki/Snipaste_2024-07-25_13-13-51_L15NtG.jpg' },
+    { src: 'https://img.slarker.me/wiki/3Ihvmm_vqfQe0.png' },
   ];
   </script>
 </ClientOnly> -->

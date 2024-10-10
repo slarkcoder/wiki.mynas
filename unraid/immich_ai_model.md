@@ -26,32 +26,32 @@ git clone https://huggingface.co/immich-app/XLM-Roberta-Large-Vit-B-16Plus
 
 如果后续模型有更新，可以直接 `cd` 到对应的模型下面，使用 `git pull` 直接更新。
 
-![ldGAKu_zvmuzo](https://img-1255332810.cos.ap-chengdu.myqcloud.com/ldGAKu_zvmuzo.png)
+![ldGAKu_zvmuzo](https://img.slarker.me/wiki/ldGAKu_zvmuzo.png)
 
 ## 设置 Smart Search
 
 模型拉下来之后，可以在 Immich 后台 `Administration` -> `Setting` -> `Machine Learning Setting` -> `Smart Search` 中，将 `CLIP MODEL` 修改为大模型的名称，并点击保存。
 
-![t43n4f01.asi_BJGHiR](https://img-1255332810.cos.ap-chengdu.myqcloud.com/t43n4f01.asi_BJGHiR.png)
+![t43n4f01.asi_BJGHiR](https://img.slarker.me/wiki/t43n4f01.asi_BJGHiR.png)
 
 之后可以在 `Docker Compose` 中 `UPDATE STACK`，然后在 Immich 后台 `Administration` -> `Job` 中重新跑一遍 `SMART SEARCH`。
 
-![ksyuslwu.0yd_pmsMrr](https://img-1255332810.cos.ap-chengdu.myqcloud.com/ksyuslwu.0yd_pmsMrr.png)
+![ksyuslwu.0yd_pmsMrr](https://img.slarker.me/wiki/ksyuslwu.0yd_pmsMrr.png)
 
 跑的过程中 CPU 占用会比较高，属于正常现象，跑完之后就会正常。跑完就能用中文搜索了：
 
-![WechatIMG9029_Y9m36O](https://img-1255332810.cos.ap-chengdu.myqcloud.com/WechatIMG9029_Y9m36O.jpg)
+![WechatIMG9029_Y9m36O](https://img.slarker.me/wiki/WechatIMG9029_Y9m36O.jpg)
 
 ## 其它模型
 
 如果你想试试其它模型，可以在 [模型列表](https://huggingface.co/immich-app)，点具体某个模型进去，在右侧可以找到 `Clone repository`：
 
-![CKxbdq_mqWVnH](https://img-1255332810.cos.ap-chengdu.myqcloud.com/CKxbdq_mqWVnH.png)
+![CKxbdq_mqWVnH](https://img.slarker.me/wiki/CKxbdq_mqWVnH.png)
 
 打开后点击命令右侧的复制按钮：
 
-![SEGqHx_eWztII](https://img-1255332810.cos.ap-chengdu.myqcloud.com/SEGqHx_eWztII.png)
+![SEGqHx_eWztII](https://img.slarker.me/wiki/SEGqHx_eWztII.png)
 
 到 Unraid 终端直接执行即可。
 
-![iteqsuse.3rl_nP7EXQ](https://img-1255332810.cos.ap-chengdu.myqcloud.com/iteqsuse.3rl_nP7EXQ.png)
+![iteqsuse.3rl_nP7EXQ](https://img.slarker.me/wiki/iteqsuse.3rl_nP7EXQ.png)

@@ -1,6 +1,6 @@
 # 常见问题解答
 
-![pexels-alex-green-569945_QwNpJJ](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-alex-green-569945_QwNpJJ.jpg)
+![pexels-alex-green-569945_QwNpJJ](https://img.slarker.me/wiki/pexels-alex-green-569945_QwNpJJ.jpg)
 
 这里收集一些新手经常遇到的问题。
 
@@ -20,7 +20,7 @@
 https://spk7.imnks.com/
 ```
 
-![](https://img-1255332810.cos.ap-chengdu.myqcloud.com/synology_photo_03_oD0zrU.png)
+![](https://img.slarker.me/wiki/synology_photo_03_oD0zrU.png)
 
 这里也有一些其它的 [第三方套件源](https://synopackage.com/sources)，需要的可以看看。
 
@@ -30,13 +30,13 @@ https://spk7.imnks.com/
 
 推荐修改为：`223.5.5.5`，`114.114.114.114`。
 
-![ujwOIJ_41eBnO](https://img-1255332810.cos.ap-chengdu.myqcloud.com/ujwOIJ_41eBnO.png)
+![ujwOIJ_41eBnO](https://img.slarker.me/wiki/ujwOIJ_41eBnO.png)
 
 ## 群晖的 Docker 套件在哪里？
 
 新版的群晖 Docker 已改名为 `Container Manager`。
 
-![hhRI1G_H2X3T1](https://img-1255332810.cos.ap-chengdu.myqcloud.com/hhRI1G_H2X3T1.png)
+![hhRI1G_H2X3T1](https://img.slarker.me/wiki/hhRI1G_H2X3T1.png)
 
 ## 相册应用导入大量照片后 CPU 占用很高，甚至高达 100%，是否正常？
 
@@ -44,7 +44,7 @@ https://spk7.imnks.com/
 
 即便你换了性能比较强的 CPU，比如 12100，甚至 12400 这种，CPU 也会占用很高，只是持续时间长短问题，等照片索引完成之后，就会恢复正常。
 
-![UFjhLW_MeErSW](https://img-1255332810.cos.ap-chengdu.myqcloud.com/UFjhLW_MeErSW.png)
+![UFjhLW_MeErSW](https://img.slarker.me/wiki/UFjhLW_MeErSW.png)
 
 ## iStoreOS代理插件到哪里下载？
 
@@ -58,7 +58,7 @@ iStoreOS 本身并不自带代理插件，可以使用这里的包一键自动�
 
 下载好之后到 iStoreOS 中手动上传安装：
 
-![voo450c5.qrq_PH9mYj](https://img-1255332810.cos.ap-chengdu.myqcloud.com/voo450c5.qrq_PH9mYj.png)
+![voo450c5.qrq_PH9mYj](https://img.slarker.me/wiki/voo450c5.qrq_PH9mYj.png)
 
 装好之后，在 `服务` 中可以找到相关插件。
 
@@ -115,4 +115,4 @@ sudo sed -i '/WebUI\\Port/i\WebUI\\Password_PBKDF2=\"@ByteArray(xK2EwRvfGtxfF+Ot
 
 使用有线把电脑连接到 iStoreOS 网口，可以先检查你的电脑是否能正常从 iStoreOS 中获取到 IP。如果获取不到，首先确保你的 iStoreOS 正常运行，把你的电脑改成和 iStoreOS 同一网段，使用浏览器登录 iStoreOS，然后打开 `网络` -> `接口` -> `lan`，点击右侧的 `编辑`，在 `高级设置` 中将 `使用自定义的 DNS 服务器` 修改为 `114.114.114.114` 和 `223.5.5.5`，然后点击 `保存`。切换到 `DHCP 服务器`，勾选 `高级设置` 中的 `强制` 选项，然后点击 `保存`，最后点击 `保存并应用`。
 
-![h7SAXM_dtaHXh](https://img-1255332810.cos.ap-chengdu.myqcloud.com/h7SAXM_dtaHXh.png)
+![h7SAXM_dtaHXh](https://img.slarker.me/wiki/h7SAXM_dtaHXh.png)

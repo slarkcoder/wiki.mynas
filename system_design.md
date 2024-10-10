@@ -1,6 +1,6 @@
 # 系统方案
 
-![fba9de411d46233ba1ff00ddd831a564_PeOKLc](https://img-1255332810.cos.ap-chengdu.myqcloud.com/fba9de411d46233ba1ff00ddd831a564_PeOKLc.png)
+![fba9de411d46233ba1ff00ddd831a564_PeOKLc](https://img.slarker.me/wiki/fba9de411d46233ba1ff00ddd831a564_PeOKLc.png)
 
 ## 如何选择系统？
 

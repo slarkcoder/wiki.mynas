@@ -1,6 +1,6 @@
 # 低门槛、易上手的自动化观影方案
 
-![Snipaste_2024-07-25_13-13-51_L15NtG](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-07-25_13-13-51_L15NtG.jpg)
+![Snipaste_2024-07-25_13-13-51_L15NtG](https://img.slarker.me/wiki/Snipaste_2024-07-25_13-13-51_L15NtG.jpg)
 
 观影是很多 NAS 用户的刚需，传统的方案是先搜索 BT 资源链接，使用 BT 工具下载，然后通过各种播放软件直接打开播放。这两年流行的小雅主要是基于阿里云盘的资源，但最近也因为阿里云盘政策的收紧也变得不可用了，如果不充值第三方权益包的话速度也会很慢。很多人用的 MoviePilot，NAStool 需要依赖于 PT 站点的资源，玩 PT 对大部分人来说，门槛也比较高。
 
@@ -31,7 +31,7 @@
 
 Unraid 可以通过模板安装 `douban-tool` 和 `qBittorrent`，具体可以看 [通过模板更新 Docker 应用](/unraid/unraid_docker_template.md)。
 
-![5vwApf_8Y84zi](https://img-1255332810.cos.ap-chengdu.myqcloud.com/5vwApf_8Y84zi.png)
+![5vwApf_8Y84zi](https://img.slarker.me/wiki/5vwApf_8Y84zi.png)
 
 ### 群晖
 
@@ -44,7 +44,7 @@ Unraid 可以通过模板安装 `douban-tool` 和 `qBittorrent`，具体可以�
 - `/docker/douban-tool/data` -> `/app/data`
 - `/downloads` -> `/downloads`
 
-![z35vukbq.zzt_gnMolb](https://img-1255332810.cos.ap-chengdu.myqcloud.com/z35vukbq.zzt_gnMolb.png)
+![z35vukbq.zzt_gnMolb](https://img.slarker.me/wiki/z35vukbq.zzt_gnMolb.png)
 
 设置好之后，一路下一步，就可以完成了。
 
@@ -77,13 +77,13 @@ docker run -d \
 - Junk File Size：过滤掉小于多少 `MB` 的文件，可以避免下载低质量或者似是而非或者的垃圾资源。
 - TMDB API Key：如果需要刮削，可以 [获取 TMDB API Key](https://www.themoviedb.org/settings/api)，用于获取电影和电视剧的详细信息。
 
-![Snipaste_2024-07-25_16-33-44_Q263xo](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-07-25_16-33-44_Q263xo.png)
+![Snipaste_2024-07-25_16-33-44_Q263xo](https://img.slarker.me/wiki/Snipaste_2024-07-25_16-33-44_Q263xo.png)
 
-![Snipaste_2024-07-25_16-54-57_FmOZH5](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-07-25_16-54-57_FmOZH5.png)
+![Snipaste_2024-07-25_16-54-57_FmOZH5](https://img.slarker.me/wiki/Snipaste_2024-07-25_16-54-57_FmOZH5.png)
 
 填写完成之后，点击 `Save` 保存，这个时候可以先到豆瓣标记几个想看的电影，重启 `douban-tool` 容器就会自动调用 `qBittorrent` 下载。
 
-![Snipaste_2024-07-25_12-51-09_QsX1Qj](https://img-1255332810.cos.ap-chengdu.myqcloud.com/Snipaste_2024-07-25_12-51-09_QsX1Qj.png)
+![Snipaste_2024-07-25_12-51-09_QsX1Qj](https://img.slarker.me/wiki/Snipaste_2024-07-25_12-51-09_QsX1Qj.png)
 
 ## 设置 qBittorrent tracker
 
@@ -94,22 +94,22 @@ docker run -d \
 
 在 `qBittorrent` 的设置中，找到 `BitTorrent`，可以在最下方看到 `自动将这些 tracker 添加到新下载`，勾选启用并加入 `tracker 地址` 后点击保存。
 
-![7NQJZe_Y327ci](https://img-1255332810.cos.ap-chengdu.myqcloud.com/7NQJZe_Y327ci.png)
+![7NQJZe_Y327ci](https://img.slarker.me/wiki/7NQJZe_Y327ci.png)
 
 ## 使用迅雷作为下载工具
 
 如果你有迅雷会员，想让迅雷作为 `douban-tool` 的默认下载工具，可以参照下面进行设置。推荐使用 docker 版的迅雷，注意迅雷的下载目录需要和 `douban-tool` 保持一致。
 
-![5D2Vtt_pw7dLG](https://img-1255332810.cos.ap-chengdu.myqcloud.com/5D2Vtt_pw7dLG.png)
+![5D2Vtt_pw7dLG](https://img.slarker.me/wiki/5D2Vtt_pw7dLG.png)
 
 `Xunlei Device Name` 在绑定手机迅雷 App 后，可以在远程设备里看到，这里需要填写完整的设备名称，如下图所示：
 
-![KWgyTV_XOapEc](https://img-1255332810.cos.ap-chengdu.myqcloud.com/KWgyTV_XOapEc.png)
+![KWgyTV_XOapEc](https://img.slarker.me/wiki/KWgyTV_XOapEc.png)
 
 ## 常见错误排查
 
 可以查看 `douban-tool` 的日志，来确认是否正常。
 
-![koapg4ho.g3a_7Sr6G5](https://img-1255332810.cos.ap-chengdu.myqcloud.com/koapg4ho.g3a_7Sr6G5.png)
+![koapg4ho.g3a_7Sr6G5](https://img.slarker.me/wiki/koapg4ho.g3a_7Sr6G5.png)
 
 如果遇到错误提示不明白含义，可以到 [这篇文章](https://www.bilibili.com/read/cv35942028/?jump_opus=1) 查看具体错误原因及解决方案：

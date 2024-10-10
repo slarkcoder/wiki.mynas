@@ -6,7 +6,7 @@
 
 添加好友，请备注：`咨询`
 
-![未命名码_HVVQ3K](https://img-1255332810.cos.ap-chengdu.myqcloud.com/未命名码_HVVQ3K.png)
+![未命名码_HVVQ3K](https://img.slarker.me/wiki/未命名码_HVVQ3K.png)
 
 ## 价格
 

@@ -1,6 +1,6 @@
 # 如何确保数据安全？
 
-![pexels-anthony-170290_HMSadH](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-anthony-170290_HMSadH.jpg)
+![pexels-anthony-170290_HMSadH](https://img.slarker.me/wiki/pexels-anthony-170290_HMSadH.jpg)
 
 当你有了 NAS，所有的数据也都由你自己掌握，但同时你也得为自己的数据多操点心，不至于在家里人把数据都存到你这台 NAS 之后，由于意外导致数据全丢，你又没法找回，那这损失可就大了。
 
@@ -14,13 +14,13 @@
 
 这里推荐一个群晖的在线工具 [Raid 计算器](https://www.synology.cn/zh-cn/support/RAID_calculator)，可以直观的计算出各种 Raid 类型的冗余情况。
 
-![ujgeyx12.1jz_iGlDXE](https://img-1255332810.cos.ap-chengdu.myqcloud.com/ujgeyx12.1jz_iGlDXE.png)
+![ujgeyx12.1jz_iGlDXE](https://img.slarker.me/wiki/ujgeyx12.1jz_iGlDXE.png)
 
 比如，这里使用了 4 块 16TB 硬盘，如果使用 Raid5 类型，可用空间就是 43.7TB，有 14.6TB 的空间用来保护数据，4 块盘里最多同时允许坏 1 块，你的数据不会丢失。如果使用 Raid1 类型，可用空间就是 14.6TB，有 43.7TB 的空间用来保护数据，4 块盘里最多同时允许坏 3 块，你的数据不会丢失。
 
-![yhy4bout.1tn_tufIzv](https://img-1255332810.cos.ap-chengdu.myqcloud.com/yhy4bout.1tn_tufIzv.png)
+![yhy4bout.1tn_tufIzv](https://img.slarker.me/wiki/yhy4bout.1tn_tufIzv.png)
 
-![pv4tq3yo.njp_mzEFQ5](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pv4tq3yo.njp_mzEFQ5.png)
+![pv4tq3yo.njp_mzEFQ5](https://img.slarker.me/wiki/pv4tq3yo.njp_mzEFQ5.png)
 
 在 Unraid 里，能实现同样功能的是 ZFS，原理大致都一样，叫法略有不同。
 

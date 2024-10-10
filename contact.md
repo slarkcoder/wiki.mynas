@@ -31,7 +31,7 @@
 - 发言若违反入群须知，会被直接踢出。
 :::
 
-<!-- ![1725111191580_SwBRUu](https://img-1255332810.cos.ap-chengdu.myqcloud.com/1725111191580_SwBRUu.png) -->
+<!-- ![1725111191580_SwBRUu](https://img.slarker.me/wiki/1725111191580_SwBRUu.png) -->
 
 由于群已满 200 人，可以直接扫码添加我的微信，我手动拉你进群。
 
@@ -40,7 +40,7 @@
 - 如果你需要加群，可以扫码添加我的微信，请备注 `加群`。
 - 如果你需要 `定制 NAS` 或者 `需要咨询问题`，可以扫码添加我的微信，请备注 `咨询`。
 
-![未命名码_HVVQ3K](https://img-1255332810.cos.ap-chengdu.myqcloud.com/未命名码_HVVQ3K.png)
+![未命名码_HVVQ3K](https://img.slarker.me/wiki/未命名码_HVVQ3K.png)
 
 ## Telegram Group
 

@@ -16,4 +16,4 @@
 
 下载后解压，使用 rufus 或者 etcher
 
-![vdoeq5za.ogt_O91rPX](https://img-1255332810.cos.ap-chengdu.myqcloud.com/vdoeq5za.ogt_O91rPX.png)
+![vdoeq5za.ogt_O91rPX](https://img.slarker.me/wiki/vdoeq5za.ogt_O91rPX.png)

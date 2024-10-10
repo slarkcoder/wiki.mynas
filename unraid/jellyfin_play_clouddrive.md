@@ -26,11 +26,11 @@ rclone config
 
 配置按照下图输入：
 
-![2FtgnX_jYL2jU](https://img-1255332810.cos.ap-chengdu.myqcloud.com/2FtgnX_jYL2jU.png)
+![2FtgnX_jYL2jU](https://img.slarker.me/wiki/2FtgnX_jYL2jU.png)
 
-![J7NSeE_KwOwJ6](https://img-1255332810.cos.ap-chengdu.myqcloud.com/J7NSeE_KwOwJ6.png)
+![J7NSeE_KwOwJ6](https://img.slarker.me/wiki/J7NSeE_KwOwJ6.png)
 
-![SJp8In_1haXeu](https://img-1255332810.cos.ap-chengdu.myqcloud.com/SJp8In_1haXeu.png)
+![SJp8In_1haXeu](https://img.slarker.me/wiki/SJp8In_1haXeu.png)
 
 如果你的配置没有填错，那到这里，我们已经把 Alist 的 WebDAV 的配置添加好了。
 
@@ -48,7 +48,7 @@ rclone mount alist: /mnt/user/rclone/alist --umask 0022 --default-permissions --
 
 第三个单词 alist 就是上一步在 rclone 中新建配置的名字，后面的 `/mnt/user/rclone/alist` 就是要把这个 WebDAV 挂载到本地的位置。挂载好之后，在文件管理器里就可以直接网盘里的文件：
 
-![l4z2wn_6v9MBx](https://img-1255332810.cos.ap-chengdu.myqcloud.com/l4z2wn_6v9MBx.png)
+![l4z2wn_6v9MBx](https://img.slarker.me/wiki/l4z2wn_6v9MBx.png)
 
 确定没问题之后，我们可以使用 User Script 将这段挂载脚本设置为开机自动挂载。
 
@@ -56,9 +56,9 @@ rclone mount alist: /mnt/user/rclone/alist --umask 0022 --default-permissions --
 
 在 Unraid 应用中心安装 `User Script` 插件。安装后打开插件，添加新脚本，此处命名为 `automount_rclone`：
 
-![aad3bx_k90sRu](https://img-1255332810.cos.ap-chengdu.myqcloud.com/aad3bx_k90sRu.png)
+![aad3bx_k90sRu](https://img.slarker.me/wiki/aad3bx_k90sRu.png)
 
-![eY0fRm_RoWUzB](https://img-1255332810.cos.ap-chengdu.myqcloud.com/eY0fRm_RoWUzB.png)
+![eY0fRm_RoWUzB](https://img.slarker.me/wiki/eY0fRm_RoWUzB.png)
 
 设置好之后，就可以开机启动阵列自动挂载了。
 
@@ -66,9 +66,9 @@ rclone mount alist: /mnt/user/rclone/alist --umask 0022 --default-permissions --
 
 编辑 Jellyfin 的 Docker 配置，添加路径，将容器路径设置为 `/alist`，主机路径设置为我们映射好的目录  `/mnt/user/rclone/alist`。
 
-![vnVK6W_fFP1GG](https://img-1255332810.cos.ap-chengdu.myqcloud.com/vnVK6W_fFP1GG.png)
+![vnVK6W_fFP1GG](https://img.slarker.me/wiki/vnVK6W_fFP1GG.png)
 
 点击应用之后，就可以在 Jellyfin 媒体库设置里看到我们添加的 `/alist` 目录了。
 
-![IA5XUo_O96u4T](https://img-1255332810.cos.ap-chengdu.myqcloud.com/IA5XUo_O96u4T.png)
+![IA5XUo_O96u4T](https://img.slarker.me/wiki/IA5XUo_O96u4T.png)
 

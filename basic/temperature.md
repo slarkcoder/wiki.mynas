@@ -1,6 +1,6 @@
 # 温度监控
 
-![pexels-enginakyurt-143551_wD65iA](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-enginakyurt-143551_wD65iA.jpg)
+![pexels-enginakyurt-143551_wD65iA](https://img.slarker.me/wiki/pexels-enginakyurt-143551_wD65iA.jpg)
 
 使用 NAS 的过程中，需要注意硬件的温度是否有异常。不管是 Unraid，PVE 还是群晖，都可以通过 CPU，主板和硬盘内置的温度传感器来获取到温度信息。
 
@@ -16,21 +16,21 @@
 
 在 Unraid 中，可以通过 `Dynamix System Temperature` 插件来显示 CPU 温度、主板温度。
 
-![qvnmw4ec.zdy_llo4Mg](https://img-1255332810.cos.ap-chengdu.myqcloud.com/qvnmw4ec.zdy_llo4Mg.png)
+![qvnmw4ec.zdy_llo4Mg](https://img.slarker.me/wiki/qvnmw4ec.zdy_llo4Mg.png)
 
 在主界面中，也可以看到硬盘的具体温度。
 
-![o0mp3gub.w2v_9EQAIL](https://img-1255332810.cos.ap-chengdu.myqcloud.com/o0mp3gub.w2v_9EQAIL.png)
+![o0mp3gub.w2v_9EQAIL](https://img.slarker.me/wiki/o0mp3gub.w2v_9EQAIL.png)
 
 Unraid 自带硬盘温度报警功能，当硬盘温度超过预警阈值，就会发出警告提示。默认的报警温度阈值（45℃）是 **针对机械硬盘的**，如果你的 NAS 里有 SSD，可以在主界面中点击具体的 SSD 磁盘编号，到磁盘的 `S.M.A.R.T` 设置中对 SSD 单独设置报警阈值，推荐将 SSD 设置为 55℃。
 
-![nmtjsbjk.zv1_s0MTMW](https://img-1255332810.cos.ap-chengdu.myqcloud.com/nmtjsbjk.zv1_s0MTMW.png)
+![nmtjsbjk.zv1_s0MTMW](https://img.slarker.me/wiki/nmtjsbjk.zv1_s0MTMW.png)
 
 ## 群晖
 
 群晖的硬盘温度在存储管理器中 `HDD/SSD` 列表可以看到。
 
-![IThojI_qKeYJS](https://img-1255332810.cos.ap-chengdu.myqcloud.com/IThojI_qKeYJS.png)
+![IThojI_qKeYJS](https://img.slarker.me/wiki/IThojI_qKeYJS.png)
 
 ## PVE
 

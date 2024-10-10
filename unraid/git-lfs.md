@@ -28,4 +28,4 @@ git lfs install
 
 显示 `Git LFS initialized.` 就表示安装好了。
 
-![WJYKWb_Bx8fg3](https://img-1255332810.cos.ap-chengdu.myqcloud.com/WJYKWb_Bx8fg3.png)
+![WJYKWb_Bx8fg3](https://img.slarker.me/wiki/WJYKWb_Bx8fg3.png)

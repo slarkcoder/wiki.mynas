@@ -1,6 +1,6 @@
 # BT 和 PT
 
-![88024_I7kPbs](https://img-1255332810.cos.ap-chengdu.myqcloud.com/88024_I7kPbs.jpg)
+![88024_I7kPbs](https://img.slarker.me/wiki/88024_I7kPbs.jpg)
 
 ## BT 原理
 

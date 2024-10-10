@@ -19,7 +19,7 @@
 
 [https://find.synology.com](https://find.synology.com)
 
-![xgg5ydms.kz3_9DKwY8](https://img-1255332810.cos.ap-chengdu.myqcloud.com/xgg5ydms.kz3_9DKwY8.png)
+![xgg5ydms.kz3_9DKwY8](https://img.slarker.me/wiki/xgg5ydms.kz3_9DKwY8.png)
 
 ## 通过 Synology Assistant
 

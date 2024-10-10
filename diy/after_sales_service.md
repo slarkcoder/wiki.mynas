@@ -1,6 +1,6 @@
 # 售后服务
 
-![pexels-pixabay-25788_njKFs7](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-pixabay-25788_njKFs7.jpg)
+![pexels-pixabay-25788_njKFs7](https://img.slarker.me/wiki/pexels-pixabay-25788_njKFs7.jpg)
 
 ## 保修期
 
@@ -20,4 +20,4 @@
 
 添加好友，请备注：NAS
 
-![未命名码_HVVQ3K](https://img-1255332810.cos.ap-chengdu.myqcloud.com/未命名码_HVVQ3K.png)
+![未命名码_HVVQ3K](https://img.slarker.me/wiki/未命名码_HVVQ3K.png)

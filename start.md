@@ -4,7 +4,7 @@ layout: doc
 ---
 # 一起玩 NAS！🎉
 
-![pexels-photo-510028_uONiPB](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-photo-510028_uONiPB.jpg)
+![pexels-photo-510028_uONiPB](https://img.slarker.me/wiki/pexels-photo-510028_uONiPB.jpg)
 
 你好，我是 Slark，这是我分享自己使用 NAS 经验的网站。
 

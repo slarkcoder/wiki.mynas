@@ -1,6 +1,6 @@
 # 为什么不推荐 3D 打印机箱？
 
-![pexels-jakubzerdzicki-1914982_Y64Vi5](https://img-1255332810.cos.ap-chengdu.myqcloud.com/pexels-jakubzerdzicki-1914982_Y64Vi5.jpg)
+![pexels-jakubzerdzicki-1914982_Y64Vi5](https://img.slarker.me/wiki/pexels-jakubzerdzicki-1914982_Y64Vi5.jpg)
 
 很多人都在问我，能否帮他组一台使用 3D 打印机箱的 NAS。为啥要 3D 打印机箱呢？就是因为好看！
 
