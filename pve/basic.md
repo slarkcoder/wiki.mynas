@@ -107,3 +107,9 @@ cat interfaces
 touch /etc/pve/authkey.pub
 touch /etc/pve/authkey.pub.old
 ```
+
+## 如何在 PVE 中设置 UPS？
+
+PVE 和 fnOS 同样都基于 Debian，在 PVE 中配置 UPS 方法和 fnOS 中完全一样。可以参考教程：
+
+[fnOS 配置 UPS](/fnos/ups.md)
