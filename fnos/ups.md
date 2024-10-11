@@ -4,7 +4,7 @@
 
 :::info 提示
 - 如果你的 NAS 是直接安装的 fnOS，那可以参考本教程配置 UPS。
-- 如果你的 fnOS 是通过 PVE 安装的虚拟机，那你应该在 PVE 中配置 UPS，由于 PVE 和 fnOS 同样都基于 Debian，所以在 PVE 中配置 UPS 和在 fnOS 中的设置完全一致。
+- 如果你的 fnOS 是通过 PVE 安装的虚拟机，那你应该在 PVE 中配置 UPS，由于 PVE 和 fnOS 同样都基于 Debian，所以在 PVE 中配置 UPS 和在 fnOS 完全一致。
 :::
 
 尽管 fnOS 目前官方不支持 UPS，不过 fnOS 基于 `Debian` 开发，如果想使用 UPS，也非常简单，可以通过 `ssh` 命令行配置。
