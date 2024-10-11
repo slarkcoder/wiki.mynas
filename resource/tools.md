@@ -8,7 +8,7 @@
 
 Draw.io 可以在线打开网页直接绘制，也可以安装到电脑上使用。推荐大家都试试这个工具，画出自己的网络拓扑，和别人讨论问题的时候直接丢出来也方便沟通。比如我的网络拓扑：
 
-![我的网络拓扑.drawio_NZVEBu](https://img.slarker.me/wiki/我的网络拓扑.drawio_NZVEBu.svg)
+![](https://img.slarker.me/wiki/3a6e1bdc071f411caa8323386b431427.webp)
 
 ## [LocalSend](https://localsend.org/)
 
