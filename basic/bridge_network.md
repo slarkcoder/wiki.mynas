@@ -104,7 +104,7 @@ ovs-vsctl show
 
 最后，用一张图来总结下涉及到的操作。
 
-![](https://img.slarker.me/wiki/6a2c694c07234c87bbb3d1d0eb0d0e36.webp)
+![](https://img.slarker.me/wiki/7970edc974894b17b0b9cd83751b230d.webp)
 
 ### 开机脚本
 
