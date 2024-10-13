@@ -6,7 +6,7 @@
 
 大部分情况下，我们的网络拓扑应该是这样的：
 
-![synology_network.drawio_EiQOJh](https://img.slarker.me/wiki/synology_network.drawio_EiQOJh.svg)
+![](https://img.slarker.me/wiki/synology_network.drawio_EiQOJh.svg)
 
 电脑和 NAS 都通过网线直连路由器，或者直连路由器下面的交换机。
 
@@ -18,7 +18,7 @@
 
 当然是有的，如果你的 NAS 有多个网口，可以在 NAS 上设置桥接，把 NAS 的 2.5G/10G 网口当成交换机来用，这样你的电脑就可以直接把 2.5G/10G 网口接到 NAS 的 2.5 G/10G 网口，既可以正常通过 NAS 来上网，也可以实现传输文件跑满带宽。 具体网络拓扑如下：
 
-![synology_network.drawio3_egeUhs](https://img.slarker.me/wiki/synology_network.drawio3_egeUhs.svg)
+![](https://img.slarker.me/wiki/synology_network.drawio3_egeUhs.svg)
 
 上图中的 NAS 具有一个千兆口，一个 2.5G/10G 网口，设置好交换机模式之后，把千兆口接到路由器上，2.5G/10G 网口和 `电脑 2` 的 2.5/10G 网口相连，这样电脑 2 就可以通过 NAS 上网，同时和 NAS 之间的传输速度也能达到 2.5G/10G 速度。
 
@@ -104,7 +104,7 @@ ovs-vsctl show
 
 最后，用一张图来总结下涉及到的操作。
 
-![ovs_switch2.drawio_KwKBr1](https://img.slarker.me/wiki/ovs_switch2.drawio_KwKBr1.svg)
+![](https://img.slarker.me/wiki/ovs_switch2.drawio_KwKBr1.svg)
 
 ### 开机脚本
 
@@ -143,3 +143,11 @@ Unraid 的设置方法比较简单，默认情况下，Unraid 会将所有网口
 ![CqmR8F_Bm2cnU](https://img.slarker.me/wiki/CqmR8F_Bm2cnU.png)
 
 然后点击应用即可，设置生效后，如果 eth0 接口默认是 DHCP 自动获取 IP，此时 IP 地址可能会有变化，可以到路由器后台查找新的 IP。
+
+## PVE
+
+如果你的 NAS 有多个网口，想在 `PVE` 里将其它闲置网口设置为交换机使用，可以在 `PVE` 的 `网络` 中，编辑 `vmbr0`，将闲置的网口都加到 `vmbr0` 的 `桥接端口` 中，点击 `OK`，并应用配置，具体如下图所示。
+
+> 注意：端口之间以空格作为分割。
+
+![](https://img.slarker.me/wiki/740d4e6bb2534edcbba8c8a49c0d9d34.webp)
