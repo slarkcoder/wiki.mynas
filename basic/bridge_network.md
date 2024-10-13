@@ -6,7 +6,7 @@
 
 大部分情况下，我们的网络拓扑应该是这样的：
 
-![](https://img.slarker.me/wiki/synology_network.drawio_EiQOJh.svg)
+![](https://img.slarker.me/wiki/e1765ab5860c40978bf1ae08700c531d.webp)
 
 电脑和 NAS 都通过网线直连路由器，或者直连路由器下面的交换机。
 
@@ -18,7 +18,7 @@
 
 当然是有的，如果你的 NAS 有多个网口，可以在 NAS 上设置桥接，把 NAS 的 2.5G/10G 网口当成交换机来用，这样你的电脑就可以直接把 2.5G/10G 网口接到 NAS 的 2.5 G/10G 网口，既可以正常通过 NAS 来上网，也可以实现传输文件跑满带宽。 具体网络拓扑如下：
 
-![](https://img.slarker.me/wiki/synology_network.drawio3_egeUhs.svg)
+![](https://img.slarker.me/wiki/a367f2341ffd40769261c92ba3976726.webp)
 
 上图中的 NAS 具有一个千兆口，一个 2.5G/10G 网口，设置好交换机模式之后，把千兆口接到路由器上，2.5G/10G 网口和 `电脑 2` 的 2.5/10G 网口相连，这样电脑 2 就可以通过 NAS 上网，同时和 NAS 之间的传输速度也能达到 2.5G/10G 速度。
 
@@ -104,7 +104,7 @@ ovs-vsctl show
 
 最后，用一张图来总结下涉及到的操作。
 
-![](https://img.slarker.me/wiki/ovs_switch2.drawio_KwKBr1.svg)
+![](https://img.slarker.me/wiki/6a2c694c07234c87bbb3d1d0eb0d0e36.webp)
 
 ### 开机脚本
 
