@@ -11,6 +11,10 @@
 
 > 如果申请不到公网 IPv4，也可以试试 IPv6，网上也有很多教程，可以试试看。
 
+申请到公网 IP 之后，可以购买一个域名（阿里云，腾讯云，Cloudflare 等等都可以），按下图流程所示设置 DDNS。
+
+![](https://img.slarker.me/wiki/ed3b9d97afc24276a931cf065a819bec.webp)
+
 ## 值得试试 - Zerotier
 
 :::warning 提示
