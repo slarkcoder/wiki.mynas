@@ -37,3 +37,39 @@ Bitwarden 默认并不需要设置 ADMIN_TOKEN，如果你也想通过 Admin 来
 对于有公网 IP 的朋友，可以申请域名配合  [Nginx Proxy Manager](https://nginxproxymanager.com/) 来为 Bitwarden 添加 HTTPS 证书。
 
 对于没有公网 IP 的朋友，可以直接使用我部署好的 Bitwarden 服务。如果你有需要，可以直接点击右上角的联系我，添加微信私聊。
+
+## 客户端设置
+
+Bitwarden 有浏览器插件，Windows、macOS、Android、iOS 客户端，使用自建的 Bitwarden 服务需要填写托管的 `服务器 URL` 地址，以及注册的 `用户名`、`密码` 就可以登录。如下图所示：
+
+![](https://img.slarker.me/wiki/16fb8c4ba2c34e7195d8b9858ee277c7.png)
+
+填写 `服务器 URL`，点击保存：
+
+![](https://img.slarker.me/wiki/d6bbea162b014ed1a41a9ee6345e0997.png)
+
+输入注册的 `电子邮件地址`，点击 `继续`：
+
+![](https://img.slarker.me/wiki/646ee0d068234f398bae964513ac0469.png)
+
+输入密码后，选择 `使用主密码登录`。
+
+![](https://img.slarker.me/wiki/34e7ada4354f4a7db97b146916e57a24.png)
+
+## 自动填充
+
+推荐按下面的选项设置自动填充。
+
+![](https://img.slarker.me/wiki/e1134042eba34b3eb7ede2e6e52af536.png)
+
+默认 URI 匹配检测设置为 `主机`，可以区分具有相同 IP，但端口不同的服务。
+
+![](https://img.slarker.me/wiki/8c3e56456c7b4236be6e7c51639da2a4.png)
+
+## 两步验证
+
+为了确保安全，请尽可能使用 `验证器 App` 开启两步登录验证（Google Authenticator），并记下你的 `恢复代码`。
+
+![](https://img.slarker.me/wiki/bb9ca895622d484e839efbeed2151f3c.png)
+
+`验证器 App` 推荐使用：Microsoft Authenticator，Google Authenticator，[Authenticator Pro](https://stratumauth.com/)（Android、开源）
