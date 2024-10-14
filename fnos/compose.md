@@ -53,7 +53,7 @@ fnOS 支持 Compose，很多通过自带的 docker GUI 无法配置的选项，�
 
 ![](https://img.slarker.me/wiki/910ff73f8ac54ddbbd60b7047dc7b56e.png)
 
-## 如何更新 Compose 配置？
+## 如何修改 Compose 配置？
 
 后续如果需要修改 Compose 配置，并且让配置生效，请按下面的步骤来操作：
 
@@ -61,3 +61,23 @@ fnOS 支持 Compose，很多通过自带的 docker GUI 无法配置的选项，�
 - 修改 `yml` 配置
 - 清除 `Compose`
 - 启动 `Compose`
+
+## 如何更新 Compose 镜像？
+
+目前在 fnOS 的 docker GUI 还不支持直接更新镜像，不过相信后面会支持的，暂时的替代办法是通过 `SSH` 命令手动更新。
+
+以更新 immich 为例，[使用 SSH 登录](/fnos/ssh.md) fnOS，进入到 immich `docker-compose.yml` 配置文件所在目录。
+
+```sh
+cd /vol1/1000/docker/immich
+```
+
+使用下面的命令更新 Compose 镜像：
+
+```sh
+docker compose pull
+```
+
+更新完成后，可以在 GUI 中点击 `清除`，然后再点击 `构建`。
+
+![](https://img.slarker.me/wiki/a76e77b20c2b4a26832339fcff3349fe.png)
