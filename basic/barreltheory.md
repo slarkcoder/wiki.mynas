@@ -1,6 +1,6 @@
 # 科学解决问题的思路 - 木桶理论
 
-![Minimum-Tonne_TJiNGj](https://img.slarker.me/wiki/Minimum-Tonne_TJiNGj.svg)
+![](https://img.slarker.me/wiki/212cdadaefc54cca8e628275d4c7bae5.png)
 
 涉及到计算机的地方，经常会提到一个词 -- `木桶理论（效应）`，意思很简单，就是说一个木桶能装多少水，取决于组成这个木桶的最短的那块木板。
 

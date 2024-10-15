@@ -6,7 +6,7 @@
 
 尽可能将网络扁平化，减少网络层级，降低网络复杂度。我用下面这张图来解释什么是扁平化：
 
-![网络扁平化.drawio_F7nufI](https://img.slarker.me/wiki/网络扁平化.drawio_F7nufI.svg)
+![](https://img.slarker.me/wiki/f78d3a067dfd4c439cc3f55363d52318.png)
 
 - 图 1 网络只有一个网段，所有的联网设备都处在同一个网段，设备之间都可以互相访问。
 - 图 2 网络存在三个网段，容易出现设备之间无法互相访问。
