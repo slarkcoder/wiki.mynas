@@ -14,21 +14,30 @@ fnOS 支持 Compose，很多通过自带的 docker GUI 无法配置的选项，�
 
 这里分享一些常用的 [fnOS Compose 模板](https://www.123pan.com/s/1JKMjv-ICao)，包含以下应用：
 
-| 名称        |     介绍      |  默认数据目录 |
-| :-------------: | :-----------: | :----: |
-| 115pc      |  115 网盘 | /vol1/1000/downloads |
-| alist       | 挂载网盘 | - |
-| baidudisk       | 百度网盘 | /vol1/1000/downloads |
-|  calibre-web      |   电子书库   |  /vol1/1000/books |
-|  clouddrive |   映射网盘到本地    |   /vol1/1000/clouddrive |
-|  filebrowser |   文件管理器    |   /vol1 |
-|  immich |   照片备份    |   /vol1/1000/photos |
-|  metube |   下载在线视频    |   /vol1/1000/downloads |
-|  navidrome |   音乐库    |   /vol1/1000/musics |
-|  qbittorrent |   BT、PT 下载客户端    |   /vol1/1000/downloads |
-|  speedtest |   网速测试    |   - |
-|  syncthing |   跨平台文件同步    |   /vol1/1000/syncthing |
-|  xunlei |   迅雷    |   /vol1/1000/downloads |
+| 名称        |     介绍      |  默认数据目录 | 默认 Web 端口 |
+| :-------------: | :-----------: | :----: | :----: |
+| 115pc      |  115 网盘 | /vol1/1000/downloads | 11580 |
+| alist       | 挂载网盘 | - | 5244 | 
+| baidudisk       | 百度网盘 | /vol1/1000/downloads | 5800 |
+|  calibre-web      |   电子书库   |  /vol1/1000/books | 8083 |
+|  clouddrive |   映射网盘到本地    |   /vol1/1000/clouddrive | 19798 |
+|  filebrowser |   文件管理器    |   /vol1 | 6000 |
+|  immich |   照片备份    |   /vol1/1000/photos | 2283 |
+|  metube |   下载在线视频    |   /vol1/1000/downloads | 8081 |
+|  navidrome |   音乐库    |   /vol1/1000/musics | 4533 |
+|  qbittorrent |   BT、PT 下载客户端    |   /vol1/1000/downloads | 8080 |
+|  speedtest |   网速测试    |   - | 9000 |
+|  syncthing |   跨平台文件同步    |   /vol1/1000/syncthing | 8384 |
+|  xunlei |   迅雷    |   /vol1/1000/downloads | 2345 |
+
+### 默认密码
+
+访问方式：`fnOS IP:默认 Web 端口`。
+
+- alist、qbittorrent 默认密码可以到容器日志中查看。
+- filebrowser 默认用户名/密码：admin/admin。
+- calibre-web 默认用户名/密码：admin/admin123。
+- 迅雷内测码：`我不是矿神IMNKS`
 
 ## 如何使用？
 
