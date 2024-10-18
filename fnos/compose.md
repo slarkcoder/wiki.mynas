@@ -22,6 +22,7 @@ fnOS 支持 Compose，很多通过自带的 docker GUI 无法配置的选项，�
 |  calibre-web      |   电子书库   |  /vol1/1000/books | 8083 |
 |  clouddrive |   映射网盘到本地    |   /vol1/1000/clouddrive | 19798 |
 |  filebrowser |   文件管理器    |   /vol1 | 6000 |
+|  jellyfin |   开源的影视媒体库    |   /vol1/1000/downloads | 8096 |
 |  immich |   照片备份    |   /vol1/1000/photos | 2283 |
 |  metube |   下载在线视频    |   /vol1/1000/downloads | 8081 |
 |  navidrome |   音乐库    |   /vol1/1000/musics | 4533 |
