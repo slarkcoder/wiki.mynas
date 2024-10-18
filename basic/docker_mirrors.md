@@ -13,7 +13,35 @@
 
 ## 镜像加速器
 
-使用镜像加速器可以有效解决 Docker 下载失败问题。
+使用镜像加速器可以有效解决 Docker 下载失败问题。目前可以用的镜像加速列表如下：
+
+```sh
+https://docker.registry.cyou
+https://docker-cf.registry.cyou
+https://dockerpull.com
+https://dockerproxy.cn
+https://docker.1panel.live
+https://hub.rat.dev
+https://dhub.kubesre.xyz
+https://docker.hlyun.org
+https://docker.kejilion.pro
+https://registry.dockermirror.com
+https://docker.chenby.cn
+https://ccr.ccs.tencentyun.com
+https://hub.littlediary.cn
+https://hub.firefly.store
+https://docker.nat.tf
+https://hub.crdz.gq
+https://noohub.ru
+https://docker.nastool.de
+https://hub.docker-ttc.xyz
+https://freeno.xyz
+https://docker.hpcloud.cloud
+https://dislabaiot.xyz
+https://ginger20240704.asia
+https://doublezonline.cloud
+https://dockerproxy.com
+```
 
 ### 群晖
 
@@ -41,14 +69,15 @@
 
 ### Unraid
 
-打开 Unraid 的 `终端`，将下面命令中的 `xxxx` 替换为镜像加速地址之后再执行：
+打开 Unraid 的 `终端`，将下面命令中的 `xxxx` 替换为镜像加速地址之后再执行（可同时添加多个地址）：
 
 ```sh
 mkdir -p /etc/docker;
 tee /etc/docker/daemon.json <<- EOF
 {
   "registry-mirrors": [
-    "xxxx"
+    "xxxx",
+    "xxxx",
     ]
 }
 EOF

@@ -93,9 +93,9 @@ sudo sed -i '/WebUI\\Port/i\WebUI\\Password_PBKDF2=\"@ByteArray(xK2EwRvfGtxfF+Ot
 
 在套件中心启动 `qBittorrent`，默认密码会被重置为 `adminadmin`。
 
-## NAS 上安装的迅雷提示需要邀请码？
+## NAS 上安装的迅雷提示需要内测码？
 
-迅雷邀请码可以填这个：
+迅雷内测码可以填这个：
 
 ```
 我不是矿神IMNKS
