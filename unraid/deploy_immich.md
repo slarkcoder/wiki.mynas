@@ -1,9 +1,7 @@
 # 安装 Immich 并开启硬件加速
 
 :::warning 提示
-目前 `Unraid 6.12.10` 自带的 Docker 版本为 `24.0.9`。Immich 官网最新的配置文件中加入了 heathcheck 相关参数，需要 Docker 版本为 `25.x` 及以后版本才能支持。所以建议最好等 Unraid 更新到 `6.13` 版本之后再使用官网的配置文件安装 immich。
-
-你可以使用我分享的 [模板](/unraid/unraid_docker_template.md) 来安装 immich。
+目前 `Unraid 6.12.13` 自带的 Docker 版本为 `24.0.9`。Immich 官网最新的配置文件中加入了 heathcheck 相关参数，需要 Docker 版本为 `25.x` 及以后版本才能支持。所以在 7.0 版本之前的 Unraid 中安装 immich 可以暂时屏蔽该参数 `start_interval`。
 :::
 
 一直以来，我都用群晖自带的 Photos 来备份手机照片，因为除了群晖相册之外，很少有一款相册的功能强大，而且有方便的手机客户端可以使用。而要使用群晖相册，就必须用群晖的系统，或者用白群晖，或者就得开个虚拟机。然而想想也就为了备份个相册而已，这么做实在太过笨拙。
@@ -46,18 +44,22 @@
 
 再点击 `ENV FILE`，将官方提供的 [Env File](https://github.com/immich-app/immich/releases/latest/download/example.env) 全部选中，直接复制粘贴到配置文件里。
 
-接着修改上传路径 `UPLOAD_LOCATION`。比如我们之前建立的共享文件夹 `photos` 的上传路径就是 `/mnt/user/photos`。
+接着修改 env 配置中的上传路径 `UPLOAD_LOCATION`，比如我们之前建立的共享文件夹 `photos` 的上传路径就应该是 `/mnt/user/photos`。修改数据库路径 `DB_DATA_LOCATION`，数据库位置推荐设置为 `/mnt/user/appdata/immich/db`。
 
-![5azpnm4t.jez_6h9Vyo](https://img.slarker.me/wiki/5azpnm4t.jez_6h9Vyo.png)
+如果数据库路径不存在，可以使用下面的命令在 Unraid 终端里创建：
 
-到现在，我们的配置就改好了，点击 `SAVE CHANGES` 保存更改。
+```sh
+mkdir -p /mnt/user/appdata/immich/db
+```
 
-接下来，就可以点击 `COMPOSE UP` 来启动容器了。
+![](https://img.slarker.me/wiki/d5783fc357e74eebadee1d37a1a78627.webp)
+
+到现在，我们的配置就改好了，点击 `SAVE CHANGES` 保存更改，点击 `COMPOSE UP` 来启动容器了。
 
 ![oCmpxh_V0AoQS](https://img.slarker.me/wiki/oCmpxh_V0AoQS.png)
 过一会，等待容器启动完成，就可以在 Docker 列表看到一堆新的 docker 容器了。看到 `2283` 这个默认的端口之后，我们就可以打开浏览器输入 `NAS IP:2283` 访问 immich 了。
 
-![E7hI72_SIJF2t](https://img.slarker.me/wiki/E7hI72_SIJF2t.png)
+![](https://img.slarker.me/wiki/422b947c85144953b33535a7185f8a03.webp)
 
 immich 这个应用的启动和停止，可以通过控制最下方的 docker compose 来实现。
 
@@ -65,37 +67,17 @@ immich 这个应用的启动和停止，可以通过控制最下方的 docker co
 
 ## 客户端
 
-[immich](https://immich.app/) 支持 iOS 和 Android 客户端，而且功能非常完善，备份功能非常好用。Immich 也有网页版。
+[Immich](https://immich.app/) 支持 iOS 和 Android 客户端，而且功能非常完善，支持中文，备份功能非常好用。
 
 ## 设置中文
 
-目前，最新版的 `immich` Web 端已支持中文，登录 Web 版后台，点击自己的头像，在 `Account Setting` -> `App Setting` -> `Language` 中可以找到 `Chinese(Simplified)` 选项，点击就可以切换。
+目前，最新版的 `immich` Web 端已支持中文。如果默认的语言不是中文，你可以登录 Web 版后台，点击自己的头像，在 `Account Setting` -> `App Setting` -> `Language` 中可以找到 `Chinese(Simplified)` 选项，点击就可以切换。
 
-## 机器学习
+## 机器学习、转码和硬件加速
 
 群晖的 Photos 支持人脸识别。在 immich 的网页版中，也有机器学习的选项，支持照片分类。
 
-![qHpbnv_a8CXhH](https://img.slarker.me/wiki/qHpbnv_a8CXhH.png)
+![](https://img.slarker.me/wiki/71a277e340e6404a8d73ad17cc386b91.webp)
 
-## 硬件加速（可选）
-
-根据官方文档的提示，目前硬件加速功能还处于 [实验性阶段](https://immich.app/docs/features/hardware-transcoding)，因此这个功能是可选的，如果你有需要，可以开启试试。这里仅介绍 Intel 带核显的 CPU 如何设置，其它平台可以查阅官方文档。
-
-为了支持 VP9，你使用的 CPU 应该至少是 Intel 9 代或者以后的新平台。如果你用的是第 11 代或者之前的平台，还需要按这里的 [文档说明](https://jellyfin.org/docs/general/administration/hardware-acceleration/intel/#configure-and-verify-lp-mode-on-linux) 开启低电压模式。总之，这里的设置和开启 Jellyfin 硬解是一样的，只要你能确定 Jellyfin 可以硬解，那就 OK。
-
-### 设置硬件加速
-
-修改 Immich 的 `COMPOSE FILE`，在 `immich-microservices:` 中加入下面这段配置开启 QSV：
-
-```yml
-devices:
-  - /dev/dri:/dev/dri
-```
-
-修改之后应该是这样：
-
-![lhcnczxp.3o2_khvpiN](https://img.slarker.me/wiki/lhcnczxp.3o2_khvpiN.png)
-
-保存后，点击更新 `UPDATE STACK`。之后在 Web 控制台里依次点击 `Administration -> Setting -> Video Transcoding Settings -> Hardware Acceleration`，将 `ACCELERATION API` 切换为 `Quick Sync` 并保存。
-
-![2jmo5k21.lt3_M1Mwo4](https://img.slarker.me/wiki/2jmo5k21.lt3_M1Mwo4.png)
+- 机器学习硬件加速可以参考 [官方文档](https://immich.app/docs/features/ml-hardware-acceleration)。
+- 硬件转码可以参考 [官方文档](https://immich.app/docs/features/hardware-transcoding)。
