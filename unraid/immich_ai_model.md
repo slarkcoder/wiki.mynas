@@ -1,5 +1,15 @@
 # Immich 智能搜索 - 支持中文的 CLIP 大模型
 
+:::info 重要提示
+Immich 目前已经支持直接修改模型名称，保存之后，即可自动拉取模型。只要你的模型名称和网络都没问题，直接改模型名称即可，不需要手动拉模型了。
+
+支持中文的 CLIP 大模型：`XLM-Roberta-Large-Vit-B-16Plus`。
+
+在 `immich` 后台 `管理` -> `设置` -> `机器学习设置` -> `智能搜索` -> `CLIP 模型` 中粘贴上面的模型名称，点击保存。之后在 `任务` 中重新运行 `智能搜索` 任务。
+
+![](https://img.slarker.me/wiki/52a4873d487343efb1ff740100f10955.webp)
+:::
+
 Immich 默认的智能搜索模型是 `ViT-B-32__openai`，但这个模型不支持中文，Immich 官方提供了一些大模型，在 [模型列表](https://huggingface.co/immich-app) 可以找到。其中就有一个 [XLM-Roberta-Large-Vit-B-16Plus](https://huggingface.co/immich-app/XLM-Roberta-Large-Vit-B-16Plus) 支持中文。
 
 :::warning 注意
@@ -8,7 +18,7 @@ Immich 默认的智能搜索模型是 `ViT-B-32__openai`，但这个模型不支
 在 Unraid `设置` -> `Docker` -> `启用 Docker` 修改为 `否`，修改虚拟磁盘大小之后重新启用即可。
 :::
 
-## 拉取模型
+## 使用 git-lfs 拉取模型
 
 网上介绍的办法有点麻烦，路径很容易搞错，这里介绍一个比较简单的办法。可以直接通过 git 将这个模型直接拉到本地。需要提前 [安装 git-lfs](/unraid/git-lfs.md)。
 
