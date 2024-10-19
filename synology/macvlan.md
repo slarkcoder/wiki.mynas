@@ -89,7 +89,7 @@ docker run -d \
   -v /volume1/docker/qbittorrent:/config \
   -v /volume1/downloads:/downloads \
   --restart unless-stopped \
-  lscr.io/linuxserver/qbittorrent:latest
+  lscr.io/linuxserver/qbittorrent:4.6.7
 ```
 
 这里的 `--net=vlan` 参数表示使用前面创建的 macvlan 网络，`--ip=192.168.2.101` 参数就是为 qBittorrent 设置的独立 IP，命令执行成功后，就可以用 `192.168.2.101:8080` 来访问 qBittorrent 了。
