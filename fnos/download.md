@@ -84,7 +84,7 @@
 |  配置路径      |   /docker/baidunetdisk   |  /config |
 |  下载路径 |   /downloads    |   /config/baidunetdiskdownload |
 
-## 115 网盘
+<!-- ## 115 网盘
 
 :::warning 注意
 如果 115 docker 内提示更新，不要更新！
@@ -97,7 +97,7 @@
 | :-------------: | :-----------: | :----: |
 | WebUI 端口（VNC）   | 15800 | 5800 |
 |  配置路径      |   /docker/115pc   |  /config |
-|  下载路径 |   /downloads    |   /Downloads/115download  |
+|  下载路径 |   /downloads    |   /Downloads/115download  | -->
 
 
 
