@@ -20,10 +20,12 @@ fnOS 支持 Compose，很多通过自带的 docker GUI 无法配置的选项，�
 | baidudisk       | 百度网盘 | /vol1/1000/downloads | 5800 |
 |  calibre-web      |   电子书库   |  /vol1/1000/books | 8083 |
 |  clouddrive |   映射网盘到本地    |   /vol1/1000/clouddrive | 19798 |
+|  emby |   影视媒体库    |   /vol1/1000/downloads | 8096 |
 |  filebrowser |   文件管理器    |   /vol1 | 6000 |
 |  jellyfin |   开源的影视媒体库    |   /vol1/1000/downloads | 8096 |
 |  immich |   照片备份    |   /vol1/1000/photos | 2283 |
 |  metube |   下载在线视频    |   /vol1/1000/downloads | 8081 |
+|  memos |   开源的日记、微博应用    |   /vol1/1000/docker/memos | 5230 |
 |  navidrome |   音乐库    |   /vol1/1000/musics | 4533 |
 |  qbittorrent |   BT、PT 下载客户端    |   /vol1/1000/downloads | 8080 |
 |  speedtest |   网速测试    |   - | 9000 |
