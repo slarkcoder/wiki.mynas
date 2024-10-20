@@ -9,37 +9,44 @@ fnOS 支持 Compose，很多通过自带的 docker GUI 无法配置的选项，�
 ## Compose 模板
 
 :::warning 注意
-下面所有 Compose 模板默认映射的文件夹路径都位于 `/vol1`，你需要根据自己的实际情况做出修改。
+- 下面所有 Compose 模板默认映射的文件夹路径都位于 `/vol1`，你需要根据自己的实际情况做出修改。
+- 部分应用比如 `emby`，`jellyfin` 的默认端口都一样，如果需要同时安装，注意修改端口。
 :::
 
 这里分享一些常用的 [fnOS Compose 模板](https://www.123pan.com/s/1JKMjv-ICao)，包含以下应用：
 
 | 名称        |     介绍      |  默认数据目录 | 默认 Web 端口 |
 | :-------------: | :-----------: | :----: | :----: |
-| alist       | 挂载网盘 | - | 5244 | 
-| baidudisk       | 百度网盘 | /vol1/1000/downloads | 5800 |
-|  calibre-web      |   电子书库   |  /vol1/1000/books | 8083 |
-|  clouddrive |   映射网盘到本地    |   /vol1/1000/clouddrive | 19798 |
-|  emby |   影视媒体库    |   /vol1/1000/downloads | 8096 |
-|  filebrowser |   文件管理器    |   /vol1 | 6000 |
-|  jellyfin |   开源的影视媒体库    |   /vol1/1000/downloads | 8096 |
-|  immich |   照片备份    |   /vol1/1000/photos | 2283 |
-|  metube |   下载在线视频    |   /vol1/1000/downloads | 8081 |
-|  memos |   开源的日记、微博应用    |   /vol1/1000/docker/memos | 5230 |
-|  navidrome |   音乐库    |   /vol1/1000/musics | 4533 |
-|  qbittorrent |   BT、PT 下载客户端    |   /vol1/1000/downloads | 8080 |
-|  speedtest |   网速测试    |   - | 9000 |
-|  syncthing |   跨平台文件同步    |   /vol1/1000/syncthing | 8384 |
-|  xunlei |   迅雷    |   /vol1/1000/downloads | 2345 |
+| [AList](https://alist.nn.ci/zh/)       | 挂载网盘 | - | 5244 | 
+| [BaiduDisk](https://hub.docker.com/r/johngong/baidunetdisk)       | 百度网盘 | /vol1/1000/downloads | 5800 |
+|  [Calibre-Web](https://hub.docker.com/r/linuxserver/calibre-web)      |   电子书库   |  /vol1/1000/books | 8083 |
+|  [CloudDrive2](https://www.clouddrive2.com/) |   映射网盘到本地    |   /vol1/1000/clouddrive | 19798 |
+|  [Emby](https://hub.docker.com/r/amilys/embyserver) |   影视媒体库    |   /vol1/1000/downloads | 8096 |
+|  [FileBrowser](https://github.com/filebrowser/filebrowser) |   文件管理器    |   /vol1 | 6000 |
+|  [Jellyfin](https://hub.docker.com/r/nyanmisaka/jellyfin) |   开源的影视媒体库    |   /vol1/1000/downloads | 8096 |
+|  [Immich](https://immich.app/) |   照片备份    |   /vol1/1000/photos | 2283 |
+|  [Metube](https://github.com/alexta69/metube) |   下载在线视频    |   /vol1/1000/downloads | 8081 |
+|  [Memos](https://github.com/usememos/memos) |   开源的日记、微博应用    |   /vol1/1000/docker/memos | 5230 |
+|  [Navidrome](https://github.com/navidrome/navidrome) |   音乐库    |   /vol1/1000/musics | 4533 |
+|  [qBittorrent](https://hub.docker.com/r/linuxserver/qbittorrent) |   BT、PT 下载客户端    |   /vol1/1000/downloads | 8080 |
+|  [SpeedTest](https://hub.docker.com/r/openspeedtest/latest) |   网速测试    |   - | 9000 |
+|  [LibreSpeed](https://docs.linuxserver.io/images/docker-librespeed/) |   网速测试    |   - | 9900 |
+|  [Syncthing](https://docs.linuxserver.io/images/docker-syncthing) |   跨平台文件同步    |   /vol1/1000/syncthing | 8384 |
+|  [Xunlei](https://github.com/cnk3x/xunlei) |   迅雷    |   /vol1/1000/downloads | 2345 |
+|  [RSSHub](https://docs.rsshub.app/) |   一切皆可 RSS！    |   - | 1200 |
+|  [WeWeRSS](https://github.com/cooderl/wewe-rss) |   通过 RSS 订阅微信公众号    |   - | 4000 |
+|  [Miniflux](https://miniflux.app/) |   极简的 RSS 阅读器    |   - | 8020 |
 
 ### 默认密码
 
 访问方式：`fnOS IP:默认 Web 端口`。
 
-- alist、qbittorrent 默认密码可以到容器日志中查看。
-- filebrowser 默认用户名/密码：admin/admin。
-- calibre-web 默认用户名/密码：admin/admin123。
+- AList、qBittorrent 默认密码可以到容器日志中查看。
+- FileBrowser 默认用户名/密码：admin/admin。
+- Calibre-Web 默认用户名/密码：admin/admin123。
 - 迅雷内测码：`我不是矿神IMNKS`
+- WeWeRSS 默认授权码：123456
+- Miniflux 默认用户名/密码：admin/test123
 
 ## 如何使用？
 
