@@ -60,6 +60,7 @@ Unraid，fnOS，群晖等 NAS 系统都支持 Compose，很多通过自带的 do
 - Miniflux 默认用户名/密码：admin/test123
 - Planka 默认用户名/密码：admin/admin
 - Syncclipboard 默认用户名/密码：admin/admin
+- Aria2-Pro 默认 `RPC_SECRET`：P3TERX
 
 ## 如何使用？
 
