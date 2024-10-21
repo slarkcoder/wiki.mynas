@@ -43,6 +43,9 @@ Unraid，fnOS，群晖等 NAS 系统都支持 Compose，很多通过自带的 do
 |  [Syncclipboard](https://github.com/Jeric-X/SyncClipboard) |   跨平台剪贴板同步   |   - | 5033 |
 |  [Metatube](https://metatube-community.github.io/README_ZH/) |   小姐姐刮削服务端   |   - | 8900 |
 |  [UptimeKuma](https://github.com/louislam/uptime-kuma) |   服务监控  |   - | 3001 |
+|  [iPerf3](https://hub.docker.com/r/networkstatic/iperf3) |   网络带宽性能测试  |   - | 5201 |
+|  [Aria2-Pro](https://github.com/P3TERX/Aria2-Pro-Docker) |   轻量级下载工具  |  downloads | 6880 |
+|  [DDNS-Go](https://github.com/jeessy2/ddns-go) |   自动绑定公网 IP 到对应域名  |   - | 9876 |
 
 
 ### 默认密码
