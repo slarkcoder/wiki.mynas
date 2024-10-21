@@ -104,6 +104,7 @@ export default defineConfig({
           { text: '低门槛、易上手的自动化观影方案', link: '/application/douban_tool.md' },
           { text: '高颜值的 NAS 应用导航 - Homepage', link: '/application/homepage.md' },
           { text: '影音资源库 - 小雅部署教程', link: '/application/xiaoya.md' },
+          { text: 'Compose 模板', link: '/application/compose.md' },
         ]
       },
       {
@@ -112,7 +113,6 @@ export default defineConfig({
         items: [
           { text: 'fnOS 常见问题解答', link: '/fnos/question.md' },
           { text: '使用 SSH 登录', link: '/fnos/ssh.md' },
-          { text: 'fnOS Compose 模板', link: '/fnos/compose.md' },
           { text: '常用的下载工具', link: '/fnos/download.md' },
           { text: '网速测试工具 - OpenSpeedtest', link: '/fnos/speedtest.md' },
           { text: '第三方文件管理器 - FileBrowser', link: '/fnos/filebrowser.md' },

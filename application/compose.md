@@ -4,14 +4,14 @@
 
 > Compose 是用于定义和运行多容器 Docker 应用程序的工具。通过 Compose，您可以使用 YML 文件来配置应用程序需要的所有服务。然后可以方便地从 YML 文件配置中创建并启动所有服务。
 
-fnOS 支持 Compose，很多通过自带的 docker GUI 无法配置的选项，都可以通过 Compose 使用 YML 配置文件来实现。而且 Compose 具有修改配置方便，方便备份，迁移等优点。
+Unraid，fnOS，群晖等 NAS 系统都支持 Compose，很多通过自带的 docker GUI 无法配置的选项，都可以通过 Compose 使用 YML 配置文件来实现。而且 Compose 具有修改配置方便，方便备份，迁移等优点。
 
 ## Compose 模板
 
 :::warning 注意
+- 下面的 Compose 模板在 fnOS 中测试，也同时适用于群晖和 Unraid，仅需要修改对应的数据挂载路径。
 - 下面所有 Compose 模板默认映射的文件夹路径都位于 `/vol1`，你需要根据自己的实际情况做出修改。
 - 部分应用比如 `emby`，`jellyfin` 的默认端口都一样，如果需要同时安装，注意修改端口。
-- 下面的 Compose 模板同样适用于群晖和 Unraid，仅需要修改对应的数据挂载路径。
 :::
 
 这里分享一些常用的 [Compose 模板](https://www.123pan.com/s/1JKMjv-ICao)，包含以下应用：
@@ -19,21 +19,21 @@ fnOS 支持 Compose，很多通过自带的 docker GUI 无法配置的选项，�
 | 名称        |     介绍      |  挂载目录 | 默认 Web 端口 |
 | :-------------: | :-----------: | :----: | :----: |
 | [AList](https://alist.nn.ci/zh/)       | 挂载网盘 | - | 5244 | 
-| [BaiduDisk](https://hub.docker.com/r/johngong/baidunetdisk)       | 百度网盘 | /vol1/1000/downloads | 5800 |
-|  [Calibre-Web](https://hub.docker.com/r/linuxserver/calibre-web)      |   电子书库   |  /vol1/1000/books | 8083 |
-|  [CloudDrive2](https://www.clouddrive2.com/) |   映射网盘到本地    |   /vol1/1000/clouddrive | 19798 |
-|  [Emby](https://hub.docker.com/r/amilys/embyserver) |   影视媒体库    |   /vol1/1000/downloads | 8096 |
-|  [FileBrowser](https://github.com/filebrowser/filebrowser) |   文件管理器    |   /vol1 | 6000 |
-|  [Jellyfin](https://hub.docker.com/r/nyanmisaka/jellyfin) |   开源的影视媒体库    |   /vol1/1000/downloads | 8096 |
-|  [Immich](https://immich.app/) |   照片备份    |   /vol1/1000/photos | 2283 |
-|  [Metube](https://github.com/alexta69/metube) |   下载在线视频    |   /vol1/1000/downloads | 8081 |
-|  [Memos](https://github.com/usememos/memos) |   开源的日记、微博应用    |   /vol1/1000/docker/memos | 5230 |
-|  [Navidrome](https://github.com/navidrome/navidrome) |   音乐库    |   /vol1/1000/musics | 4533 |
-|  [qBittorrent](https://hub.docker.com/r/linuxserver/qbittorrent) |   BT、PT 下载客户端    |   /vol1/1000/downloads | 8080 |
+| [BaiduDisk](https://hub.docker.com/r/johngong/baidunetdisk)       | 百度网盘 | downloads | 5800 |
+|  [Calibre-Web](https://hub.docker.com/r/linuxserver/calibre-web)      |   电子书库   |  books | 8083 |
+|  [CloudDrive2](https://www.clouddrive2.com/) |   映射网盘到本地    |   clouddrive | 19798 |
+|  [Emby](https://hub.docker.com/r/amilys/embyserver) |   影视媒体库    |   downloads | 8096 |
+|  [FileBrowser](https://github.com/filebrowser/filebrowser) |   文件管理器    |   vol1 | 6000 |
+|  [Jellyfin](https://hub.docker.com/r/nyanmisaka/jellyfin) |   开源的影视媒体库    |   downloads | 8096 |
+|  [Immich](https://immich.app/) |   照片备份    |   photos | 2283 |
+|  [Metube](https://github.com/alexta69/metube) |   下载在线视频    |   downloads | 8081 |
+|  [Memos](https://github.com/usememos/memos) |   开源的日记、微博应用    |   - | 5230 |
+|  [Navidrome](https://github.com/navidrome/navidrome) |   音乐库    |   musics | 4533 |
+|  [qBittorrent](https://hub.docker.com/r/linuxserver/qbittorrent) |   BT、PT 下载客户端    |   downloads | 8080 |
 |  [SpeedTest](https://hub.docker.com/r/openspeedtest/latest) |   网速测试    |   - | 9000 |
 |  [LibreSpeed](https://docs.linuxserver.io/images/docker-librespeed/) |   网速测试    |   - | 9900 |
-|  [Syncthing](https://docs.linuxserver.io/images/docker-syncthing) |   跨平台文件同步    |   /vol1/1000/syncthing | 8384 |
-|  [Xunlei](https://github.com/cnk3x/xunlei) |   迅雷    |   /vol1/1000/downloads | 2345 |
+|  [Syncthing](https://docs.linuxserver.io/images/docker-syncthing) |   跨平台文件同步    |   syncthing | 8384 |
+|  [Xunlei](https://github.com/cnk3x/xunlei) |   迅雷    |   downloads | 2345 |
 |  [RSSHub](https://docs.rsshub.app/) |   一切皆可 RSS！    |   - | 1200 |
 |  [WeWeRSS](https://github.com/cooderl/wewe-rss) |   通过 RSS 订阅微信公众号    |   - | 4000 |
 |  [Miniflux](https://miniflux.app/) |   极简的 RSS 阅读器    |   - | 8020 |
@@ -83,7 +83,7 @@ fnOS 支持 Compose，很多通过自带的 docker GUI 无法配置的选项，�
 
 ## 如何修改 Compose 配置？
 
-后续如果需要修改 Compose 配置，并且让配置生效，请按下面的步骤来操作：
+在 fnOS 中，后续如果需要修改 Compose 配置，并且让配置生效，请按下面的步骤来操作：
 
 - 停止 `Compose`
 - 修改 `yml` 配置
