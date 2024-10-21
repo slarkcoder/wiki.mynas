@@ -38,6 +38,10 @@ fnOS 支持 Compose，很多通过自带的 docker GUI 无法配置的选项，�
 |  [Miniflux](https://miniflux.app/) |   极简的 RSS 阅读器    |   - | 8020 |
 |  [Wallos](https://github.com/ellite/Wallos) |   个人订阅管理    |   - | 8282 |
 |  [Planka](https://planka.app) |   看板    |   - | 5000 |
+|  [Vaultwarden](https://hub.docker.com/r/vaultwarden/server) |   开源好用的密码管理器   |   - | 8030 |
+|  [Syncclipboard](https://github.com/Jeric-X/SyncClipboard) |   跨平台剪贴板同步   |   - | 5033 |
+|  [Metatube](https://metatube-community.github.io/README_ZH/) |   小姐姐刮削服务端   |   - | 8900 |
+
 
 ### 默认密码
 
@@ -50,6 +54,7 @@ fnOS 支持 Compose，很多通过自带的 docker GUI 无法配置的选项，�
 - WeWeRSS 默认授权码：123456
 - Miniflux 默认用户名/密码：admin/test123
 - Planka 默认用户名/密码：admin/admin
+- Syncclipboard 默认用户名/密码：admin/admin
 
 ## 如何使用？
 
