@@ -19,34 +19,33 @@ Unraid，fnOS，群晖等 NAS 系统都支持 Compose，很多通过自带的 do
 | 名称        |     介绍      |  挂载目录 | 默认 Web 端口 |
 | :-------------: | :-----------: | :----: | :----: |
 | [AList](https://alist.nn.ci/zh/)       | 挂载网盘 | - | 5244 | 
+| [Aria2-Pro](https://github.com/P3TERX/Aria2-Pro-Docker) |   轻量级下载工具  |  downloads | 6880 |
 | [BaiduDisk](https://hub.docker.com/r/johngong/baidunetdisk)       | 百度网盘 | downloads | 5800 |
-|  [Calibre-Web](https://hub.docker.com/r/linuxserver/calibre-web)      |   电子书库   |  books | 8083 |
-|  [CloudDrive2](https://www.clouddrive2.com/) |   映射网盘到本地    |   clouddrive | 19798 |
-|  [Emby](https://hub.docker.com/r/amilys/embyserver) |   影视媒体库    |   downloads | 8096 |
-|  [FileBrowser](https://github.com/filebrowser/filebrowser) |   文件管理器    |   vol1 | 6000 |
+| [Calibre-Web](https://hub.docker.com/r/linuxserver/calibre-web)      |   电子书库   |  books | 8083 |
+| [CloudDrive2](https://www.clouddrive2.com/) |   映射网盘到本地    |   clouddrive | 19798 |
+| [DDNS-Go](https://github.com/jeessy2/ddns-go) |   自动绑定公网 IP 到对应域名  |   - | 9876 |
+| [Emby](https://hub.docker.com/r/amilys/embyserver) |   影视媒体库    |   downloads | 8096 |
+| [FileBrowser](https://github.com/filebrowser/filebrowser) |   文件管理器    |   vol1 | 6000 |
 |  [Jellyfin](https://hub.docker.com/r/nyanmisaka/jellyfin) |   开源的影视媒体库    |   downloads | 8096 |
 |  [Immich](https://immich.app/) |   照片备份    |   photos | 2283 |
+|  [iPerf3](https://hub.docker.com/r/networkstatic/iperf3) |   网络带宽性能测试  |   - | 5201 |
+|  [LibreSpeed](https://docs.linuxserver.io/images/docker-librespeed/) |   网速测试    |   - | 9900 |
 |  [Metube](https://github.com/alexta69/metube) |   下载在线视频    |   downloads | 8081 |
 |  [Memos](https://github.com/usememos/memos) |   开源的日记、微博应用    |   - | 5230 |
-|  [Navidrome](https://github.com/navidrome/navidrome) |   音乐库    |   musics | 4533 |
-|  [qBittorrent](https://hub.docker.com/r/linuxserver/qbittorrent) |   BT、PT 下载客户端    |   downloads | 8080 |
-|  [SpeedTest](https://hub.docker.com/r/openspeedtest/latest) |   网速测试    |   - | 9000 |
-|  [LibreSpeed](https://docs.linuxserver.io/images/docker-librespeed/) |   网速测试    |   - | 9900 |
-|  [Syncthing](https://docs.linuxserver.io/images/docker-syncthing) |   跨平台文件同步    |   syncthing | 8384 |
-|  [Xunlei](https://github.com/cnk3x/xunlei) |   迅雷    |   downloads | 2345 |
-|  [RSSHub](https://docs.rsshub.app/) |   一切皆可 RSS！    |   - | 1200 |
-|  [WeWeRSS](https://github.com/cooderl/wewe-rss) |   通过 RSS 订阅微信公众号    |   - | 4000 |
 |  [Miniflux](https://miniflux.app/) |   极简的 RSS 阅读器    |   - | 8020 |
-|  [Wallos](https://github.com/ellite/Wallos) |   个人订阅管理    |   - | 8282 |
-|  [Planka](https://planka.app) |   看板    |   - | 5000 |
-|  [Vaultwarden](https://hub.docker.com/r/vaultwarden/server) |   开源好用的密码管理器   |   - | 8030 |
-|  [Syncclipboard](https://github.com/Jeric-X/SyncClipboard) |   跨平台剪贴板同步   |   - | 5033 |
 |  [Metatube](https://metatube-community.github.io/README_ZH/) |   小姐姐刮削服务端   |   - | 8900 |
+|  [Navidrome](https://github.com/navidrome/navidrome) |   音乐库    |   musics | 4533 |
+|  [Planka](https://planka.app) |   看板    |   - | 5000 |
+|  [qBittorrent](https://hub.docker.com/r/linuxserver/qbittorrent) |   BT、PT 下载客户端    |   downloads | 8080 |
+|  [RSSHub](https://docs.rsshub.app/) |   一切皆可 RSS！    |   - | 1200 |
+|  [SpeedTest](https://hub.docker.com/r/openspeedtest/latest) |   网速测试    |   - | 9000 |
+|  [Syncthing](https://docs.linuxserver.io/images/docker-syncthing) |   跨平台文件同步    |   syncthing | 8384 |
+|  [Syncclipboard](https://github.com/Jeric-X/SyncClipboard) |   跨平台剪贴板同步   |   - | 5033 |
 |  [UptimeKuma](https://github.com/louislam/uptime-kuma) |   服务监控  |   - | 3001 |
-|  [iPerf3](https://hub.docker.com/r/networkstatic/iperf3) |   网络带宽性能测试  |   - | 5201 |
-|  [Aria2-Pro](https://github.com/P3TERX/Aria2-Pro-Docker) |   轻量级下载工具  |  downloads | 6880 |
-|  [DDNS-Go](https://github.com/jeessy2/ddns-go) |   自动绑定公网 IP 到对应域名  |   - | 9876 |
-
+|  [Vaultwarden](https://hub.docker.com/r/vaultwarden/server) |   开源好用的密码管理器   |   - | 8030 |
+|  [WeWeRSS](https://github.com/cooderl/wewe-rss) |   通过 RSS 订阅微信公众号    |   - | 4000 |
+|  [Wallos](https://github.com/ellite/Wallos) |   个人订阅管理    |   - | 8282 |
+|  [Xunlei](https://github.com/cnk3x/xunlei) |   迅雷    |   downloads | 2345 |
 
 ### 默认密码
 
