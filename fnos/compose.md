@@ -1,4 +1,4 @@
-# fnOS Compose 模板
+# Compose 模板
 
 ![](https://img.slarker.me/wiki/d1f910c1b4c74765ba2754b10c8002e3.jpeg)
 
@@ -11,9 +11,10 @@ fnOS 支持 Compose，很多通过自带的 docker GUI 无法配置的选项，�
 :::warning 注意
 - 下面所有 Compose 模板默认映射的文件夹路径都位于 `/vol1`，你需要根据自己的实际情况做出修改。
 - 部分应用比如 `emby`，`jellyfin` 的默认端口都一样，如果需要同时安装，注意修改端口。
+- 下面的 Compose 模板同样适用于群晖和 Unraid，仅需要修改对应的数据挂载路径。
 :::
 
-这里分享一些常用的 [fnOS Compose 模板](https://www.123pan.com/s/1JKMjv-ICao)，包含以下应用：
+这里分享一些常用的 [Compose 模板](https://www.123pan.com/s/1JKMjv-ICao)，包含以下应用：
 
 | 名称        |     介绍      |  挂载目录 | 默认 Web 端口 |
 | :-------------: | :-----------: | :----: | :----: |
@@ -46,7 +47,7 @@ fnOS 支持 Compose，很多通过自带的 docker GUI 无法配置的选项，�
 
 ### 默认密码
 
-访问方式：`fnOS IP:默认 Web 端口`。
+访问方式：`NAS IP:默认 Web 端口`。
 
 - AList、qBittorrent 默认密码可以到容器日志中查看。
 - FileBrowser 默认用户名/密码：admin/admin。
