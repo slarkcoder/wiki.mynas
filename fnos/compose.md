@@ -15,7 +15,7 @@ fnOS 支持 Compose，很多通过自带的 docker GUI 无法配置的选项，�
 
 这里分享一些常用的 [fnOS Compose 模板](https://www.123pan.com/s/1JKMjv-ICao)，包含以下应用：
 
-| 名称        |     介绍      |  默认数据目录 | 默认 Web 端口 |
+| 名称        |     介绍      |  挂载目录 | 默认 Web 端口 |
 | :-------------: | :-----------: | :----: | :----: |
 | [AList](https://alist.nn.ci/zh/)       | 挂载网盘 | - | 5244 | 
 | [BaiduDisk](https://hub.docker.com/r/johngong/baidunetdisk)       | 百度网盘 | /vol1/1000/downloads | 5800 |
@@ -36,6 +36,8 @@ fnOS 支持 Compose，很多通过自带的 docker GUI 无法配置的选项，�
 |  [RSSHub](https://docs.rsshub.app/) |   一切皆可 RSS！    |   - | 1200 |
 |  [WeWeRSS](https://github.com/cooderl/wewe-rss) |   通过 RSS 订阅微信公众号    |   - | 4000 |
 |  [Miniflux](https://miniflux.app/) |   极简的 RSS 阅读器    |   - | 8020 |
+|  [Wallos](https://github.com/ellite/Wallos) |   个人订阅管理    |   - | 8282 |
+|  [Planka](https://planka.app) |   看板    |   - | 5000 |
 
 ### 默认密码
 
@@ -47,6 +49,7 @@ fnOS 支持 Compose，很多通过自带的 docker GUI 无法配置的选项，�
 - 迅雷内测码：`我不是矿神IMNKS`
 - WeWeRSS 默认授权码：123456
 - Miniflux 默认用户名/密码：admin/test123
+- Planka 默认用户名/密码：admin/admin
 
 ## 如何使用？
 
