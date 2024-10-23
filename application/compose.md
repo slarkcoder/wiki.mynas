@@ -96,10 +96,10 @@ Unraid，fnOS，群晖等 NAS 系统都支持 Compose，很多通过自带的 do
 ## 如何更新 Compose 应用？
 
 :::info 提示
-目前在 fnOS 的 docker GUI 还不支持直接更新 Compose 应用，不过后面应该也会支持的。
+目前在 fnOS 的 docker GUI 暂不支持直接更新 Compose 应用，后面应该也会支持的。
 :::
 
-如果你想自动更新 Compose 应用，可以在 `docker-compose.yml` 中加入下面的配置，使用 `watchtower` 实现自动更新。以 RSSHub 这个 Compose 为例：
+可以使用 `watchtower` 实现自动更新，上面分享的 Compose 模版默认不包含 `watchtower`。如果你想自动更新 Compose 应用，可以在 `docker-compose.yml` 中加入下面的配置，以 RSSHub 这个 Compose 为例：
 
 ```yml
 name: rsshub
