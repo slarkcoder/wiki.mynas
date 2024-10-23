@@ -93,22 +93,27 @@ Unraid，fnOS，群晖等 NAS 系统都支持 Compose，很多通过自带的 do
 - 清除 `Compose`
 - 启动 `Compose`
 
-## 如何更新 Compose 镜像？
+## 如何更新 Compose 应用？
 
-目前在 fnOS 的 docker GUI 还不支持直接更新镜像，不过相信后面会支持的，暂时的替代办法是通过 `SSH` 命令手动更新。
+:::info 提示
+目前在 fnOS 的 docker GUI 还不支持直接更新 Compose 应用，不过后面应该也会支持的。
+:::
 
-以更新 immich 为例，[使用 SSH 登录](/fnos/ssh.md) fnOS，进入到 immich `docker-compose.yml` 配置文件所在目录。
+如果你想自动更新 Compose 应用，可以在 `docker-compose.yml` 中加入下面的配置，使用 `watchtower` 实现自动更新。
 
-```sh
-cd /vol1/1000/docker/immich
+```yml
+  watchtower:
+    image: containrrr/watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: --interval 86400 --cleanup --remove-volumes
+    environment:
+      - WATCHTOWER_CLEANUP=true
+      - WATCHTOWER_REMOVE_VOLUMES=true
 ```
 
-使用下面的命令更新 Compose 镜像：
+其中的 `86400` 代表每 `24` 小时（3600*24）会自动检测更新，如果有新的镜像，会自动完成拉取镜像，删除容器，重建容器等一系列操作。
 
-```sh
-docker compose pull
-```
+复制粘贴上面的 `watchtower` 配置时需要注意缩进：
 
-更新完成后，可以在 GUI 中点击 `清除`，然后再点击 `构建`。
-
-![](https://img.slarker.me/wiki/a76e77b20c2b4a26832339fcff3349fe.png)
+![](https://img.slarker.me/wiki/98e16b15198e478083a9f4db5267bc68.webp)
