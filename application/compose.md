@@ -44,6 +44,7 @@ Unraid，fnOS，群晖等 NAS 系统都支持 Compose，很多通过自带的 do
 |  [UptimeKuma](https://github.com/louislam/uptime-kuma) |   服务监控  |   - | 3001 |
 |  [Vaultwarden](https://hub.docker.com/r/vaultwarden/server) |   开源好用的密码管理器   |   - | 8030 |
 |  [WeWeRSS](https://github.com/cooderl/wewe-rss) |   通过 RSS 订阅微信公众号    |   - | 4000 |
+|  [Wxedge](https://help.onethingcloud.com/7cb4/2c7f) |   网心云    |   wxedge | 18888 |
 |  [Wallos](https://github.com/ellite/Wallos) |   个人订阅管理    |   - | 8282 |
 |  [Xunlei](https://github.com/cnk3x/xunlei) |   迅雷    |   downloads | 2345 |
 
