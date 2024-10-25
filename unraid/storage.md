@@ -1,6 +1,6 @@
 # 我的 Unraid 数据存储方案
 
-![unraid_data.drawio_64Uonr](https://img.slarker.me/wiki/unraid_data.drawio_64Uonr.svg)
+![](https://img.slarker.me/wiki/69f3f581fd074432811f9dc9546b546b.webp)
 
 Unraid 默认的阵列和 Raid0 类似，都可以把几块盘组成一个更大的存储空间，但是 Unraid 阵列的存储逻辑并不像 Raid0 那样把同一个文件分拆到多块硬盘上存储，而是按照文件的粒度将文件完整的保存到某块具体的磁盘上。带来的结果是读取速度不如 Raid0，最快读取速度也就是单盘最大读取速度，但是也带来了更好的安全性。如果某块磁盘损坏，只会丢失这块盘上的数据，并不会像 Raid0 那样导致整个阵列损毁。
 
