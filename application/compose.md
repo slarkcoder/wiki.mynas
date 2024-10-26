@@ -50,6 +50,9 @@ Unraid，fnOS，群晖等 NAS 系统都支持 Compose，很多通过自带的 do
 |  [Wallos](https://github.com/ellite/Wallos) |   个人订阅管理    |   - | 8282 |
 |  [Xunlei](https://github.com/cnk3x/xunlei) |   迅雷    |   downloads | 2345 |
 
+- qBittorrent 内置了两套 WebUI，分别为 `vuetorrent` 和 `qb-web`。可以在 `设置` -> `Web UI` 中切换。需要勾选 ` 使用备用 Web UI
+`，文件路径设置为：`/config/vuetorrent` 或 `/config/qb-web`。
+
 ### 默认密码
 
 访问方式：`NAS IP:默认 Web 端口`。
