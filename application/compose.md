@@ -1,4 +1,4 @@
-# Compose 模板
+# Docker Compose 模板
 
 ![](https://img.slarker.me/wiki/d1f910c1b4c74765ba2754b10c8002e3.jpeg)
 

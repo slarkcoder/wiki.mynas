@@ -10,7 +10,7 @@
 
 在安装软路由之前，可以先仔细看看下面这个图，了解各种网络拓扑的区别。
 
-![main_router.drawio_9x2DFh](https://img.slarker.me/wiki/main_router.drawio_9x2DFh.svg)
+![](https://img.slarker.me/wiki/6ebe64cbc5794c0ca4ba8c7b715e219e.webp)
 
 ## 旁路由（单网口）
 
