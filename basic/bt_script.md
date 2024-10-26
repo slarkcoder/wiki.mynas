@@ -1,7 +1,7 @@
 # 使用脚本给 BT、PT 资源打标签（转载）
 
-> - 这是群友 @赵永涛 根据自己的实际需求编写的脚本，来快速给 qb，tr 下载工具里的资源打标签，方便后续对资源进行整理。
-> - 这里仅作转载，[原文地址在此](https://gitee.com/zaijianmeidusha/pt_clear_v1/blob/master/README.md#)，感谢群友的热心分享！
+> - 这是群友 @牛马打工人 根据自己的实际需求编写的脚本，来快速给 qb，tr 下载工具里的资源打标签，方便后续对资源进行整理。
+> - 这里仅作转载，感谢群友的热心分享！
 
 分享一个标记打印 nas 垃圾劣质资源的 python 脚本，通过给 qb、tr 打标签的方式以及日志打印的方式使用。纯本地运行，只会给qb、tr增加标签或者打印日志，不会自动删种或删文件，需要你参考打完的标签和打印日志手动检查后再自己删，这样更稳妥。能实现诸如以下功能：
 
@@ -26,8 +26,8 @@
 
 ### 下载脚本
 
-- 方式一：打开 [https://gitee.com/zaijianmeidusha/pt_clear_v1](https://gitee.com/zaijianmeidusha/pt_clear_v1)，下载 - 下载ZIP，然后解压出 `pt_clear_v1.py`。
-- 方式二：打开 [https://gitee.com/zaijianmeidusha/pt_clear_v1/raw/master/pt_clear_v1.py](https://gitee.com/zaijianmeidusha/pt_clear_v1/raw/master/pt_clear_v1.py) 复制全部脚本文字，在电脑新建 `pt_clear_v1.txt` 将前面文字粘贴进去，关闭保存，后缀名改为 `.py`。
+- 方式一，打开 [https://github.com/zyt0339/pt_clear_v1](https://github.com/zyt0339/pt_clear_v1)，下载-下载ZIP，然后解压出pt_clear_v1.py。
+- 方式二，打开 [https://github.com/zyt0339/pt_clear_v1/blob/main/pt_clear_v1.py](https://github.com/zyt0339/pt_clear_v1/blob/main/pt_clear_v1.py) 复制全部脚本文字，在电脑新建 `pt_clear_v1.txt` 将前面文字粘贴进去，关闭保存，后缀名改为 `.py`。
 
 :::warning 注意
 这脚本在 nas 执行能使用全部能力，在电脑运行不能进行文件路径分析这些能力（没法用路径判断文件状态）
