@@ -26,8 +26,8 @@
 
 ### 下载脚本
 
-- 方式一，打开 [https://github.com/zyt0339/pt_clear_v1](https://github.com/zyt0339/pt_clear_v1)，下载-下载ZIP，然后解压出pt_clear_v1.py。
-- 方式二，打开 [https://github.com/zyt0339/pt_clear_v1/blob/main/pt_clear_v1.py](https://github.com/zyt0339/pt_clear_v1/blob/main/pt_clear_v1.py) 复制全部脚本文字，在电脑新建 `pt_clear_v1.txt` 将前面文字粘贴进去，关闭保存，后缀名改为 `.py`。
+- 方式一：打开 [https://github.com/zyt0339/pt_clear_v1](https://github.com/zyt0339/pt_clear_v1)，下载-下载ZIP，然后解压出pt_clear_v1.py。
+- 方式二：打开 [https://github.com/zyt0339/pt_clear_v1/blob/main/pt_clear_v1.py](https://github.com/zyt0339/pt_clear_v1/blob/main/pt_clear_v1.py) 复制全部脚本文字，在电脑新建 `pt_clear_v1.txt` 将前面文字粘贴进去，关闭保存，后缀名改为 `.py`。
 
 :::warning 注意
 这脚本在 nas 执行能使用全部能力，在电脑运行不能进行文件路径分析这些能力（没法用路径判断文件状态）
