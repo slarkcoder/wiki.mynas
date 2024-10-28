@@ -1,5 +1,7 @@
 # 使用 macvlan 为 qBittorrent 设置独立 IP
 
+> 关于 macvlan 的更详细的介绍，可以看看群友 @红茶海 大佬的视频：[MacVlan让Docker实现上网自由](https://www.bilibili.com/video/BV1242WYvEDv/?spm_id_from=333.999.0.0&vd_source=29eb9b18b4b69e99493d17fe1ef55ca4)
+
 很多 PT 网站对盒子（就是专门用来刷上传的 VPS）有限制，如果群晖前面的主路由（比如 iStoreOS）上面配置了魔法工具，可能导致 BT/PT 流量也会走代理，从而被 PT 网站识别为盒子。比较好的解决这个问题的办法是在魔法软件上，通过端口或者 IP 来设置规则，来避免 PT 流量走代理。
 
 但在有些魔法软件上面，并不支持针对端口来设置规则，只能针对 IP 来设置规则，好在为 Docker 设置独立的 IP 也不复杂。下面就介绍如何使用 macvlan 来给 qBittorrent 设置独立的 IP。
