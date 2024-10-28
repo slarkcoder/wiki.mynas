@@ -37,6 +37,7 @@
 - [Infuse](https://apps.apple.com/us/app/infuse-video-player/id1136220934) <Badge type="tip" text="iOS" />
 - [Vidhub](https://apps.apple.com/cn/app/vidhub-%E9%AB%98%E6%B8%85%E5%BD%B1%E7%89%87%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8-%E5%BF%AB%E6%92%AD%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98/id1659622164) <Badge type="tip" text="iOS" /><Badge type="tip" text="macOS" />
 - [HamHub](https://apps.apple.com/us/app/hamhub/id6458691598) <Badge type="tip" text="iOS" />
+- [Senplayer](https://apps.apple.com/us/app/senplayer-hdr-media-player/id6443975850) <Badge type="tip" text="iOS" /><Badge type="tip" text="tvOS" />
 - [IINA](https://iina.io/) <Badge type="tip" text="macOS" />
 - [mpv](https://mpv.io/) <Badge type="tip" text="macOS" /><Badge type="tip" text="Windows" />
 - [VLC](https://www.videolan.org/) <Badge type="tip" text="macOS" /><Badge type="tip" text="Windows" />
