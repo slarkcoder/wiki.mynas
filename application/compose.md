@@ -42,6 +42,7 @@ Unraid，fnOS，群晖等 NAS 系统都支持 Compose，很多通过自带的 do
 |  [SpeedTest](https://hub.docker.com/r/openspeedtest/latest) |   网速测试    |   - | 9000 |
 |  [Syncthing](https://docs.linuxserver.io/images/docker-syncthing) |   跨平台文件同步    |   syncthing | 8384 |
 |  [Syncclipboard](https://github.com/Jeric-X/SyncClipboard) |   跨平台剪贴板同步   |   - | 5033 |
+|  [Sun-Panel](https://doc.sun-panel.top/zh_cn/) |   NAS 导航页   |   - | 3002 |
 |  [Transmission](https://hub.docker.com/r/linuxserver/transmission) |   BT、PT 下载客户端   | downloads | 9091 |
 |  [UptimeKuma](https://github.com/louislam/uptime-kuma) |   服务监控  |   - | 3001 |
 |  [Vaultwarden](https://hub.docker.com/r/vaultwarden/server) |   开源好用的密码管理器   |   - | 8030 |
@@ -58,14 +59,15 @@ Unraid，fnOS，群晖等 NAS 系统都支持 Compose，很多通过自带的 do
 访问方式：`NAS IP:默认 Web 端口`。
 
 - AList、qBittorrent 默认密码可以到容器日志中查看。
-- FileBrowser 默认用户名/密码：admin/admin。
+- Aria2-Pro 默认 `RPC_SECRET`：P3TERX
 - Calibre-Web 默认用户名/密码：admin/admin123。
+- FileBrowser 默认用户名/密码：admin/admin。
 - 迅雷内测码：`我不是矿神IMNKS`
-- WeWeRSS 默认授权码：123456
 - Miniflux 默认用户名/密码：admin/test123
 - Planka 默认用户名/密码：admin/admin
 - Syncclipboard 默认用户名/密码：admin/admin
-- Aria2-Pro 默认 `RPC_SECRET`：P3TERX
+- Sun-Panel 默认用户名/密码：admin@sun.cc/12345678
+- WeWeRSS 默认授权码：123456
 
 ## 如何使用？
 
