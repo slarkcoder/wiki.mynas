@@ -36,9 +36,9 @@ CPU 核心可以按需选择，这里选 `2` 核心，类别改为 `host`。
 
 ![](https://img.slarker.me/wiki/c74818a56e0644a0a685a9713c84398d.webp)
 
-网络保持默认。
+网络模型改成 `Intel E1000`。
 
-![](https://img.slarker.me/wiki/caff5286e4d742938a0de6aa347667f9.webp)
+![](https://img.slarker.me/wiki/e7e31201f85642649ea6c71e5ee1ae73.webp)
 
 确认设置没有问题，点击 `完成`。
 

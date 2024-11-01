@@ -2,7 +2,7 @@
 
 本篇教程介绍在 Unraid 系统下面安装 Jellyfin 实现硬解 4K，适用的 CPU 为带核显的 Intel CPU。
 
-测试文件：[4K 测试](https://pan.quark.cn/s/93f22dd409d8)。
+测试文件：[4K 测试片段](https://pan.quark.cn/s/93f22dd409d8)。
 
 ## 建立共享目录
 

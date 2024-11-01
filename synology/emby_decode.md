@@ -4,7 +4,7 @@
 
 开始之前，可以先下载测试视频文件备用。
 
-测试文件：[4K 测试](https://pan.quark.cn/s/93f22dd409d8)。
+测试文件：[4K 测试片段](https://pan.quark.cn/s/93f22dd409d8)。
 
 ::: warning 注意
 Jellyfin 和 Emby 默认都使用 8096 端口，不能共存，只能二选一。

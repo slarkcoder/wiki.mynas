@@ -18,7 +18,7 @@ HAOS 的镜像可以从 [官网下载](https://www.home-assistant.io/installatio
 
 ![ID1kpi_J4VoFX](https://img.slarker.me/wiki/ID1kpi_J4VoFX.png)
 
-CPU 和内存按需选择，BIOS 选择 `OVMF`，主要虚拟磁盘选择 `domains` 目录中的 `haos_generic-x86-64-12.4.img`，磁盘总线选择 `SATA`，最后点击创建。
+CPU 和内存按需选择，BIOS 选择 `OVMF`，主要虚拟磁盘选择 `domains` 目录中的 `haos_generic-x86-64-12.4.img`，磁盘总线选择 `SATA`，网络选择 `Intel E1000`，最后点击创建。
 
 ![kuEuQr_j9q1jZ](https://img.slarker.me/wiki/kuEuQr_j9q1jZ.png)
 
