@@ -36,7 +36,7 @@ CPU 核心可以按需选择，这里选 `2` 核心，类别改为 `host`。
 
 ![](https://img.slarker.me/wiki/c74818a56e0644a0a685a9713c84398d.webp)
 
-网络模型改成 `Intel E1000`。
+网络模型保持默认。
 
 ![](https://img.slarker.me/wiki/e7e31201f85642649ea6c71e5ee1ae73.webp)
 

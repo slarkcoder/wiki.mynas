@@ -8,9 +8,9 @@ HAOS 对各种特性支持最完整，因此只要条件允许，推荐安装 HA
 
 ## 获取镜像
 
-HAOS 的镜像可以从 [官网下载](https://www.home-assistant.io/installation/generic-x86-64#method-2-installing-haos-directly-from-a-boot-medium)。
+从 [官网下载](https://www.home-assistant.io/installation/linux) `qcow2` 格式的镜像。
 
-下载解压后，将 `img` 文件保存到 Unraid 的 `domains` 目录中。
+下载解压后，将 `qcow2` 文件保存到 Unraid 的 `domains` 目录中。
 
 ## 创建虚拟机
 
@@ -18,9 +18,9 @@ HAOS 的镜像可以从 [官网下载](https://www.home-assistant.io/installatio
 
 ![ID1kpi_J4VoFX](https://img.slarker.me/wiki/ID1kpi_J4VoFX.png)
 
-CPU 和内存按需选择，BIOS 选择 `OVMF`，主要虚拟磁盘选择 `domains` 目录中的 `haos_generic-x86-64-12.4.img`，磁盘总线选择 `SATA`，网络选择 `Intel E1000`，最后点击创建。
+CPU 和内存（建议 2GB）按需选择，BIOS 选择 `OVMF`，主要虚拟磁盘位置选择 `domains` 目录中的 `haos_ova-xx.qcow2`，磁盘总线选择 `SATA`，最后点击创建。
 
-![kuEuQr_j9q1jZ](https://img.slarker.me/wiki/kuEuQr_j9q1jZ.png)
+![](https://img.slarker.me/wiki/edbea4ca53304801ba9e4ca8d804a76c.webp)
 
 稍等片刻，虚拟机启动完成后，在控制台就可以看到 `HAOS IP` 地址和端口（默认端口：8123）。
 
