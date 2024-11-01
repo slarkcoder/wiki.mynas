@@ -8,6 +8,8 @@ HAOS 对各种特性支持最完整，因此只要条件允许，推荐安装 HA
 
 ## 获取镜像
 
+![](https://img.slarker.me/wiki/c8d4457856f24a359317c48ad17fba0a.webp)
+
 从 [官网下载](https://www.home-assistant.io/installation/linux) `qcow2` 格式的镜像。
 
 下载解压后，将 `qcow2` 文件保存到 Unraid 的 `domains` 目录中。
