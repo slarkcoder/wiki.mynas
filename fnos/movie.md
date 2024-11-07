@@ -98,6 +98,20 @@ Clouddrive 默认的端口是：`19798`，使用 `NAS IP:19798` 打开后注册�
 
 ![RojvnL_eTlZRZ](https://img.slarker.me/wiki/RojvnL_eTlZRZ.png)
 
+## 115 风控
+
+最近由于 115 网盘风控升级，刮削时可能会遇到 `too many request` 报错，可以暂时使用下面的办法解决：
+
+- CD2 进入 115 网盘设置，`MaxQueriesPerSecond` 改为 `0.9`。
+
+![](https://img.slarker.me/wiki/8f9a737448994ef5942a4ef3961199dc.webp)
+
+- CD2 进入系统设置 ，默认目录缓存时间（秒）改为 `0` 秒，开启 `目录缓存持久化`（此功能从2024 年 10 月 22 日起已对非会员开放）。
+
+![](https://img.slarker.me/wiki/994aaa979e6e4c83a1897b08beec0724.webp)
+
+> 温馨提示：默认目录缓存时间改为0秒后，CD2不会自动刷新115网盘，后期网盘加入新文件，请进入CD2后台手动刷新。
+
 ## 影视设置
 
 在 fnOS 应用中心安装 `影视` 应用，并设置可访问的文件夹。
