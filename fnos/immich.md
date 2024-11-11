@@ -82,7 +82,40 @@ immich 的默认端口为：`2283`，浏览器打开 `fnOS IP:2283` 就能访问
 
 ## 人脸识别设置问题
 
-如果你的 `immich` 人脸识别不生效，可以尝试按下面的方法解决。
+### 模型下载失败问题
+
+如果你的 `immich` 人脸识别不生效，可能是由于人脸识别模型 [buffalo_l](https://huggingface.co/immich-app/buffalo_l) 下载失败，可以尝试使用下面的两种（任选一种）办法解决。
+
+![](https://img.slarker.me/wiki/e122d51d4bc84c73b07813ef9da25771.webp)
+
+#### 方法一：使用 git 命令拉取模型
+
+[使用 SSH 登录](/fnos/ssh.md) fnOS，并切换到 `root` 用户。`cd` 进入到 immich 模型的路径下面。如果你的 `docker` 安装在 `存储空间 1` 上面，那么模型的路径就应该是：
+
+```sh
+# 进入到 immich  模型路径
+cd /vol1/docker/volumes/immich_model-cache/_data/facial-recognition
+# 使用 git 命令拉取模型
+git clone https://huggingface.co/immich-app/buffalo_l
+```
+
+拉取完成之后，重新运行人脸识别任务。
+
+#### 方法二：手动上传模型
+
+下载 [buffalo_l 模型](https://www.123pan.com/s/1JKMjv-oVao) 到本地，使用 fnOS 自带的文件管理器，切换到管理员视角，将 `zip` 文件上传到 immich 模型的路径下面。
+
+如果你的 `docker` 安装在 `存储空间 1` 上面，那么模型的路径就应该是：
+
+```sh
+/vol1/docker/volumes/immich_model-cache/_data/facial-recognition
+```
+
+上传完成之后，解压 `zip`，重新运行人脸识别任务。
+
+### container name 不一致问题
+
+`container name` 不一致也有可能导致人脸识别失败。
 
 在 immich 后台，点击头像 -> `管理` -> `设置` -> `机器学习设置`，确认 `机器学习的 URL` 为：
 
