@@ -49,6 +49,7 @@ Unraid，fnOS，群晖等 NAS 系统都支持 Compose，很多通过自带的 do
 |  [WeWeRSS](https://github.com/cooderl/wewe-rss) |   通过 RSS 订阅微信公众号    |   - | 4000 |
 |  [Wxedge](https://help.onethingcloud.com/7cb4/2c7f) |   网心云    |   wxedge | 18888 |
 |  [Wallos](https://github.com/ellite/Wallos) |   个人订阅管理    |   - | 8282 |
+|  [Xiaoya](https://github.com/monlor/docker-xiaoya) |   小雅全家桶    |   -  | 5678 |
 |  [Xunlei](https://github.com/cnk3x/xunlei) |   迅雷    |   downloads | 2345 |
 
 - qBittorrent 内置了两套 WebUI，分别为 `vuetorrent` 和 `qb-web`。可以在 `设置` -> `Web UI` 中切换。需要勾选 ` 使用备用 Web UI
@@ -67,6 +68,7 @@ Unraid，fnOS，群晖等 NAS 系统都支持 Compose，很多通过自带的 do
 - Planka 默认用户名/密码：admin/admin
 - Syncclipboard 默认用户名/密码：admin/admin
 - Sun-Panel 默认用户名/密码：admin@sun.cc/12345678
+- xiaoya 全家桶默认用户信息请查看[项目介绍](https://github.com/monlor/docker-xiaoya)。
 - WeWeRSS 默认授权码：123456
 
 ## 如何使用？
