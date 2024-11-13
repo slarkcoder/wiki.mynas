@@ -1,5 +1,7 @@
 # 制作 PE 引导 U 盘
 
+有时候需要在 PE 环境下进行一些操作，比如扫描硬盘坏道，修改 Linux 系统的配置文件等等，本篇教程就介绍如何制作一个 PE U 盘。
+
 ## 下载资源
 
 - [Ventoy](https://www.ventoy.net/cn/download.html)（制作启动 U 盘）
@@ -23,6 +25,8 @@ Edgeless 选择 `下载 ISO 镜像`。
 把 Edgeless ISO 镜像复制到 U 盘根目录。
 
 ![](https://img.slarker.me/wiki/8cfa5d15daf84ac38a52c8f6a8982b6f.webp)
+
+除此之外，由于 `Ventoy` 的强大，你还可以在 U 盘里放一些其它的系统镜像（比如 `PVE`，`Windows` 等等）。如有需要，启动后就能直接安装。
 
 ## DiskGenius（可选）
 
