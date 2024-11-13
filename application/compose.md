@@ -26,11 +26,11 @@ Unraid，fnOS，群晖等 NAS 系统都支持 Compose，很多通过自带的 do
 | [CloudDrive2](https://www.clouddrive2.com/) |   映射网盘到本地    |   clouddrive | 19798 |
 | [DDNS-Go](https://github.com/jeessy2/ddns-go) |   自动绑定公网 IP 到对应域名  |   - | 9876 |
 | [Emby](https://hub.docker.com/r/amilys/embyserver) |   影视媒体库    |   downloads | 8096 |
-| [FileBrowser](https://github.com/filebrowser/filebrowser) |   文件管理器    |   vol1 | 6000 |
+| [FileBrowser](https://github.com/filebrowser/filebrowser) |   文件管理器    |   vol1 | 9000 |
 |  [Jellyfin](https://hub.docker.com/r/nyanmisaka/jellyfin) |   开源的影视媒体库    |   downloads | 8096 |
 |  [Immich](https://immich.app/) |   照片备份    |   photos | 2283 |
 |  [iPerf3](https://hub.docker.com/r/networkstatic/iperf3) |   网络带宽性能测试  |   - | 5201 |
-|  [LibreSpeed](https://docs.linuxserver.io/images/docker-librespeed/) |   网速测试    |   - | 9900 |
+|  [LibreSpeed](https://docs.linuxserver.io/images/docker-librespeed/) |   网速测试    |   - | 9001 |
 |  [Metube](https://github.com/alexta69/metube) |   下载在线视频    |   downloads | 8081 |
 |  [Memos](https://github.com/usememos/memos) |   开源的日记、微博应用    |   - | 5230 |
 |  [Miniflux](https://miniflux.app/) |   极简的 RSS 阅读器    |   - | 8020 |
@@ -39,7 +39,7 @@ Unraid，fnOS，群晖等 NAS 系统都支持 Compose，很多通过自带的 do
 |  [Planka](https://planka.app) |   看板    |   - | 5000 |
 |  [qBittorrent](https://hub.docker.com/r/linuxserver/qbittorrent) |   BT、PT 下载客户端    |   downloads | 8080 |
 |  [RSSHub](https://docs.rsshub.app/) |   一切皆可 RSS！    |   - | 1200 |
-|  [SpeedTest](https://hub.docker.com/r/openspeedtest/latest) |   网速测试    |   - | 9000 |
+|  [SpeedTest](https://hub.docker.com/r/openspeedtest/latest) |   网速测试    |   - | 9002 |
 |  [Syncthing](https://docs.linuxserver.io/images/docker-syncthing) |   跨平台文件同步    |   syncthing | 8384 |
 |  [Syncclipboard](https://github.com/Jeric-X/SyncClipboard) |   跨平台剪贴板同步   |   - | 5033 |
 |  [Sun-Panel](https://doc.sun-panel.top/zh_cn/) |   NAS 导航页   |   - | 3002 |

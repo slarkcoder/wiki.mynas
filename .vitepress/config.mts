@@ -93,6 +93,7 @@ export default defineConfig({
           { text: '阵列读写性能测试', link: '/basic/raid_performance.md' },
           { text: '网络唤醒', link: '/basic/wake_on_lan.md' },
           { text: '设置交换机模式', link: '/basic/bridge_network.md' },
+          { text: '制作 PE 引导 U 盘', link: '/basic/pe.md' },
           { text: '值得推荐的 NAS 应用', link: '/basic/app.md' },
           { text: '科学解决问题的思路 - 木桶理论', link: '/basic/barreltheory.md' },
           { text: '使用脚本给 BT、PT 资源打标签', link: '/basic/bt_script.md' },
