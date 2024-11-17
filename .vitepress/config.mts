@@ -132,6 +132,7 @@ export default defineConfig({
         text: 'Unraid 教程',
         collapsed: true,
         items: [
+          { text: 'Unraid 常见问题', link: '/unraid/question.md' },
           { text: '磁盘阵列和 ZFS', link: '/unraid/array.md' },
           { text: '我的 Unraid 数据存储方案', link: '/unraid/storage.md' },
           { text: '共享文件夹', link: '/unraid/share_folder.md' }, 
