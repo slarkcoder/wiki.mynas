@@ -193,7 +193,7 @@ export default defineConfig({
         items:[
           { text: '常见功能设置', link: '/pve/basic.md' },
           { text: '更新群晖引导', link: '/pve/update_synology.md' },
-          { text: '虚拟 iStoreOS 软路由', link: '/pve/istoreos.md' },
+          { text: '虚拟 iStoreOS 旁路由', link: '/pve/istoreos.md' },
           { text: '虚拟 Windows', link: '/pve/windows.md' },
           { text: '虚拟 HomeAssistantOS', link: '/pve/haos.md' },
           { text: '重装系统', link: '/pve/reset.md' },
