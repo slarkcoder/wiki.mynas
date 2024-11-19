@@ -49,7 +49,7 @@ CPU 核心可以设置为 `2`，类别一般选择 `host`。
 在 PVE 的 `shell` 终端中使用命令导入 iStoreOS 镜像：
 
 ```sh
-# 104 为 iStoreOSTest 虚拟机的 ID。
+# 104 为 iStoreOSTest 虚拟机的 ID。末尾的 local 为虚拟机的存储空间，如果你的 PVE 没有将 local-lvm 合并到 local，那么末尾应该为 local-lvm。
 qm importdisk 104 /var/lib/vz/template/iso/istoreos.img local
 ```
 
