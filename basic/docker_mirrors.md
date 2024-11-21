@@ -46,7 +46,7 @@ https://dockerproxy.com
 ### 群晖
 
 :::warning 注意
-近几天群晖 `Docker` 注册表提示出错，原因是 `auth.docker.io` 被屏蔽。
+最近群晖 `Docker` 注册表提示出错，原因是 `auth.docker.io` 被屏蔽。
 
 ![](https://img.slarker.me/wiki/gx32fa50.xef.webp)
 
@@ -125,3 +125,24 @@ docker pull amilys/embyserver
 ```sh
 docker pull docker.1panel.live/amilys/embyserver
 ```
+
+## 通过 Compose 安装 docker
+
+如果你不想通过命令拉 docker 镜像，你可以直接通过 Compose 来安装 docker，需要在 Compose 的 `yml` 配置文件中设置好带有镜像加速地址的镜像地址。以 `memos` 为例：
+
+```yml
+name: memos
+services:
+  memos:
+    restart: always
+    container_name: memos
+    ports:
+      - 5230:5230
+    volumes:
+      - ./data:/var/opt/memos
+    image: docker.1panel.live/neosmemo/memos:stable
+```
+
+这里用到的镜像加速地址是：`docker.1panel.live`。通过 Compose 就不需要手动拉镜像了，Compose 会根据配置文件自动从给定的地址拉镜像。
+
+常用的 Compose 配置模板可以看这里：[Docker Compose 模板](/application/compose.md)。
