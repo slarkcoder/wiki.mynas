@@ -21,6 +21,11 @@
 - [Telegram: Contact @aliyundriveShare](https://t.me/aliyundriveShare)
 - [Telegram: Contact @shareAliyun](https://t.me/shareAliyun)
 - [Telegram: Contact @Quark\_Share\_Channel](https://t.me/Quark_Share_Channel)
+- [Telegram: Contact @yunpanshare](https://t.me/yunpanshare)
+- [Telegram: Contact @yunpanpan](https://t.me/yunpanpan)
+- [Telegram: Contact @aliyunshares](https://t.me/aliyunshares)
+- [Telegram: Contact @chxyy2019](https://t.me/chxyy2019)
+- [Telegram: Contact @hao115](https://t.me/hao115)
 
 ![tg_HQUuHq](https://img.slarker.me/wiki/tg_HQUuHq.jpg)
 
@@ -53,3 +58,7 @@ Alist 同样支持挂载 PikPak！
 - [迷客电影](https://www.mini4k.com/)
 - [仓库](https://www.cangkus.com/)
 - [牛牛美剧](https://www.nnmeiju.com/)
+
+## 电子书
+
+- [Z-Library](https://lib.opendelta.org/)
