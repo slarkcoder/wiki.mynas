@@ -120,8 +120,8 @@ rm -rf /etc/docker/daemon.json
 docker pull amilys/embyserver
 ```
 
-如果镜像加速地址为：https://xxx.xxx.com，则使用下面的命令通过镜像加速来拉取镜像：
+如果镜像加速地址为：`https://docker.1panel.live`，则使用下面的命令通过镜像加速来拉取镜像：
 
 ```sh
-docker pull https://xxx.xxx.com/amilys/embyserver
+docker pull docker.1panel.live/amilys/embyserver
 ```
