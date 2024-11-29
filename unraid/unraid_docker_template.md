@@ -24,7 +24,7 @@ Unraid 为了用户可以更方便的使用 Docker，加入了模板这个概念
 
 这里有一些我自己创建的模板，可以方便的安装常用的 Docker 应用。
 
-[Unraid_Docker_Template](https://files.mynas.chat/share/BXbuuhLC)
+[Unraid_Docker_模板](https://www.123pan.com/s/1JKMjv-1BBo)
 
 目前包含下面这些应用：
 
