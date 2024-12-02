@@ -103,10 +103,10 @@ export default defineConfig({
         text: '推荐应用',
         collapsed: true,
         items: [
+          { text: 'Docker Compose 模板', link: '/application/compose.md' },
           // { text: '低门槛、易上手的自动化观影方案', link: '/application/douban_tool.md' },
           { text: '高颜值的 NAS 应用导航 - Homepage', link: '/application/homepage.md' },
           { text: '影音资源库 - 小雅部署教程', link: '/application/xiaoya.md' },
-          { text: 'Docker Compose 模板', link: '/application/compose.md' },
         ]
       },
       {
