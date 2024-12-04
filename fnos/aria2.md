@@ -1,5 +1,7 @@
 # 下载网盘资源到 NAS
 
+![](https://img.slarker.me/wiki/ab63b5efb71c4ec9ae9bcf329d3acfb4.webp)
+
 本篇教程以 fnOS 为例，介绍如何将网盘里的资源下载到 NAS。
 
 ## 安装 Alist 和 Aria2
