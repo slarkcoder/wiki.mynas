@@ -1,6 +1,7 @@
 import { h } from 'vue';
 import Theme from "vitepress/theme";
 import GiscusComment from "./components/GiscusComment.vue";
+import SideInfoComment from "./components/SideInfoComment.vue";
 import BottomInfoComment from "./components/BottomInfoComment.vue";
 import './style/var.css';
  
@@ -13,6 +14,9 @@ export default {
         return h(Theme.Layout, null, {
             'doc-after': () => [
                 h(GiscusComment)
+            ],
+            'aside-ads-before': () => [
+                h(SideInfoComment)
             ],
             'doc-footer-before': () => [
                 h(BottomInfoComment)
