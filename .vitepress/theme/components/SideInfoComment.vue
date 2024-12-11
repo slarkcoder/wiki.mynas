@@ -32,7 +32,7 @@ import { useData } from 'vitepress'
   border-width: 1px;
   border-color: rgba(219, 234, 254, 1);
   border-radius: 1rem;
-  background-color: rgba(255, 255, 255, 0.01);
+  background-color: rgba(52, 52, 52, 0.1);
   padding: 1rem;
 }
 
