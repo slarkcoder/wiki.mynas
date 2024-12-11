@@ -32,8 +32,12 @@ import { useData } from 'vitepress'
   border-width: 1px;
   border-color: rgba(219, 234, 254, 1);
   border-radius: 1rem;
-  background-color: rgba(52, 52, 52, 0.1);
+  background-color: rgba(244, 244, 244);
   padding: 1rem;
+}
+
+:root.dark .card {
+  background-color: rgba(31, 34, 38);
 }
 
 .header {
