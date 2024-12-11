@@ -6,7 +6,7 @@
 
 ## 系统支持
 
-系统支持范围目前包括 Unraid，群晖，OpenWRT（软路由），PVE 以及 TrueNAS Scale，常见的问题，最佳使用实践以及具体的实现方案。
+系统支持范围目前包括 fnOS（飞牛），Unraid，群晖，OpenWRT（软路由），PVE 以及 TrueNAS Scale，OpenMediaVault 常见的问题，最佳使用实践以及具体的实现方案。
 
 ## 软件支持
 
