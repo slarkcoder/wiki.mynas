@@ -210,6 +210,8 @@ export default defineConfig({
           { text: 'BT 和 PT', link: '/resource/bt_pt.md' },
           { text: '搜索资源的奇技淫巧', link: '/resource/search.md' },
           { text: '推荐好用的工具', link: '/resource/tools.md' },
+          { text: '制作系统启动 U 盘', link: '/resource/system_loader.md' },
+          
         ]
       }
     ],
