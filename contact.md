@@ -31,7 +31,7 @@
 - 发言若违反入群须知，会被直接踢出。
 :::
 
-![](https://img.slarker.me/wiki/20241217212426018.png)
+![](https://img.slarker.me/wiki/mmqrcode1734441825503.png)
 
 <!-- ![1725111191580_SwBRUu](https://img.slarker.me/wiki/1725111191580_SwBRUu.png) -->
 
