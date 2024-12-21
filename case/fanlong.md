@@ -24,9 +24,9 @@
 
 支持 MATX 主板，扩展性要比 ITX 好很多，使用 Flex 1U 电源。参考价格：￥565。
 
-![](https://img.slarker.me/wiki/8ac7e1d0b2e740d1adea8cd2bf000518.webp)
+![](https://img.slarker.me/wiki/tb_image_share_1734756482626.jpg.webp)
 
-![](https://img.slarker.me/wiki/3b71d09b25524c228a0dea1a8678ac47.webp)
+![](https://img.slarker.me/wiki/tb_image_share_1734756595511.jpg.webp)
 
 ### ATX
 
