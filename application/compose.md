@@ -23,6 +23,7 @@ Unraid，fnOS，群晖等 NAS 系统都支持 Compose，很多通过自带的 do
 | [Aria2-Pro](https://github.com/P3TERX/Aria2-Pro-Docker) |   轻量级下载工具  |  downloads | 6880 |
 | [BaiduDisk](https://hub.docker.com/r/johngong/baidunetdisk)       | 百度网盘 | downloads | 5800 |
 | [Calibre-Web](https://hub.docker.com/r/linuxserver/calibre-web)      |   电子书库   |  books | 8083 |
+| [Cloudbak](https://www.cloudbak.org/install/install-docker.html) |   云朵备份，备份微信    |   cloudbak | 9527 |
 | [CloudDrive2](https://www.clouddrive2.com/) |   映射网盘到本地    |   clouddrive | 19798 |
 | [DDNS-Go](https://github.com/jeessy2/ddns-go) |   自动绑定公网 IP 到对应域名  |   - | 9876 |
 | [Emby](https://hub.docker.com/r/amilys/embyserver) |   影视媒体库    |   downloads | 8096 |
