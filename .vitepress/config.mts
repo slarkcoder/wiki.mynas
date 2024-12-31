@@ -218,7 +218,7 @@ export default defineConfig({
     footer: {
       
       message: 'Released under the <a href="https://wiki.slarker.me/copyright.html">CC BY-NC 4.0 License</a>.',
-      copyright: '©2024 <a href="https://slarker.me">Slark</a>. All rights reserved.'
+      copyright: '©2024 ~ 2025 <a href="https://slarker.me">Slark</a>. All rights reserved.'
     },
     search: {
       provider: 'local',
