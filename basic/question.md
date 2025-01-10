@@ -54,7 +54,7 @@ iStoreOS 本身并不自带代理插件，可以使用这里的包一键自动�
 
 如果上面的地址无法打开，可以到这里下载：
 
-[123 云盘：iStoreOS 插件](https://www.123pan.com/s/1JKMjv-0jxo.html)
+[iStoreOS 插件](https://files.slarker.me)
 
 下载好之后到 iStoreOS 中手动上传安装：
 
