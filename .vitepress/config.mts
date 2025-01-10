@@ -38,6 +38,7 @@ export default defineConfig({
         text: '关于',
         items: [
           { text: '一起玩 NAS 的朋友们', link: '/link.md' },
+          { text: '服务监控', link: 'https://uptime.slarker.me/status/service' },
           { text: '我的博客', link: 'https://slarker.me' },
           { text: '意见反馈', link: '/feedback.md' },
           { text: '原创声明', link: '/copyright.md' },
