@@ -18,11 +18,7 @@
 
 ## fnOS 系统安装在哪里？
 
-fnOS 建议安装在 SSD 硬盘上，系统实际只会占用大约 8G 的空间，如果是 128G 的 SSD 硬盘，可以分配 16～32G 用来作为系统盘，剩下的空间可以建立一个存储空间用来存储 docker。
-
-实测使用 16G 的傲腾 M10 SSD 可以顺利安装，系统也可以正常升级。
-
-![ZsCnwY_pxBpNX](https://img.slarker.me/wiki/ZsCnwY_pxBpNX.png)
+fnOS 建议安装在 SSD 硬盘上，如果是 128G 的 SSD 硬盘，可以分配 32G～64G 用来作为系统盘，剩下的空间可以建立一个存储空间用来存储 docker。
 
 ## fnOS 有手机 App 吗？
 
