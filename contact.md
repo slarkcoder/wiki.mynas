@@ -32,7 +32,7 @@
 - 发言若违反入群须知，会被直接踢出。
 :::
 
-![](https://img.slarker.me/wiki/mmqrcode1737021134640.webp)
+![](https://img.slarker.me/wiki/mmqrcode1737533840100.webp)
 
 <!-- ![1725111191580_SwBRUu](https://img.slarker.me/wiki/1725111191580_SwBRUu.png) -->
 
