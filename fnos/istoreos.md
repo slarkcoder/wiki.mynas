@@ -1,4 +1,4 @@
-# fnOS 虚拟 iStoreOS 做主路由
+# fnOS 虚拟 iStoreOS 软路由
 
 :::warning 警告
 涉及到网络，硬件直通，虚拟机等操作如果出现误操作，可能会导致系统崩溃，无法正常启动，系统连不上等各种严重问题，请谨慎评估风险后再操作！
@@ -8,9 +8,10 @@
 
 ![](https://img.slarker.me/wiki/264321737518159_.pic.webp)
 
-大家期待的虚拟机功能，飞牛在 `0.8.36` 这个版本终于支持了！而且支持了 **硬件直通**！下面就教大家如何在多网口的机器上使用飞牛虚拟机安装 iStoreOS 作为主路由来用。
+大家期待的虚拟机功能，飞牛在 `0.8.36` 这个版本终于支持了！而且支持了 **硬件直通**！下面就教大家如何在多网口的机器上使用飞牛虚拟机安装 iStoreOS 软路由。
 
-> 以下演示的硬件设备为搭载 Intel 12 代 N100 CPU，板载双 2.5G 网口的机器。
+- 由于主路由和旁路由设置大部分步骤都完全一样，所以下面以主路由为例，需要设置旁路由的时候会单独说明。
+- 以下演示的硬件设备为搭载 Intel 12 代 N100 CPU，板载双 2.5G 网口的机器。
 
 ## 前提条件
 
@@ -93,6 +94,10 @@ IOMMU 开启成功之后，在飞牛中会显示 `已开启`，最后按提示�
 
 ![](https://img.slarker.me/wiki/Snipaste_2025-01-21_23-20-17.webp)
 
+::: tip 提示
+硬件直通这一步，如果是做主路由，需要添加硬件（直通网卡），如果是做旁路由，则不需要添加硬件，直接点击 `创建`。
+:::
+
 这一步需要添加之前那个未被使用的网卡，也就是 enp3s0，该网卡在 PCIE 中的设备地址为：`03:00.0`，点击 `添加硬件`，按提示添加。
 
 ![](https://img.slarker.me/wiki/Snipaste_2025-01-21_23-21-42.webp)
@@ -125,7 +130,7 @@ IOMMU 开启成功之后，在飞牛中会显示 `已开启`，最后按提示�
 
 ![](https://img.slarker.me/wiki/Snipaste_2025-01-22_14-19-25.webp)
 
-## 设置 iStoreOS
+## 设置 iStoreOS 为主路由
 
 使用命令编辑 iStoreOS 网络配置文件。
 
@@ -135,8 +140,36 @@ vi /etc/config/network
 
 输入 `i` 进入编辑模式，按下图所示修改，修改完成之后按 `ESC` 退出编辑，输入 `:wq` 保存并退出。
 
+下面这张图展示了如何设置为主路由：
+
 ![](https://img.slarker.me/wiki/Snipaste_2025-01-22_14-47-35.webp)
 
 重启虚拟机之后，如果不出意外，iStoreOS 就可以作为主路由来用了。
+
+## 设置 iStoreOS 为旁路由
+
+如果要配置为旁路由，因为 iStoreOS 虚拟机只包含了一个虚拟的网卡，并且 iStoreOS 官方已经支持使用网络向导来配置为旁路由，所以不需要通过命令来修改网络配置，非常方便。
+
+iStoreOS 虚拟机启动后，直接到你的主路由中查找 iStoreOS 的 IP 地址，然后在浏览器中打开这个 IP 地址，登录 iStoreOS 在首页就可以看到 iStoreOS 的网络向导了。
+
+![si1yxa1r.ke0_ncNe0K](https://img.slarker.me/wiki/si1yxa1r.ke0_ncNe0K.png)
+
+点击 `配置为旁路由`。
+
+![BXn4qF_39KVlS](https://img.slarker.me/wiki/BXn4qF_39KVlS.png)
+
+可以直接点 `自动配置`。
+
+![pbi1225x.sig_qD2m9X](https://img.slarker.me/wiki/pbi1225x.sig_qD2m9X.png)
+
+点击 `点此刷新`，会自动刷新当前连接信息，点击 `自动填写`。
+
+![0qsqklj0.le0_yaUwUg](https://img.slarker.me/wiki/0qsqklj0.le0_yaUwUg.png)
+
+如果需要修改旁路由 IP，可以在这里修改，关闭 `提供 DHCPv4 服务`，打开 `开启 NAT`，最后点击 `保存配置`。
+
+![hs35odhz.4ej_49Iqxd](https://img.slarker.me/wiki/hs35odhz.4ej_49Iqxd.png)
+
+到这里旁路由就设置好了。
 
 iStoreOS 的默认用户名/密码：`root/password`。
