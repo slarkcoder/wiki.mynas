@@ -85,7 +85,7 @@ IOMMU 开启成功之后，在飞牛中会显示 `已开启`，最后按提示�
 
 ![](https://img.slarker.me/wiki/Snipaste_2025-01-22_14-12-55.webp)
 
-添加存储空间，分配大小微 4G 的 `SATA` 类型的虚拟硬盘，用来将 img 镜像写入到这个虚拟硬盘里。
+添加存储空间，分配大小为 4G 的 `SATA` 类型的虚拟硬盘，用来将 img 镜像写入到这个虚拟硬盘里。
 
 ![](https://img.slarker.me/wiki/Snipaste_2025-01-21_23-14-52.webp)
 
