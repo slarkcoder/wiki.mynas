@@ -32,7 +32,7 @@ iOS，Android App 都有，并且还有 TV 版（飞牛影视）。
 
 ## fnOS 支持 Docker 和虚拟机吗？
 
-目前公测版支持 Docker，暂不支持虚拟机功能，后续版本会支持。如果想使用虚拟机功能，推荐使用 PVE 来安装 fnOS。
+目前公测版已经支持 Docker 和虚拟机功能。
 
 ## 如果从其他 NAS 系统切换到 fnOS，需要格式化硬盘吗？
 
@@ -40,7 +40,9 @@ iOS，Android App 都有，并且还有 TV 版（飞牛影视）。
 
 ## 如果想要同时使用 iStoreOS 和 fnOS 怎么办？
 
-目前 fnOS 不支持虚拟机，推荐的方案是使用 PVE（iStoreOS + fnOS）。即底层使用 PVE 来作为虚拟化平台，虚拟 iStoreOS 和 fnOS 两个虚拟机。iStoreOS 负责网络，fnOS 负责 NAS 存储。
+推荐的方案是使用 PVE（iStoreOS + fnOS）。即底层使用 PVE 来作为虚拟化平台，虚拟 iStoreOS 和 fnOS 两个虚拟机。iStoreOS 负责网络，fnOS 负责 NAS 存储。
+
+目前 fnOS 已经支持虚拟机，如果你想尝鲜，可以参考教程：[fnOS 虚拟 iStoreOS 软路由](/fnos/istoreos.md)。
 
 ## fnOS 开关机很快吗？
 
