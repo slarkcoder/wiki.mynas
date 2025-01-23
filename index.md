@@ -18,14 +18,23 @@ hero:
       text: 新手上路
       link: /start.md
     - theme: alt
+      text: Compose 模板
+      link: /application/compose.md
+    - theme: alt
       text: fnOS 教程
-      link: /fnos/movie.md
+      link: /fnos/question.md
+    - theme: alt
+      text: iStoreOS 教程
+      link: /istoreos/question.md
+    - theme: alt
+      text: Synology 教程
+      link: /synology/emby_decode.md
     - theme: alt
       text: Unraid 教程
       link: /unraid/array.md
     - theme: alt
-      text: 经验分享
-      link: /basic/docker_mirrors.md
+      text: PVE 教程
+      link: /pve/basic.md
 
 features:
   - icon:
