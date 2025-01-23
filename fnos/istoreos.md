@@ -130,46 +130,4 @@ IOMMU 开启成功之后，在飞牛中会显示 `已开启`，最后按提示�
 
 ![](https://img.slarker.me/wiki/Snipaste_2025-01-22_14-19-25.webp)
 
-## 设置 iStoreOS 为主路由
-
-使用命令编辑 iStoreOS 网络配置文件。
-
-```sh
-vi /etc/config/network
-```
-
-输入 `i` 进入编辑模式，按下图所示修改，修改完成之后按 `ESC` 退出编辑，输入 `:wq` 保存并退出。
-
-下面这张图展示了如何设置为主路由：
-
-![](https://img.slarker.me/wiki/Snipaste_2025-01-22_14-47-35.webp)
-
-重启虚拟机之后，如果不出意外，iStoreOS 就可以作为主路由来用了。
-
-## 设置 iStoreOS 为旁路由
-
-如果要配置为旁路由，因为 iStoreOS 虚拟机只包含了一个虚拟的网卡，并且 iStoreOS 官方已经支持使用网络向导来配置为旁路由，所以不需要通过命令来修改网络配置，非常方便。
-
-iStoreOS 虚拟机启动后，直接到你的主路由中查找 iStoreOS 的 IP 地址，然后在浏览器中打开这个 IP 地址，登录 iStoreOS 在首页就可以看到 iStoreOS 的网络向导了。
-
-![si1yxa1r.ke0_ncNe0K](https://img.slarker.me/wiki/si1yxa1r.ke0_ncNe0K.png)
-
-点击 `配置为旁路由`。
-
-![BXn4qF_39KVlS](https://img.slarker.me/wiki/BXn4qF_39KVlS.png)
-
-可以直接点 `自动配置`。
-
-![pbi1225x.sig_qD2m9X](https://img.slarker.me/wiki/pbi1225x.sig_qD2m9X.png)
-
-点击 `点此刷新`，会自动刷新当前连接信息，点击 `自动填写`。
-
-![0qsqklj0.le0_yaUwUg](https://img.slarker.me/wiki/0qsqklj0.le0_yaUwUg.png)
-
-如果需要修改旁路由 IP，可以在这里修改，关闭 `提供 DHCPv4 服务`，打开 `开启 NAT`，最后点击 `保存配置`。
-
-![hs35odhz.4ej_49Iqxd](https://img.slarker.me/wiki/hs35odhz.4ej_49Iqxd.png)
-
-到这里旁路由就设置好了。
-
-iStoreOS 的默认用户名/密码：`root/password`。
+后续 iStoreOS 路由模式设置可以参考这里：[iStoreOS 路由模式设置](/istoreos/route_setting.md)。

@@ -132,6 +132,14 @@ export default defineConfig({
         ]
       },
       {
+        text: 'iStoreOS 教程',
+        collapsed: true,
+        items: [
+          { text: 'iStoreOS 常见问题', link: '/istoreos/question.md' },
+          { text: 'iStoreOS 路由模式设置', link: '/istoreos/route_setting.md' },
+        ]
+      },
+      {
         text: 'Unraid 教程',
         collapsed: true,
         items: [

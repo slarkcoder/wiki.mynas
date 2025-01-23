@@ -66,36 +66,4 @@ qm importdisk 104 /var/lib/vz/template/iso/istoreos.img local
 
 ![](https://img.slarker.me/wiki/8571128ecf3e46ca8ed9252d424d1e2d.webp)
 
-之后启动 iStoreOSTest 虚拟机，在你的主路由中查找名为 `iStoreOS` 的设备，使用浏览器打开该 IP。默认用户名/密码：root/password。
-
-![](https://img.slarker.me/wiki/9290b8f0f115411b9ad3bc64d8547c4c.webp)
-
-登录后点击首页的 `网络向导`，点击 `配置为旁路由`。
-
-![](https://img.slarker.me/wiki/91eaaa3983d54718863a6b066bf2d5f0.webp)
-
-点击 `自动配置`。
-
-![](https://img.slarker.me/wiki/af0a4c21344249e1ba2b955feeea252b.webp)
-
-点击灰色的 `当前 IPV4 上游信息（点此刷新）`，会自动从主路由获取相关信息，之后点击 `自动填写`。
-
-![](https://img.slarker.me/wiki/64dc189c740643429d96f06cabbfa21f.webp)
-
-确认 IP 地址，网关地址，DNS 服务器都正常，关闭 `提供 DHCPv4 服务`，打开 `开启 NAT`，点击 `保存配置`。
-
-![](https://img.slarker.me/wiki/996fd5f265c14649bd4d9f61020236b1.webp)
-
-到这里就配置成功了，点击 `进入控制台`。
-
-![](https://img.slarker.me/wiki/0b9ea5d43fde42f4b2c05869f302d917.webp)
-
-## 使用旁路由
-
-上面创建的 iStoreOSTest 旁路由的 IP 为 `192.168.2.186`。以 fnOS 为例，设置 fnOS 通过旁路由上网。
-
-在 fnOS 的 `网络设置` 中，手动设置 `IPv4` 为静态 IP，并将 `网关地址` 和 `DNS` 设置为 `旁路由的 IP`。
-
-![](https://img.slarker.me/wiki/1536e93bc814445bb9fcc05719cb1ff6.webp)
-
-
+之后启动 iStoreOSTest 虚拟机，后续设置过程请参考：[iStoreOS 路由模式设置](/istoreos/route_setting.md)。
