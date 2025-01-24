@@ -18,11 +18,11 @@ hero:
       text: 新手上路
       link: /start.md
     - theme: alt
-      text: Compose 模板
-      link: /application/compose.md
-    - theme: alt
       text: fnOS 教程
       link: /fnos/question.md
+    - theme: alt
+      text: Compose 模板
+      link: /application/compose.md
     - theme: alt
       text: iStoreOS 教程
       link: /istoreos/question.md
@@ -35,6 +35,7 @@ hero:
     - theme: alt
       text: PVE 教程
       link: /pve/basic.md
+
 
 features:
   - icon:
