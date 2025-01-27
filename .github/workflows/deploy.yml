@@ -1,0 +1,28 @@
+name: Deploy Static Site
+
+on:
+  push:
+    branches:
+      - main  # 只在 main 分支 push 时触发
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, linux]
+
+    steps:
+      # 1. 拉取代码
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 2. 将代码推送到服务器（通过 SSH + rsync）
+      - name: Deploy to server via SSH
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}  # SSH 私钥
+          SERVER_IP: ${{ secrets.SERVER_IP }}  # 服务器 IP
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}  # 服务器部署路径
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H $SERVER_IP >> ~/.ssh/known_hosts
+          rsync -avz --delete ./ user@$SERVER_IP:$DEPLOY_PATH
