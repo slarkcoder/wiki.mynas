@@ -25,4 +25,4 @@ jobs:
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -H $SERVER_IP >> ~/.ssh/known_hosts
-          rsync -avz --delete ./ user@$SERVER_IP:$DEPLOY_PATH
+          rsync -avz --delete ./ root@$SERVER_IP:$DEPLOY_PATH
