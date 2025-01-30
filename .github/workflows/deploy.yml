@@ -15,11 +15,24 @@ jobs:
         uses: actions/checkout@v3
 
       # 2. 将代码推送到服务器（通过 SSH + rsync）
-      - name: Deploy to server via SSH
+      - name: Deploy to HuaweiCloud via SSH
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}  # SSH 私钥
-          SERVER_IP: ${{ secrets.SERVER_IP }}  # 服务器 IP
-          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}  # 服务器部署路径
+          SERVER_IP: ${{ secrets.HUAWEICLOUD_SERVER_IP }}  # 服务器 IP
+          DEPLOY_PATH: ${{ secrets.SLARKER_DEPLOY_PATH }}  # 服务器部署路径
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H $SERVER_IP >> ~/.ssh/known_hosts
+          rsync -avz --delete ./ root@$SERVER_IP:$DEPLOY_PATH
+      
+      # 3. 将代码推送到服务器（通过 SSH + rsync）
+      - name: Deploy to BandwagonHost_SERVER_IP via SSH
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}  # SSH 私钥
+          SERVER_IP: ${{ secrets.BANDWAGONHOST_SERVER_IP }}  # 服务器 IP
+          DEPLOY_PATH: ${{ secrets.MYNAS_DEPLOY_PATH }}  # 服务器部署路径
         run: |
           mkdir -p ~/.ssh
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
