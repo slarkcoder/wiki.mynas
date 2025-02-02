@@ -41,17 +41,7 @@ fnOS 的 [帮助中心](https://help.fnnas.com/) 教程也比较详细。
 
 ## AI 助手
 
-有时候懒得搜的话，也可以直接问问 AI。
-
-国内可以直接试试 [Kimi](https://kimi.moonshot.cn)。
-
-下面是一些使用 Kimi 来解决群友提问的例子：
-
-![mRUHMe_buvePN](https://img.slarker.me/wiki/mRUHMe_buvePN.png)
-
-![WechatIMG5165_aZ4yFo](https://img.slarker.me/wiki/WechatIMG5165_aZ4yFo.jpg)
-
-![WechatIMG5404_uCwgly](https://img.slarker.me/wiki/WechatIMG5404_uCwgly.jpg)
+善用 AI 能帮你解决绝大部分常见问题。强烈推荐国内的开源大模型 [DeepSeek](https://chat.deepseek.com/)！
 
 ## 本站的搜索功能
 
