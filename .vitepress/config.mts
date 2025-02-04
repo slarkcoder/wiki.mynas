@@ -116,6 +116,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'fnOS 常见问题解答', link: '/fnos/question.md' },
+          { text: '查找 fnOS 设备', link: '/fnos/find_fnos.md' },
           { text: '使用 SSH 登录', link: '/fnos/ssh.md' },
           { text: '常用的下载工具', link: '/fnos/download.md' },
           { text: '下载网盘资源到 NAS', link: '/fnos/aria2.md' },
