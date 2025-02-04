@@ -132,6 +132,27 @@ ovs-vsctl add-port ovs_eth0 eth2
 
 可以重启系统测试下是否 OK。
 
+## fnOS
+
+fnOS 设置交换机模式和群晖的思路基本一样，但是操作更简单。
+
+以板载双 2.5G 网口的 N100 主板为例，在 `网络设置` 中打开当前连接到路由器的网口（enp2s0）的 OVS 开关（打开虚拟交换机 OVS）。
+
+![](https://img.slarker.me/wiki/20250204223018405.webp)
+
+于是 `网口 1` 就由 `enp2s0` 变成了 `enp2s0-ovs`，之后 [使用 SSH 登录](/fnos/ssh.md) fnOS，并切换到 `root` 用户。使用 `ovs-vsctl` 命令，将另一个网口 `enp3s0` 添加到 `enp2s0-ovs` 就可以了，非常简单！
+
+```sh
+# 查看网口配置
+ifconfig
+# 将 enp3s0 添加到 enp2s0-ovs
+ovs-vsctl add-port enp2s0-ovs enp3s0
+# 查看虚拟交换机
+ovs-vsctl show
+```
+
+![](https://img.slarker.me/wiki/20250204223740447.webp)
+
 ## Unraid
 
 Unraid 的设置方法比较简单，默认情况下，Unraid 会将所有网口都绑定到 eth0 接口：
