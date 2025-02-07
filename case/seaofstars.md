@@ -1,5 +1,17 @@
 # 星之海机箱
 
+## 小熊座 - 4 盘位
+
+小巧精致的 4 盘位机箱，外观比樊隆的好看多了，价格也比较合适。但整体材质做工感觉不如樊隆，优点是可以用 SFX 电源，空间利用率挺不错，支持 12cm 的机箱风扇。参考价：￥299（不含机箱风扇）
+
+![](https://img.slarker.me/wiki/tb_image_share_1738937343586.jpg.webp)
+
+![](https://img.slarker.me/wiki/tb_image_share_1738937358158.jpg.webp)
+
+![](https://img.slarker.me/wiki/tb_image_share_1738937386149.jpg.webp)
+
+![](https://img.slarker.me/wiki/tb_image_share_1738937370120.jpg.webp)
+
 ## 天蝎座 - 4 盘位
 
 外观看起来是像是御夫座的缩小版，设计布局又和乔思伯 N2 差不多，体积控制的不错，4 盘位又多了一个选择！竟然能装一个 19*19 的主板，可以支持两个 PCIE，不过这个尺寸的 MATX 主板比较少。参考价：￥459（不含机箱风扇）
