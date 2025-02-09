@@ -1,8 +1,8 @@
 # 闲鱼小铺
 
-如果你想要定制 NAS，可以使用闲鱼 App 扫码，或者使用闲鱼 App 直接搜索 `islarker`，到我的鱼小铺查看现有的配置。
+如果你想要定制 NAS，可以使用闲鱼 App 扫码，或者使用闲鱼 App 直接搜索 `用户` - `一起玩nas`，到我的鱼小铺查看现有的配置。
 
-![](https://img.slarker.me/wiki/view-1739091335.png.webp)
+![](https://img.slarker.me/wiki/view-1739091332.png.webp)
 
 ## 微信
 
