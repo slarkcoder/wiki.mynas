@@ -8,8 +8,7 @@
 
 ## 云服务
 
-为了保证 `可用性` 及 `访问速度`，本网站的静态站点同时存储在 [腾讯云](https://cloud.tencent.com/) 香港数据中心和 [Vultr](https://www.vultr.com/?ref=6914476
-) 韩国数据中心。你可以选择可用性最高的节点或者速度最快的节点进行访问。
+为了保证 `可用性` 及 `访问速度`，本网站的静态站点同时存储在 [华为云](https://www.huaweicloud.com) 香港数据中心和 [搬瓦工](https://bandwagonhost.com/aff.php?aff=19637) 美国数据中心。你可以选择可用性最高的节点或者速度最快的节点进行访问。
 
-- 腾讯云：https://wiki.slarker.me
-- Vultr：https://wiki.mynas.chat
+- 主站（华为云）：https://wiki.slarker.me
+- 镜像（搬瓦工）：https://wiki.mynas.chat
