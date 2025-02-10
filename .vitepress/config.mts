@@ -34,6 +34,7 @@ export default defineConfig({
       },
       { text: '提交需求', link: 'https://jinshuju.net/f/qGaDq1' },
       { text: '交流群组', link: '/contact.md' },
+      { text: 'VPS 推荐', link: '/vps.md' },
       {
         text: '关于',
         items: [
