@@ -34,7 +34,7 @@ Bitwarden 默认并不需要设置 ADMIN_TOKEN，如果你也想通过 Admin 来
 
 ![SKXCQl_zQwpf8](https://img.slarker.me/wiki/SKXCQl_zQwpf8.png)
 
-对于有公网 IP 的朋友，可以申请域名配合  [Nginx Proxy Manager](https://nginxproxymanager.com/) 来为 Bitwarden 添加 HTTPS 证书。
+对于有公网 IP 的朋友，可以申请域名配合  [Lucky](https://github.com/gdy666/lucky) 来为 Bitwarden 添加 HTTPS 证书。
 
 对于没有公网 IP 的朋友，可以直接使用我部署好的 Bitwarden 服务。如果你有需要，可以直接点击右上角的联系我，添加微信私聊。
 
@@ -76,8 +76,21 @@ Bitwarden 有浏览器插件（支持 Chrome，Safari，Edge 等主流浏览器�
 
 ## 两步验证
 
-为了确保安全，请尽可能使用 `验证器 App` 开启两步登录验证（Google Authenticator），并记下你的 `恢复代码`。
+两步验证能增强你的账号安全性，如果你开启了两步验证，在新设备上登录你的账户时，会要求你额外输入两步验证 App 实时生成的两步验证码。
+
+为了确保安全，请尽可能使用 `验证器 App` 开启两步登录验证，并妥善保管好或者单独记下你的 `恢复代码`。
 
 ![](https://img.slarker.me/wiki/bb9ca895622d484e839efbeed2151f3c.png)
 
-`验证器 App` 推荐使用：微软的 Authenticator（国内应用市场可以直接下载），Google Authenticator，[Authenticator Pro](https://stratumauth.com/)（Android、开源）
+`验证器 App` 推荐使用：
+
+- 微软的 Authenticator（国内应用市场可以直接下载）
+- Google Authenticator
+- [Authenticator Pro](https://stratumauth.com/)（Android、开源）
+
+:::info 提示
+如果你已经开启了两步验证，请尽可能使用下面的办法备份你的两步验证信息：
+
+- 如果你有闲置手机，你可以在多台手机上同时安装两步验证 App，并通过备份导入或者在线账户同步的方式，来确保在极端情况（主力手机丢失）下两步验证依然可用。
+- 将两步验证的 `恢复代码` 手写/打印到纸上，妥善保管。
+:::
