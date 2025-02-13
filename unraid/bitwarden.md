@@ -40,7 +40,13 @@ Bitwarden 默认并不需要设置 ADMIN_TOKEN，如果你也想通过 Admin 来
 
 ## 客户端设置
 
-Bitwarden 有浏览器插件，Windows、macOS、Android、iOS 客户端，使用自建的 Bitwarden 服务需要填写托管的 `服务器 URL` 地址，以及注册的 `用户名`、`密码` 就可以登录。
+:::info 提示
+为了便于更新到最新版，Android 用户请尽量通过 `Google Play` 安装 Bitwarden。
+:::
+
+Bitwarden 有浏览器插件（支持 Chrome，Safari，Edge 等主流浏览器），Windows、macOS、Android、iOS 客户端。
+
+使用自建的 Bitwarden 服务需要填写托管的 `服务器 URL` 地址，以及注册的 `用户名`、`密码` 就可以登录。
 
 如下图所示，选择登录到 `自托管`：
 
@@ -74,4 +80,4 @@ Bitwarden 有浏览器插件，Windows、macOS、Android、iOS 客户端，使�
 
 ![](https://img.slarker.me/wiki/bb9ca895622d484e839efbeed2151f3c.png)
 
-`验证器 App` 推荐使用：Microsoft Authenticator，Google Authenticator，[Authenticator Pro](https://stratumauth.com/)（Android、开源）
+`验证器 App` 推荐使用：微软的 Authenticator（国内应用市场可以直接下载），Google Authenticator，[Authenticator Pro](https://stratumauth.com/)（Android、开源）
