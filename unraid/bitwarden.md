@@ -36,7 +36,7 @@ Bitwarden 默认并不需要设置 ADMIN_TOKEN，如果你也想通过 Admin 来
 
 对于有公网 IP 的朋友，可以申请域名配合  [Lucky](https://github.com/gdy666/lucky) 来为 Bitwarden 添加 HTTPS 证书。
 
-对于没有公网 IP 的朋友，可以直接使用我部署好的 Bitwarden 服务。如果你有需要，可以直接点击右上角的联系我，添加微信私聊。
+对于没有公网 IP 的朋友，可以直接使用我部署好的 Bitwarden 服务。如果你有需要，可以直接点击右上角的联系我，添加 `微信` 私聊。
 
 ## 客户端设置
 

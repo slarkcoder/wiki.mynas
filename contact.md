@@ -37,7 +37,7 @@
 - 一起玩 NAS! ② 群（已满）
 - 一起玩 NAS! ③ 群（可加入）
 
-![](https://img.slarker.me/wiki/mmqrcode1738849443341.webp)
+![](https://img.slarker.me/wiki/mmqrcode1739517014531.webp)
 
 <!-- ![1725111191580_SwBRUu](https://img.slarker.me/wiki/1725111191580_SwBRUu.png) -->
 
