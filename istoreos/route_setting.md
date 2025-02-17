@@ -23,6 +23,10 @@ vi /etc/config/network
 
 重启虚拟机之后，如果不出意外，iStoreOS 就可以作为主路由来用了。
 
+设置为主路由之后，推荐使用下面的网络拓扑来规划你的网络：
+
+![](https://img.slarker.me/wiki/istoreos.drawio.webp)
+
 ## 设置 iStoreOS 为旁路由
 
 如果你的 iStoreOS 虚拟机只有一个网卡，那么 iStoreOS 在启动的时候会自动从主路由获取 IP，iStoreOS 官方已经支持使用网络向导来配置为旁路由，所以不需要通过命令来修改网络配置，非常方便。
