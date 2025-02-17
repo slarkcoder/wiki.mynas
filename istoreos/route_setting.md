@@ -25,7 +25,7 @@ vi /etc/config/network
 
 设置为主路由之后，推荐使用下面的网络拓扑来规划你的网络：
 
-![](https://img.slarker.me/wiki/istoreos.drawio.webp)
+![](https://img.slarker.me/wiki/istoreos.drawio2.drawio.webp)
 
 ## 设置 iStoreOS 为旁路由
 
