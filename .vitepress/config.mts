@@ -86,6 +86,7 @@ export default defineConfig({
           { text: '常见问题解答', link: '/basic/question.md' },
           { text: '家庭组网的几个建议', link: '/basic/network.md' },
           { text: '常见的远程访问方案', link: '/basic/remote.md' },
+          { text: '远程访问 - 比扬云 SD-WAN 组网', link: '/basic/beyondnetowork.md' },
           { text: '远程访问需要的上行带宽', link: '/basic/bandwidth.md' },
           // { text: 'NAS 系统该怎么选？', link: '/basic/os.md' },
           { text: '如何确保数据安全？', link: '/basic/data_safe.md' },
