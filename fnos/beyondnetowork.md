@@ -1,4 +1,4 @@
-# 远程访问 - 比扬云 SD-WAN 组网
+# 远程访问 fnOS - 比扬云 SD-WAN 组网
 
 [比扬云 SD-WAN 组网](https://dash.beyondnetwork.net/) 是一个虚拟组网工具，和星空组网以及国外的 zerotier，tailscale 类似，可以将你分散在各地的设备连接起来，组成一个虚拟的网络，便于远程访问。
 

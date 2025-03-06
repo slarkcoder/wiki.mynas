@@ -1,4 +1,4 @@
-# 方便、安全远程访问 fnOS - Tailscale
+# 远程访问 fnOS - Tailscale
 
 ![](https://img.slarker.me/wiki/202409112116836.jpg)
 
