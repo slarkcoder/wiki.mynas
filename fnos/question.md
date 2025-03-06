@@ -28,7 +28,7 @@ iOS，Android App 都有，并且还有 TV 版（飞牛影视）。
 
 ## fnOS 可以远程访问吗？
 
-可以远程，自带 FN Connect（类似于群晖 QC），操作简单，使用方便，对小白很友好。但官方的服务器资源也有限，会限制速度。推荐尝试使用公网 IPv4、IPv6，或者[比扬云 SD-WAN 组网](/basic/beyondnetowork.md)、zerotier、tailscale 等方案。
+可以远程，自带 FN Connect（类似于群晖 QC），操作简单，使用方便，对小白很友好。但官方的服务器资源也有限，会限制速度。推荐尝试使用公网 IPv4、IPv6，或者[比扬云 SD-WAN 组网](/fnos/beyondnetowork.md)、zerotier、tailscale 等方案。
 
 ## fnOS 支持 Docker 和虚拟机吗？
 

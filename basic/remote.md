@@ -30,7 +30,7 @@
 
 目前比扬云的连接速度能跑满带宽，基于虚拟 VPN 的方式也比较安全，可以说是 zerotier，tailscale 等国外虚拟组网产品的最佳国产替代。
 
-具体可以参考教程：[远程访问 - 比扬云 SD-WAN 组网](/basic/beyondnetowork.md)。
+具体可以参考教程：[远程访问 - 比扬云 SD-WAN 组网](/fnos/beyondnetowork.md)。
 
 ## 值得试试 - Zerotier
 
