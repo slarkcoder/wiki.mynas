@@ -10,6 +10,7 @@
 
 -  [混合盘](https://hunhepan.com/search?q=&type=&time=&exact=false&page=1&uid=0)
 -  [SearchSearchGo](https://ssgo.app/)
+- [AIPAN](https://www.aipan.me/)
 
 ![axiqg3f2.leq_Z4aiEv](https://img.slarker.me/wiki/axiqg3f2.leq_Z4aiEv.png)
 
@@ -17,15 +18,20 @@
 
 用 Telegram 的朋友可以试试这个办法。我在这里简单说下，方法很简单，就是加一些分享资源的 Channel，然后通过 Telegram 的消息搜索功能直接搜资源名字即可。这个方法对于时效性比较强的资源非常有用，基本上当天更新的资源，过几个小时就能搜到。
 
-- [Telegram: Contact @aliyunys](https://t.me/aliyunys)
-- [Telegram: Contact @aliyundriveShare](https://t.me/aliyundriveShare)
-- [Telegram: Contact @shareAliyun](https://t.me/shareAliyun)
-- [Telegram: Contact @Quark\_Share\_Channel](https://t.me/Quark_Share_Channel)
-- [Telegram: Contact @yunpanshare](https://t.me/yunpanshare)
-- [Telegram: Contact @yunpanpan](https://t.me/yunpanpan)
-- [Telegram: Contact @aliyunshares](https://t.me/aliyunshares)
-- [Telegram: Contact @chxyy2019](https://t.me/chxyy2019)
-- [Telegram: Contact @hao115](https://t.me/hao115)
+- [阿里、夸克、百度等网盘4K影视资源](https://t.me/Aliyun_4K_Movies)
+- [阿里云盘影视大全](https://t.me/aliyunys)
+- [阿里云盘资源交流群](https://t.me/aliyundriveShare)
+- [阿里云盘发布频道](https://t.me/shareAliyun)
+- [网盘资源收藏(夸克)](https://t.me/yunpanshare)
+- [夸克云盘综合资源](https://t.me/Quark_Movies)
+- [网盘资源(电影)频道](https://t.me/alyp_4K_Movies)
+- [网盘资源(动画/动漫)频道](https://t.me/alyp_Animation)
+- [网盘资源(纪录片)频道](https://t.me/alyp_JLP)
+- [阿里网盘 云盘盘](https://t.me/yunpanpan)
+- [阿里云盘资源搜索](https://t.me/aliyunshares)
+- [百度云 网盘 资源共享](https://t.me/chxyy2019)
+- [115网盘资源分享频道](https://t.me/hao115)
+- [PikPak 磁链资源分享](https://t.me/PikPak_Share_Channel)
 
 ![tg_HQUuHq](https://img.slarker.me/wiki/tg_HQUuHq.jpg)
 
@@ -53,11 +59,10 @@ Alist 同样支持挂载 PikPak！
 - [不太灵影视](https://www.6bt0.com/)
 - [EZTV](https://eztvx.to/home)
 - [The Pirate Bay](https://thepiratebay.org/)
-- [哔嘀影视](https://www.52bdys.com/)
+- [哔嘀影视](https://www.bidiys.cc/)
 - [布谷TV](https://www.bugutv.org/)
 - [迷客电影](https://www.mini4k.com/)
 - [仓库](https://www.cangkus.com/)
-- [牛牛美剧](https://www.nnmeiju.com/)
 
 ## 电子书
 
