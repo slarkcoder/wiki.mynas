@@ -213,7 +213,7 @@ export default defineConfig({
           { text: '虚拟 HomeAssistantOS', link: '/pve/haos.md' },
           { text: '重装系统', link: '/pve/reset.md' },
           { text: 'PVE 如何添加 PCIe 设备？', link: '/pve/pcie.md' },
-          
+          { text: '使用 LXC 容器安装 qBittorrent', link: '/pve/lxc.md' }, 
         ]
       },
       {
