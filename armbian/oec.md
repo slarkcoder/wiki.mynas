@@ -53,7 +53,7 @@
 
 如果你也想搞一台网心云 OEC 玩玩，又嫌刷机麻烦，我这里也有刷好 Armbian 的机器。如果你愿意支持我，可以直接到我的闲鱼下单。
 
-![](https://img.slarker.me/wiki/Snipaste_2025-03-18_22-58-37.webp)
+Turbo 版，带电源，网线，刷好 Armbian，全套 ¥129 包邮。
 
-Turbo 版，带电源，网线，全套 ¥129 包邮。
+![](https://img.slarker.me/wiki/Snipaste_2025-03-18_22-58-37.webp)
 
