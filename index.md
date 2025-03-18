@@ -35,6 +35,9 @@ hero:
     - theme: alt
       text: PVE 教程
       link: /pve/basic.md
+    - theme: alt
+      text: Armbian 教程
+      link: /armbian/start.md
 
 
 features:
