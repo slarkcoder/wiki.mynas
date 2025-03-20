@@ -6,14 +6,6 @@ Armbian 设备一般自带的 EMMC 空间都比较有限，装完系统后，留
 本文所介绍的方法，仅适合在未安装任何 Docker 应用的时候修改默认存储路径。
 :::
 
-## 创建新的 Docker 文件夹
-
-在大容量的存储设备上创建一个新的 Docker 文件夹。
-
-```sh
-mkdir -p /mnt/disk/docker
-```
-
 ## Docker 默认路径
 
 Docker 的默认存储路径为 `/var/lib/docker`，使用下面的命令可以看到：
@@ -23,6 +15,14 @@ docker info
 ```
 
 ![](https://img.slarker.me/wiki/20250320150524765.webp)
+
+## 创建新的 Docker 文件夹
+
+在大容量的存储设备上创建一个新的 Docker 文件夹。
+
+```sh
+mkdir -p /mnt/disk/docker
+```
 
 ## 修改 Docker 配置文件
 
