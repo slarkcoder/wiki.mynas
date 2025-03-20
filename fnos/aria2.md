@@ -4,6 +4,8 @@
 
 本篇教程以 fnOS 为例，介绍如何将网盘里的资源下载到 NAS。
 
+> 如何找资源，可以看这里：[搜索资源的奇技淫巧](/resource/search.md)。
+
 ## 安装 Alist 和 Aria2
 
 > Aria2 是一个轻量级的下载程序，可以下载各种格式的文件，支持断点续传，支持多线程下载。Aria2 本身是一个命令行工具，但是可以通过 RPC 接口来控制下载任务。通常和一个 Web 前端应用配合使用，比较流行的是 [AriaNg](https://github.com/mayswind/AriaNg/)。
