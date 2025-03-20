@@ -223,8 +223,9 @@ export default defineConfig({
           { text: '网心云 OEC', link: '/armbian/oec.md' },
           { text: 'Armbian 系统开荒', link: '/armbian/start.md' }, 
           { text: '挂载磁盘', link: '/armbian/mount_disk.md' }, 
+          { text: '修改 Docker 默认存储路径', link: '/armbian/docker.md' }, 
           { text: '设置共享服务', link: '/armbian/share.md' }, 
-          { text: '使用 1Panel 安装 Docker 应用', link: '/armbian/docker.md' }, 
+          { text: '使用 1Panel 安装 Docker 应用', link: '/armbian/1panel.md' }, 
         ]
       },
       {

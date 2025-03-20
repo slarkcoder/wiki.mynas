@@ -1,46 +1,46 @@
-# 使用 1Panel 安装 Docker 应用
+# 修改 Docker 默认存储路径
 
-在 1Panel 的容器中，使用 Compose 安装 docker，下面以安装 Alist 为例：
+Armbian 设备一般自带的 EMMC 空间都比较有限，装完系统后，留给 Docker 的可用空间就不多了。所以在安装好 Docker 引擎，挂载完大容量存储设备之后，尽量先把 Docker 的默认存储位置修改为大容量的存储设备上，避免后续由于空间不够出问题。
 
-![](https://img.slarker.me/wiki/20250318180035431.webp)
+:::warning 提示
+本文所介绍的方法，仅适合在未安装任何 Docker 应用的时候修改默认存储路径。
+:::
 
-在 `容器` -> `编排` 中 `创建编排`，填写 compose `文件夹` 名称和 `yml` 配置：
+## Docker 默认路径
 
-![](https://img.slarker.me/wiki/20250318180434525.webp)
+Docker 的默认存储路径为 `/var/lib/docker`，使用下面的命令可以看到：
 
-将 Armbian 中的下载文件夹 `/mnt/disk/downloads` 映射到容器的 `/mnt/downloads`：
-
-```yml
-name: alist
-services:
-  alist:
-    restart: always
-    volumes:
-      - ./data:/opt/alist/data
-      - /mnt/disk/downloads:/mnt/downloads #映射自己的路径
-    ports:
-      - '5244:5244'
-      - '5245:5245'
-    environment:
-      - PUID=0
-      - PGID=0
-      - UMASK=022
-      - TZ=Asia/Shanghai
-    container_name: alist
-    image: xhofe/alist:latest
-
-  watchtower:
-    image: containrrr/watchtower
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-    command: --interval 86400 --cleanup --remove-volumes
-    environment:
-      - WATCHTOWER_CLEANUP=true
-      - WATCHTOWER_REMOVE_VOLUMES=true
+```sh
+docker info
 ```
 
-编辑完之后，点击 `确认`，就会自动拉取镜像，创建好 docker 应用了。
+![](https://img.slarker.me/wiki/20250320150524765.webp)
 
-Alist 的默认用户名：admin，默认密码在日志中查看：
+## 修改 Docker 配置文件
 
-![](https://img.slarker.me/wiki/20250318180752670.webp)
+使用 1Panel 自带的文本编辑器，或者 nano 命令编辑配置文件：
+
+```yml
+nano /usr/lib/systemd/system/docker.service
+```
+
+修改 `Service` 中的 ExecStart 参数：
+
+```yml
+# 添加 --data-root /mnt/disk/docker 参数
+# /mnt/disk/docker 就是位于你的大容量磁盘上的 docker 路径
+ExecStart=/usr/bin/dockerd --data-root /mnt/disk/docker -H fd:// --containerd=/run/containerd/containerd.sock
+```
+
+![](https://img.slarker.me/wiki/20250320152614490.webp)
+
+保存之后，重启服务：
+
+```sh
+systemctl daemon-reload
+systemctl start docker
+```
+
+之后再使用 `docker info` 重新查看默认路径，可以看到已经 OK 了。
+
+![](https://img.slarker.me/wiki/20250320153146296.webp)
