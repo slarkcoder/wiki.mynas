@@ -16,6 +16,12 @@
 - 机械硬盘正常温度：5~55℃，理想状态温度：30~45℃
 - SSD 正常温度：0~70℃，理想状态温度： 40~50℃
 
+## fnOS
+
+fnOS 在 `系统设置` -> `硬盘信息` 中可以看到硬盘温度。
+
+![](https://img.slarker.me/wiki/20250320133543917.webp)
+
 ## Unraid
 
 在 Unraid 中，可以通过 `Dynamix System Temperature` 插件来显示 CPU 温度、主板温度。
