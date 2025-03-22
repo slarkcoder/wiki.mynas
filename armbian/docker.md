@@ -46,7 +46,7 @@ ExecStart=/usr/bin/dockerd --data-root /mnt/disk/docker -H fd:// --containerd=/r
 
 ```sh
 systemctl daemon-reload
-systemctl start docker
+systemctl restart docker
 ```
 
 之后再使用 `docker info` 重新查看默认路径，可以看到已经 OK 了。
