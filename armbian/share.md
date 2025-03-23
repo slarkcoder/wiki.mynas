@@ -30,9 +30,9 @@ nano /etc/samba/smb.conf
 
 ```yml
 [armbian_share]
-comment = armbian_share #共享名称
-path = /mnt/disk/downloads #共享路径
-writable = yes #可以写入
+comment = armbian_share
+path = /mnt/disk/downloads
+writable = yes
 ```
 
 编辑完成，按 `Ctrl+X`，输入 `Y` 回车保存退出。
