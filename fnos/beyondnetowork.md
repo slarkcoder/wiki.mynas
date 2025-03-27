@@ -1,21 +1,7 @@
 # 远程访问 fnOS - 比扬云 SD-WAN 组网
 
-:::warning 来自飞牛官方的提示
-目前安装比扬云后会修改 `/etc/hosts` 文件，还会启动 `iptables` 刷一些规则，导致 fnOS 连接 postgres 会有异常。出现 `FNID` 无法保存、`DDNS` 域名为空的情况。目前不建议现在的系统版本进行安装，后续使用建议等待官方兼容的通知。
-
-目前需要使用 `FNID` 及 `DDNS` 的恢复办法：
-
-1.安装比杨云后出现数据库连接不正常,可以执行以下命令：
-
-`iptables -t nat -F​`
-
-清理掉规则 (但有可能造成比杨云无法正常使用)
-
-2.单独执行以下命令，删除规则：
-
-`iptables -t nat -D POSTROUTING -s 0.0.0.0/0 -j MASQUERADE`
-
-删除这条规则
+:::info 提示
+目前比扬云已上架飞牛应用市场，推荐直接通过应用市场安装。
 :::
 
 [比扬云 SD-WAN 组网](https://dash.beyondnetwork.net/) 是一个虚拟组网工具，和星空组网以及国外的 zerotier，tailscale 类似，可以将你分散在各地的设备连接起来，组成一个虚拟的网络，便于远程访问。
