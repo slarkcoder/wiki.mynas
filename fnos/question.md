@@ -62,7 +62,7 @@ fnOS 基于 Debian 开发，兼容性很好。实测在华擎 N3150 这种较老
 
 ## fnOS 是否支持无线网卡？
 
-目前支持部分无线网卡，但没有一个详细的支持列表，可以看官方 [说明](https://help.fnnas.com/articles/fnosV1/settings/wifi.md)。
+目前支持部分无线网卡，可以看官方 [说明](https://help.fnnas.com/articles/fnosV1/settings/wifi.md)，[无线网卡支持列表](https://club.fnnas.com/forum.php?mod=viewthread&tid=18173&highlight=)。
 
 ## fnOS 多网口设备可以作为交换机使用吗？
 
