@@ -40,30 +40,7 @@
 
 ![](https://img.slarker.me/wiki/20250306145915091.webp)
 
-在飞牛中使用下面的 compose 配置来安装 docker 应用：
-
-:::info 提示
-请把 xxxx 替换为自己的 `站点标识`
-:::
-
-```yml
-name: beyondnetwork
-services:
-    edge:
-        container_name: beyondnetwork_edge
-        privileged: true
-        network_mode: host
-        restart: always
-        dns:
-            - 8.8.8.8
-            - 114.114.114.114
-        environment:
-        # 请把 xxxx 替换为自己的 站点标识
-            - EDGE_KEY=xxxx
-        image: registry.cn-shenzhen.aliyuncs.com/beyondnetwork/edge
-```
-
-Compose 安装完成之后，可以在控制台里看到状态变成了 `在线`。
+在飞牛的应用市场中安装 `比扬云`，安装过程中会提示填写 `EDGE_KEY`，将上面的站点标识填写到 `EDGE_KEY` 里，安装完成之后，可以在控制台里看到状态变成了 `在线`。
 
 ## 员工账号
 
