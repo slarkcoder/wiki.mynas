@@ -40,7 +40,7 @@ iOS，Android App 都有，并且还有 TV 版（飞牛影视）。
 
 ## 如果想要同时使用 iStoreOS 和 fnOS 怎么办？
 
-推荐的方案是使用 PVE（iStoreOS + fnOS）。即底层使用 PVE 来作为虚拟化平台，虚拟 iStoreOS 和 fnOS 两个虚拟机。iStoreOS 负责网络，fnOS 负责 NAS 存储。
+目前我个人推荐比较稳妥的方案是使用 PVE（iStoreOS + fnOS）。即底层使用 PVE 来作为虚拟化平台，虚拟 iStoreOS 和 fnOS 两个虚拟机。iStoreOS 负责网络，fnOS 负责 NAS 存储。
 
 目前 fnOS 已经支持虚拟机，如果你想尝鲜，可以参考教程：[fnOS 虚拟 iStoreOS 软路由](/fnos/istoreos.md)。
 
