@@ -16,6 +16,12 @@
 使用镜像加速器可以有效解决 Docker 下载失败问题。目前可以用的镜像加速列表如下：
 
 ```sh
+https://docker.rainbond.cc
+https://hub.1panel.dev
+https://docker.1ms.run
+https://docker.nju.edu.cn
+https://docker.mirrors.sjtug.sjtu.edu.cn
+https://docker.itelyou.cf
 https://docker.registry.cyou
 https://docker-cf.registry.cyou
 https://dockerpull.com
