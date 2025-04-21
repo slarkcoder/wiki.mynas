@@ -211,7 +211,7 @@ export default defineConfig({
           { text: '虚拟 iStoreOS 旁路由', link: '/pve/istoreos.md' },
           { text: '虚拟 Windows', link: '/pve/windows.md' },
           { text: '虚拟 HomeAssistantOS', link: '/pve/haos.md' },
-          { text: '重装系统', link: '/pve/reset.md' },
+          { text: '重新安装虚拟机', link: '/pve/reset.md' },
           { text: 'PVE 如何添加 PCIe 设备？', link: '/pve/pcie.md' },
           { text: '使用 LXC 容器安装 qBittorrent', link: '/pve/lxc.md' }, 
         ]
