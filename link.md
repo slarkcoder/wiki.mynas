@@ -6,8 +6,8 @@
 
 ## 喝红茶聊技术
 
-哔哩哔哩：https://space.bilibili.com/2093259559
-语雀文档：https://www.yuque.com/hongcha-6c6o6/klr1op/xqao5sggi82efuet?singleDoc=
+- 哔哩哔哩：https://space.bilibili.com/2093259559
+- 语雀文档：https://www.yuque.com/hongcha-6c6o6/klr1op/xqao5sggi82efuet?singleDoc=
 
 ## 小剧客栈
 
