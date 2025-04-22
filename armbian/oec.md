@@ -42,7 +42,7 @@
 
 如果上面的昔映系统满足不了你的要求，你可以参考这里的教程将 OEC 刷机，更换为 Armbian Armbian 的玩法就非常多了，支持 Docker，想咋玩就咋玩。
 
-[网心云 OEC 刷机教程](https://zhuanlan.zhihu.com/p/30683560607)。
+[网心云 OEC 刷机教程](https://mao.fan/article/327)。
 
 按照上面这个教程刷入的 Armbian 的默认用户如下：
 
