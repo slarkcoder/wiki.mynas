@@ -46,6 +46,12 @@
 
 ![tg_HQUuHq](https://img.slarker.me/wiki/tg_HQUuHq.jpg)
 
+#### CloudSaver
+
+你也可以在 NAS 上部署 [CloudSaver](https://github.com/jiangrui1994/CloudSaver) 这个项目来查找网盘资源，CloudSaver 本质上也是通过 Telegram 群组搜索网盘资源，在易用性上做了一些优化。
+
+![](https://img.slarker.me/wiki/20250423084642683.webp)
+
 ### 通过搜索引擎
 
 用 Google 或者 Bing 直接通过关键字：`aliyundrive + 资源名称`，基本上直接在搜索结果里就能看到资源链接。
