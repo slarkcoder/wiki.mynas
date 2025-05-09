@@ -2,7 +2,7 @@
 
 ## VitePress
 
-![xlie3C_Jpk1YE](https://img.slarker.me/wiki/xlie3C_Jpk1YE.png)
+![](https://vitepress.dev/vitepress-logo-large.svg)
 
 本网站使用 [VitePress](https://vitepress.dev/) 构建，VitePress 是一个基于 Vite 和 Vue 的静态站点生成器，提供了快速的，轻量的，现代的网站内容模板引擎，非常适合技术文档网站。
 
