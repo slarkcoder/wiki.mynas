@@ -2,7 +2,7 @@
 
 ![pexels-george-milton-701433_u4rpA0](https://img.slarker.me/wiki/pexels-george-milton-701433_u4rpA0.jpg)
 
-如果你需要远程协助，推荐使用 [Rustdesk](https://rustdesk.com/zh/)。当然使用其它的远程工具比如 [Todesk](https://www.todesk.com/)，[向日葵](https://sunlogin.oray.com/) 也可以。
+如果你需要远程协助，推荐使用 [Rustdesk](https://rustdesk.com/zh/)。当然使用其它的远程工具比如 [网易 UU](https://uuyc.163.com/) 也可以。
 
 Rustdesk 是一个开源的远程协助软件，支持 Windows、Linux、macOS 和 Android。
 
