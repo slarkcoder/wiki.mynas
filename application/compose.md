@@ -19,7 +19,7 @@ Unraid，fnOS，群晖等 NAS 系统都支持 Compose，很多通过自带的 do
 
 | 名称        |     介绍      |  挂载目录 | 默认 Web 端口 |
 | :-------------: | :-----------: | :----: | :----: |
-| [AList](https://alist.nn.ci/zh/)       | 挂载网盘 | - | 5244 | 
+| [OpenList](https://doc.oplist.org)       | 挂载网盘 | - | 5244 | 
 | [Aria2-Pro](https://github.com/P3TERX/Aria2-Pro-Docker) |   轻量级下载工具  |  downloads | 6880 |
 | [BaiduDisk](https://hub.docker.com/r/johngong/baidunetdisk)       | 百度网盘 | downloads | 5800 |
 | [Calibre-Web](https://hub.docker.com/r/linuxserver/calibre-web)      |   电子书库   |  books | 8083 |
@@ -60,7 +60,7 @@ Unraid，fnOS，群晖等 NAS 系统都支持 Compose，很多通过自带的 do
 
 访问方式：`NAS IP:默认 Web 端口`。
 
-- AList、qBittorrent 默认密码可以到容器日志中查看。
+- OpenList、qBittorrent 默认密码可以到容器日志中查看。
 - Aria2-Pro 默认 `RPC_SECRET`：P3TERX
 - Calibre-Web 默认用户名/密码：admin/admin123。
 - FileBrowser 默认用户名/密码：admin/admin。
