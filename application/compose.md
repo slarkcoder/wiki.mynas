@@ -6,7 +6,9 @@
 
 Unraid，fnOS，群晖等 NAS 系统都支持 Compose，很多通过自带的 docker GUI 无法配置的选项，都可以通过 Compose 使用 YML 配置文件来实现。而且 Compose 具有修改配置方便，方便备份，迁移等优点。
 
-## Compose 模板
+[下载 Compose 模板](https://files.slarker.me)。
+
+## [Compose 模板](https://files.slarker.me)
 
 :::warning 注意
 - 下面的 Compose 模板在 fnOS 中测试，也同时适用于群晖和 Unraid，仅需要修改对应的数据挂载路径。
