@@ -8,7 +8,7 @@ Unraid，fnOS，群晖等 NAS 系统都支持 Compose，很多通过自带的 do
 
 [下载 Compose 模板](https://files.slarker.me)。
 
-## [Compose 模板](https://files.slarker.me)
+## Compose 模板
 
 :::warning 注意
 - 下面的 Compose 模板在 fnOS 中测试，也同时适用于群晖和 Unraid，仅需要修改对应的数据挂载路径。
@@ -17,7 +17,7 @@ Unraid，fnOS，群晖等 NAS 系统都支持 Compose，很多通过自带的 do
 - immich 需要将 `env` 配置文件名称修改为 `.env`。
 :::
 
-这里分享一些常用的 [Compose 模板](https://files.slarker.me)，包含以下应用：
+这里分享一些常用的 Compose 模板，包含以下应用：
 
 | 名称        |     介绍      |  挂载目录 | 默认 Web 端口 |
 | :-------------: | :-----------: | :----: | :----: |
