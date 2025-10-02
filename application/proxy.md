@@ -35,7 +35,7 @@ services:
 - HTTP/HTTPS 协议：20171
 - SOCKS 协议：20170
 
-如有使用疑问，可以查阅[官方文档](https://v2raya.org/)。
+如有使用疑问，可以查阅 [官方文档](https://v2raya.org/)。
 
 ## Mihomo（Clash Meta）
 
@@ -80,7 +80,7 @@ services:
 
 除此之外，还需要在 compose 配置文件的同级文件夹中放入 clash 的 `config.yaml` 配置文件（如果你使用机场，可以从机场后台获取），以及用来识别 ip 地址的 `geoip.dat`，`geosite.dat` 文件。
 
-> geoip.dat，geosite.dat 文件可以到这里下载：https://github.com/MetaCubeX/meta-rules-dat，也可以从 [Docker Compose 模板](/application/compose.md) 中获取。
+> geoip.dat，geosite.dat 文件可以到 [这里下载](https://github.com/MetaCubeX/meta-rules-dat)，也可以从 [Docker Compose 模板](/application/compose.md) 中获取。
 
 - metacubexd 的 WebUI 端口：9097
 - HTTP/HTTPS 协议：7890
