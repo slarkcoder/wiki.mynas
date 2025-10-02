@@ -1,5 +1,9 @@
 # 使用 Docker 搭建透明代理
 
+透明代理可以仅给真正有需要的应用提供代理服务，相比旁路由虽然略显麻烦，但是网络结构清晰简单，能避免很多麻烦，比如就不会出现 PT 流量走代理导致被识别为盒子的问题。可以说，透明代理是 NAS 应用访问外网的最佳实现方式。
+
+> v2raya 和 mihomo 的 compose 文件都可以从 [Docker Compose 模板](/application/compose.md) 中获取。
+
 ## V2rayA
 
 :::info 提示 
@@ -74,6 +78,10 @@ services:
       - /etc/localtime:/etc/localtime:ro
 ```
 
+除此之外，还需要在 compose 配置文件的同级文件夹中放入 clash 的 `config.yaml` 配置文件（如果你使用机场，可以从机场后台获取），以及用来识别 ip 地址的 `geoip.dat`，`geosite.dat` 文件。
+
+> geoip.dat，geosite.dat 文件可以到这里下载：https://github.com/MetaCubeX/meta-rules-dat，也可以从 [Docker Compose 模板](/application/compose.md) 中获取。
+
 - metacubexd 的 WebUI 端口：9097
 - HTTP/HTTPS 协议：7890
 - SOCKS 协议：7891
@@ -106,3 +114,7 @@ services:
 也有的应用支持在自己的 UI 中直接设置代理，比如下面是 Cloud Saver 的代理设置页面：
 
 ![](https://img.slarker.me/wiki/20250921205543386.webp)
+
+如果想要在 Window 中使用，可以在 Windows 中搜索代理，以 `Mihomo` 为例设置如下：
+
+![](https://img.slarker.me/wiki/20251002115806178.webp)
