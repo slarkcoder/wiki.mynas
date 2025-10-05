@@ -4,11 +4,12 @@
 
 iStoreOS 本身并不自带代理插件，可以使用这里的包一键自动安装。
 
-[iStoreOS 软件包](https://github.com/AUK9527/Are-u-ok/tree/main/x86)
+:::warning 注意
+iStoreOS KoolCenter 目前主要有 22.03 和 24.10 两个版本，请根据你的 iStoreOS 版本自行选择。
+:::
 
-如果上面的地址无法打开，可以到这里下载：
-
-[iStoreOS 插件](https://files.slarker.me)
+- [适用于 iStoreOS KoolCenter 22.03 版本的软件包](https://github.com/AUK9527/Are-u-ok/tree/main/x86)
+- [适用于 iStoreOS KoolCenter 24.10 版本的软件包](https://github.com/bcseputetto/Are-u-ok/releases)
 
 下载好之后到 iStoreOS 中手动上传安装：
 
